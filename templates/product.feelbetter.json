@@ -1,0 +1,132 @@
+{
+  "sections": {
+    "feelbetter_match": {
+      "type": "feelbetter-match",
+      "settings": {
+        "show_title": true,
+        "show_price": true,
+        "note": "Checkout opens with this item. Nothing else to pick.",
+        "show_ask": true,
+        "ask_url": "shopify://pages/request",
+        "color_scheme": "scheme-2",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title"
+        },
+        "price": {
+          "type": "price"
+        },
+        "feelbetter_badges": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'feelbetter-badges', product: product %}"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description"
+        },
+        "tab_how": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How FeelBetter works",
+            "icon": "none",
+            "content": "<p>This product started as one person's request. AI wrote the sourcing brief, a concierge verified the seller, stock and price, and this page is the ready-to-buy link. Buy now opens checkout with this item.</p>"
+          }
+        },
+        "tab_shipping": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & customs",
+            "icon": "none",
+            "content": "<p>We ship worldwide from Seoul or directly from the verified seller. Delivery times and any customs duties for your country are shown at checkout before you pay. Tracking arrives by email.</p>"
+          }
+        },
+        "tab_returns": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Returns",
+            "icon": "none",
+            "content": "<p>Changed your mind? Reply to your concierge email within 7 days of delivery. Unused items in original packaging can be returned; we will tell you the exact steps and any shipping cost before you send anything back.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "feelbetter_badges",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "tab_how",
+        "tab_shipping",
+        "tab_returns"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_position": "left",
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Other recent finds",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 48,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "feelbetter_match",
+    "main",
+    "related-products"
+  ]
+}

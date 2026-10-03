@@ -1,0 +1,202 @@
+{%- comment -%}
+  Big typographic brand statement.
+  Group 1: "See it." / "Want it." / "We'll find it."
+  Group 2 (optional): "Discover Better." / "Experience Better." / "Feel Better."
+  Micro-copy: "One message. One hour. One link."
+{%- endcomment -%}
+
+{%- liquid
+  assign heading_font_italic = settings.type_header_font | font_modify: 'style', 'italic'
+
+  assign line_1 = section.settings.line_1
+  if line_1 == blank
+    assign line_1 = 'feelbetter.statement.line_1' | t
+  endif
+  assign line_2 = section.settings.line_2
+  if line_2 == blank
+    assign line_2 = 'feelbetter.statement.line_2' | t
+  endif
+  assign line_3 = section.settings.line_3
+  if line_3 == blank
+    assign line_3 = 'feelbetter.statement.line_3' | t
+  endif
+
+  assign micro = section.settings.micro
+  if micro == blank
+    assign micro = 'feelbetter.statement.micro' | t
+  endif
+-%}
+
+{%- style -%}
+  {{ heading_font_italic | font_face: font_display: 'swap' }}
+
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="{% if section.settings.show_grid %}fb-grid-bg {% endif %}section-{{ section.id }}-padding">
+    <div class="page-width">
+      <div class="fb-statement">
+        <h2 class="visually-hidden">{{ line_1 }} {{ line_2 }} {{ line_3 }}</h2>
+        <p class="fb-statement__group" aria-hidden="true">
+          <span class="fb-statement__line{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: 1;"{% endif %}>{{ line_1 | escape }}</span>
+          <span class="fb-statement__line{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: 2;"{% endif %}>{{ line_2 | escape }}</span>
+          <span class="fb-statement__line fb-statement__line--em{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: 3;"{% endif %}>{{ line_3 | escape }}</span>
+        </p>
+
+        {%- if section.settings.show_second_group -%}
+          {%- liquid
+            assign line_4 = section.settings.line_4
+            if line_4 == blank
+              assign line_4 = 'feelbetter.statement.line_4' | t
+            endif
+            assign line_5 = section.settings.line_5
+            if line_5 == blank
+              assign line_5 = 'feelbetter.statement.line_5' | t
+            endif
+            assign line_6 = section.settings.line_6
+            if line_6 == blank
+              assign line_6 = 'feelbetter.statement.line_6' | t
+            endif
+          -%}
+          <p class="fb-statement__group fb-statement__group--secondary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: 4;"{% endif %}>
+            <span class="fb-statement__line">{{ line_4 | escape }}</span>
+            <span class="fb-statement__line">{{ line_5 | escape }}</span>
+            <span class="fb-statement__line">{{ line_6 | escape }}</span>
+          </p>
+        {%- endif -%}
+
+        {%- if micro != blank -%}
+          <p class="fb-statement__micro{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: 5;"{% endif %}>
+            {{ micro | escape }}
+          </p>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "FeelBetter statement",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Leave a line empty to fall back to the theme's translated copy."
+    },
+    {
+      "type": "header",
+      "content": "First group"
+    },
+    {
+      "type": "text",
+      "id": "line_1",
+      "label": "Line 1",
+      "default": "See it."
+    },
+    {
+      "type": "text",
+      "id": "line_2",
+      "label": "Line 2",
+      "default": "Want it."
+    },
+    {
+      "type": "text",
+      "id": "line_3",
+      "label": "Line 3 (italic)",
+      "default": "We'll find it."
+    },
+    {
+      "type": "header",
+      "content": "Second group"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_second_group",
+      "label": "Show second group",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "line_4",
+      "label": "Line 4",
+      "default": "Discover Better."
+    },
+    {
+      "type": "text",
+      "id": "line_5",
+      "label": "Line 5",
+      "default": "Experience Better."
+    },
+    {
+      "type": "text",
+      "id": "line_6",
+      "label": "Line 6",
+      "default": "Feel Better."
+    },
+    {
+      "type": "header",
+      "content": "Micro-copy"
+    },
+    {
+      "type": "text",
+      "id": "micro",
+      "label": "Micro-copy",
+      "default": "One message. One hour. One link."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_grid",
+      "label": "Show dotted grid background",
+      "default": true
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-4"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 96
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 96
+    }
+  ],
+  "presets": [
+    {
+      "name": "FeelBetter statement"
+    }
+  ]
+}
+{% endschema %}

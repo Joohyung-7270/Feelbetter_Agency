@@ -1,0 +1,66 @@
+{% comment %}
+  Compact inline FeelBetter badges for a product.
+  Derived from the metafields the Feelbetter app writes (feelbetter.seller,
+  feelbetter.status) and product availability. Degrades to "In stock" /
+  "Ready to buy" when no metafields exist.
+
+  Accepts:
+  - product {Object}
+  - show_ready {Boolean} - include the ready / verifying badge (default true)
+
+  Usage:
+  {% render 'feelbetter-badges', product: product %}
+{% endcomment %}
+
+{%- liquid
+  assign fb_seller = product.metafields.feelbetter.seller.value | strip
+  assign fb_status = product.metafields.feelbetter.status.value | downcase | strip
+  assign show_ready = show_ready | default: true, allow_false: true
+  assign fb_ready = false
+  if fb_status == 'ready'
+    assign fb_ready = true
+  elsif fb_status == blank and product.available
+    assign fb_ready = true
+  endif
+
+  if settings.feelbetter_show_source_seller and fb_seller != blank
+    assign fb_seller_label = 'feelbetter.badges.verified_seller_named' | t: seller: fb_seller
+  else
+    assign fb_seller_label = 'feelbetter.badges.verified_seller' | t
+  endif
+-%}
+
+{%- if product -%}
+  <ul class="fb-badges" role="list">
+    <li class="fb-badge fb-badge--verified">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 1.5l1.8 1.3 2.2-.2.6 2.1 1.9 1.2-1 2 1 2-1.9 1.2-.6 2.1-2.2-.2L8 14.5l-1.8-1.3-2.2.2-.6-2.1-1.9-1.2 1-2-1-2 1.9-1.2.6-2.1 2.2.2z"/>
+        <path d="M5.5 8.2l1.7 1.6 3.3-3.4"/>
+      </svg>
+      <span>{{ fb_seller_label }}</span>
+    </li>
+
+    {%- if product.available -%}
+      <li class="fb-badge fb-badge--stock">
+        <span class="fb-badge__dot" aria-hidden="true"></span>
+        <span>{{ 'feelbetter.badges.in_stock' | t }}</span>
+      </li>
+    {%- else -%}
+      <li class="fb-badge fb-badge--muted">
+        <span>{{ 'products.product.sold_out' | t }}</span>
+      </li>
+    {%- endif -%}
+
+    {%- if show_ready -%}
+      {%- if fb_ready -%}
+        <li class="fb-badge fb-badge--ready">
+          <span>{{ 'feelbetter.badges.ready' | t }}</span>
+        </li>
+      {%- elsif fb_status != blank -%}
+        <li class="fb-badge fb-badge--muted">
+          <span>{{ 'feelbetter.badges.verifying' | t }}</span>
+        </li>
+      {%- endif -%}
+    {%- endif -%}
+  </ul>
+{%- endif -%}

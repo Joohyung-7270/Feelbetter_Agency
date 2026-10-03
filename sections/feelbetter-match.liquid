@@ -1,0 +1,190 @@
+{%- comment -%}
+  Product page "match card" strip. Rendered above main-product on the
+  product.feelbetter template. Reads the metafields the Feelbetter app writes:
+    feelbetter.request_ref (text)      - "Request FB-00123"
+    feelbetter.seller      (text)      - "Verified seller · {seller}"
+    feelbetter.verified_at (date_time) - "Checked {date}"
+    feelbetter.status      (text)      - ready -> "Ready to buy", else "Being verified"
+  Degrades gracefully when none exist.
+{%- endcomment -%}
+
+{%- liquid
+  assign variant = product.selected_or_first_available_variant
+  assign fb_ref = product.metafields.feelbetter.request_ref.value | strip
+  assign fb_verified_at = product.metafields.feelbetter.verified_at.value
+  assign fb_seller = product.metafields.feelbetter.seller.value | strip
+  if fb_verified_at != blank
+    assign fb_checked_date = fb_verified_at | date: format: 'abbreviated_date'
+  endif
+
+  assign ask_url = section.settings.ask_url
+  if ask_url == blank
+    assign ask_url = routes.root_url | append: '/pages/request' | replace: '//', '/'
+  endif
+
+  assign checkout_url = routes.cart_url | append: '/' | append: variant.id | append: ':1'
+-%}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="page-width section-{{ section.id }}-padding">
+    <div class="fb-match{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <div class="fb-match__main">
+        <p class="fb-match__eyebrow caption-with-letter-spacing">
+          <span class="fb-dot" aria-hidden="true"></span>
+          <span>{{ 'feelbetter.badges.match_found' | t }}</span>
+        </p>
+
+        {%- if section.settings.show_title -%}
+          <h2 class="fb-match__title h2">{{ product.title | escape }}</h2>
+        {%- endif -%}
+
+        {% render 'feelbetter-badges', product: product %}
+
+        {%- if fb_verified_at != blank or fb_ref != blank or fb_seller != blank -%}
+          <ul class="fb-match__meta" role="list">
+            {%- if fb_verified_at != blank -%}
+              <li>
+                <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 8.3l2 2 4-4.3"/>
+                  <circle cx="8" cy="8" r="6.5"/>
+                </svg>
+                <time datetime="{{ fb_verified_at | date: '%Y-%m-%dT%H:%M:%S%z' }}">
+                  {{- 'feelbetter.badges.checked_on' | t: date: fb_checked_date -}}
+                </time>
+              </li>
+            {%- else -%}
+              <li>{{ 'feelbetter.badges.concierge_checked' | t }}</li>
+            {%- endif -%}
+            {%- if fb_ref != blank -%}
+              <li class="fb-badge--ref">{{ 'feelbetter.badges.request_ref' | t: ref: fb_ref }}</li>
+            {%- endif -%}
+          </ul>
+        {%- else -%}
+          <ul class="fb-match__meta" role="list">
+            <li>{{ 'feelbetter.badges.concierge_checked' | t }}</li>
+          </ul>
+        {%- endif -%}
+      </div>
+
+      <div class="fb-match__actions">
+        {%- if product.available and variant != blank -%}
+          <a class="button fb-match__buy" href="{{ checkout_url }}">
+            <span>{{ 'feelbetter.general.buy_now' | t }}</span>
+            {%- if section.settings.show_price -%}
+              <span class="fb-match__buy-price">{{ variant.price | money_with_currency }}</span>
+            {%- endif -%}
+          </a>
+          {%- if section.settings.note != blank -%}
+            <p class="fb-match__note">{{ section.settings.note | escape }}</p>
+          {%- endif -%}
+        {%- else -%}
+          <button type="button" class="button fb-match__buy" disabled>
+            {{ 'products.product.sold_out' | t }}
+          </button>
+        {%- endif -%}
+
+        {%- if section.settings.show_ask -%}
+          <a class="button button--secondary fb-match__ask" href="{{ ask_url }}">
+            {{ 'feelbetter.general.ask_again' | t }}
+          </a>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "FeelBetter match card",
+  "tag": "section",
+  "class": "section",
+  "enabled_on": {
+    "templates": ["product"]
+  },
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Shows the MATCH FOUND strip with badges from the Feelbetter app's metafields (feelbetter.seller, feelbetter.status, feelbetter.verified_at, feelbetter.request_ref)."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_title",
+      "label": "Show product title",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_price",
+      "label": "Show price in Buy now button",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "note",
+      "label": "Note under Buy now",
+      "default": "Checkout opens with this item. Nothing else to pick."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_ask",
+      "label": "Show 'Ask for something else' link",
+      "default": true
+    },
+    {
+      "type": "url",
+      "id": "ask_url",
+      "label": "'Ask for something else' link",
+      "info": "Defaults to /pages/request."
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-2"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "FeelBetter match card"
+    }
+  ]
+}
+{% endschema %}

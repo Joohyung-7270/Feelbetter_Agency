@@ -1,0 +1,165 @@
+{% comment %}
+  Renders the FeelBetter request form + the hidden "received" panel.
+  Progressive enhancement: assets/feelbetter-request.js upgrades <feelbetter-request>.
+
+  Accepts:
+  - form_id {String} - unique id prefix (usually section.id)
+
+  Usage:
+  {% render 'feelbetter-request-form', form_id: section.id %}
+{% endcomment %}
+
+{%- liquid
+  assign fb_id = form_id | default: 'feelbetter'
+  assign fb_api = settings.feelbetter_api_url | strip | default: 'https://feelbetter.agency'
+  assign fb_minutes = settings.feelbetter_promise_minutes | default: 60
+-%}
+
+<feelbetter-request
+  class="fb-request-form"
+  data-api="{{ fb_api | escape }}"
+  data-minutes="{{ fb_minutes }}"
+  data-locale="{{ request.locale.iso_code | slice: 0, 2 }}"
+  data-error-prompt="{{ 'feelbetter.form.errors.prompt' | t | escape }}"
+  data-error-email="{{ 'feelbetter.form.errors.email' | t | escape }}"
+  data-error-link="{{ 'feelbetter.form.errors.link' | t | escape }}"
+  data-error-rate-limited="{{ 'feelbetter.form.errors.rate_limited' | t | escape }}"
+  data-error-generic="{{ 'feelbetter.form.errors.generic' | t | escape }}"
+  data-submitting="{{ 'feelbetter.form.submitting' | t | escape }}"
+  data-received-body="{{ 'feelbetter.received.body' | t: email: '[email]', time: '[time]' | escape }}"
+  data-received-ref="{{ 'feelbetter.received.ref' | t: ref: '[ref]' | escape }}"
+  data-arrives-by="{{ 'feelbetter.received.arrives_by' | t: time: '[time]' | escape }}"
+  data-status-searching="{{ 'feelbetter.received.status_searching' | t | escape }}"
+  data-status-due="{{ 'feelbetter.received.status_due' | t | escape }}"
+>
+  <form
+    class="fb-form"
+    id="{{ fb_id }}-form"
+    action="{{ fb_api }}/api/request"
+    method="post"
+    novalidate
+    aria-describedby="{{ fb_id }}-fine"
+  >
+    <input type="hidden" name="source" value="shopify">
+    <input type="hidden" name="locale" value="{{ request.locale.iso_code | slice: 0, 2 }}">
+
+    <div class="fb-form__field">
+      <label class="fb-form__label" for="{{ fb_id }}-prompt">
+        {{- 'feelbetter.form.prompt_label' | t -}}
+      </label>
+      <textarea
+        class="fb-form__textarea"
+        id="{{ fb_id }}-prompt"
+        name="prompt"
+        rows="4"
+        minlength="3"
+        maxlength="2000"
+        autocomplete="off"
+        placeholder="{{ 'feelbetter.form.prompt_placeholder' | t | escape }}"
+      ></textarea>
+    </div>
+
+    <button
+      type="button"
+      class="fb-form__toggle"
+      data-link-toggle
+      aria-expanded="false"
+      aria-controls="{{ fb_id }}-link-wrap"
+    >
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <path d="M6 1v10M1 6h10"/>
+      </svg>
+      <span>{{ 'feelbetter.form.link_toggle' | t }}</span>
+    </button>
+
+    <div class="fb-form__field" id="{{ fb_id }}-link-wrap" data-link-wrap hidden>
+      <label class="fb-form__label" for="{{ fb_id }}-link">
+        {{ 'feelbetter.form.link_label' | t }}
+        <span class="fb-form__optional">({{ 'feelbetter.form.optional' | t }})</span>
+      </label>
+      <input
+        class="fb-form__input"
+        type="url"
+        id="{{ fb_id }}-link"
+        name="productUrl"
+        inputmode="url"
+        autocomplete="off"
+        spellcheck="false"
+        placeholder="{{ 'feelbetter.form.link_placeholder' | t | escape }}"
+      >
+    </div>
+
+    <div class="fb-form__field">
+      <label class="fb-form__label" for="{{ fb_id }}-email">
+        {{- 'feelbetter.form.email_label' | t -}}
+      </label>
+      <input
+        class="fb-form__input"
+        type="email"
+        id="{{ fb_id }}-email"
+        name="email"
+        inputmode="email"
+        autocomplete="email"
+        autocapitalize="off"
+        spellcheck="false"
+        required
+        aria-required="true"
+        placeholder="{{ 'feelbetter.form.email_placeholder' | t | escape }}"
+      >
+    </div>
+
+    <p class="fb-form__error" id="{{ fb_id }}-error" role="alert" aria-live="assertive" data-error hidden>
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <circle cx="8" cy="8" r="6.5"/>
+        <path d="M8 4.5v4M8 11h.01"/>
+      </svg>
+      <span data-error-text></span>
+    </p>
+
+    <div class="fb-form__actions">
+      <button type="submit" class="button fb-form__submit">
+        <span class="fb-dot" aria-hidden="true"></span>
+        <span data-submit-label>{{ 'feelbetter.form.submit' | t }}</span>
+      </button>
+    </div>
+
+    <p class="fb-form__fine" id="{{ fb_id }}-fine">
+      {{ 'feelbetter.form.fine_print' | t: minutes: fb_minutes }}
+    </p>
+  </form>
+
+  <div class="fb-received" data-received hidden>
+    <p class="fb-eyebrow">
+      <span class="fb-dot" aria-hidden="true"></span>
+      {{ 'feelbetter.received.eyebrow' | t }}
+    </p>
+    <h3 class="fb-received__heading h2" tabindex="-1" data-received-heading>
+      {{ 'feelbetter.received.heading' | t }}
+    </h3>
+    <p class="fb-received__body" data-received-body></p>
+    <p class="fb-received__ref" data-received-ref hidden></p>
+    <div class="fb-countdown">
+      <span class="fb-countdown__label">
+        <span data-status aria-live="polite">{{ 'feelbetter.received.status_searching' | t }}</span>
+        <br>
+        <span data-arrives></span>
+      </span>
+      <span class="fb-countdown__clock" data-countdown role="timer" aria-label="{{ 'feelbetter.received.countdown_label' | t | escape }}">{% if fb_minutes < 10 %}0{% endif %}{{ fb_minutes }}:00</span>
+    </div>
+    <div
+      class="fb-progress"
+      role="progressbar"
+      aria-valuemin="0"
+      aria-valuemax="100"
+      aria-valuenow="0"
+      aria-label="{{ 'feelbetter.received.progress_label' | t | escape }}"
+    >
+      <span class="fb-progress__bar" data-progress-bar></span>
+    </div>
+    <div class="fb-received__actions">
+      <button type="button" class="button button--secondary" data-reset>
+        {{ 'feelbetter.received.another' | t }}
+      </button>
+    </div>
+  </div>
+</feelbetter-request>

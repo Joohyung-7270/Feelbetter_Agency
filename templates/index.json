@@ -1,0 +1,234 @@
+{
+  "sections": {
+    "feelbetter_hero": {
+      "type": "feelbetter-hero",
+      "blocks": {
+        "proof_1": {
+          "type": "proof",
+          "settings": {
+            "text": "No sign-up"
+          }
+        },
+        "proof_2": {
+          "type": "proof",
+          "settings": {
+            "text": "Local and overseas products"
+          }
+        },
+        "proof_3": {
+          "type": "proof",
+          "settings": {
+            "text": "One link, checked by a person"
+          }
+        }
+      },
+      "block_order": [
+        "proof_1",
+        "proof_2",
+        "proof_3"
+      ],
+      "settings": {
+        "eyebrow": "AI shopping concierge · Seoul → Worldwide",
+        "heading_a": "Say what you want.",
+        "heading_b": "Your link,",
+        "heading_em": "within the hour.",
+        "text": "<p>Words. A link. A photo. AI reads your request, a human concierge verifies the seller, and one ready-to-buy link lands in your inbox.</p>",
+        "show_form": true,
+        "show_grid": true,
+        "show_inbox": true,
+        "inbox_product": "Black minimal skateboard · the one you saw",
+        "inbox_seller": "Official store · In stock · Ships to you",
+        "inbox_price": "₩189,000",
+        "inbox_time": "00:47",
+        "color_scheme": "scheme-3",
+        "card_color_scheme": "scheme-1",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "feelbetter_steps": {
+      "type": "feelbetter-steps",
+      "blocks": {
+        "step_1": {
+          "type": "step",
+          "settings": {
+            "time": "00:00",
+            "title": "You describe it",
+            "text": "Words, a link or a photo. No account, no filters."
+          }
+        },
+        "step_2": {
+          "type": "step",
+          "settings": {
+            "time": "00:01",
+            "title": "AI writes the brief",
+            "text": "Item, style, reference. The request becomes a sourcing brief."
+          }
+        },
+        "step_3": {
+          "type": "step",
+          "settings": {
+            "time": "00:10",
+            "title": "A concierge sources it",
+            "text": "A person checks the model, seller, stock, price and shipping."
+          }
+        },
+        "step_4": {
+          "type": "step",
+          "settings": {
+            "time": "≤ 60:00",
+            "title": "The link is yours",
+            "text": "One email. One verified, ready-to-buy link."
+          }
+        }
+      },
+      "block_order": [
+        "step_1",
+        "step_2",
+        "step_3",
+        "step_4"
+      ],
+      "settings": {
+        "eyebrow": "How it works",
+        "heading": "One message. One hour. One link.",
+        "heading_size": "h1",
+        "text": "<p>AI finds the signal. A human concierge checks the details. You get one link you can trust.</p>",
+        "color_scheme": "scheme-1",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Recent finds",
+        "heading_size": "h1",
+        "description": "<p>Every product here started as one person's request.</p>",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "feelbetter-finds",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "feelbetter_statement": {
+      "type": "feelbetter-statement",
+      "settings": {
+        "line_1": "See it.",
+        "line_2": "Want it.",
+        "line_3": "We'll find it.",
+        "show_second_group": true,
+        "line_4": "Discover Better.",
+        "line_5": "Experience Better.",
+        "line_6": "Feel Better.",
+        "micro": "One message. One hour. One link.",
+        "show_grid": true,
+        "color_scheme": "scheme-4",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "collapsible_content": {
+      "type": "collapsible-content",
+      "blocks": {
+        "faq_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What can I request?",
+            "icon": "none",
+            "row_content": "<p>Almost anything you can describe or point to: something you saw on the street, in a film or on someone's feed. Fashion, design objects, gear, small-batch things. Local and overseas. If it is sold somewhere, we will find where.</p>"
+          }
+        },
+        "faq_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How fast?",
+            "icon": "none",
+            "row_content": "<p>Within 60 minutes of your request during concierge hours. You get one email with one verified link. If something will take longer, we tell you before the hour is up.</p>"
+          }
+        },
+        "faq_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does the AI do?",
+            "icon": "none",
+            "row_content": "<p>It reads your request and turns it into a structured sourcing brief: item, style, reference, constraints. Then a human concierge takes over to check the model, seller, stock, price and shipping. AI finds the signal. A person checks the details.</p>"
+          }
+        },
+        "faq_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I buy?",
+            "icon": "none",
+            "row_content": "<p>Your email links to a ready-to-buy page in this store. Tap Buy now, pay with the methods you already use, and we handle the sourcing and shipping. One item, one checkout.</p>"
+          }
+        },
+        "faq_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Which languages?",
+            "icon": "none",
+            "row_content": "<p>English, Korean, Japanese and Spanish. Write in whichever you like. Your link arrives in the same language.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4",
+        "faq_5"
+      ],
+      "settings": {
+        "caption": "FAQ",
+        "heading": "Good questions.",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "feelbetter_request": {
+      "type": "feelbetter-request",
+      "settings": {
+        "eyebrow": "One message. One hour. One link.",
+        "heading": "So — what do you want?",
+        "heading_size": "h1",
+        "text": "<p>Words, a link or a photo description. No sign-up. One email with one link.</p>",
+        "show_grid": false,
+        "color_scheme": "scheme-2",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "feelbetter_hero",
+    "feelbetter_steps",
+    "featured_collection",
+    "feelbetter_statement",
+    "collapsible_content",
+    "feelbetter_request"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "feelbetter_request": {
+      "type": "feelbetter-request",
+      "settings": {
+        "eyebrow": "Say what you want.",
+        "heading": "So — what do you want?",
+        "heading_size": "h1",
+        "text": "<p>Words, a link or a photo description. No sign-up. One email with one link.</p>",
+        "show_grid": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "feelbetter_steps": {
+      "type": "feelbetter-steps",
+      "blocks": {
+        "step_1": {
+          "type": "step",
+          "settings": {
+            "time": "00:00",
+            "title": "You describe it",
+            "text": "Words, a link or a photo. No account, no filters."
+          }
+        },
+        "step_2": {
+          "type": "step",
+          "settings": {
+            "time": "00:01",
+            "title": "AI writes the brief",
+            "text": "Item, style, reference. The request becomes a sourcing brief."
+          }
+        },
+        "step_3": {
+          "type": "step",
+          "settings": {
+            "time": "00:10",
+            "title": "A concierge sources it",
+            "text": "A person checks the model, seller, stock, price and shipping."
+          }
+        },
+        "step_4": {
+          "type": "step",
+          "settings": {
+            "time": "≤ 60:00",
+            "title": "The link is yours",
+            "text": "One email. One verified, ready-to-buy link."
+          }
+        }
+      },
+      "block_order": [
+        "step_1",
+        "step_2",
+        "step_3",
+        "step_4"
+      ],
+      "settings": {
+        "eyebrow": "How it works",
+        "heading": "One message. One hour. One link.",
+        "heading_size": "h1",
+        "text": "<p>AI finds the signal. A human concierge checks the details. You get one link you can trust.</p>",
+        "color_scheme": "scheme-2",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "main",
+    "feelbetter_request",
+    "feelbetter_steps"
+  ]
+}

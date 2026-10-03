@@ -1,0 +1,13 @@
+# Shopify CLI environments for the FeelBetter Dawn theme.
+#
+#   shopify theme dev  -e production
+#   shopify theme push -e production --unpublished --theme "FeelBetter Dawn"
+#
+# config/settings_data.json is pushed too. That is intentional for the first
+# push (it carries the FeelBetter preset); once merchants start editing in the
+# theme editor, consider pulling it back (`shopify theme pull -e production
+# --only config/settings_data.json`) before the next push so you do not
+# overwrite their changes.
+
+[environments.production]
+store = "xpshtv-rr.myshopify.com"

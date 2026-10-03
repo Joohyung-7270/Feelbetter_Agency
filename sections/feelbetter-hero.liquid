@@ -1,0 +1,360 @@
+{%- comment -%}
+  FeelBetter hero: request-first landing.
+  Left: eyebrow, two-line display headline, copy, proof points and the request form.
+  Right: a mock of the "Your link is ready" email.
+{%- endcomment -%}
+
+{%- liquid
+  assign heading_font_italic = settings.type_header_font | font_modify: 'style', 'italic'
+
+  assign eyebrow = section.settings.eyebrow
+  if eyebrow == blank
+    assign eyebrow = 'feelbetter.hero.eyebrow' | t
+  endif
+
+  assign heading_a = section.settings.heading_a
+  if heading_a == blank
+    assign heading_a = 'feelbetter.hero.heading_a' | t
+  endif
+
+  assign heading_b = section.settings.heading_b
+  if heading_b == blank
+    assign heading_b = 'feelbetter.hero.heading_b' | t
+  endif
+
+  assign heading_em = section.settings.heading_em
+  if heading_em == blank
+    assign heading_em = 'feelbetter.hero.heading_em' | t
+  endif
+
+  assign inbox_from = settings.feelbetter_email_from
+  if inbox_from == blank
+    assign inbox_from = 'feelbetter.inbox.from' | t
+  endif
+
+  assign inbox_product = section.settings.inbox_product
+  if inbox_product == blank
+    assign inbox_product = 'feelbetter.inbox.product' | t
+  endif
+
+  assign inbox_seller = section.settings.inbox_seller
+  if inbox_seller == blank
+    assign inbox_seller = 'feelbetter.inbox.seller' | t
+  endif
+
+  assign inbox_time = section.settings.inbox_time
+  if inbox_time == blank
+    assign inbox_time = '00:47'
+  endif
+-%}
+
+{%- style -%}
+  {{ heading_font_italic | font_face: font_display: 'swap' }}
+
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="fb-hero color-{{ section.settings.color_scheme }} gradient">
+  <div class="{% if section.settings.show_grid %}fb-grid-bg {% endif %}section-{{ section.id }}-padding">
+    <div class="page-width">
+      <div class="fb-hero__grid">
+        <div class="fb-hero__copy">
+          {%- if eyebrow != blank -%}
+            <p class="fb-eyebrow fb-hero__eyebrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+              <span class="fb-dot" aria-hidden="true"></span>
+              <span>{{ eyebrow | escape }}</span>
+            </p>
+          {%- endif -%}
+
+          <h1 class="fb-hero__heading{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            {%- if heading_a != blank -%}
+              <span class="fb-hero__line">{{ heading_a | escape }}</span>
+            {%- endif -%}
+            {%- if heading_b != blank or heading_em != blank -%}
+              <span class="fb-hero__line">
+                {%- if heading_b != blank -%}{{ heading_b | escape }}{%- endif -%}
+                {%- if heading_em != blank %} <em class="fb-hero__em">{{ heading_em | escape }}</em>{%- endif -%}
+              </span>
+            {%- endif -%}
+          </h1>
+
+          {%- if section.settings.text != blank -%}
+            <div class="fb-hero__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+              {{ section.settings.text }}
+            </div>
+          {%- else -%}
+            <div class="fb-hero__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+              <p>{{ 'feelbetter.hero.text' | t }}</p>
+            </div>
+          {%- endif -%}
+
+          {%- if section.blocks.size > 0 -%}
+            <ul class="fb-hero__proof{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" role="list">
+              {%- for block in section.blocks -%}
+                {%- liquid
+                  assign proof_text = block.settings.text
+                  if proof_text == blank
+                    case forloop.index
+                      when 1
+                        assign proof_text = 'feelbetter.hero.proof_1' | t
+                      when 2
+                        assign proof_text = 'feelbetter.hero.proof_2' | t
+                      else
+                        assign proof_text = 'feelbetter.hero.proof_3' | t
+                    endcase
+                  endif
+                -%}
+                <li class="fb-hero__proof-item" {{ block.shopify_attributes }}>
+                  <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="8" cy="8" r="6.5"/>
+                    <path d="M5 8.3l2 2 4-4.3"/>
+                  </svg>
+                  <span>{{ proof_text | escape }}</span>
+                </li>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+
+          {%- if section.settings.show_form -%}
+            <div class="fb-hero__form{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+              {% render 'feelbetter-request-form', form_id: section.id %}
+            </div>
+          {%- endif -%}
+        </div>
+
+        {%- if section.settings.show_inbox -%}
+          <aside class="fb-hero__aside{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" aria-label="{{ 'feelbetter.hero.inbox_preview_label' | t | escape }}">
+            <p class="visually-hidden">{{ 'feelbetter.hero.inbox_preview_text' | t }}</p>
+            <div class="fb-inbox color-{{ section.settings.card_color_scheme }}" aria-hidden="true">
+              <div class="fb-inbox__header">
+                <span class="fb-inbox__from">
+                  <span class="fb-inbox__avatar">f</span>
+                  <span>{{ inbox_from | escape }}</span>
+                </span>
+                <span class="fb-inbox__time">{{ 'feelbetter.inbox.time' | t }}</span>
+              </div>
+              <p class="fb-inbox__subject">{{ 'feelbetter.inbox.subject' | t }}</p>
+              <p class="fb-inbox__intro">{{ 'feelbetter.inbox.intro' | t }}</p>
+              <div class="fb-inbox__product">
+                <div class="fb-inbox__product-row">
+                  <span class="fb-inbox__thumb">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M3 10.5c2.5-2 6-3 9-3s6.5 1 9 3c0 0-2.5 3-9 3s-9-3-9-3z"/>
+                      <circle cx="8" cy="16" r="1.6"/>
+                      <circle cx="16" cy="16" r="1.6"/>
+                    </svg>
+                  </span>
+                  <div>
+                    <p class="fb-inbox__match">
+                      <span class="fb-dot fb-dot--static"></span>
+                      {{ 'feelbetter.badges.match_found' | t }}
+                    </p>
+                    <p class="fb-inbox__product-name">{{ inbox_product | escape }}</p>
+                    <p class="fb-inbox__seller">{{ inbox_seller | escape }}</p>
+                  </div>
+                </div>
+                <ul class="fb-badges fb-inbox__badges" role="list">
+                  <li class="fb-badge fb-badge--verified">{{ 'feelbetter.badges.verified_seller' | t }}</li>
+                  <li class="fb-badge fb-badge--stock"><span class="fb-badge__dot"></span>{{ 'feelbetter.badges.in_stock' | t }}</li>
+                  <li class="fb-badge fb-badge--ready">{{ 'feelbetter.badges.ready' | t }}</li>
+                </ul>
+                <div class="fb-inbox__cta">
+                  <span class="fb-inbox__price">{{ section.settings.inbox_price | escape }}</span>
+                  <span class="button fb-inbox__button">{{ 'feelbetter.general.buy_now' | t }}</span>
+                </div>
+              </div>
+              <p class="fb-inbox__footer">
+                <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 8.3l2 2 4-4.3"/>
+                  <circle cx="8" cy="8" r="6.5"/>
+                </svg>
+                <span>{{ 'feelbetter.inbox.footer' | t: time: inbox_time }}</span>
+              </p>
+            </div>
+          </aside>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "FeelBetter hero",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Request-first hero. Leave a text field empty to fall back to the theme's translated copy."
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "AI shopping concierge · Seoul → Worldwide"
+    },
+    {
+      "type": "text",
+      "id": "heading_a",
+      "label": "Headline, line 1",
+      "default": "Say what you want."
+    },
+    {
+      "type": "text",
+      "id": "heading_b",
+      "label": "Headline, line 2",
+      "default": "Your link,"
+    },
+    {
+      "type": "text",
+      "id": "heading_em",
+      "label": "Headline, italic ending",
+      "default": "within the hour.",
+      "info": "Rendered in the italic serif, in sunlight."
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Words. A link. A photo. AI reads your request, a human concierge verifies the seller, and one ready-to-buy link lands in your inbox.</p>"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_form",
+      "label": "Show request form",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_grid",
+      "label": "Show dotted grid background",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Inbox preview"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_inbox",
+      "label": "Show inbox preview card",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "inbox_product",
+      "label": "Product line",
+      "default": "Black minimal skateboard · the one you saw"
+    },
+    {
+      "type": "text",
+      "id": "inbox_seller",
+      "label": "Seller line",
+      "default": "Official store · In stock · Ships to you"
+    },
+    {
+      "type": "text",
+      "id": "inbox_price",
+      "label": "Price",
+      "default": "₩189,000"
+    },
+    {
+      "type": "text",
+      "id": "inbox_time",
+      "label": "Minutes after request",
+      "default": "00:47"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-3"
+    },
+    {
+      "type": "color_scheme",
+      "id": "card_color_scheme",
+      "label": "Inbox card color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 64
+    }
+  ],
+  "blocks": [
+    {
+      "type": "proof",
+      "name": "Proof point",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "No sign-up"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FeelBetter hero",
+      "blocks": [
+        {
+          "type": "proof",
+          "settings": {
+            "text": "No sign-up"
+          }
+        },
+        {
+          "type": "proof",
+          "settings": {
+            "text": "Local and overseas products"
+          }
+        },
+        {
+          "type": "proof",
+          "settings": {
+            "text": "One link, checked by a person"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
