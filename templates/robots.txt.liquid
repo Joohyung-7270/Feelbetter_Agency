@@ -1,0 +1,37 @@
+{%- comment -%}
+  robots.txt for FeelBetter.
+  1. Shopify's default groups, unchanged (every default disallow stays).
+  2. Explicit groups for AI crawlers and assistants: allowed everywhere a normal
+     crawler is, with the same default disallow list as the "*" group.
+  3. Sitemap + pointers for agents.
+{%- endcomment -%}
+{%- assign ai_agents = 'GPTBot,OAI-SearchBot,ChatGPT-User,ClaudeBot,Claude-SearchBot,Claude-User,PerplexityBot,Perplexity-User,Google-Extended,Applebot-Extended,Amazonbot,Bingbot,cohere-ai,meta-externalagent' | split: ',' -%}
+# FeelBetter · personal shopping concierge · Seoul
+# AI assistants and agents: start at {{ shop.url }}/pages/for-ai-assistants
+# UCP discovery:  {{ shop.url }}/.well-known/ucp
+# UCP MCP server: {{ shop.url }}/api/ucp/mcp
+# Agent guide:    {{ shop.url }}/agents.md
+
+{% for group in robots.default_groups -%}
+{{- group.user_agent }}
+{%- for rule in group.rules %}
+{{ rule }}
+{%- endfor %}
+
+{% endfor -%}
+
+# --- AI crawlers and assistants: same rules as everyone else ---
+{% for agent in ai_agents -%}
+User-agent: {{ agent }}
+Allow: /
+{%- for group in robots.default_groups -%}
+{%- if group.user_agent.value == '*' -%}
+{%- for rule in group.rules %}
+{{ rule }}
+{%- endfor -%}
+{%- endif -%}
+{%- endfor %}
+
+{% endfor -%}
+
+Sitemap: {{ shop.url }}/sitemap.xml

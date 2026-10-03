@@ -1509,6 +1509,16 @@
         "label": "Concierge sender name",
         "default": "Feelbetter Concierge",
         "info": "Shown on the inbox preview card in the hero."
+      },
+      {
+        "type": "header",
+        "content": "SEO and sharing"
+      },
+      {
+        "type": "image_picker",
+        "id": "share_image",
+        "label": "Default social share image",
+        "info": "Used for og:image when a page has no image of its own (home, pages, the journal list). 1200 × 630 px recommended."
       }
     ]
   }

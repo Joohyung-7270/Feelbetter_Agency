@@ -1,0 +1,199 @@
+{%- comment -%}
+  "For AI assistants": a plain, well-structured page that reads like llms.txt.
+  What FeelBetter is, how to request, the price formula, policies, UCP endpoints,
+  languages, contact. Copy lives in feelbetter.llms.* (headings are translated;
+  the body text is the same English in every locale so every model reads one
+  canonical description).
+{%- endcomment -%}
+
+{%- liquid
+  assign root = routes.root_url
+  if root == '/'
+    assign root = ''
+  endif
+  assign origin = shop.url
+  assign title = page.title
+  if title == blank
+    assign title = 'feelbetter.llms.title' | t
+  endif
+  assign page_body = page.content | strip_html | strip
+-%}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="page-width section-{{ section.id }}-padding">
+    <article class="fb-llms">
+      <header class="fb-llms__head">
+        <p class="fb-eyebrow"><span class="fb-dot" aria-hidden="true"></span><span>{{ 'feelbetter.llms.eyebrow' | t }}</span></p>
+        <h1 class="fb-llms__title h1">{{ title | escape }}</h1>
+        <p class="fb-llms__lead">{{ 'feelbetter.llms.summary' | t }}</p>
+        <p class="fb-llms__canonical fb-mono">{{ 'feelbetter.llms.canonical_label' | t }}: <a href="{{ origin }}/pages/for-ai-assistants">{{ origin }}/pages/for-ai-assistants</a></p>
+      </header>
+
+      <section class="fb-llms__section" id="what">
+        <h2>{{ 'feelbetter.llms.h_what' | t }}</h2>
+        <p>{{ 'feelbetter.llms.what_1' | t }}</p>
+        <p>{{ 'feelbetter.llms.what_2' | t }}</p>
+        <dl class="fb-rows fb-rows--brief fb-llms__facts">
+          <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.llms.fact_founded_label' | t }}</dt><dd>{{ 'feelbetter.llms.fact_founded' | t }}</dd></div>
+          <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.llms.fact_based_label' | t }}</dt><dd>{{ 'feelbetter.llms.fact_based' | t }}</dd></div>
+          <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.llms.fact_promise_label' | t }}</dt><dd>{{ 'feelbetter.llms.fact_promise' | t }}</dd></div>
+          <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.llms.fact_languages_label' | t }}</dt><dd>{{ 'feelbetter.llms.fact_languages' | t }}</dd></div>
+          <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.llms.fact_account_label' | t }}</dt><dd>{{ 'feelbetter.llms.fact_account' | t }}</dd></div>
+          <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.llms.fact_payment_label' | t }}</dt><dd>{{ 'feelbetter.llms.fact_payment' | t }}</dd></div>
+          <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.llms.fact_store_label' | t }}</dt><dd><a href="{{ origin }}">{{ origin | remove: 'https://' }}</a> · <a href="https://feelbetter.agency">feelbetter.agency</a></dd></div>
+        </dl>
+      </section>
+
+      <section class="fb-llms__section" id="request">
+        <h2>{{ 'feelbetter.llms.h_request' | t }}</h2>
+        <ol>
+          <li>{{ 'feelbetter.llms.request_1' | t }}</li>
+          <li>{{ 'feelbetter.llms.request_2' | t }}</li>
+          <li>{{ 'feelbetter.llms.request_3' | t }}</li>
+          <li>{{ 'feelbetter.llms.request_4' | t }}</li>
+        </ol>
+        <p>{{ 'feelbetter.llms.request_note' | t }} <a href="{{ origin }}/pages/request">{{ origin }}/pages/request</a></p>
+      </section>
+
+      <section class="fb-llms__section" id="pricing">
+        <h2>{{ 'feelbetter.llms.h_price' | t }}</h2>
+        <p><code class="fb-llms__code">{{ 'feelbetter.llms.price_formula' | t }}</code></p>
+        <ul>
+          <li>{{ 'feelbetter.llms.price_1' | t }}</li>
+          <li>{{ 'feelbetter.llms.price_2' | t }}</li>
+          <li>{{ 'feelbetter.llms.price_3' | t }}</li>
+          <li>{{ 'feelbetter.llms.price_4' | t }}</li>
+        </ul>
+        <p>{{ 'feelbetter.llms.price_example' | t }}</p>
+      </section>
+
+      <section class="fb-llms__section" id="policies">
+        <h2>{{ 'feelbetter.llms.h_policies' | t }}</h2>
+        <p>{{ 'feelbetter.llms.policies_text' | t }}</p>
+        <ul>
+          {%- if shop.privacy_policy.url != blank -%}
+            <li><a href="{{ shop.privacy_policy.url }}">{{ 'feelbetter.footer.privacy' | t }}</a> — {{ origin }}{{ shop.privacy_policy.url }}</li>
+          {%- endif -%}
+          {%- if shop.terms_of_service.url != blank -%}
+            <li><a href="{{ shop.terms_of_service.url }}">{{ 'feelbetter.footer.terms' | t }}</a> — {{ origin }}{{ shop.terms_of_service.url }}</li>
+          {%- endif -%}
+          {%- if shop.refund_policy.url != blank -%}
+            <li><a href="{{ shop.refund_policy.url }}">{{ 'feelbetter.footer.refund' | t }}</a> — {{ origin }}{{ shop.refund_policy.url }}</li>
+          {%- endif -%}
+          {%- if shop.shipping_policy.url != blank -%}
+            <li><a href="{{ shop.shipping_policy.url }}">{{ 'feelbetter.footer.shipping' | t }}</a> — {{ origin }}{{ shop.shipping_policy.url }}</li>
+          {%- endif -%}
+          <li><a href="{{ root }}/pages/how-it-works">{{ 'feelbetter.footer.link_how' | t }}</a> — {{ origin }}/pages/how-it-works</li>
+          <li><a href="{{ root }}/pages/about">{{ 'feelbetter.footer.link_about' | t }}</a> — {{ origin }}/pages/about</li>
+        </ul>
+      </section>
+
+      <section class="fb-llms__section" id="ucp">
+        <h2>{{ 'feelbetter.llms.h_ucp' | t }}</h2>
+        <p>{{ 'feelbetter.llms.ucp_text' | t }}</p>
+        <dl class="fb-rows fb-rows--brief fb-llms__endpoints">
+          <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.llms.ucp_discovery_label' | t }}</dt><dd><a href="{{ origin }}/.well-known/ucp"><code class="fb-llms__code">{{ origin }}/.well-known/ucp</code></a></dd></div>
+          <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.llms.ucp_mcp_label' | t }}</dt><dd><a href="{{ origin }}/api/ucp/mcp"><code class="fb-llms__code">{{ origin }}/api/ucp/mcp</code></a></dd></div>
+          <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.llms.ucp_agents_label' | t }}</dt><dd><a href="{{ origin }}/agents.md"><code class="fb-llms__code">{{ origin }}/agents.md</code></a></dd></div>
+          <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.llms.ucp_robots_label' | t }}</dt><dd>{{ 'feelbetter.llms.ucp_robots' | t }} <a href="{{ origin }}/robots.txt"><code class="fb-llms__code">{{ origin }}/robots.txt</code></a></dd></div>
+          <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.llms.ucp_sitemap_label' | t }}</dt><dd><a href="{{ origin }}/sitemap.xml"><code class="fb-llms__code">{{ origin }}/sitemap.xml</code></a></dd></div>
+        </dl>
+      </section>
+
+      <section class="fb-llms__section" id="languages">
+        <h2>{{ 'feelbetter.llms.h_languages' | t }}</h2>
+        <p>{{ 'feelbetter.llms.languages_text' | t }}</p>
+        {%- if localization.available_languages.size > 0 -%}
+          <ul>
+            {%- for language in localization.available_languages -%}
+              <li>{{ language.endonym_name | escape }} ({{ language.iso_code }}) — <a href="{{ origin }}{{ language.root_url }}">{{ origin }}{{ language.root_url }}</a></li>
+            {%- endfor -%}
+          </ul>
+        {%- endif -%}
+      </section>
+
+      <section class="fb-llms__section" id="contact">
+        <h2>{{ 'feelbetter.llms.h_contact' | t }}</h2>
+        <p>{{ 'feelbetter.llms.contact_text' | t }}</p>
+        <ul>
+          <li><a href="{{ root }}/pages/contact">{{ origin }}/pages/contact</a></li>
+          <li><a href="https://feelbetter.agency">https://feelbetter.agency</a></li>
+        </ul>
+      </section>
+
+      {%- if page_body != blank -%}
+        <section class="fb-llms__section fb-prose" id="notes">
+          {{ page.content }}
+        </section>
+      {%- endif -%}
+
+      <div class="fb-llms__actions">
+        <a class="button" href="{{ root }}/pages/request">{{ 'feelbetter.llms.cta' | t }}</a>
+        <a class="fb-textlink" href="{{ root }}/pages/how-it-works">{{ 'feelbetter.footer.link_how' | t }}</a>
+      </div>
+    </article>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "FeelBetter for AI",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "llms.txt-style page for language models and agents. All copy comes from the theme's translated strings (feelbetter.llms.*). Anything written in the page's own content box is appended under the fixed sections."
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 88
+    }
+  ],
+  "presets": [
+    {
+      "name": "FeelBetter for AI"
+    }
+  ]
+}
+{% endschema %}

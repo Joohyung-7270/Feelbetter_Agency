@@ -211,6 +211,20 @@
         "padding_top": 88,
         "padding_bottom": 88
       }
+    },
+    "feelbetter_journal": {
+      "type": "feelbetter-journal-featured",
+      "settings": {
+        "blog": "journal",
+        "limit": 3,
+        "heading": "",
+        "heading_size": "h1",
+        "text": "",
+        "show_grid": false,
+        "color_scheme": "scheme-2",
+        "padding_top": 88,
+        "padding_bottom": 88
+      }
     }
   },
   "order": [
@@ -219,6 +233,7 @@
     "feelbetter_brief",
     "featured_collection",
     "feelbetter_trust",
+    "feelbetter_journal",
     "feelbetter_statement",
     "collapsible_content",
     "feelbetter_request"

@@ -35,10 +35,7 @@
   if cta_url == blank
     assign cta_url = routes.root_url | append: '/pages/request' | replace: '//', '/'
   endif
-  capture journal_url
-    render 'feelbetter-agency-url', path: 'blog'
-  endcapture
-  assign journal_url = journal_url | strip
+  assign journal_url = routes.root_url | append: '/blogs/journal' | replace: '//', '/'
 -%}
 
 {%- style -%}

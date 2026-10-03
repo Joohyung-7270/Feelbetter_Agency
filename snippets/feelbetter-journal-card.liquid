@@ -1,0 +1,69 @@
+{% comment %}
+  One journal card: image, tag chip, date · reading time, serif title, excerpt.
+  The whole card is clickable (stretched link on the title); the tag chip stays
+  its own link.
+
+  Accepts:
+  - article {Object}
+  - blog {Object} - the article's blog (for the tag link)
+  - featured {Boolean} - large image-beside-text layout (default false)
+  - lazy {Boolean} - lazy-load the image (default true)
+  - heading_tag {String} - 'h2' or 'h3' (default 'h2')
+
+  Usage:
+  {% render 'feelbetter-journal-card', article: article, blog: blog %}
+{% endcomment %}
+{%- liquid
+  assign heading_tag = heading_tag | default: 'h2'
+  assign loading = 'lazy'
+  if lazy == false
+    assign loading = 'eager'
+  endif
+  assign tag = article.tags.first
+  assign lang = request.locale.iso_code | slice: 0, 2 | downcase
+  assign excerpt = article.excerpt_or_content | strip_html | strip
+  if lang == 'ja' or lang == 'zh'
+    assign excerpt = excerpt | truncate: 110
+  else
+    assign excerpt = excerpt | truncatewords: 30
+  endif
+  if featured
+    assign sizes = '(min-width: 990px) 60vw, 100vw'
+  else
+    assign sizes = '(min-width: 990px) 33vw, (min-width: 750px) 50vw, 100vw'
+  endif
+-%}
+<article class="fb-jcard fb-card{% if featured %} fb-jcard--featured{% endif %}">
+  <div class="fb-jcard__media{% unless article.image %} fb-jcard__media--empty{% endunless %}"{% unless article.image %} aria-hidden="true"{% endunless %}>
+    {%- if article.image -%}
+      {{
+        article.image
+        | image_url: width: 1600
+        | image_tag:
+          loading: loading,
+          sizes: sizes,
+          widths: '400, 600, 800, 1000, 1200, 1600',
+          class: 'fb-jcard__img'
+      }}
+    {%- else -%}
+      <span class="fb-jcard__mark">f</span>
+    {%- endif -%}
+  </div>
+  <div class="fb-jcard__body">
+    <p class="fb-jcard__meta fb-mono">
+      {%- if tag != blank -%}
+        <a class="fb-chip fb-jcard__chip" href="{{ blog.url }}/tagged/{{ tag | handleize }}">{{ tag | escape }}</a>
+      {%- endif -%}
+      <span class="fb-jcard__date">{{ article.published_at | time_tag: format: 'date' }}</span>
+      <span class="fb-jcard__sep" aria-hidden="true">·</span>
+      <span class="fb-jcard__time">{% render 'feelbetter-reading-time', article: article %}</span>
+    </p>
+    <{{ heading_tag }} class="fb-jcard__title">
+      <a class="fb-jcard__link" href="{{ article.url }}">{{ article.title | escape }}</a>
+    </{{ heading_tag }}>
+    {%- if excerpt != blank -%}
+      <p class="fb-jcard__excerpt">{{ excerpt }}</p>
+    {%- endif -%}
+    <span class="fb-jcard__more fb-textlink" aria-hidden="true">{{ 'feelbetter.journal.read_more' | t }} →</span>
+  </div>
+</article>

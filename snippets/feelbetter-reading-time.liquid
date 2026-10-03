@@ -1,0 +1,22 @@
+{% comment %}
+  Echoes the translated reading-time string for an article
+  (feelbetter.journal.min_read), estimated from the article body.
+  ≈ 200 words a minute for Latin scripts (≈ 1,100 characters);
+  ≈ 500 characters a minute for Korean, Japanese and Chinese.
+
+  Accepts:
+  - article {Object}
+
+  Usage:
+  {% render 'feelbetter-reading-time', article: article %}
+{% endcomment %}
+{%- liquid
+  assign chars = article.content | strip_html | strip | size
+  assign lang = request.locale.iso_code | slice: 0, 2 | downcase
+  assign per_minute = 1100
+  if lang == 'ko' or lang == 'ja' or lang == 'zh'
+    assign per_minute = 500
+  endif
+  assign minutes = chars | times: 1.0 | divided_by: per_minute | round | at_least: 1
+  echo 'feelbetter.journal.min_read' | t: minutes: minutes
+-%}

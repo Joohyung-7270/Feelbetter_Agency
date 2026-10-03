@@ -59,72 +59,6 @@
         "padding_bottom": 72
       }
     },
-    "collapsible_content": {
-      "type": "collapsible-content",
-      "blocks": {
-        "faq_1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What can I request?",
-            "icon": "none",
-            "row_content": "<p>Almost anything you can describe or point to: something you saw on the street, in a film or on someone's feed. Fashion, design objects, gear, small-batch things. Local and overseas. If it is sold somewhere, we will find where.</p>"
-          }
-        },
-        "faq_2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How fast?",
-            "icon": "none",
-            "row_content": "<p>Within 60 minutes of your request during concierge hours. You get one email with one verified link. If something will take longer, we tell you before the hour is up.</p>"
-          }
-        },
-        "faq_3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What does the AI do?",
-            "icon": "none",
-            "row_content": "<p>It reads your request and turns it into a structured sourcing brief: item, style, reference, constraints. Then a human concierge takes over to check the model, seller, stock, price and shipping. AI finds the signal. A person checks the details.</p>"
-          }
-        },
-        "faq_4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I buy?",
-            "icon": "none",
-            "row_content": "<p>Your email links to a ready-to-buy page in this store. Tap Buy now, pay with the methods you already use, and we handle the sourcing and shipping. One item, one checkout.</p>"
-          }
-        },
-        "faq_5": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Which languages?",
-            "icon": "none",
-            "row_content": "<p>English, Korean, Japanese, Chinese, Spanish, German and French. Write in whichever you like. Your link arrives in the same language.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "faq_1",
-        "faq_2",
-        "faq_3",
-        "faq_4",
-        "faq_5"
-      ],
-      "settings": {
-        "caption": "FAQ",
-        "heading": "Good questions.",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "layout": "none",
-        "container_color_scheme": "scheme-2",
-        "color_scheme": "scheme-1",
-        "open_first_collapsible_row": true,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
     "feelbetter_statement": {
       "type": "feelbetter-statement",
       "settings": {
@@ -206,6 +140,20 @@
         "padding_top": 88,
         "padding_bottom": 88
       }
+    },
+    "feelbetter_faq": {
+      "type": "feelbetter-faq",
+      "settings": {
+        "eyebrow": "",
+        "heading": "",
+        "heading_size": "h1",
+        "text": "",
+        "open_first": true,
+        "show_grid": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
@@ -214,7 +162,7 @@
     "feelbetter_process",
     "feelbetter_trust",
     "feelbetter_brief",
-    "collapsible_content",
+    "feelbetter_faq",
     "feelbetter_about",
     "feelbetter_statement"
   ]

@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "feelbetter-llms",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 56,
+        "padding_bottom": 88
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

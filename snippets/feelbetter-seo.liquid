@@ -1,0 +1,171 @@
+{% comment %}
+  JSON-LD for search engines and AI assistants. Rendered from layout/theme.liquid <head>.
+
+  Every page:        Organization + WebSite (with SearchAction)
+  page.how-it-works: + HowTo (feelbetter.steps.*) + FAQPage (feelbetter.faq.*, same copy as the FAQ section)
+  Articles:          + BreadcrumbList (Home → Journal → article)
+
+  Dawn's own product / article structured_data is untouched. Every value goes through | json.
+{% endcomment %}
+{%- liquid
+  assign origin = shop.url
+  assign org_id = origin | append: '/#organization'
+  assign site_id = origin | append: '/#website'
+  assign description = 'feelbetter.seo.default_description' | t
+  assign home_url = request.origin | append: routes.root_url
+
+  assign logo_url = blank
+  if settings.logo != blank
+    assign logo_url = settings.logo | image_url: width: 600
+    unless logo_url contains 'https://'
+      assign logo_url = logo_url | prepend: 'https:'
+    endunless
+  endif
+
+  assign socials = settings.social_instagram_link | append: '|' | append: settings.social_facebook_link | append: '|' | append: settings.social_twitter_link | append: '|' | append: settings.social_youtube_link | append: '|' | append: settings.social_tiktok_link | append: '|' | append: settings.social_pinterest_link
+  assign social_list = socials | split: '|'
+
+  assign is_how = false
+  if request.page_type == 'page' and page.handle == 'how-it-works'
+    assign is_how = true
+  endif
+  assign is_article = false
+  if request.page_type == 'article' and article != blank
+    assign is_article = true
+  endif
+-%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": {{ org_id | json }},
+      "name": "FeelBetter",
+      "alternateName": ["Feelbetter Concierge", "FeelBetter.agency"],
+      "url": {{ origin | json }},
+      {%- if logo_url != blank %}
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ logo_url | json }}
+      },
+      "image": {{ logo_url | json }},
+      {%- endif %}
+      "description": {{ description | json }},
+      "foundingDate": "2020",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Seoul",
+        "addressCountry": "KR"
+      },
+      "areaServed": "Worldwide",
+      "knowsLanguage": ["en", "ko", "ja", "zh-CN", "es", "de", "fr"],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "url": {{ origin | append: '/pages/contact' | json }},
+          "availableLanguage": ["en", "ko", "ja", "zh-CN", "es", "de", "fr"]
+        }
+      ],
+      "sameAs": [
+        "https://feelbetter.agency"
+        {%- for social in social_list -%}
+          {%- if social != blank -%}
+            , {{ social | json }}
+          {%- endif -%}
+        {%- endfor %}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ site_id | json }},
+      "url": {{ origin | json }},
+      "name": {{ shop.name | json }},
+      "description": {{ description | json }},
+      "inLanguage": {{ request.locale.iso_code | json }},
+      "publisher": { "@id": {{ org_id | json }} },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": {{ origin | append: '/search?q={search_term_string}' | json }}
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    {%- if is_how -%}
+    ,
+    {
+      "@type": "HowTo",
+      "@id": {{ request.origin | append: page.url | append: '#howto' | json }},
+      "name": {{ 'feelbetter.steps.heading' | t | json }},
+      "description": {{ 'feelbetter.steps.text' | t | json }},
+      "inLanguage": {{ request.locale.iso_code | json }},
+      "totalTime": "PT1H",
+      "step": [
+        {%- for i in (1..4) -%}
+          {%- liquid
+            assign title_key = 'feelbetter.steps.step_' | append: i | append: '_title'
+            assign text_key = 'feelbetter.steps.step_' | append: i | append: '_text'
+          -%}
+          {
+            "@type": "HowToStep",
+            "position": {{ i }},
+            "name": {{ title_key | t | json }},
+            "text": {{ text_key | t | json }}
+          }{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor %}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": {{ request.origin | append: page.url | append: '#faq' | json }},
+      "inLanguage": {{ request.locale.iso_code | json }},
+      "mainEntity": [
+        {%- for i in (1..4) -%}
+          {%- liquid
+            assign q_key = 'feelbetter.faq.q' | append: i
+            assign a_key = 'feelbetter.faq.a' | append: i
+          -%}
+          {
+            "@type": "Question",
+            "name": {{ q_key | t | json }},
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": {{ a_key | t | json }}
+            }
+          }{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor %}
+      ]
+    }
+    {%- endif -%}
+    {%- if is_article -%}
+    ,
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": {{ 'feelbetter.seo.home' | t | json }},
+          "item": {{ home_url | json }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": {{ blog.title | json }},
+          "item": {{ request.origin | append: blog.url | json }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": {{ article.title | json }},
+          "item": {{ request.origin | append: article.url | json }}
+        }
+      ]
+    }
+    {%- endif %}
+  ]
+}
+</script>

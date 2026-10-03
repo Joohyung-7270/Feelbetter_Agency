@@ -1,0 +1,247 @@
+{%- comment -%}
+  Journal article. Centered header (journal link / tag · title · date · reading time · lead),
+  hero image, styled prose, "Request something" card, "More from the journal", JSON-LD.
+  All labels come from feelbetter.journal.*.
+{%- endcomment -%}
+
+{%- liquid
+  assign root = routes.root_url
+  if root == '/'
+    assign root = ''
+  endif
+  assign tag = article.tags.first
+  assign lead = article.excerpt | strip_html | strip
+  assign more_limit = section.settings.more_limit
+
+  comment
+    Wrap tables so wide ones scroll sideways on phones instead of breaking the page.
+  endcomment
+  assign body = article.content | replace: '<table', '<div class="fb-prose__scroll"><table' | replace: '</table>', '</table></div>'
+-%}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<article class="fb-article">
+  <div class="color-{{ section.settings.color_scheme }} gradient">
+    <div class="page-width section-{{ section.id }}-padding">
+      <header class="fb-article__head{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <p class="fb-article__meta fb-mono">
+          <a class="fb-eyebrow__link" href="{{ blog.url }}">
+            <span class="fb-dot" aria-hidden="true"></span>
+            <span>{{ 'feelbetter.journal.title' | t }}</span>
+          </a>
+          {%- if tag != blank -%}
+            <span class="fb-article__sep" aria-hidden="true">/</span>
+            <a class="fb-chip fb-jcard__chip" href="{{ blog.url }}/tagged/{{ tag | handleize }}">{{ tag | escape }}</a>
+          {%- endif -%}
+        </p>
+        <h1 class="fb-article__title h0">{{ article.title | escape }}</h1>
+        <p class="fb-article__byline fb-mono">
+          <span>{{ article.published_at | time_tag: format: 'date' }}</span>
+          <span aria-hidden="true">·</span>
+          <span>{% render 'feelbetter-reading-time', article: article %}</span>
+          {%- if section.settings.show_author and article.author != blank -%}
+            <span aria-hidden="true">·</span>
+            <span>{{ article.author | escape }}</span>
+          {%- endif -%}
+        </p>
+        {%- if lead != blank -%}
+          <p class="fb-article__lead">{{ lead }}</p>
+        {%- endif -%}
+      </header>
+
+      {%- if section.settings.show_image and article.image -%}
+        <figure class="fb-article__hero{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+          <div class="fb-article__hero-media">
+            {{
+              article.image
+              | image_url: width: 2400
+              | image_tag:
+                loading: 'eager',
+                fetchpriority: 'high',
+                sizes: '(min-width: 1200px) 1200px, 100vw',
+                widths: '600, 900, 1200, 1600, 2000, 2400',
+                class: 'fb-article__img'
+            }}
+          </div>
+          {%- if section.settings.show_caption and article.image.alt != blank -%}
+            <figcaption class="fb-article__caption fb-mono">{{ article.image.alt | escape }}</figcaption>
+          {%- endif -%}
+        </figure>
+      {%- endif -%}
+
+      <div class="fb-article__body">
+        <div class="fb-prose{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          {{ body }}
+        </div>
+
+        {%- if section.settings.show_cta -%}
+          <aside class="fb-article__cta fb-card color-{{ section.settings.cta_color_scheme }} gradient{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" aria-labelledby="ArticleCta-{{ section.id }}">
+            <p class="fb-eyebrow"><span class="fb-dot" aria-hidden="true"></span><span>{{ 'feelbetter.request.eyebrow' | t }}</span></p>
+            <h2 class="fb-article__cta-heading" id="ArticleCta-{{ section.id }}">{{ 'feelbetter.journal.request_cta_heading' | t }}</h2>
+            <p class="fb-article__cta-text">{{ 'feelbetter.journal.request_cta_text' | t }}</p>
+            <a class="button" href="{{ root }}/pages/request">{{ 'feelbetter.journal.request_cta' | t }}</a>
+          </aside>
+        {%- endif -%}
+
+        <p class="fb-article__back">
+          <a class="fb-textlink" href="{{ blog.url }}"><span aria-hidden="true">←</span> {{ 'feelbetter.journal.back' | t }}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  {%- if more_limit > 0 -%}
+    {%- liquid
+      assign shown = 0
+      capture more_cards
+        for other in blog.articles
+          if other.id == article.id
+            continue
+          endif
+          if shown >= more_limit
+            break
+          endif
+          assign shown = shown | plus: 1
+          echo '<div class="fb-journal__item">'
+          render 'feelbetter-journal-card', article: other, blog: blog, heading_tag: 'h3'
+          echo '</div>'
+        endfor
+      endcapture
+    -%}
+    {%- if shown > 0 -%}
+      <section class="fb-article__more color-{{ section.settings.more_color_scheme }} gradient" aria-labelledby="ArticleMore-{{ section.id }}">
+        <div class="page-width section-{{ section.id }}-padding">
+          <header class="fb-section-head fb-journal-featured__head">
+            <div>
+              <p class="fb-eyebrow"><span class="fb-dot" aria-hidden="true"></span><span>{{ 'feelbetter.journal.eyebrow' | t }}</span></p>
+              <h2 class="fb-section-head__heading h1" id="ArticleMore-{{ section.id }}">{{ 'feelbetter.journal.more' | t }}</h2>
+            </div>
+            <a class="fb-textlink fb-journal-featured__all" href="{{ blog.url }}">{{ 'feelbetter.journal.all' | t }} <span aria-hidden="true">→</span></a>
+          </header>
+          <div class="fb-journal__grid fb-journal__grid--3">
+            {{ more_cards }}
+          </div>
+        </div>
+      </section>
+    {%- endif -%}
+  {%- endif -%}
+</article>
+
+<script type="application/ld+json">
+  {{ article | structured_data }}
+</script>
+
+{% schema %}
+{
+  "name": "FeelBetter article",
+  "tag": "section",
+  "class": "section",
+  "enabled_on": {
+    "templates": ["article"]
+  },
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Journal article page. Labels come from the theme's translated copy (feelbetter.journal.*)."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image",
+      "label": "Show featured image",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_caption",
+      "label": "Show the image's alt text as a caption",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "label": "Show author",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cta",
+      "label": "Show the 'Request something' card after the article",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "more_limit",
+      "min": 0,
+      "max": 6,
+      "step": 1,
+      "label": "'More from the journal' articles",
+      "default": 3,
+      "info": "0 hides the strip."
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color_scheme",
+      "id": "cta_color_scheme",
+      "label": "Request card color scheme",
+      "default": "scheme-3"
+    },
+    {
+      "type": "color_scheme",
+      "id": "more_color_scheme",
+      "label": "'More from the journal' color scheme",
+      "default": "scheme-2"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 80
+    }
+  ],
+  "presets": [
+    {
+      "name": "FeelBetter article"
+    }
+  ]
+}
+{% endschema %}

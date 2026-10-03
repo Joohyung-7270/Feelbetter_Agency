@@ -14,10 +14,7 @@
     render 'feelbetter-agency-url'
   endcapture
   assign agency_url = agency_url | strip
-  capture journal_url
-    render 'feelbetter-agency-url', path: 'blog'
-  endcapture
-  assign journal_url = journal_url | strip
+  assign journal_url = routes.root_url | append: '/blogs/journal' | replace: '//', '/'
   capture contact_url
     render 'feelbetter-agency-url', path: 'contact'
   endcapture

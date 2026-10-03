@@ -1,0 +1,178 @@
+{%- comment -%}
+  Journal (blog list page). Editorial header, card grid, pagination.
+  Copy comes from feelbetter.journal.* when the settings are empty.
+  The first article on page one can render as a wide feature card.
+{%- endcomment -%}
+
+{%- liquid
+  assign title = section.settings.title
+  if title == blank
+    assign title = 'feelbetter.journal.title' | t
+  endif
+  assign tagline = section.settings.tagline
+  if tagline == blank
+    assign tagline = 'feelbetter.journal.tagline' | t
+  endif
+  assign root = routes.root_url
+  if root == '/'
+    assign root = ''
+  endif
+-%}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="fb-journal color-{{ section.settings.color_scheme }} gradient">
+  <div class="{% if section.settings.show_grid %}fb-grid-bg {% endif %}section-{{ section.id }}-padding">
+    <div class="page-width">
+      {%- paginate blog.articles by section.settings.per_page -%}
+        <header class="fb-section-head fb-journal__head{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          <p class="fb-eyebrow"><span class="fb-dot" aria-hidden="true"></span><span>{{ 'feelbetter.journal.eyebrow' | t }}</span></p>
+          <h1 class="fb-journal__title h0">{{ title | escape_once }}</h1>
+          {%- if tagline != blank -%}
+            <p class="fb-section-head__text fb-journal__tagline">{{ tagline | escape_once }}</p>
+          {%- endif -%}
+          {%- if current_tags -%}
+            <p class="fb-journal__filter">
+              <span class="fb-chip">{{ current_tags | join: ', ' | escape }}</span>
+              <a class="fb-textlink" href="{{ blog.url }}">{{ 'feelbetter.journal.all' | t }}</a>
+            </p>
+          {%- endif -%}
+        </header>
+
+        {%- if blog.articles.size > 0 -%}
+          <div class="fb-journal__grid">
+            {%- for article in blog.articles -%}
+              {%- liquid
+                assign featured = false
+                if section.settings.feature_first and forloop.first and paginate.current_page == 1 and current_tags == blank
+                  assign featured = true
+                endif
+                assign lazy = true
+                if forloop.index <= 2 and paginate.current_page == 1
+                  assign lazy = false
+                endif
+              -%}
+              <div
+                class="fb-journal__item{% if featured %} fb-journal__item--featured{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {% if settings.animations_reveal_on_scroll %}
+                  data-cascade
+                  style="--animation-order: {{ forloop.index }};"
+                {% endif %}
+              >
+                {% render 'feelbetter-journal-card', article: article, blog: blog, featured: featured, lazy: lazy, heading_tag: 'h2' %}
+              </div>
+            {%- endfor -%}
+          </div>
+
+          {%- if paginate.pages > 1 -%}
+            <div class="fb-journal__pagination">
+              {%- render 'pagination', paginate: paginate -%}
+            </div>
+          {%- endif -%}
+        {%- else -%}
+          <div class="fb-journal__empty fb-card">
+            <p class="fb-journal__empty-text">{{ 'feelbetter.journal.empty' | t }}</p>
+            <a class="button" href="{{ root }}/pages/request">{{ 'feelbetter.journal.request_cta' | t }}</a>
+          </div>
+        {%- endif -%}
+      {%- endpaginate -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "FeelBetter journal",
+  "tag": "section",
+  "class": "section",
+  "enabled_on": {
+    "templates": ["blog"]
+  },
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Blog list page. Leave the text fields empty: the theme renders its translated copy (feelbetter.journal.*) in every published language."
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "text",
+      "id": "tagline",
+      "label": "Tagline",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "range",
+      "id": "per_page",
+      "min": 3,
+      "max": 24,
+      "step": 3,
+      "label": "Articles per page",
+      "default": 9
+    },
+    {
+      "type": "checkbox",
+      "id": "feature_first",
+      "label": "Show the newest article as a wide feature card",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_grid",
+      "label": "Show dotted grid background",
+      "default": false
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 88
+    }
+  ],
+  "presets": [
+    {
+      "name": "FeelBetter journal"
+    }
+  ]
+}
+{% endschema %}
