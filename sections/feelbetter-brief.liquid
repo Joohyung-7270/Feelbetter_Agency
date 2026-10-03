@@ -1,0 +1,177 @@
+{%- comment -%}
+  AI-native showcase: a casual message on the left becomes a structured brief on the right.
+  All copy from feelbetter.brief.* when settings are empty.
+{%- endcomment -%}
+
+{%- liquid
+  assign eyebrow = section.settings.eyebrow
+  if eyebrow == blank
+    assign eyebrow = 'feelbetter.brief.eyebrow' | t
+  endif
+  assign heading = section.settings.heading
+  if heading == blank
+    assign heading = 'feelbetter.brief.heading' | t
+  endif
+  assign caption = section.settings.caption
+  if caption == blank
+    assign caption = 'feelbetter.brief.caption' | t
+  endif
+-%}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="{% if section.settings.show_grid %}fb-grid-bg {% endif %}section-{{ section.id }}-padding">
+    <div class="page-width">
+      <header class="fb-section-head fb-section-head--center{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <p class="fb-eyebrow"><span class="fb-dot" aria-hidden="true"></span><span>{{ eyebrow | escape_once }}</span></p>
+        <h2 class="fb-section-head__heading {{ section.settings.heading_size }}">{{ heading | escape_once }}</h2>
+      </header>
+
+      <div class="fb-brief{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <div class="fb-card fb-brief__you">
+          <span class="fb-card__label fb-mono">{{ 'feelbetter.brief.you_label' | t }}</span>
+          <div class="fb-chat">
+            <p class="fb-chat__bubble">{{ 'feelbetter.brief.message' | t }}</p>
+            <span class="fb-chat__chip fb-mono">
+              <svg aria-hidden="true" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="12" height="10" rx="1.5"/><circle cx="6" cy="7" r="1.2"/><path d="M14 11l-3.5-3.5L5 13"/></svg>
+              {{ 'feelbetter.brief.attachment' | t }}
+            </span>
+          </div>
+        </div>
+
+        <span class="fb-brief__arrow" aria-hidden="true">
+          <svg viewBox="0 0 48 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h40" stroke-dasharray="2 4"/><path d="M36 6l8 6-8 6"/></svg>
+        </span>
+
+        <div class="fb-card fb-brief__ai fb-scan">
+          <div class="fb-scan__inner">
+            <div class="fb-brief__ai-head">
+              <span class="fb-card__label fb-mono"><span class="fb-dot" aria-hidden="true"></span>{{ 'feelbetter.brief.ai_label' | t }}</span>
+              <span class="fb-brief__status fb-mono">{{ 'feelbetter.brief.status' | t }}</span>
+            </div>
+            <dl class="fb-rows fb-rows--brief">
+              <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.brief.item_label' | t }}</dt><dd>{{ 'feelbetter.brief.item' | t }}</dd></div>
+              <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.brief.category_label' | t }}</dt><dd>{{ 'feelbetter.brief.category' | t }}</dd></div>
+              <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.brief.details_label' | t }}</dt><dd>{{ 'feelbetter.brief.details' | t }}</dd></div>
+              <div class="fb-rows__row"><dt class="fb-mono">{{ 'feelbetter.brief.budget_label' | t }}</dt><dd>{{ 'feelbetter.brief.budget' | t }}</dd></div>
+            </dl>
+            <p class="fb-brief__tip">
+              <span class="fb-mono">{{ 'feelbetter.brief.tip_label' | t }}</span>
+              <span>{{ 'feelbetter.brief.tip' | t }}</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {%- if caption != blank -%}
+        <p class="fb-brief__caption{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ caption | escape_once }}</p>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "FeelBetter brief",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Message-to-brief showcase. Leave the text fields empty: the theme renders its translated copy (feelbetter.brief.*) in every published language."
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "text",
+      "id": "caption",
+      "label": "Caption",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_grid",
+      "label": "Show dotted grid background",
+      "default": true
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-4"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 88
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 88
+    }
+  ],
+  "presets": [
+    {
+      "name": "FeelBetter brief"
+    }
+  ]
+}
+{% endschema %}

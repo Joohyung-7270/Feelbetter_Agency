@@ -54,7 +54,7 @@
         </p>
 
         {%- if section.settings.show_title -%}
-          <h2 class="fb-match__title h2">{{ product.title | escape }}</h2>
+          <h2 class="fb-match__title h2">{{ product.title | escape_once }}</h2>
         {%- endif -%}
 
         {% render 'feelbetter-badges', product: product %}
@@ -94,7 +94,7 @@
             {%- endif -%}
           </a>
           {%- if note != blank -%}
-            <p class="fb-match__note">{{ note | escape }}</p>
+            <p class="fb-match__note">{{ note | escape_once }}</p>
           {%- endif -%}
         {%- else -%}
           <button type="button" class="button fb-match__buy" disabled>

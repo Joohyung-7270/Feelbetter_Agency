@@ -1,0 +1,449 @@
+{%- comment -%}
+  FeelBetter footer (replaces Dawn's footer in sections/footer-group.json; Dawn's footer.liquid is untouched).
+  Row 1: brand column + newsletter. Row 1b: Service / Company / Legal link columns.
+  Row 2: business information (Korean e-commerce law style; only filled rows render).
+  Row 3: country + language selectors, payment icons, social links, copyright.
+{%- endcomment -%}
+
+{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
+{{ 'component-list-payment.css' | asset_url | stylesheet_tag }}
+{{ 'component-list-social.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  capture agency_url
+    render 'feelbetter-agency-url'
+  endcapture
+  assign agency_url = agency_url | strip
+  capture journal_url
+    render 'feelbetter-agency-url', path: 'blog'
+  endcapture
+  assign journal_url = journal_url | strip
+  capture contact_url
+    render 'feelbetter-agency-url', path: 'contact'
+  endcapture
+  assign contact_url = contact_url | strip
+
+  assign root = routes.root_url
+  if root == '/'
+    assign root = ''
+  endif
+  assign year = 'now' | date: '%Y'
+  assign has_biz = false
+  if section.settings.biz_company != blank or section.settings.biz_representative != blank or section.settings.biz_registration != blank or section.settings.biz_ecommerce != blank or section.settings.biz_address != blank or section.settings.biz_phone != blank or section.settings.biz_email != blank or section.settings.biz_hosting != blank
+    assign has_biz = true
+  endif
+-%}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<footer class="fb-footer color-{{ section.settings.color_scheme }} gradient">
+  <div class="page-width section-{{ section.id }}-padding">
+    {%- comment -%} Row 1: brand + newsletter {%- endcomment -%}
+    <div class="fb-footer__top">
+      <div class="fb-footer__brand">
+        <p class="fb-footer__wordmark">
+          <span class="fb-dot" aria-hidden="true"></span>
+          <span>Feelbetter</span>
+        </p>
+        <p class="fb-footer__tagline">{{ 'feelbetter.general.tagline' | t }}</p>
+        <p class="fb-footer__description">{{ 'feelbetter.footer.description' | t }}</p>
+        <a class="fb-textlink fb-mono" href="{{ agency_url }}" target="_blank" rel="noopener">
+          {{- 'feelbetter.footer.agency_link' | t }} <span class="fb-ext" aria-hidden="true">↗</span>
+          <span class="visually-hidden">({{ 'feelbetter.footer.external_label' | t }})</span>
+        </a>
+      </div>
+
+      {%- if section.settings.show_newsletter -%}
+        <div class="fb-footer__newsletter fb-card">
+          <h2 class="fb-footer__newsletter-heading">{{ 'feelbetter.footer.newsletter_heading' | t }}</h2>
+          <p class="fb-footer__newsletter-text">{{ 'feelbetter.footer.newsletter_text' | t }}</p>
+          {%- form 'customer', id: 'FeelbetterNewsletter', class: 'fb-newsletter newsletter-form' -%}
+            <input type="hidden" name="contact[tags]" value="newsletter">
+            <div class="newsletter-form__field-wrapper">
+              <div class="field">
+                <input
+                  id="FeelbetterNewsletter-email"
+                  type="email"
+                  name="contact[email]"
+                  class="field__input"
+                  value="{{ form.email }}"
+                  aria-required="true"
+                  autocorrect="off"
+                  autocapitalize="off"
+                  autocomplete="email"
+                  {% if form.errors %}
+                    autofocus
+                    aria-invalid="true"
+                    aria-describedby="FeelbetterNewsletter-error"
+                  {% elsif form.posted_successfully? %}
+                    aria-describedby="FeelbetterNewsletter-success"
+                  {% endif %}
+                  placeholder="{{ 'feelbetter.footer.newsletter_email' | t | escape_once }}"
+                  required
+                >
+                <label class="field__label" for="FeelbetterNewsletter-email">
+                  {{ 'feelbetter.footer.newsletter_email' | t }}
+                </label>
+                <button
+                  type="submit"
+                  class="newsletter-form__button field__button"
+                  name="commit"
+                  id="FeelbetterNewsletter-submit"
+                  aria-label="{{ 'feelbetter.footer.newsletter_submit' | t | escape_once }}"
+                >
+                  <span class="svg-wrapper">
+                    {{- 'icon-arrow.svg' | inline_asset_content -}}
+                  </span>
+                </button>
+              </div>
+              {%- if form.errors -%}
+                <small class="newsletter-form__message form__message" id="FeelbetterNewsletter-error">
+                  <span class="svg-wrapper">
+                    {{- 'icon-error.svg' | inline_asset_content -}}
+                  </span>
+                  {{- form.errors.translated_fields.email | capitalize }}
+                  {{ form.errors.messages.email -}}
+                </small>
+              {%- endif -%}
+            </div>
+            {%- if form.posted_successfully? -%}
+              <h3
+                class="newsletter-form__message newsletter-form__message--success form__message"
+                id="FeelbetterNewsletter-success"
+                tabindex="-1"
+                autofocus
+              >
+                <span class="svg-wrapper">
+                  {{- 'icon-success.svg' | inline_asset_content -}}
+                </span>
+                {{- 'feelbetter.footer.newsletter_success' | t }}
+              </h3>
+            {%- endif -%}
+          {%- endform -%}
+          <p class="fb-footer__coupon">{{ 'feelbetter.footer.coupon_note' | t }}</p>
+        </div>
+      {%- endif -%}
+    </div>
+
+    {%- comment -%} Row 1b: link columns {%- endcomment -%}
+    <nav class="fb-footer__links" aria-label="{{ 'feelbetter.footer.service' | t | escape_once }} · {{ 'feelbetter.footer.company' | t | escape_once }} · {{ 'feelbetter.footer.legal' | t | escape_once }}">
+      <div class="fb-footer__col">
+        <h2 class="fb-footer__col-heading fb-mono">{{ 'feelbetter.footer.service' | t }}</h2>
+        <ul class="fb-footer__list" role="list">
+          {%- if section.settings.menu_service != blank -%}
+            {%- for link in section.settings.menu_service.links -%}
+              <li><a class="fb-footer__link" href="{{ link.url }}">{{ link.title | escape_once }}</a></li>
+            {%- endfor -%}
+          {%- else -%}
+            <li><a class="fb-footer__link" href="{{ root }}/pages/request">{{ 'feelbetter.footer.link_request' | t }}</a></li>
+            <li><a class="fb-footer__link" href="{{ root }}/pages/how-it-works">{{ 'feelbetter.footer.link_how' | t }}</a></li>
+            <li><a class="fb-footer__link" href="{{ root }}/collections/feelbetter-finds">{{ 'feelbetter.footer.link_finds' | t }}</a></li>
+            <li><a class="fb-footer__link" href="{{ root }}/pages/about">{{ 'feelbetter.footer.link_about' | t }}</a></li>
+          {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="fb-footer__col">
+        <h2 class="fb-footer__col-heading fb-mono">{{ 'feelbetter.footer.company' | t }}</h2>
+        <ul class="fb-footer__list" role="list">
+          {%- if section.settings.menu_company != blank -%}
+            {%- for link in section.settings.menu_company.links -%}
+              <li><a class="fb-footer__link" href="{{ link.url }}">{{ link.title | escape_once }}</a></li>
+            {%- endfor -%}
+          {%- else -%}
+            <li><a class="fb-footer__link" href="{{ root }}/pages/about">{{ 'feelbetter.footer.link_about' | t }}</a></li>
+            <li><a class="fb-footer__link" href="{{ journal_url }}" target="_blank" rel="noopener">{{ 'feelbetter.footer.link_journal' | t }} <span class="fb-ext" aria-hidden="true">↗</span><span class="visually-hidden">({{ 'feelbetter.footer.external_label' | t }})</span></a></li>
+            <li><a class="fb-footer__link" href="{{ contact_url }}" target="_blank" rel="noopener">{{ 'feelbetter.footer.link_contact' | t }} <span class="fb-ext" aria-hidden="true">↗</span><span class="visually-hidden">({{ 'feelbetter.footer.external_label' | t }})</span></a></li>
+            <li><a class="fb-footer__link" href="{{ agency_url }}" target="_blank" rel="noopener">{{ 'feelbetter.footer.agency_link' | t }} <span class="fb-ext" aria-hidden="true">↗</span><span class="visually-hidden">({{ 'feelbetter.footer.external_label' | t }})</span></a></li>
+          {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="fb-footer__col">
+        <h2 class="fb-footer__col-heading fb-mono">{{ 'feelbetter.footer.legal' | t }}</h2>
+        <ul class="fb-footer__list" role="list">
+          {%- if section.settings.menu_legal != blank -%}
+            {%- for link in section.settings.menu_legal.links -%}
+              <li><a class="fb-footer__link" href="{{ link.url }}">{{ link.title | escape_once }}</a></li>
+            {%- endfor -%}
+          {%- else -%}
+            {%- if shop.privacy_policy.url != blank -%}
+              <li><a class="fb-footer__link" href="{{ shop.privacy_policy.url }}">{{ 'feelbetter.footer.privacy' | t }}</a></li>
+            {%- endif -%}
+            {%- if shop.terms_of_service.url != blank -%}
+              <li><a class="fb-footer__link" href="{{ shop.terms_of_service.url }}">{{ 'feelbetter.footer.terms' | t }}</a></li>
+            {%- endif -%}
+            {%- if shop.refund_policy.url != blank -%}
+              <li><a class="fb-footer__link" href="{{ shop.refund_policy.url }}">{{ 'feelbetter.footer.refund' | t }}</a></li>
+            {%- endif -%}
+            {%- if shop.shipping_policy.url != blank -%}
+              <li><a class="fb-footer__link" href="{{ shop.shipping_policy.url }}">{{ 'feelbetter.footer.shipping' | t }}</a></li>
+            {%- endif -%}
+            {%- if shop.contact_information.url != blank -%}
+              <li><a class="fb-footer__link" href="{{ shop.contact_information.url }}">{{ 'feelbetter.footer.contact_info' | t }}</a></li>
+            {%- endif -%}
+          {%- endif -%}
+        </ul>
+      </div>
+    </nav>
+
+    {%- comment -%} Row 2: business information {%- endcomment -%}
+    {%- if has_biz or section.settings.biz_notice != blank -%}
+      <div class="fb-footer__biz">
+        <h2 class="fb-footer__col-heading fb-mono">{{ 'feelbetter.footer.business_heading' | t }}</h2>
+        {%- if has_biz -%}
+          <dl class="fb-footer__biz-list">
+            {%- if section.settings.biz_company != blank -%}
+              <div class="fb-footer__biz-row"><dt>{{ 'feelbetter.footer.company_name' | t }}</dt><dd>{{ section.settings.biz_company | escape_once }}</dd></div>
+            {%- endif -%}
+            {%- if section.settings.biz_representative != blank -%}
+              <div class="fb-footer__biz-row"><dt>{{ 'feelbetter.footer.representative' | t }}</dt><dd>{{ section.settings.biz_representative | escape_once }}</dd></div>
+            {%- endif -%}
+            {%- if section.settings.biz_registration != blank -%}
+              <div class="fb-footer__biz-row"><dt>{{ 'feelbetter.footer.business_no' | t }}</dt><dd>{{ section.settings.biz_registration | escape_once }}</dd></div>
+            {%- endif -%}
+            {%- if section.settings.biz_ecommerce != blank -%}
+              <div class="fb-footer__biz-row"><dt>{{ 'feelbetter.footer.ecommerce_no' | t }}</dt><dd>{{ section.settings.biz_ecommerce | escape_once }}</dd></div>
+            {%- endif -%}
+            {%- if section.settings.biz_address != blank -%}
+              <div class="fb-footer__biz-row"><dt>{{ 'feelbetter.footer.address' | t }}</dt><dd>{{ section.settings.biz_address | escape_once }}</dd></div>
+            {%- endif -%}
+            {%- if section.settings.biz_phone != blank -%}
+              <div class="fb-footer__biz-row"><dt>{{ 'feelbetter.footer.phone' | t }}</dt><dd><a class="fb-footer__link" href="tel:{{ section.settings.biz_phone | replace: ' ', '' | escape_once }}">{{ section.settings.biz_phone | escape_once }}</a></dd></div>
+            {%- endif -%}
+            {%- if section.settings.biz_email != blank -%}
+              <div class="fb-footer__biz-row"><dt>{{ 'feelbetter.footer.email' | t }}</dt><dd><a class="fb-footer__link" href="mailto:{{ section.settings.biz_email | escape_once }}">{{ section.settings.biz_email | escape_once }}</a></dd></div>
+            {%- endif -%}
+            {%- if section.settings.biz_hosting != blank -%}
+              <div class="fb-footer__biz-row"><dt>{{ 'feelbetter.footer.hosting' | t }}</dt><dd>{{ section.settings.biz_hosting | escape_once }}</dd></div>
+            {%- endif -%}
+          </dl>
+        {%- endif -%}
+        {%- if section.settings.biz_notice != blank -%}
+          <p class="fb-footer__notice">{{ section.settings.biz_notice | escape_once }}</p>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    {%- comment -%} Row 3: localization, payment, social, copyright {%- endcomment -%}
+    <div class="fb-footer__bottom">
+      <div class="fb-footer__localization isolate">
+        {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
+          <localization-form>
+            {%- form 'localization', id: 'FeelbetterFooterCountryForm', class: 'localization-form' -%}
+              <div>
+                <h2 class="caption-large text-body" id="FeelbetterFooterCountryLabel">{{ 'localization.country_label' | t }}</h2>
+                {%- render 'country-localization', localPosition: 'FeelbetterFooterCountry' -%}
+              </div>
+            {%- endform -%}
+          </localization-form>
+        {%- endif -%}
+
+        {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}
+          <localization-form>
+            {%- form 'localization', id: 'FeelbetterFooterLanguageForm', class: 'localization-form' -%}
+              <div>
+                <h2 class="caption-large text-body" id="FeelbetterFooterLanguageLabel">{{ 'localization.language_label' | t }}</h2>
+                {%- render 'language-localization', localPosition: 'FeelbetterFooterLanguage' -%}
+              </div>
+            {%- endform -%}
+          </localization-form>
+        {%- endif -%}
+      </div>
+
+      <div class="fb-footer__meta">
+        {%- if section.settings.show_social -%}
+          {%- render 'social-icons', class: 'footer__list-social fb-footer__social' -%}
+        {%- endif -%}
+        {%- if section.settings.show_payment and shop.enabled_payment_types.size > 0 -%}
+          <div class="fb-footer__payment">
+            <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
+            <ul class="list list-payment" role="list">
+              {%- for type in shop.enabled_payment_types -%}
+                <li class="list-payment__item">
+                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                </li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+
+    <div class="fb-footer__copyright">
+      <small class="fb-footer__copyright-line fb-mono">{{ 'feelbetter.footer.copyright' | t: year: year }}</small>
+      <small class="fb-footer__powered">{{ powered_by_link }}</small>
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "FeelBetter footer",
+  "tag": "section",
+  "class": "section",
+  "enabled_on": {
+    "groups": ["footer"]
+  },
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Labels and link names come from the theme's translated copy (feelbetter.footer.*). Menus are optional overrides; legal links default to the store policies that exist."
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-4"
+    },
+    {
+      "type": "header",
+      "content": "Newsletter"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_newsletter",
+      "label": "Show newsletter signup",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Link columns"
+    },
+    {
+      "type": "link_list",
+      "id": "menu_service",
+      "label": "Service menu",
+      "info": "Empty = Request · How it works · Recent finds · About"
+    },
+    {
+      "type": "link_list",
+      "id": "menu_company",
+      "label": "Company menu",
+      "info": "Empty = About · Journal · Contact · feelbetter.agency"
+    },
+    {
+      "type": "link_list",
+      "id": "menu_legal",
+      "label": "Legal menu",
+      "info": "Empty = the store policies that exist (privacy, terms, refund, shipping, contact information)"
+    },
+    {
+      "type": "header",
+      "content": "Business information",
+      "info": "Only filled rows are shown."
+    },
+    {
+      "type": "text",
+      "id": "biz_company",
+      "label": "Company name",
+      "default": "FeelBetter"
+    },
+    {
+      "type": "text",
+      "id": "biz_representative",
+      "label": "Representative"
+    },
+    {
+      "type": "text",
+      "id": "biz_registration",
+      "label": "Business registration no. (사업자등록번호)"
+    },
+    {
+      "type": "text",
+      "id": "biz_ecommerce",
+      "label": "E-commerce permit no. (통신판매업신고번호)"
+    },
+    {
+      "type": "text",
+      "id": "biz_address",
+      "label": "Address"
+    },
+    {
+      "type": "text",
+      "id": "biz_phone",
+      "label": "Phone"
+    },
+    {
+      "type": "text",
+      "id": "biz_email",
+      "label": "Email"
+    },
+    {
+      "type": "text",
+      "id": "biz_hosting",
+      "label": "Hosting provider",
+      "default": "Shopify"
+    },
+    {
+      "type": "text",
+      "id": "biz_notice",
+      "label": "Consumer notice (one line)"
+    },
+    {
+      "type": "header",
+      "content": "Bottom row"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_country_selector",
+      "label": "t:sections.footer.settings.enable_country_selector.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_language_selector",
+      "label": "t:sections.footer.settings.enable_language_selector.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_payment",
+      "label": "t:sections.footer.settings.payment_enable.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_social",
+      "label": "t:sections.footer.settings.show_social.label",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 72
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    }
+  ]
+}
+{% endschema %}

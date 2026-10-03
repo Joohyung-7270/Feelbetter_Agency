@@ -1,0 +1,21 @@
+{% comment %}
+  Outputs the feelbetter.agency URL for the current storefront language.
+  The agency site publishes en / ko / ja / es; every other language maps to en.
+
+  Accepts:
+  - path {String} - optional path appended after the locale, e.g. 'blog' or 'contact'
+
+  Usage:
+  {% capture agency_url %}{% render 'feelbetter-agency-url', path: 'blog' %}{% endcapture %}
+{% endcomment %}
+{%- liquid
+  assign agency_locale = request.locale.iso_code | slice: 0, 2 | downcase
+  if agency_locale != 'ko' and agency_locale != 'ja' and agency_locale != 'es'
+    assign agency_locale = 'en'
+  endif
+  assign agency_url = 'https://feelbetter.agency/' | append: agency_locale
+  if path != blank
+    assign agency_url = agency_url | append: '/' | append: path
+  endif
+  echo agency_url
+-%}

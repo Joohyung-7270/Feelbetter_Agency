@@ -47,6 +47,11 @@
     assign hero_text = 'feelbetter.hero.text' | t | prepend: '<p>' | append: '</p>'
   endif
 
+  capture agency_url
+    render 'feelbetter-agency-url'
+  endcapture
+  assign agency_url = agency_url | strip
+
   assign inbox_from = settings.feelbetter_email_from
   if inbox_from == blank
     assign inbox_from = 'feelbetter.inbox.from' | t
@@ -92,18 +97,22 @@
           {%- if eyebrow != blank -%}
             <p class="fb-eyebrow fb-hero__eyebrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
               <span class="fb-dot" aria-hidden="true"></span>
-              <span>{{ eyebrow | escape }}</span>
+              <a class="fb-eyebrow__link" href="{{ agency_url }}" target="_blank" rel="noopener">
+                <span>{{ eyebrow | escape_once }}</span>
+                <span class="fb-ext" aria-hidden="true">↗</span>
+                <span class="visually-hidden">({{ 'feelbetter.hero.eyebrow_link_label' | t }})</span>
+              </a>
             </p>
           {%- endif -%}
 
           <h1 class="fb-hero__heading{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             {%- if heading_a != blank -%}
-              <span class="fb-hero__line">{{ heading_a | escape }}</span>
+              <span class="fb-hero__line">{{ heading_a | escape_once }}</span>
             {%- endif -%}
             {%- if heading_b != blank or heading_em != blank -%}
               <span class="fb-hero__line">
-                {%- if heading_b != blank -%}{{ heading_b | escape }}{%- endif -%}
-                {%- if heading_em != blank %} <em class="fb-hero__em">{{ heading_em | escape }}</em>{%- endif -%}
+                {%- if heading_b != blank -%}{{ heading_b | escape_once }}{%- endif -%}
+                {%- if heading_em != blank %} <em class="fb-hero__em">{{ heading_em | escape_once }}</em>{%- endif -%}
               </span>
             {%- endif -%}
           </h1>
@@ -133,7 +142,7 @@
                     <circle cx="8" cy="8" r="6.5"/>
                     <path d="M5 8.3l2 2 4-4.3"/>
                   </svg>
-                  <span>{{ proof_text | escape }}</span>
+                  <span>{{ proof_text | escape_once }}</span>
                 </li>
               {%- endfor -%}
             </ul>
@@ -147,13 +156,13 @@
         </div>
 
         {%- if section.settings.show_inbox -%}
-          <aside class="fb-hero__aside{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" aria-label="{{ 'feelbetter.hero.inbox_preview_label' | t | escape }}">
+          <aside class="fb-hero__aside{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" aria-label="{{ 'feelbetter.hero.inbox_preview_label' | t | escape_once }}">
             <p class="visually-hidden">{{ 'feelbetter.hero.inbox_preview_text' | t }}</p>
             <div class="fb-inbox color-{{ section.settings.card_color_scheme }}" aria-hidden="true">
               <div class="fb-inbox__header">
                 <span class="fb-inbox__from">
                   <span class="fb-inbox__avatar">f</span>
-                  <span>{{ inbox_from | escape }}</span>
+                  <span>{{ inbox_from | escape_once }}</span>
                 </span>
                 <span class="fb-inbox__time">{{ 'feelbetter.inbox.time' | t }}</span>
               </div>
@@ -173,8 +182,8 @@
                       <span class="fb-dot fb-dot--static"></span>
                       {{ 'feelbetter.badges.match_found' | t }}
                     </p>
-                    <p class="fb-inbox__product-name">{{ inbox_product | escape }}</p>
-                    <p class="fb-inbox__seller">{{ inbox_seller | escape }}</p>
+                    <p class="fb-inbox__product-name">{{ inbox_product | escape_once }}</p>
+                    <p class="fb-inbox__seller">{{ inbox_seller | escape_once }}</p>
                   </div>
                 </div>
                 <ul class="fb-badges fb-inbox__badges" role="list">
@@ -183,7 +192,7 @@
                   <li class="fb-badge fb-badge--ready">{{ 'feelbetter.badges.ready' | t }}</li>
                 </ul>
                 <div class="fb-inbox__cta">
-                  <span class="fb-inbox__price">{{ section.settings.inbox_price | escape }}</span>
+                  <span class="fb-inbox__price">{{ section.settings.inbox_price | escape_once }}</span>
                   <span class="button fb-inbox__button">{{ 'feelbetter.general.buy_now' | t }}</span>
                 </div>
               </div>

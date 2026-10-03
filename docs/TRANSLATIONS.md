@@ -1,12 +1,12 @@
 # Translations for Dawn-native strings
 
-The `feelbetter-*` sections render their copy from the `feelbetter.*` keys in `locales/*.json`, so they are translated automatically in every published language (en, ko, ja, zh-CN, es, de, fr).
+The `feelbetter-*` sections (hero, process, brief, trust, statement, steps, request, match, about, footer) render their copy from the `feelbetter.*` keys in `locales/*.json`, so they are translated automatically in every published language (en, ko, ja, zh-CN, es, de, fr).
 
 The strings below live in JSON templates / section groups / theme settings / page titles, which Shopify does **not** localize from locale files. Register them per language through the Admin API (`translationsRegister`) or Translate & Adapt. Every row is generated from the current JSON, so the English value (`en`, the translatable content's source value) matches exactly.
 
 For theme JSON, the translatable resource is the **theme file** (e.g. `templates/index.json` of the live theme) and the key follows Shopify's section-settings path: `sections.<section id>.settings.<key>` or `sections.<section id>.blocks.<block id>.settings.<key>`. Rich text values keep their `<p>…</p>` wrapper.
 
-Rows: **43** · Languages: ko, ja, zh-CN, es, de, fr
+Rows: **41** · Languages: ko, ja, zh-CN, es, de, fr
 
 | # | Resource | Section id | Block id | Key | en | ko | ja | zh-CN | es | de | fr |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -46,18 +46,16 @@ Rows: **43** · Languages: ko, ja, zh-CN, es, de, fr
 | 34 | `templates/product.json` | `main` | `share` | `share_label` | Share | 공유 | シェア | 分享 | Compartir | Teilen | Partager |
 | 35 | `templates/product.json` | `related-products` | — | `heading` | You may also like | 이런 상품은 어떠세요 | こちらもおすすめ | 你可能还喜欢 | También te puede gustar | Das könnte dir auch gefallen | Vous aimerez peut-être aussi |
 | 36 | `sections/header-group.json` | `announcement-bar` | `announcement-bar-0` | `text` | One message. One hour. One link. | 메시지 하나. 한 시간. 링크 하나. | メッセージひとつ。1時間。リンクひとつ。 | 一条消息。一小时。一个链接。 | Un mensaje. Una hora. Un enlace. | Eine Nachricht. Eine Stunde. Ein Link. | Un message. Une heure. Un lien. |
-| 37 | `sections/footer-group.json` | `footer` | `brand` | `heading` | Better things, for a better you. | 더 나은 것들, 더 나은 당신을 위해. | より良いものを、より良いあなたへ。 | 更好的东西，给更好的你。 | Cosas mejores, para una mejor versión de ti. | Bessere Dinge, für ein besseres Du. | De meilleures choses, pour un meilleur vous. |
-| 38 | `sections/footer-group.json` | `footer` | `brand` | `subtext` | <p>Personal shopping concierge from Seoul. Tell us the one thing you want — a verified, ready-to-buy link arrives within the hour.</p> | <p>서울의 퍼스널 쇼핑 컨시어지. 원하는 것 하나만 말씀하세요 — 검증된, 바로 살 수 있는 링크가 한 시간 안에 도착합니다.</p> | <p>ソウル発のパーソナルショッピング・コンシェルジュ。欲しいものをひとつだけ教えてください — 確認済みの、すぐ買えるリンクが1時間以内に届きます。</p> | <p>来自首尔的私人购物管家。告诉我们你想要的那一件——一个已核实、可直接购买的链接，一小时内送达。</p> | <p>Concierge de compras personal desde Seúl. Cuéntanos la única cosa que quieres — un enlace verificado y listo para comprar llega en menos de una hora.</p> | <p>Persönlicher Shopping-Concierge aus Seoul. Sag uns das eine, das du willst — ein geprüfter, kaufbereiter Link kommt innerhalb einer Stunde.</p> | <p>Concierge de shopping personnel depuis Séoul. Dites-nous la seule chose que vous voulez — un lien vérifié et prêt à l'achat arrive en moins d'une heure.</p> |
-| 39 | `sections/footer-group.json` | `footer` | `links` | `heading` | FeelBetter | FeelBetter | FeelBetter | FeelBetter | FeelBetter | FeelBetter | FeelBetter |
-| 40 | `config/settings_data.json (theme settings)` | — | — | `brand_headline` | Better things, for a better you. | 더 나은 것들, 더 나은 당신을 위해. | より良いものを、より良いあなたへ。 | 更好的东西，给更好的你。 | Cosas mejores, para una mejor versión de ti. | Bessere Dinge, für ein besseres Du. | De meilleures choses, pour un meilleur vous. |
-| 41 | `config/settings_data.json (theme settings)` | — | — | `brand_description` | <p>Personal shopping concierge from Seoul. Tell us the one thing you want — a verified, ready-to-buy link arrives within the hour.</p> | <p>서울의 퍼스널 쇼핑 컨시어지. 원하는 것 하나만 말씀하세요 — 검증된, 바로 살 수 있는 링크가 한 시간 안에 도착합니다.</p> | <p>ソウル発のパーソナルショッピング・コンシェルジュ。欲しいものをひとつだけ教えてください — 確認済みの、すぐ買えるリンクが1時間以内に届きます。</p> | <p>来自首尔的私人购物管家。告诉我们你想要的那一件——一个已核实、可直接购买的链接，一小时内送达。</p> | <p>Concierge de compras personal desde Seúl. Cuéntanos la única cosa que quieres — un enlace verificado y listo para comprar llega en menos de una hora.</p> | <p>Persönlicher Shopping-Concierge aus Seoul. Sag uns das eine, das du willst — ein geprüfter, kaufbereiter Link kommt innerhalb einer Stunde.</p> | <p>Concierge de shopping personnel depuis Séoul. Dites-nous la seule chose que vous voulez — un lien vérifié et prêt à l'achat arrive en moins d'une heure.</p> |
-| 42 | `Online store page (handle: request)` | — | — | `title` | Request | 요청하기 | リクエスト | 发起请求 | Petición | Anfrage | Demande |
-| 43 | `Online store page (handle: how-it-works)` | — | — | `title` | How it works | 이용 방법 | 仕組み | 如何运作 | Cómo funciona | So funktioniert es | Comment ça marche |
+| 37 | `config/settings_data.json (theme settings)` | — | — | `brand_headline` | Better things, for a better you. | 더 나은 것들, 더 나은 당신을 위해. | より良いものを、より良いあなたへ。 | 更好的东西，给更好的你。 | Cosas mejores, para una mejor versión de ti. | Bessere Dinge, für ein besseres Du. | De meilleures choses, pour un meilleur vous. |
+| 38 | `config/settings_data.json (theme settings)` | — | — | `brand_description` | <p>Personal shopping concierge from Seoul. Tell us the one thing you want — a verified, ready-to-buy link arrives within the hour.</p> | <p>서울의 퍼스널 쇼핑 컨시어지. 원하는 것 하나만 말씀하세요 — 검증된, 바로 살 수 있는 링크가 한 시간 안에 도착합니다.</p> | <p>ソウル発のパーソナルショッピング・コンシェルジュ。欲しいものをひとつだけ教えてください — 確認済みの、すぐ買えるリンクが1時間以内に届きます。</p> | <p>来自首尔的私人购物管家。告诉我们你想要的那一件——一个已核实、可直接购买的链接，一小时内送达。</p> | <p>Concierge de compras personal desde Seúl. Cuéntanos la única cosa que quieres — un enlace verificado y listo para comprar llega en menos de una hora.</p> | <p>Persönlicher Shopping-Concierge aus Seoul. Sag uns das eine, das du willst — ein geprüfter, kaufbereiter Link kommt innerhalb einer Stunde.</p> | <p>Concierge de shopping personnel depuis Séoul. Dites-nous la seule chose que vous voulez — un lien vérifié et prêt à l'achat arrive en moins d'une heure.</p> |
+| 39 | `Online store page (handle: request)` | — | — | `title` | Request | 요청하기 | リクエスト | 发起请求 | Petición | Anfrage | Demande |
+| 40 | `Online store page (handle: how-it-works)` | — | — | `title` | How it works | 이용 방법 | 仕組み | 如何运作 | Cómo funciona | So funktioniert es | Comment ça marche |
+| 41 | `Online store page (handle: about)` | — | — | `title` | About | 소개 | 私たちについて | 关于我们 | Sobre nosotros | Über uns | À propos |
 
 ## Notes
 
-- `FeelBetter` (footer link-list heading) is the brand name and stays identical in every language; it is listed so the table is complete.
+- The footer is now `sections/feelbetter-footer.liquid`; all of its labels come from `feelbetter.footer.*`, so the former footer rows are gone. Business-information values (company name, registration numbers, address…) are merchant data entered in the theme editor and are not translated.
 - The two `product.json` rows (`You may also like`, `Share`) are Dawn defaults kept for products that do not use the `product.feelbetter` template.
-- `templates/password.json`, `templates/page.request.json` and the feelbetter-* sections contain no hard-coded text any more; everything there comes from `locales/*.json` (`feelbetter.*`).
-- Page titles are `OnlineStorePage` resources (key `title`); the handles stay `request` and `how-it-works`.
+- `templates/password.json`, `templates/page.request.json`, `templates/page.about.json` and every feelbetter-* section contain no hard-coded text; everything there comes from `locales/*.json` (`feelbetter.*`).
+- Page titles are `OnlineStorePage` resources (key `title`); the handles stay `request`, `how-it-works` and `about`.
 - The vendor block in `main-product` renders `{{ product.vendor }}` and needs no translation.

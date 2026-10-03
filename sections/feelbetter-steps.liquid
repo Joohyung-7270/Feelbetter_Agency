@@ -42,11 +42,11 @@
         {%- if eyebrow != blank -%}
           <p class="fb-eyebrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             <span class="fb-dot" aria-hidden="true"></span>
-            <span>{{ eyebrow | escape }}</span>
+            <span>{{ eyebrow | escape_once }}</span>
           </p>
         {%- endif -%}
         <h2 class="fb-steps__heading {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          {{ heading | escape }}
+          {{ heading | escape_once }}
         </h2>
         {%- if text != blank -%}
           <div class="fb-steps__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -85,10 +85,10 @@
               {% endif %}
             >
               <span class="fb-step__marker" aria-hidden="true"></span>
-              <span class="fb-step__time">{{ step_time | escape }}</span>
-              <h3 class="fb-step__title">{{ step_title | escape }}</h3>
+              <span class="fb-step__time">{{ step_time | escape_once }}</span>
+              <h3 class="fb-step__title">{{ step_title | escape_once }}</h3>
               {%- if step_text != blank -%}
-                <p class="fb-step__text">{{ step_text | escape }}</p>
+                <p class="fb-step__text">{{ step_text | escape_once }}</p>
               {%- endif -%}
             </li>
           {%- endfor -%}

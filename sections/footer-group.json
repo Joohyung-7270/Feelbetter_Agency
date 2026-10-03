@@ -3,40 +3,25 @@
   "type": "footer",
   "sections": {
     "footer": {
-      "type": "footer",
-      "blocks": {
-        "brand": {
-          "type": "text",
-          "settings": {
-            "heading": "Better things, for a better you.",
-            "subtext": "<p>Personal shopping concierge from Seoul. Tell us the one thing you want — a verified, ready-to-buy link arrives within the hour.</p>"
-          }
-        },
-        "links": {
-          "type": "link_list",
-          "settings": {
-            "heading": "FeelBetter",
-            "menu": "footer"
-          }
-        }
-      },
-      "block_order": [
-        "brand",
-        "links"
-      ],
+      "type": "feelbetter-footer",
       "settings": {
         "color_scheme": "scheme-4",
-        "newsletter_enable": false,
-        "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": false,
-        "show_social": false,
+        "show_newsletter": true,
+        "biz_company": "FeelBetter",
+        "biz_representative": "",
+        "biz_registration": "",
+        "biz_ecommerce": "",
+        "biz_address": "",
+        "biz_phone": "",
+        "biz_email": "",
+        "biz_hosting": "Shopify",
+        "biz_notice": "",
         "enable_country_selector": true,
         "enable_language_selector": true,
-        "payment_enable": true,
-        "show_policy": true,
-        "margin_top": 0,
-        "padding_top": 48,
-        "padding_bottom": 36
+        "show_payment": true,
+        "show_social": true,
+        "padding_top": 72,
+        "padding_bottom": 40
       }
     }
   },

@@ -10,6 +10,10 @@
 {% endcomment %}
 
 {%- liquid
+  capture agency_url
+    render 'feelbetter-agency-url'
+  endcapture
+  assign agency_url = agency_url | strip
   assign fb_id = form_id | default: 'feelbetter'
   assign fb_api = settings.feelbetter_api_url | strip | default: 'https://feelbetter.agency'
   assign fb_minutes = settings.feelbetter_promise_minutes | default: 60
@@ -17,20 +21,20 @@
 
 <feelbetter-request
   class="fb-request-form"
-  data-api="{{ fb_api | escape }}"
+  data-api="{{ fb_api | escape_once }}"
   data-minutes="{{ fb_minutes }}"
   data-locale="{{ request.locale.iso_code | slice: 0, 2 }}"
-  data-error-prompt="{{ 'feelbetter.form.errors.prompt' | t | escape }}"
-  data-error-email="{{ 'feelbetter.form.errors.email' | t | escape }}"
-  data-error-link="{{ 'feelbetter.form.errors.link' | t | escape }}"
-  data-error-rate-limited="{{ 'feelbetter.form.errors.rate_limited' | t | escape }}"
-  data-error-generic="{{ 'feelbetter.form.errors.generic' | t | escape }}"
-  data-submitting="{{ 'feelbetter.form.submitting' | t | escape }}"
-  data-received-body="{{ 'feelbetter.received.body' | t: email: '[email]', time: '[time]' | escape }}"
-  data-received-ref="{{ 'feelbetter.received.ref' | t: ref: '[ref]' | escape }}"
-  data-arrives-by="{{ 'feelbetter.received.arrives_by' | t: time: '[time]' | escape }}"
-  data-status-searching="{{ 'feelbetter.received.status_searching' | t | escape }}"
-  data-status-due="{{ 'feelbetter.received.status_due' | t | escape }}"
+  data-error-prompt="{{ 'feelbetter.form.errors.prompt' | t | escape_once }}"
+  data-error-email="{{ 'feelbetter.form.errors.email' | t | escape_once }}"
+  data-error-link="{{ 'feelbetter.form.errors.link' | t | escape_once }}"
+  data-error-rate-limited="{{ 'feelbetter.form.errors.rate_limited' | t | escape_once }}"
+  data-error-generic="{{ 'feelbetter.form.errors.generic' | t | escape_once }}"
+  data-submitting="{{ 'feelbetter.form.submitting' | t | escape_once }}"
+  data-received-body="{{ 'feelbetter.received.body' | t: email: '[email]', time: '[time]' | escape_once }}"
+  data-received-ref="{{ 'feelbetter.received.ref' | t: ref: '[ref]' | escape_once }}"
+  data-arrives-by="{{ 'feelbetter.received.arrives_by' | t: time: '[time]' | escape_once }}"
+  data-status-searching="{{ 'feelbetter.received.status_searching' | t | escape_once }}"
+  data-status-due="{{ 'feelbetter.received.status_due' | t | escape_once }}"
 >
   <form
     class="fb-form"
@@ -55,7 +59,7 @@
         minlength="3"
         maxlength="2000"
         autocomplete="off"
-        placeholder="{{ 'feelbetter.form.prompt_placeholder' | t | escape }}"
+        placeholder="{{ 'feelbetter.form.prompt_placeholder' | t | escape_once }}"
       ></textarea>
     </div>
 
@@ -85,7 +89,7 @@
         inputmode="url"
         autocomplete="off"
         spellcheck="false"
-        placeholder="{{ 'feelbetter.form.link_placeholder' | t | escape }}"
+        placeholder="{{ 'feelbetter.form.link_placeholder' | t | escape_once }}"
       >
     </div>
 
@@ -104,7 +108,7 @@
         spellcheck="false"
         required
         aria-required="true"
-        placeholder="{{ 'feelbetter.form.email_placeholder' | t | escape }}"
+        placeholder="{{ 'feelbetter.form.email_placeholder' | t | escape_once }}"
       >
     </div>
 
@@ -125,6 +129,13 @@
 
     <p class="fb-form__fine" id="{{ fb_id }}-fine">
       {{ 'feelbetter.form.fine_print' | t: minutes: fb_minutes }}
+      <span class="fb-form__coupon">{{ 'feelbetter.form.coupon_note' | t }}</span>
+    </p>
+    <p class="fb-form__powered fb-mono">
+      <a href="{{ agency_url }}" target="_blank" rel="noopener">
+        {{- 'feelbetter.form.powered_by' | t }} <span class="fb-ext" aria-hidden="true">↗</span>
+        <span class="visually-hidden">({{ 'feelbetter.footer.external_label' | t }})</span>
+      </a>
     </p>
   </form>
 
@@ -144,7 +155,7 @@
         <br>
         <span data-arrives></span>
       </span>
-      <span class="fb-countdown__clock" data-countdown role="timer" aria-label="{{ 'feelbetter.received.countdown_label' | t | escape }}">{% if fb_minutes < 10 %}0{% endif %}{{ fb_minutes }}:00</span>
+      <span class="fb-countdown__clock" data-countdown role="timer" aria-label="{{ 'feelbetter.received.countdown_label' | t | escape_once }}">{% if fb_minutes < 10 %}0{% endif %}{{ fb_minutes }}:00</span>
     </div>
     <div
       class="fb-progress"
@@ -152,7 +163,7 @@
       aria-valuemin="0"
       aria-valuemax="100"
       aria-valuenow="0"
-      aria-label="{{ 'feelbetter.received.progress_label' | t | escape }}"
+      aria-label="{{ 'feelbetter.received.progress_label' | t | escape_once }}"
     >
       <span class="fb-progress__bar" data-progress-bar></span>
     </div>

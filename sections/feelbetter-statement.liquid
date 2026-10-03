@@ -47,12 +47,11 @@
   <div class="{% if section.settings.show_grid %}fb-grid-bg {% endif %}section-{{ section.id }}-padding">
     <div class="page-width">
       <div class="fb-statement">
-        <h2 class="visually-hidden">{{ line_1 }} {{ line_2 }} {{ line_3 }}</h2>
-        <p class="fb-statement__group" aria-hidden="true">
-          <span class="fb-statement__line{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: 1;"{% endif %}>{{ line_1 | escape }}</span>
-          <span class="fb-statement__line{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: 2;"{% endif %}>{{ line_2 | escape }}</span>
-          <span class="fb-statement__line fb-statement__line--em{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: 3;"{% endif %}>{{ line_3 | escape }}</span>
-        </p>
+        <h2 class="fb-statement__group">
+          <span class="fb-statement__line{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: 1;"{% endif %}>{{ line_1 | escape_once }}</span>
+          <span class="fb-statement__line{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: 2;"{% endif %}>{{ line_2 | escape_once }}</span>
+          <span class="fb-statement__line fb-statement__line--em{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: 3;"{% endif %}>{{ line_3 | escape_once }}</span>
+        </h2>
 
         {%- if section.settings.show_second_group -%}
           {%- liquid
@@ -70,15 +69,15 @@
             endif
           -%}
           <p class="fb-statement__group fb-statement__group--secondary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: 4;"{% endif %}>
-            <span class="fb-statement__line">{{ line_4 | escape }}</span>
-            <span class="fb-statement__line">{{ line_5 | escape }}</span>
-            <span class="fb-statement__line">{{ line_6 | escape }}</span>
+            <span class="fb-statement__line">{{ line_4 | escape_once }}</span>
+            <span class="fb-statement__line">{{ line_5 | escape_once }}</span>
+            <span class="fb-statement__line">{{ line_6 | escape_once }}</span>
           </p>
         {%- endif -%}
 
         {%- if micro != blank -%}
           <p class="fb-statement__micro{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: 5;"{% endif %}>
-            {{ micro | escape }}
+            {{ micro | escape_once }}
           </p>
         {%- endif -%}
       </div>

@@ -55,8 +55,8 @@
         "heading_size": "h1",
         "text": "",
         "color_scheme": "scheme-1",
-        "padding_top": 64,
-        "padding_bottom": 64
+        "padding_top": 48,
+        "padding_bottom": 72
       }
     },
     "collapsible_content": {
@@ -117,7 +117,7 @@
         "heading_alignment": "left",
         "layout": "none",
         "container_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
@@ -141,12 +141,81 @@
         "padding_top": 96,
         "padding_bottom": 96
       }
+    },
+    "feelbetter_process": {
+      "type": "feelbetter-process",
+      "settings": {
+        "eyebrow": "",
+        "heading": "",
+        "heading_size": "h1",
+        "text": "",
+        "show_cards": true,
+        "price": "₩189,000",
+        "color_scheme": "scheme-2",
+        "padding_top": 88,
+        "padding_bottom": 88
+      }
+    },
+    "feelbetter_trust": {
+      "type": "feelbetter-trust",
+      "settings": {
+        "eyebrow": "",
+        "heading": "",
+        "heading_size": "h1",
+        "text": "",
+        "show_stats": true,
+        "show_grid": true,
+        "color_scheme": "scheme-3",
+        "padding_top": 88,
+        "padding_bottom": 88
+      }
+    },
+    "feelbetter_brief": {
+      "type": "feelbetter-brief",
+      "settings": {
+        "eyebrow": "",
+        "heading": "",
+        "heading_size": "h1",
+        "caption": "",
+        "show_grid": true,
+        "color_scheme": "scheme-4",
+        "padding_top": 88,
+        "padding_bottom": 88
+      }
+    },
+    "feelbetter_about": {
+      "type": "feelbetter-about",
+      "settings": {
+        "eyebrow": "",
+        "heading": "",
+        "heading_size": "h1",
+        "lead": "",
+        "story_1": "",
+        "story_2": "",
+        "show_credentials": true,
+        "cred_1": "",
+        "cred_2": "",
+        "cred_3": "",
+        "cred_4": "",
+        "cred_5": "",
+        "mission": "",
+        "cta_label": "",
+        "cta_url": "shopify://pages/request",
+        "show_journal": true,
+        "color_scheme": "scheme-2",
+        "padding_top": 88,
+        "padding_bottom": 88
+      }
     }
   },
   "order": [
     "main",
     "feelbetter_steps",
+    "feelbetter_process",
+    "feelbetter_trust",
+    "feelbetter_brief",
     "collapsible_content",
+    "feelbetter_about",
     "feelbetter_statement"
   ]
 }

@@ -42,61 +42,9 @@
         "inbox_time": "00:47",
         "color_scheme": "scheme-3",
         "card_color_scheme": "scheme-1",
-        "padding_top": 72,
-        "padding_bottom": 72,
+        "padding_top": 88,
+        "padding_bottom": 96,
         "copy_set": "home"
-      }
-    },
-    "feelbetter_steps": {
-      "type": "feelbetter-steps",
-      "blocks": {
-        "step_1": {
-          "type": "step",
-          "settings": {
-            "time": "",
-            "title": "",
-            "text": ""
-          }
-        },
-        "step_2": {
-          "type": "step",
-          "settings": {
-            "time": "",
-            "title": "",
-            "text": ""
-          }
-        },
-        "step_3": {
-          "type": "step",
-          "settings": {
-            "time": "",
-            "title": "",
-            "text": ""
-          }
-        },
-        "step_4": {
-          "type": "step",
-          "settings": {
-            "time": "",
-            "title": "",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "step_1",
-        "step_2",
-        "step_3",
-        "step_4"
-      ],
-      "settings": {
-        "eyebrow": "",
-        "heading": "",
-        "heading_size": "h1",
-        "text": "",
-        "color_scheme": "scheme-1",
-        "padding_top": 64,
-        "padding_bottom": 64
       }
     },
     "featured_collection": {
@@ -123,8 +71,8 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "padding_top": 64,
-        "padding_bottom": 64
+        "padding_top": 88,
+        "padding_bottom": 88
       }
     },
     "feelbetter_statement": {
@@ -206,8 +154,8 @@
         "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 64,
-        "padding_bottom": 64
+        "padding_top": 88,
+        "padding_bottom": 88
       }
     },
     "feelbetter_request": {
@@ -219,15 +167,58 @@
         "text": "",
         "show_grid": false,
         "color_scheme": "scheme-2",
-        "padding_top": 72,
-        "padding_bottom": 72
+        "padding_top": 88,
+        "padding_bottom": 96
+      }
+    },
+    "feelbetter_process": {
+      "type": "feelbetter-process",
+      "settings": {
+        "eyebrow": "",
+        "heading": "",
+        "heading_size": "h1",
+        "text": "",
+        "show_cards": true,
+        "price": "₩189,000",
+        "color_scheme": "scheme-1",
+        "padding_top": 88,
+        "padding_bottom": 88
+      }
+    },
+    "feelbetter_brief": {
+      "type": "feelbetter-brief",
+      "settings": {
+        "eyebrow": "",
+        "heading": "",
+        "heading_size": "h1",
+        "caption": "",
+        "show_grid": true,
+        "color_scheme": "scheme-4",
+        "padding_top": 88,
+        "padding_bottom": 88
+      }
+    },
+    "feelbetter_trust": {
+      "type": "feelbetter-trust",
+      "settings": {
+        "eyebrow": "",
+        "heading": "",
+        "heading_size": "h1",
+        "text": "",
+        "show_stats": true,
+        "show_grid": true,
+        "color_scheme": "scheme-3",
+        "padding_top": 88,
+        "padding_bottom": 88
       }
     }
   },
   "order": [
     "feelbetter_hero",
-    "feelbetter_steps",
+    "feelbetter_process",
+    "feelbetter_brief",
     "featured_collection",
+    "feelbetter_trust",
     "feelbetter_statement",
     "collapsible_content",
     "feelbetter_request"

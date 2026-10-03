@@ -1,0 +1,274 @@
+{%- comment -%}
+  Company introduction. All copy from feelbetter.about.* when settings are empty.
+{%- endcomment -%}
+
+{%- liquid
+  assign eyebrow = section.settings.eyebrow
+  if eyebrow == blank
+    assign eyebrow = 'feelbetter.about.eyebrow' | t
+  endif
+  assign heading = section.settings.heading
+  if heading == blank
+    assign heading = 'feelbetter.about.heading' | t
+  endif
+  assign lead = section.settings.lead
+  if lead == blank
+    assign lead = 'feelbetter.about.lead' | t
+  endif
+  assign story_1 = section.settings.story_1
+  if story_1 == blank
+    assign story_1 = 'feelbetter.about.story_1' | t
+  endif
+  assign story_2 = section.settings.story_2
+  if story_2 == blank
+    assign story_2 = 'feelbetter.about.story_2' | t
+  endif
+  assign mission = section.settings.mission
+  if mission == blank
+    assign mission = 'feelbetter.about.mission' | t
+  endif
+  assign cta_label = section.settings.cta_label
+  if cta_label == blank
+    assign cta_label = 'feelbetter.about.cta' | t
+  endif
+  assign cta_url = section.settings.cta_url
+  if cta_url == blank
+    assign cta_url = routes.root_url | append: '/pages/request' | replace: '//', '/'
+  endif
+  capture journal_url
+    render 'feelbetter-agency-url', path: 'blog'
+  endcapture
+  assign journal_url = journal_url | strip
+-%}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="page-width section-{{ section.id }}-padding">
+    <div class="fb-about">
+      <div class="fb-about__intro{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <p class="fb-eyebrow"><span class="fb-dot" aria-hidden="true"></span><span>{{ eyebrow | escape_once }}</span></p>
+        <h2 class="fb-about__heading {{ section.settings.heading_size }}">{{ heading | escape_once }}</h2>
+        <p class="fb-about__lead">{{ lead | escape_once }}</p>
+      </div>
+
+      <div class="fb-about__body{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <div class="fb-about__story rte">
+          <p>{{ story_1 | escape_once }}</p>
+          <p>{{ story_2 | escape_once }}</p>
+        </div>
+
+        {%- if section.settings.show_credentials -%}
+          <div class="fb-about__creds">
+            <span class="fb-about__label fb-mono">{{ 'feelbetter.about.credentials_label' | t }}</span>
+            <ul class="fb-chips" role="list">
+              {%- for i in (1..5) -%}
+                {%- liquid
+                  assign setting_key = 'cred_' | append: i
+                  assign cred = section.settings[setting_key]
+                  if cred == blank
+                    assign key = 'feelbetter.about.cred_' | append: i
+                    assign cred = key | t
+                  endif
+                -%}
+                {%- if cred != blank -%}
+                  <li class="fb-chip">{{ cred | escape_once }}</li>
+                {%- endif -%}
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- endif -%}
+
+        <div class="fb-about__mission">
+          <span class="fb-about__label fb-mono">{{ 'feelbetter.about.mission_label' | t }}</span>
+          <p class="fb-about__mission-line">{{ mission | escape_once }}</p>
+        </div>
+
+        <div class="fb-about__actions">
+          <a class="button button--secondary" href="{{ cta_url }}">{{ cta_label | escape_once }}</a>
+          {%- if section.settings.show_journal -%}
+            <a class="fb-textlink" href="{{ journal_url }}" target="_blank" rel="noopener">
+              {{- 'feelbetter.about.journal' | t }} <span class="fb-ext" aria-hidden="true">↗</span>
+              <span class="visually-hidden">({{ 'feelbetter.footer.external_label' | t }})</span>
+            </a>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "FeelBetter about",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Company introduction. Leave the text fields empty: the theme renders its translated copy (feelbetter.about.*) in every published language."
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "textarea",
+      "id": "lead",
+      "label": "Lead paragraph",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "textarea",
+      "id": "story_1",
+      "label": "Story, paragraph 1",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "textarea",
+      "id": "story_2",
+      "label": "Story, paragraph 2",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "header",
+      "content": "Credentials"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_credentials",
+      "label": "Show credentials row",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "cred_1",
+      "label": "Credential 1",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "text",
+      "id": "cred_2",
+      "label": "Credential 2"
+    },
+    {
+      "type": "text",
+      "id": "cred_3",
+      "label": "Credential 3"
+    },
+    {
+      "type": "text",
+      "id": "cred_4",
+      "label": "Credential 4"
+    },
+    {
+      "type": "text",
+      "id": "cred_5",
+      "label": "Credential 5"
+    },
+    {
+      "type": "header",
+      "content": "Mission and links"
+    },
+    {
+      "type": "text",
+      "id": "mission",
+      "label": "Mission line",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "text",
+      "id": "cta_label",
+      "label": "Button label",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "url",
+      "id": "cta_url",
+      "label": "Button link",
+      "info": "Defaults to /pages/request."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_journal",
+      "label": "Show 'Read our journal' link to feelbetter.agency",
+      "default": true
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-2"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 88
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 88
+    }
+  ],
+  "presets": [
+    {
+      "name": "FeelBetter about"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,266 @@
+{%- comment -%}
+  "Why you can trust it": a slim stats strip + a 2x3 grid of trust blocks.
+  Blocks are optional; without blocks the six translated defaults render.
+  With blocks, every empty title/text falls back to the translated copy for that position.
+{%- endcomment -%}
+
+{%- liquid
+  assign eyebrow = section.settings.eyebrow
+  if eyebrow == blank
+    assign eyebrow = 'feelbetter.trust.eyebrow' | t
+  endif
+  assign heading = section.settings.heading
+  if heading == blank
+    assign heading = 'feelbetter.trust.heading' | t
+  endif
+  assign text = section.settings.text
+  if text == blank
+    assign text = 'feelbetter.trust.text' | t
+  endif
+  assign minutes = settings.feelbetter_promise_minutes | default: 60
+  assign count = section.blocks.size
+  if count == 0
+    assign count = 6
+  endif
+  assign position_icons = 'verified,human_ai,lock,tag,since,globe' | split: ','
+-%}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="{% if section.settings.show_grid %}fb-grid-bg {% endif %}section-{{ section.id }}-padding">
+    <div class="page-width">
+      <header class="fb-section-head{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <p class="fb-eyebrow"><span class="fb-dot" aria-hidden="true"></span><span>{{ eyebrow | escape_once }}</span></p>
+        <h2 class="fb-section-head__heading {{ section.settings.heading_size }}">{{ heading | escape_once }}</h2>
+        {%- if text != blank -%}
+          <p class="fb-section-head__text">{{ text | escape_once }}</p>
+        {%- endif -%}
+      </header>
+
+      {%- if section.settings.show_stats -%}
+        <ul class="fb-stats fb-mono{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" role="list">
+          <li class="fb-stats__item">{{ 'feelbetter.trust.stat_1' | t }}</li>
+          <li class="fb-stats__item">{{ 'feelbetter.trust.stat_2' | t: minutes: minutes }}</li>
+          <li class="fb-stats__item">{{ 'feelbetter.trust.stat_3' | t }}</li>
+          <li class="fb-stats__item">{{ 'feelbetter.trust.stat_4' | t }}</li>
+        </ul>
+      {%- endif -%}
+
+      <ul class="fb-trust" role="list">
+        {%- for i in (1..count) -%}
+          {%- liquid
+            assign block = section.blocks[forloop.index0]
+            assign title = block.settings.title
+            assign body = block.settings.text
+            assign icon = block.settings.icon
+            if title == blank
+              assign key = 'feelbetter.trust.block_' | append: i | append: '_title'
+              assign title = key | t
+            endif
+            if body == blank
+              assign key = 'feelbetter.trust.block_' | append: i | append: '_text'
+              assign body = key | t
+            endif
+            if icon == blank or icon == 'auto'
+              assign icon_index = forloop.index0 | modulo: 6
+              assign icon = position_icons[icon_index]
+            endif
+          -%}
+          <li
+            class="fb-trust__item fb-card{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {% if block %}{{ block.shopify_attributes }}{% endif %}
+            {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: {{ forloop.index }};"{% endif %}
+          >
+            <span class="fb-trust__icon" aria-hidden="true">
+              {%- case icon -%}
+                {%- when 'human_ai' -%}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0"/><path d="M17.5 4.5l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z"/><path d="M19 12.5l.5 1.2 1.2.5-1.2.5-.5 1.2-.5-1.2-1.2-.5 1.2-.5z"/></svg>
+                {%- when 'lock' -%}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2.5"/><path d="M8.5 10.5V7.5a3.5 3.5 0 0 1 7 0v3"/><path d="M12 14.5v2.5"/></svg>
+                {%- when 'tag' -%}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 12.5V5a1.5 1.5 0 0 1 1.5-1.5h7.5l8 8-9 9z"/><circle cx="8" cy="8" r="1.2"/></svg>
+                {%- when 'since' -%}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/><path d="M8.5 15.5l2 2 4.5-4.5"/></svg>
+                {%- when 'globe' -%}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.4 3.9 5.2 3.9 8.5s-1.3 6.1-3.9 8.5c-2.6-2.4-3.9-5.2-3.9-8.5s1.3-6.1 3.9-8.5z"/></svg>
+                {%- else -%}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M8.8 12.2l2.2 2.2 4.4-4.6"/></svg>
+              {%- endcase -%}
+            </span>
+            <h3 class="fb-trust__title">{{ title | escape_once }}</h3>
+            <p class="fb-trust__text">{{ body | escape_once }}</p>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "FeelBetter trust",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Leave the text fields empty: the theme renders its translated copy (feelbetter.trust.*) in every published language. Add blocks only to override a block for all languages."
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text",
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_stats",
+      "label": "Show the stats strip (Since 2020 · promise · languages · one link)",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_grid",
+      "label": "Show dotted grid background",
+      "default": true
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-3"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 88
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 88
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Trust block",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "auto",
+              "label": "By position"
+            },
+            {
+              "value": "verified",
+              "label": "Shield check"
+            },
+            {
+              "value": "human_ai",
+              "label": "Person + sparkles"
+            },
+            {
+              "value": "lock",
+              "label": "Lock"
+            },
+            {
+              "value": "tag",
+              "label": "Price tag"
+            },
+            {
+              "value": "since",
+              "label": "Calendar"
+            },
+            {
+              "value": "globe",
+              "label": "Globe"
+            }
+          ],
+          "default": "auto"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "info": "Empty = translated copy for this position (1-6)."
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "info": "Empty = translated copy for this position (1-6)."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FeelBetter trust"
+    }
+  ]
+}
+{% endschema %}

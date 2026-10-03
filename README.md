@@ -46,9 +46,15 @@ Theme settings (**Theme settings → FeelBetter**) hold the app URL, the promise
 | `sections/feelbetter-steps.liquid` | "How it works" timeline (00:00 → ≤ 60:00). |
 | `sections/feelbetter-statement.liquid` | Big typographic brand statement. |
 | `sections/feelbetter-match.liquid` | Product-page "MATCH FOUND" strip with badges and Buy now. |
+| `sections/feelbetter-process.liquid` | Four-node process schematic (SVG connectors, travelling sunlight dot, data cards). |
+| `sections/feelbetter-trust.liquid` | "Why you can trust it" stats strip + 2×3 trust grid. |
+| `sections/feelbetter-brief.liquid` | Message → AI brief showcase with the scanning border. |
+| `sections/feelbetter-about.liquid` | Company introduction, credentials, mission, journal link. |
+| `sections/feelbetter-footer.liquid` | Company footer: newsletter, Service/Company/Legal columns, business information, selectors, payment icons, copyright. Used by `sections/footer-group.json` (Dawn's `footer.liquid` is untouched). |
+| `snippets/feelbetter-agency-url.liquid` | feelbetter.agency URL for the current language (en/ko/ja/es; others → en). |
 | `snippets/feelbetter-request-form.liquid` | The form markup shared by hero and request sections. |
 | `snippets/feelbetter-badges.liquid` | Compact badges (Verified seller · In stock · Ready to buy). |
-| `templates/index.json`, `product.feelbetter.json`, `page.request.json`, `page.how-it-works.json`, `password.json` | FeelBetter page compositions. |
+| `templates/index.json`, `product.feelbetter.json`, `page.request.json`, `page.how-it-works.json`, `page.about.json`, `password.json` | FeelBetter page compositions. |
 | `docs/BRAND_FILM.md` | Brand brief: copy, tone, colours. |
 | `docs/TRANSLATIONS.md` | Dawn-native JSON strings (FAQ, footer, tabs, page titles) with ko/ja/zh-CN/es/de/fr translations for the Admin API. |
 | `docs/DAWN_RELEASE_NOTES.md` | Dawn's own release notes for the version we forked. |
@@ -84,7 +90,9 @@ When no metafields exist the badges fall back to "In stock" / "Ready to buy" fro
 ## Store setup checklist
 
 - **Collection** `feelbetter-finds` — automatic, condition *product tag is equal to* `feelbetter`. Shown as "Recent finds" on the home page.
-- **Pages** `request` (template `page.request`) and `how-it-works` (template `page.how-it-works`).
+- **Pages** `request` (template `page.request`), `how-it-works` (template `page.how-it-works`) and `about` (template `page.about`).
+- **Policies** (Settings → Policies): privacy, terms, refund, shipping, contact information — the footer's Legal column shows whichever exist.
+- **Footer business information** (theme editor → Footer): representative, business registration no., e-commerce permit no., address, phone, email.
 - **Menus** `main-menu` (e.g. Request · How it works · Recent finds) and `footer` (e.g. Privacy · Terms · Contact).
 - **Product template**: products created by the app should use `product.feelbetter`. The default `product.json` also shows the badges.
 - **Languages**: the theme ships `feelbetter.*` copy for en, ko, ja, zh-CN, es, de and fr. Publish them in *Settings → Languages*; the feelbetter-* sections translate themselves. The handful of Dawn-native strings that live in JSON (FAQ, footer, tabs, page titles) are listed with translations in [`docs/TRANSLATIONS.md`](docs/TRANSLATIONS.md) for `translationsRegister`. The request form sends the page language (`en`/`ko`/`ja`/`es`, anything else falls back to `en`) to the app.
