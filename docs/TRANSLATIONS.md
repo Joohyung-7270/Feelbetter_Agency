@@ -59,3 +59,4 @@ Rows: **41** · Languages: ko, ja, zh-CN, es, de, fr
 - `templates/password.json`, `templates/page.request.json`, `templates/page.about.json` and every feelbetter-* section contain no hard-coded text; everything there comes from `locales/*.json` (`feelbetter.*`).
 - Page titles are `OnlineStorePage` resources (key `title`); the handles stay `request`, `how-it-works` and `about`.
 - The vendor block in `main-product` renders `{{ product.vendor }}` and needs no translation.
+| 42 | `Online store page (handle: for-ai-assistants)` | — | — | `title` | For AI assistants | AI 어시스턴트용 안내 | AIアシスタント向け | 面向AI助手 | Para asistentes de IA | Für KI-Assistenten | Pour les assistants IA |
