@@ -6,7 +6,7 @@ FeelBetter is an AI shopping concierge. A visitor says what they want (words, a 
 
 It is not a browse-thousands-of-products marketplace. The home page is a request-first landing page; the product page is the match card.
 
-> **Better things, for a better you.** · See it. Want it. We'll find it.
+> **Only for you.** Shopping that starts with what you want. · Better things, for a better you.
 
 Store: `xpshtv-rr.myshopify.com` (KRW, ships worldwide). Brand brief and copy: [`docs/BRAND_FILM.md`](docs/BRAND_FILM.md).
 
@@ -50,6 +50,7 @@ Theme settings (**Theme settings → FeelBetter**) hold the app URL, the promise
 | `snippets/feelbetter-badges.liquid` | Compact badges (Verified seller · In stock · Ready to buy). |
 | `templates/index.json`, `product.feelbetter.json`, `page.request.json`, `page.how-it-works.json`, `password.json` | FeelBetter page compositions. |
 | `docs/BRAND_FILM.md` | Brand brief: copy, tone, colours. |
+| `docs/TRANSLATIONS.md` | Dawn-native JSON strings (FAQ, footer, tabs, page titles) with ko/ja/zh-CN/es/de/fr translations for the Admin API. |
 | `docs/DAWN_RELEASE_NOTES.md` | Dawn's own release notes for the version we forked. |
 
 ### Dawn core files we touched
@@ -59,7 +60,7 @@ Kept to a minimum so upstream merges stay easy:
 - `layout/theme.liquid`, `layout/password.liquid` — load `feelbetter.css` + `feelbetter-request.js`, set `theme-color`.
 - `config/settings_schema.json` — theme info + the **FeelBetter** settings group (appended).
 - `config/settings_data.json` — the **FeelBetter** preset (colour schemes, fonts, radii).
-- `locales/en.default.json`, `ko.json`, `ja.json`, `es.json` — a `feelbetter` namespace appended at the end.
+- `locales/en.default.json`, `ko.json`, `ja.json`, `zh-CN.json`, `es.json`, `de.json`, `fr.json` — a `feelbetter` namespace appended at the end. The feelbetter-* sections leave their text settings empty on purpose: empty = translated copy from these files.
 - `templates/product.json` — one `custom_liquid` block that renders the badges.
 - `sections/header-group.json`, `sections/footer-group.json` — announcement, selectors, footer blocks.
 
@@ -86,7 +87,7 @@ When no metafields exist the badges fall back to "In stock" / "Ready to buy" fro
 - **Pages** `request` (template `page.request`) and `how-it-works` (template `page.how-it-works`).
 - **Menus** `main-menu` (e.g. Request · How it works · Recent finds) and `footer` (e.g. Privacy · Terms · Contact).
 - **Product template**: products created by the app should use `product.feelbetter`. The default `product.json` also shows the badges.
-- **Languages**: publish Korean, Japanese and Spanish in *Settings → Languages* to light up the translated copy; the request form sends the page language (`en`/`ko`/`ja`/`es`) to the app.
+- **Languages**: the theme ships `feelbetter.*` copy for en, ko, ja, zh-CN, es, de and fr. Publish them in *Settings → Languages*; the feelbetter-* sections translate themselves. The handful of Dawn-native strings that live in JSON (FAQ, footer, tabs, page titles) are listed with translations in [`docs/TRANSLATIONS.md`](docs/TRANSLATIONS.md) for `translationsRegister`. The request form sends the page language (`en`/`ko`/`ja`/`es`, anything else falls back to `en`) to the app.
 - **Markets**: the header shows the country and language selectors when more than one is published.
 
 ## Develop

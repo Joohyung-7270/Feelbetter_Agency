@@ -10,10 +10,10 @@
     "feelbetter_request": {
       "type": "feelbetter-request",
       "settings": {
-        "eyebrow": "Say what you want.",
-        "heading": "So — what do you want?",
+        "eyebrow": "",
+        "heading": "",
         "heading_size": "h1",
-        "text": "<p>Words, a link or a photo description. No sign-up. One email with one link.</p>",
+        "text": "",
         "show_grid": false,
         "color_scheme": "scheme-1",
         "padding_top": 72,
@@ -26,33 +26,33 @@
         "step_1": {
           "type": "step",
           "settings": {
-            "time": "00:00",
-            "title": "You describe it",
-            "text": "Words, a link or a photo. No account, no filters."
+            "time": "",
+            "title": "",
+            "text": ""
           }
         },
         "step_2": {
           "type": "step",
           "settings": {
-            "time": "00:01",
-            "title": "AI writes the brief",
-            "text": "Item, style, reference. The request becomes a sourcing brief."
+            "time": "",
+            "title": "",
+            "text": ""
           }
         },
         "step_3": {
           "type": "step",
           "settings": {
-            "time": "00:10",
-            "title": "A concierge sources it",
-            "text": "A person checks the model, seller, stock, price and shipping."
+            "time": "",
+            "title": "",
+            "text": ""
           }
         },
         "step_4": {
           "type": "step",
           "settings": {
-            "time": "≤ 60:00",
-            "title": "The link is yours",
-            "text": "One email. One verified, ready-to-buy link."
+            "time": "",
+            "title": "",
+            "text": ""
           }
         }
       },
@@ -63,10 +63,10 @@
         "step_4"
       ],
       "settings": {
-        "eyebrow": "How it works",
-        "heading": "One message. One hour. One link.",
+        "eyebrow": "",
+        "heading": "",
         "heading_size": "h1",
-        "text": "<p>AI finds the signal. A human concierge checks the details. You get one link you can trust.</p>",
+        "text": "",
         "color_scheme": "scheme-2",
         "padding_top": 64,
         "padding_bottom": 64

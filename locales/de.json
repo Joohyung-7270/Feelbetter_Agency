@@ -527,5 +527,115 @@
       "expanded": "Formular für den Empfänger des Gutscheins erweitert",
       "collapsed": "Formular für den Empfänger des Gutscheins minimiert"
     }
+  },
+  "feelbetter": {
+    "general": {
+      "tagline": "Bessere Dinge, für ein besseres Du.",
+      "buy_now": "Jetzt kaufen",
+      "ask_again": "Etwas anderes anfragen"
+    },
+    "hero": {
+      "eyebrow": "Persönlicher Shopping-Concierge · Seoul → weltweit",
+      "heading_a": "Nur für dich.",
+      "heading_b": "Einkaufen, das beginnt mit",
+      "heading_em": "dem, was du willst.",
+      "text": "Sag uns das eine, das du suchst — in Worten, als Link oder als Foto. Ein Concierge findet es, prüft es und schickt dir innerhalb einer Stunde einen einzigen Link, mit dem du direkt kaufen kannst.",
+      "proof_1": "Keine Registrierung",
+      "proof_2": "Produkte aus Korea und aller Welt",
+      "proof_3": "Ein Link, von einem Menschen geprüft",
+      "inbox_preview_label": "Vorschau der E-Mail, die du erhältst",
+      "inbox_preview_text": "Beispiel-E-Mail von Feelbetter Concierge. Betreff: Dein Link ist da. Ein für dich gefundenes Produkt, markiert als geprüfter Händler, auf Lager und bereit zum Kauf, mit einem Jetzt-kaufen-Button."
+    },
+    "password": {
+      "heading_a": "Bald geht es los.",
+      "heading_b": "Nur für dich.",
+      "heading_em": "Einkaufen, das beginnt mit dem, was du willst."
+    },
+    "inbox": {
+      "from": "Feelbetter Concierge",
+      "time": "Gerade eben",
+      "subject": "Dein Link ist da.",
+      "intro": "Gefunden und geprüft. Das ist deine Option:",
+      "product": "Schwarzes minimalistisches Skateboard · das, das du gesehen hast",
+      "seller": "Offizieller Shop · Auf Lager · Versand zu dir",
+      "footer": "Von deinem Concierge geprüft · {{ time }} nach der Anfrage"
+    },
+    "badges": {
+      "match_found": "MATCH FOUND",
+      "verified_seller": "Geprüfter Händler",
+      "verified_seller_named": "Geprüfter Händler · {{ seller }}",
+      "in_stock": "Auf Lager",
+      "ready": "Bereit zum Kauf",
+      "verifying": "Wird geprüft",
+      "checked_on": "Geprüft am {{ date }}",
+      "request_ref": "Anfrage {{ ref }}",
+      "concierge_checked": "Von deinem Concierge geprüft"
+    },
+    "form": {
+      "prompt_label": "Wonach suchst du?",
+      "prompt_placeholder": "Ich habe dieses Skateboard in Seoul gesehen. Schwarzes Deck, minimalistische Grafik. So etwas in der Art…",
+      "link_toggle": "Link hinzufügen",
+      "link_label": "Produktlink",
+      "optional": "optional",
+      "link_placeholder": "https://",
+      "email_label": "E-Mail",
+      "email_placeholder": "du@beispiel.de",
+      "submit": "Finde es für mich",
+      "submitting": "Wird gesendet…",
+      "fine_print": "Keine Registrierung. Kein Spam. Eine E-Mail, ein Link, für dich gefunden innerhalb von {{ minutes }} Minuten.",
+      "errors": {
+        "prompt": "Erzähl uns ein bisschen mehr. Ein paar Worte oder ein Link reichen.",
+        "email": "Diese E-Mail-Adresse sieht nicht richtig aus.",
+        "link": "Links müssen mit http:// oder https:// beginnen.",
+        "rate_limited": "Gerade sind es zu viele Anfragen. Bitte versuche es in ein paar Minuten noch einmal.",
+        "generic": "Bei uns ist etwas schiefgelaufen. Bitte versuche es noch einmal."
+      }
+    },
+    "received": {
+      "eyebrow": "Anfrage erhalten",
+      "heading": "Dein Concierge ist dran.",
+      "body": "Dein Link landet bis {{ time }} in {{ email }}.",
+      "ref": "Referenz {{ ref }}",
+      "arrives_by": "Kommt bis {{ time }}",
+      "countdown_label": "Zeit, bis dein Link ankommt",
+      "progress_label": "Fortschritt bis zu deinem Link",
+      "status_searching": "Wir finden es für dich.",
+      "status_due": "Jeden Moment. Schau in dein Postfach.",
+      "another": "Weitere Anfrage senden"
+    },
+    "request": {
+      "eyebrow": "Eine Nachricht. Eine Stunde. Ein Link.",
+      "heading": "Was sollen wir für dich finden?",
+      "text": "Eins nach dem anderen — in Worten, als Link oder als Foto. Keine Registrierung. Eine E-Mail mit einem Link."
+    },
+    "steps": {
+      "eyebrow": "So funktioniert es",
+      "heading": "Eine Nachricht. Eine Stunde. Ein Link.",
+      "text": "Du sagst es einmal. Ein Concierge sucht, prüft und findet. Du bekommst einen Link.",
+      "step_1_time": "00:00",
+      "step_1_title": "Du sagst es uns",
+      "step_1_text": "Das eine, das du willst — Worte, ein Link oder ein Foto. Kein Konto, keine Filter.",
+      "step_2_time": "00:01",
+      "step_2_title": "Die KI schreibt das Briefing",
+      "step_2_text": "Artikel, Stil, Referenz. Aus deinen Worten wird ein Sourcing-Briefing.",
+      "step_3_time": "00:10",
+      "step_3_title": "Dein Concierge sucht",
+      "step_3_text": "Ein Mensch prüft Modell, Händler, Lagerbestand, Preis und Versand — für dich, nicht für einen Katalog.",
+      "step_4_time": "≤ 60:00",
+      "step_4_title": "Dein Link kommt an",
+      "step_4_text": "Eine E-Mail. Ein geprüfter Link, bereit zum Kauf. Nur für dich."
+    },
+    "statement": {
+      "line_1": "Sehen.",
+      "line_2": "Wollen.",
+      "line_3": "Wir finden es.",
+      "line_4": "Discover Better.",
+      "line_5": "Experience Better.",
+      "line_6": "Feel Better.",
+      "micro": "Eine Nachricht. Eine Stunde. Ein Link."
+    },
+    "match": {
+      "note": "Die Kasse öffnet sich mit genau diesem einen Artikel. Nichts weiter auszuwählen."
+    }
   }
 }

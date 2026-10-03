@@ -4,9 +4,20 @@
 {%- endcomment -%}
 
 {%- liquid
+  assign eyebrow = section.settings.eyebrow
+  if eyebrow == blank
+    assign eyebrow = 'feelbetter.request.eyebrow' | t
+  endif
+
   assign heading = section.settings.heading
   if heading == blank
     assign heading = 'feelbetter.request.heading' | t
+  endif
+
+  assign text = section.settings.text
+  assign text_plain = text | strip_html | strip
+  if text_plain == blank
+    assign text = 'feelbetter.request.text' | t | prepend: '<p>' | append: '</p>'
   endif
 -%}
 
@@ -28,10 +39,10 @@
   <div class="{% if section.settings.show_grid %}fb-grid-bg {% endif %}section-{{ section.id }}-padding">
     <div class="page-width">
       <div class="fb-request">
-        {%- if section.settings.eyebrow != blank -%}
+        {%- if eyebrow != blank -%}
           <p class="fb-eyebrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             <span class="fb-dot" aria-hidden="true"></span>
-            <span>{{ section.settings.eyebrow | escape }}</span>
+            <span>{{ eyebrow | escape }}</span>
           </p>
         {%- endif -%}
 
@@ -39,9 +50,9 @@
           {{ heading | escape }}
         </h2>
 
-        {%- if section.settings.text != blank -%}
+        {%- if text != blank -%}
           <div class="fb-request__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-            {{ section.settings.text }}
+            {{ text }}
           </div>
         {%- endif -%}
 
@@ -60,17 +71,20 @@
   "class": "section",
   "settings": [
     {
+      "type": "paragraph",
+      "content": "Leave the text fields empty: the theme then renders its translated copy (feelbetter.request.*) in every published language."
+    },
+    {
       "type": "text",
       "id": "eyebrow",
       "label": "Eyebrow",
-      "default": "One message. One hour. One link."
+      "info": "Empty = translated copy."
     },
     {
       "type": "text",
       "id": "heading",
       "label": "Heading",
-      "default": "So — what do you want?",
-      "info": "Leave empty to use the theme's translated copy."
+      "info": "Empty = translated copy."
     },
     {
       "type": "select",
@@ -96,7 +110,7 @@
       "type": "richtext",
       "id": "text",
       "label": "Text",
-      "default": "<p>Words, a link or a photo description. No sign-up. One email with one link.</p>"
+      "info": "Empty = translated copy."
     },
     {
       "type": "checkbox",

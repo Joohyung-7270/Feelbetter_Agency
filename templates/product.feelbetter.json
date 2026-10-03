@@ -5,7 +5,7 @@
       "settings": {
         "show_title": true,
         "show_price": true,
-        "note": "Checkout opens with this item. Nothing else to pick.",
+        "note": "",
         "show_ask": true,
         "ask_url": "shopify://pages/request",
         "color_scheme": "scheme-2",
@@ -57,7 +57,7 @@
           "settings": {
             "heading": "How FeelBetter works",
             "icon": "none",
-            "content": "<p>This product started as one person's request. AI wrote the sourcing brief, a concierge verified the seller, stock and price, and this page is the ready-to-buy link. Buy now opens checkout with this item.</p>"
+            "content": "<p>This product started as one person's request. AI drafted the sourcing brief, a concierge verified the seller, stock and price, and this page is the ready-to-buy link. Buy now opens checkout with this one item.</p>"
           }
         },
         "tab_shipping": {

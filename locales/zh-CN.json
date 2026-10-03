@@ -527,5 +527,115 @@
       "expanded": "礼品卡收件人表单已展开",
       "collapsed": "礼品卡收件人表单已折叠"
     }
+  },
+  "feelbetter": {
+    "general": {
+      "tagline": "更好的东西，给更好的你。",
+      "buy_now": "立即购买",
+      "ask_again": "再找别的"
+    },
+    "hero": {
+      "eyebrow": "私人购物管家 · 首尔 → 全球",
+      "heading_a": "只为你。",
+      "heading_b": "购物，从",
+      "heading_em": "你想要的那一件开始。",
+      "text": "告诉我们你想找的那一件——文字、链接或照片都可以。管家为你找到、核实，并在一小时内发来一个可直接购买的链接。",
+      "proof_1": "无需注册",
+      "proof_2": "韩国本地与海外商品",
+      "proof_3": "一个链接，由真人核实",
+      "inbox_preview_label": "你将收到的邮件预览",
+      "inbox_preview_text": "Feelbetter 管家邮件示例。主题：你的链接已就绪。为你找到的一件商品，标有已核实卖家、有货、可购买，并附立即购买按钮。"
+    },
+    "password": {
+      "heading_a": "即将开启。",
+      "heading_b": "只为你。",
+      "heading_em": "购物，从你想要的那一件开始。"
+    },
+    "inbox": {
+      "from": "Feelbetter 管家",
+      "time": "刚刚",
+      "subject": "你的链接已就绪。",
+      "intro": "找到了，也核实过了。这是为你准备的选择：",
+      "product": "在首尔看到的那块黑色极简滑板",
+      "seller": "官方店铺 · 有货 · 可寄送至你所在地区",
+      "footer": "管家已核实 · 请求后 {{ time }}"
+    },
+    "badges": {
+      "match_found": "MATCH FOUND",
+      "verified_seller": "已核实卖家",
+      "verified_seller_named": "已核实卖家 · {{ seller }}",
+      "in_stock": "有货",
+      "ready": "可购买",
+      "verifying": "核实中",
+      "checked_on": "{{ date }} 核实",
+      "request_ref": "请求 {{ ref }}",
+      "concierge_checked": "管家已核实"
+    },
+    "form": {
+      "prompt_label": "你在找什么？",
+      "prompt_placeholder": "我在首尔看到一块滑板。黑色板面，极简图案。大概是这样的……",
+      "link_toggle": "添加链接",
+      "link_label": "商品链接",
+      "optional": "选填",
+      "link_placeholder": "https://",
+      "email_label": "邮箱",
+      "email_placeholder": "you@example.com",
+      "submit": "帮我找到它",
+      "submitting": "发送中……",
+      "fine_print": "无需注册，不发垃圾邮件。{{ minutes }} 分钟内，一封邮件，一个为你找到的链接。",
+      "errors": {
+        "prompt": "请再多说一点。几个词或一个链接就够了。",
+        "email": "这个邮箱地址看起来不太对。",
+        "link": "链接需要以 http:// 或 https:// 开头。",
+        "rate_limited": "目前请求有点多。请几分钟后再试。",
+        "generic": "我们这边出了点问题。请再试一次。"
+      }
+    },
+    "received": {
+      "eyebrow": "已收到请求",
+      "heading": "管家已经开始找了。",
+      "body": "链接将在 {{ time }} 前发送至 {{ email }}。",
+      "ref": "编号 {{ ref }}",
+      "arrives_by": "预计 {{ time }} 送达",
+      "countdown_label": "距离链接送达的时间",
+      "progress_label": "进度",
+      "status_searching": "正在为你寻找。",
+      "status_due": "随时会到。请查看你的收件箱。",
+      "another": "再发一个请求"
+    },
+    "request": {
+      "eyebrow": "一条消息。一小时。一个链接。",
+      "heading": "想让我们为你找什么？",
+      "text": "一次一件——文字、链接或照片都可以。无需注册。一封邮件，一个链接。"
+    },
+    "steps": {
+      "eyebrow": "如何运作",
+      "heading": "一条消息。一小时。一个链接。",
+      "text": "你只需说一次。寻找、核实、挑选，都由管家完成。你只会收到一个链接。",
+      "step_1_time": "00:00",
+      "step_1_title": "告诉我们",
+      "step_1_text": "你想要的那一件——文字、链接或一张照片。不用账号，没有筛选。",
+      "step_2_time": "00:01",
+      "step_2_title": "AI 撰写需求简报",
+      "step_2_text": "品类、风格、参考。你的话会变成一份寻货简报。",
+      "step_3_time": "00:10",
+      "step_3_title": "管家开始寻找",
+      "step_3_text": "由真人核实型号、卖家、库存、价格和运送——为你一个人，而不是为一个目录。",
+      "step_4_time": "≤ 60:00",
+      "step_4_title": "链接送达",
+      "step_4_text": "一封邮件。一个已核实、可直接购买的链接。只为你。"
+    },
+    "statement": {
+      "line_1": "看见它。",
+      "line_2": "想要它。",
+      "line_3": "我们帮你找到它。",
+      "line_4": "Discover Better.",
+      "line_5": "Experience Better.",
+      "line_6": "Feel Better.",
+      "micro": "一条消息。一小时。一个链接。"
+    },
+    "match": {
+      "note": "结账页面只会包含这一件商品。无需再做选择。"
+    }
   }
 }

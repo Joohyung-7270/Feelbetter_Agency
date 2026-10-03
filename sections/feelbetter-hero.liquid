@@ -7,6 +7,17 @@
 {%- liquid
   assign heading_font_italic = settings.type_header_font | font_modify: 'style', 'italic'
 
+  comment
+    Every text setting falls back to the translated feelbetter.* copy when left
+    empty, so each published language renders its own locale strings.
+    copy_set switches the headline fallback between the home copy and the
+    "Opening soon" copy used on the password page.
+  endcomment
+  assign copy_prefix = 'feelbetter.hero.'
+  if section.settings.copy_set == 'password'
+    assign copy_prefix = 'feelbetter.password.'
+  endif
+
   assign eyebrow = section.settings.eyebrow
   if eyebrow == blank
     assign eyebrow = 'feelbetter.hero.eyebrow' | t
@@ -14,17 +25,26 @@
 
   assign heading_a = section.settings.heading_a
   if heading_a == blank
-    assign heading_a = 'feelbetter.hero.heading_a' | t
+    assign key = copy_prefix | append: 'heading_a'
+    assign heading_a = key | t
   endif
 
   assign heading_b = section.settings.heading_b
   if heading_b == blank
-    assign heading_b = 'feelbetter.hero.heading_b' | t
+    assign key = copy_prefix | append: 'heading_b'
+    assign heading_b = key | t
   endif
 
   assign heading_em = section.settings.heading_em
   if heading_em == blank
-    assign heading_em = 'feelbetter.hero.heading_em' | t
+    assign key = copy_prefix | append: 'heading_em'
+    assign heading_em = key | t
+  endif
+
+  assign hero_text = section.settings.text
+  assign hero_text_plain = hero_text | strip_html | strip
+  if hero_text_plain == blank
+    assign hero_text = 'feelbetter.hero.text' | t | prepend: '<p>' | append: '</p>'
   endif
 
   assign inbox_from = settings.feelbetter_email_from
@@ -88,15 +108,9 @@
             {%- endif -%}
           </h1>
 
-          {%- if section.settings.text != blank -%}
-            <div class="fb-hero__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-              {{ section.settings.text }}
-            </div>
-          {%- else -%}
-            <div class="fb-hero__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-              <p>{{ 'feelbetter.hero.text' | t }}</p>
-            </div>
-          {%- endif -%}
+          <div class="fb-hero__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            {{ hero_text }}
+          </div>
 
           {%- if section.blocks.size > 0 -%}
             <ul class="fb-hero__proof{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" role="list">
@@ -196,38 +210,54 @@
   "settings": [
     {
       "type": "paragraph",
-      "content": "Request-first hero. Leave a text field empty to fall back to the theme's translated copy."
+      "content": "Request-first hero. Leave the text fields empty: the theme then renders its translated copy (feelbetter.hero.*) in every published language. Fill a field only to override it in all languages."
+    },
+    {
+      "type": "select",
+      "id": "copy_set",
+      "label": "Headline copy",
+      "options": [
+        {
+          "value": "home",
+          "label": "Home (Only for you.)"
+        },
+        {
+          "value": "password",
+          "label": "Password page (Opening soon.)"
+        }
+      ],
+      "default": "home",
+      "info": "Which translated headline to use when the headline fields are empty."
     },
     {
       "type": "text",
       "id": "eyebrow",
       "label": "Eyebrow",
-      "default": "AI shopping concierge · Seoul → Worldwide"
+      "info": "Empty = translated copy."
     },
     {
       "type": "text",
       "id": "heading_a",
       "label": "Headline, line 1",
-      "default": "Say what you want."
+      "info": "Empty = translated copy."
     },
     {
       "type": "text",
       "id": "heading_b",
       "label": "Headline, line 2",
-      "default": "Your link,"
+      "info": "Empty = translated copy."
     },
     {
       "type": "text",
       "id": "heading_em",
       "label": "Headline, italic ending",
-      "default": "within the hour.",
-      "info": "Rendered in the italic serif, in sunlight."
+      "info": "Rendered in the italic serif, in sunlight. Empty = translated copy."
     },
     {
       "type": "richtext",
       "id": "text",
       "label": "Text",
-      "default": "<p>Words. A link. A photo. AI reads your request, a human concierge verifies the seller, and one ready-to-buy link lands in your inbox.</p>"
+      "info": "Empty = translated copy."
     },
     {
       "type": "checkbox",
@@ -255,13 +285,13 @@
       "type": "text",
       "id": "inbox_product",
       "label": "Product line",
-      "default": "Black minimal skateboard · the one you saw"
+      "info": "Empty = translated copy."
     },
     {
       "type": "text",
       "id": "inbox_seller",
       "label": "Seller line",
-      "default": "Official store · In stock · Ships to you"
+      "info": "Empty = translated copy."
     },
     {
       "type": "text",
@@ -326,7 +356,7 @@
           "type": "text",
           "id": "text",
           "label": "Text",
-          "default": "No sign-up"
+          "info": "Empty = translated proof point for this position (1-3)."
         }
       ]
     }
@@ -336,22 +366,13 @@
       "name": "FeelBetter hero",
       "blocks": [
         {
-          "type": "proof",
-          "settings": {
-            "text": "No sign-up"
-          }
+          "type": "proof"
         },
         {
-          "type": "proof",
-          "settings": {
-            "text": "Local and overseas products"
-          }
+          "type": "proof"
         },
         {
-          "type": "proof",
-          "settings": {
-            "text": "One link, checked by a person"
-          }
+          "type": "proof"
         }
       ]
     }

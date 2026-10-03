@@ -23,6 +23,11 @@
   endif
 
   assign checkout_url = routes.cart_url | append: '/' | append: variant.id | append: ':1'
+
+  assign note = section.settings.note
+  if note == blank
+    assign note = 'feelbetter.match.note' | t
+  endif
 -%}
 
 {%- style -%}
@@ -88,8 +93,8 @@
               <span class="fb-match__buy-price">{{ variant.price | money_with_currency }}</span>
             {%- endif -%}
           </a>
-          {%- if section.settings.note != blank -%}
-            <p class="fb-match__note">{{ section.settings.note | escape }}</p>
+          {%- if note != blank -%}
+            <p class="fb-match__note">{{ note | escape }}</p>
           {%- endif -%}
         {%- else -%}
           <button type="button" class="button fb-match__buy" disabled>
@@ -136,7 +141,7 @@
       "type": "text",
       "id": "note",
       "label": "Note under Buy now",
-      "default": "Checkout opens with this item. Nothing else to pick."
+      "info": "Empty = translated copy (feelbetter.match.note)."
     },
     {
       "type": "checkbox",

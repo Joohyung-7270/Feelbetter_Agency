@@ -13,33 +13,33 @@
         "step_1": {
           "type": "step",
           "settings": {
-            "time": "00:00",
-            "title": "You describe it",
-            "text": "Words, a link or a photo. No account, no filters."
+            "time": "",
+            "title": "",
+            "text": ""
           }
         },
         "step_2": {
           "type": "step",
           "settings": {
-            "time": "00:01",
-            "title": "AI writes the brief",
-            "text": "Item, style, reference. The request becomes a sourcing brief."
+            "time": "",
+            "title": "",
+            "text": ""
           }
         },
         "step_3": {
           "type": "step",
           "settings": {
-            "time": "00:10",
-            "title": "A concierge sources it",
-            "text": "A person checks the model, seller, stock, price and shipping."
+            "time": "",
+            "title": "",
+            "text": ""
           }
         },
         "step_4": {
           "type": "step",
           "settings": {
-            "time": "≤ 60:00",
-            "title": "The link is yours",
-            "text": "One email. One verified, ready-to-buy link."
+            "time": "",
+            "title": "",
+            "text": ""
           }
         }
       },
@@ -50,10 +50,10 @@
         "step_4"
       ],
       "settings": {
-        "eyebrow": "How it works",
-        "heading": "One message. One hour. One link.",
+        "eyebrow": "",
+        "heading": "",
         "heading_size": "h1",
-        "text": "<p>AI finds the signal. A human concierge checks the details. You get one link you can trust.</p>",
+        "text": "",
         "color_scheme": "scheme-1",
         "padding_top": 64,
         "padding_bottom": 64
@@ -99,7 +99,7 @@
           "settings": {
             "heading": "Which languages?",
             "icon": "none",
-            "row_content": "<p>English, Korean, Japanese and Spanish. Write in whichever you like. Your link arrives in the same language.</p>"
+            "row_content": "<p>English, Korean, Japanese, Chinese, Spanish, German and French. Write in whichever you like. Your link arrives in the same language.</p>"
           }
         }
       },
@@ -128,14 +128,14 @@
     "feelbetter_statement": {
       "type": "feelbetter-statement",
       "settings": {
-        "line_1": "See it.",
-        "line_2": "Want it.",
-        "line_3": "We'll find it.",
+        "line_1": "",
+        "line_2": "",
+        "line_3": "",
         "show_second_group": true,
-        "line_4": "Discover Better.",
-        "line_5": "Experience Better.",
-        "line_6": "Feel Better.",
-        "micro": "One message. One hour. One link.",
+        "line_4": "",
+        "line_5": "",
+        "line_6": "",
+        "micro": "",
         "show_grid": true,
         "color_scheme": "scheme-4",
         "padding_top": 96,

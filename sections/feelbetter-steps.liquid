@@ -4,9 +4,20 @@
 {%- endcomment -%}
 
 {%- liquid
+  assign eyebrow = section.settings.eyebrow
+  if eyebrow == blank
+    assign eyebrow = 'feelbetter.steps.eyebrow' | t
+  endif
+
   assign heading = section.settings.heading
   if heading == blank
     assign heading = 'feelbetter.steps.heading' | t
+  endif
+
+  assign text = section.settings.text
+  assign text_plain = text | strip_html | strip
+  if text_plain == blank
+    assign text = 'feelbetter.steps.text' | t | prepend: '<p>' | append: '</p>'
   endif
 -%}
 
@@ -28,18 +39,18 @@
   <div class="page-width section-{{ section.id }}-padding">
     <div class="fb-steps">
       <header class="fb-steps__header">
-        {%- if section.settings.eyebrow != blank -%}
+        {%- if eyebrow != blank -%}
           <p class="fb-eyebrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             <span class="fb-dot" aria-hidden="true"></span>
-            <span>{{ section.settings.eyebrow | escape }}</span>
+            <span>{{ eyebrow | escape }}</span>
           </p>
         {%- endif -%}
         <h2 class="fb-steps__heading {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           {{ heading | escape }}
         </h2>
-        {%- if section.settings.text != blank -%}
+        {%- if text != blank -%}
           <div class="fb-steps__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-            {{ section.settings.text }}
+            {{ text }}
           </div>
         {%- endif -%}
       </header>
@@ -94,17 +105,20 @@
   "class": "section",
   "settings": [
     {
+      "type": "paragraph",
+      "content": "Leave the text fields empty: the theme then renders its translated copy (feelbetter.steps.*) in every published language. Step blocks fall back by position (1-4)."
+    },
+    {
       "type": "text",
       "id": "eyebrow",
       "label": "Eyebrow",
-      "default": "How it works"
+      "info": "Empty = translated copy."
     },
     {
       "type": "text",
       "id": "heading",
       "label": "Heading",
-      "default": "One message. One hour. One link.",
-      "info": "Leave empty to use the theme's translated copy."
+      "info": "Empty = translated copy."
     },
     {
       "type": "select",
@@ -130,7 +144,7 @@
       "type": "richtext",
       "id": "text",
       "label": "Text",
-      "default": "<p>AI finds the signal. A human concierge checks the details. You get one link you can trust.</p>"
+      "info": "Empty = translated copy."
     },
     {
       "type": "color_scheme",
@@ -173,20 +187,19 @@
           "type": "text",
           "id": "time",
           "label": "Timestamp",
-          "default": "00:00",
-          "info": "Leave empty to use the theme's translated copy for this position."
+          "info": "Empty = translated copy for this position (1-4)."
         },
         {
           "type": "text",
           "id": "title",
           "label": "Title",
-          "default": "You describe it"
+          "info": "Empty = translated copy for this position (1-4)."
         },
         {
           "type": "text",
           "id": "text",
           "label": "Text",
-          "default": "Words, a link or a photo. No account, no filters."
+          "info": "Empty = translated copy for this position (1-4)."
         }
       ]
     }
@@ -196,36 +209,16 @@
       "name": "FeelBetter steps",
       "blocks": [
         {
-          "type": "step",
-          "settings": {
-            "time": "00:00",
-            "title": "You describe it",
-            "text": "Words, a link or a photo. No account, no filters."
-          }
+          "type": "step"
         },
         {
-          "type": "step",
-          "settings": {
-            "time": "00:01",
-            "title": "AI writes the brief",
-            "text": "Item, style, reference. The request becomes a sourcing brief."
-          }
+          "type": "step"
         },
         {
-          "type": "step",
-          "settings": {
-            "time": "00:10",
-            "title": "A concierge sources it",
-            "text": "A person checks the model, seller, stock, price and shipping."
-          }
+          "type": "step"
         },
         {
-          "type": "step",
-          "settings": {
-            "time": "≤ 60:00",
-            "title": "The link is yours",
-            "text": "One email. One verified, ready-to-buy link."
-          }
+          "type": "step"
         }
       ]
     }

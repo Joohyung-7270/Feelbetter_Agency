@@ -547,22 +547,27 @@
       "ask_again": "Pedir otra cosa"
     },
     "hero": {
-      "eyebrow": "Concierge de compras con IA · Seúl → Todo el mundo",
-      "heading_a": "Di lo que quieres.",
-      "heading_b": "Tu enlace,",
-      "heading_em": "en menos de una hora.",
-      "text": "Palabras. Un enlace. Una foto. La IA lee tu petición, un concierge humano verifica al vendedor y un enlace listo para comprar llega a tu correo.",
+      "eyebrow": "Concierge de compras personal · Seúl → Todo el mundo",
+      "heading_a": "Solo para ti.",
+      "heading_b": "Compras que empiezan por",
+      "heading_em": "lo que tú quieres.",
+      "text": "Cuéntanos la única cosa que buscas — con palabras, un enlace o una foto. Un concierge la encuentra, la comprueba y te envía un solo enlace listo para comprar en menos de una hora.",
       "proof_1": "Sin registro",
       "proof_2": "Productos locales y del extranjero",
       "proof_3": "Un enlace, revisado por una persona",
       "inbox_preview_label": "Vista previa del correo que recibirás",
-      "inbox_preview_text": "Ejemplo de correo de Feelbetter Concierge. Asunto: Tu enlace está listo. Un producto marcado como vendedor verificado, en stock y listo para comprar, con un botón Comprar ahora."
+      "inbox_preview_text": "Ejemplo de correo de Feelbetter Concierge. Asunto: Tu enlace está listo. Un producto, encontrado para ti, marcado como vendedor verificado, en stock y listo para comprar, con un botón Comprar ahora."
+    },
+    "password": {
+      "heading_a": "Abrimos pronto.",
+      "heading_b": "Solo para ti.",
+      "heading_em": "Compras que empiezan por lo que tú quieres."
     },
     "inbox": {
       "from": "Feelbetter Concierge",
       "time": "Ahora mismo",
       "subject": "Tu enlace está listo.",
-      "intro": "Lo encontramos. Esta es la opción verificada:",
+      "intro": "Lo encontramos y lo comprobamos. Esta es tu opción:",
       "product": "Skateboard negro minimalista · el que viste",
       "seller": "Tienda oficial · En stock · Envío a tu país",
       "footer": "Revisado por tu concierge · {{ time }} tras la petición"
@@ -587,9 +592,9 @@
       "link_placeholder": "https://",
       "email_label": "Correo electrónico",
       "email_placeholder": "tu@ejemplo.com",
-      "submit": "Recibir mi enlace",
+      "submit": "Encuéntralo por mí",
       "submitting": "Enviando…",
-      "fine_print": "Sin registro. Sin spam. Un correo con un enlace, en menos de {{ minutes }} minutos.",
+      "fine_print": "Sin registro. Sin spam. Un correo, un enlace, encontrado para ti en menos de {{ minutes }} minutos.",
       "errors": {
         "prompt": "Cuéntanos un poco más. Con unas palabras o un enlace es suficiente.",
         "email": "Ese correo no parece correcto.",
@@ -600,33 +605,37 @@
     },
     "received": {
       "eyebrow": "Petición recibida",
-      "heading": "Estamos buscando tu enlace.",
-      "body": "Llegará a {{ email }} antes de las {{ time }}.",
+      "heading": "Tu concierge ya está en ello.",
+      "body": "Tu enlace llegará a {{ email }} antes de las {{ time }}.",
       "ref": "Referencia {{ ref }}",
       "arrives_by": "Llega antes de las {{ time }}",
       "countdown_label": "Tiempo hasta que llegue tu enlace",
       "progress_label": "Progreso hacia tu enlace",
-      "status_searching": "Buscando tu enlace.",
+      "status_searching": "Buscándolo para ti.",
       "status_due": "En cualquier momento. Revisa tu bandeja de entrada.",
       "another": "Enviar otra petición"
     },
     "request": {
-      "heading": "Entonces, ¿qué quieres?"
+      "eyebrow": "Un mensaje. Una hora. Un enlace.",
+      "heading": "¿Qué quieres que encontremos para ti?",
+      "text": "Una cosa cada vez — con palabras, un enlace o una foto. Sin registro. Un correo con un enlace."
     },
     "steps": {
+      "eyebrow": "Cómo funciona",
       "heading": "Un mensaje. Una hora. Un enlace.",
+      "text": "Lo dices una vez. Un concierge busca, comprueba y elige. Tú recibes un enlace.",
       "step_1_time": "00:00",
-      "step_1_title": "Lo describes",
-      "step_1_text": "Palabras, un enlace o una foto. Sin cuenta, sin filtros.",
+      "step_1_title": "Nos lo cuentas",
+      "step_1_text": "La única cosa que quieres — palabras, un enlace o una foto. Sin cuenta, sin filtros.",
       "step_2_time": "00:01",
       "step_2_title": "La IA redacta el brief",
-      "step_2_text": "Artículo, estilo, referencia. La petición se convierte en un brief de búsqueda.",
+      "step_2_text": "Artículo, estilo, referencia. Tus palabras se convierten en un brief de búsqueda.",
       "step_3_time": "00:10",
-      "step_3_title": "Un concierge lo localiza",
-      "step_3_text": "Una persona revisa el modelo, el vendedor, el stock, el precio y el envío.",
+      "step_3_title": "Tu concierge sale a buscar",
+      "step_3_text": "Una persona revisa el modelo, el vendedor, el stock, el precio y el envío — para ti, no para un catálogo.",
       "step_4_time": "≤ 60:00",
-      "step_4_title": "El enlace es tuyo",
-      "step_4_text": "Un correo. Un enlace verificado y listo para comprar."
+      "step_4_title": "Llega tu enlace",
+      "step_4_text": "Un correo. Un enlace verificado y listo para comprar. Solo para ti."
     },
     "statement": {
       "line_1": "Lo ves.",
@@ -636,6 +645,9 @@
       "line_5": "Experience Better.",
       "line_6": "Feel Better.",
       "micro": "Un mensaje. Una hora. Un enlace."
+    },
+    "match": {
+      "note": "El pago se abre con este único artículo. No hay nada más que elegir."
     }
   }
 }

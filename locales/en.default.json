@@ -536,22 +536,27 @@
       "ask_again": "Ask for something else"
     },
     "hero": {
-      "eyebrow": "AI shopping concierge · Seoul → Worldwide",
-      "heading_a": "Say what you want.",
-      "heading_b": "Your link,",
-      "heading_em": "within the hour.",
-      "text": "Words. A link. A photo. AI reads your request, a human concierge verifies the seller, and one ready-to-buy link lands in your inbox.",
+      "eyebrow": "Personal shopping concierge · Seoul → Worldwide",
+      "heading_a": "Only for you.",
+      "heading_b": "Shopping that starts with",
+      "heading_em": "what you want.",
+      "text": "Tell us the one thing you're looking for — in words, a link or a photo. A concierge finds it, checks it, and sends you a single ready-to-buy link within the hour.",
       "proof_1": "No sign-up",
       "proof_2": "Local and overseas products",
       "proof_3": "One link, checked by a person",
       "inbox_preview_label": "Preview of the email you will receive",
-      "inbox_preview_text": "Example email from Feelbetter Concierge. Subject: Your link is ready. One product marked verified seller, in stock and ready to buy, with a Buy now button."
+      "inbox_preview_text": "Example email from Feelbetter Concierge. Subject: Your link is ready. One product, found for you, marked verified seller, in stock and ready to buy, with a Buy now button."
+    },
+    "password": {
+      "heading_a": "Opening soon.",
+      "heading_b": "Only for you.",
+      "heading_em": "Shopping that starts with what you want."
     },
     "inbox": {
       "from": "Feelbetter Concierge",
       "time": "Just now",
       "subject": "Your link is ready.",
-      "intro": "Found it. Here is the verified option:",
+      "intro": "Found it. Checked it. Here is your option:",
       "product": "Black minimal skateboard · the one you saw",
       "seller": "Official store · In stock · Ships to you",
       "footer": "Checked by your concierge · {{ time }} after request"
@@ -576,9 +581,9 @@
       "link_placeholder": "https://",
       "email_label": "Email",
       "email_placeholder": "you@example.com",
-      "submit": "Get my link",
+      "submit": "Find it for me",
       "submitting": "Sending…",
-      "fine_print": "No sign-up. No spam. One email with one link, within {{ minutes }} minutes.",
+      "fine_print": "No sign-up. No spam. One email, one link, found for you within {{ minutes }} minutes.",
       "errors": {
         "prompt": "Tell us a little more. A few words or a link is enough.",
         "email": "That email address doesn't look right.",
@@ -589,33 +594,37 @@
     },
     "received": {
       "eyebrow": "Request received",
-      "heading": "We're finding your link.",
-      "body": "It will land in {{ email }} by {{ time }}.",
+      "heading": "Your concierge is on it.",
+      "body": "Your link will land in {{ email }} by {{ time }}.",
       "ref": "Reference {{ ref }}",
       "arrives_by": "Arrives by {{ time }}",
       "countdown_label": "Time until your link arrives",
       "progress_label": "Progress toward your link",
-      "status_searching": "Looking for your link.",
+      "status_searching": "Finding it for you.",
       "status_due": "Any moment now. Check your inbox.",
       "another": "Send another request"
     },
     "request": {
-      "heading": "So — what do you want?"
+      "eyebrow": "One message. One hour. One link.",
+      "heading": "What should we find for you?",
+      "text": "One thing at a time — in words, a link or a photo. No sign-up. One email with one link."
     },
     "steps": {
+      "eyebrow": "How it works",
       "heading": "One message. One hour. One link.",
+      "text": "You say it once. A concierge does the searching, the checking and the finding. You get one link.",
       "step_1_time": "00:00",
-      "step_1_title": "You describe it",
-      "step_1_text": "Words, a link or a photo. No account, no filters.",
+      "step_1_title": "You tell us",
+      "step_1_text": "The one thing you want — words, a link or a photo. No account, no filters.",
       "step_2_time": "00:01",
-      "step_2_title": "AI writes the brief",
-      "step_2_text": "Item, style, reference. The request becomes a sourcing brief.",
+      "step_2_title": "AI drafts the brief",
+      "step_2_text": "Item, style, reference. Your words become a sourcing brief.",
       "step_3_time": "00:10",
-      "step_3_title": "A concierge sources it",
-      "step_3_text": "A person checks the model, seller, stock, price and shipping.",
+      "step_3_title": "Your concierge goes looking",
+      "step_3_text": "A person checks the model, seller, stock, price and shipping — for you, not for a catalogue.",
       "step_4_time": "≤ 60:00",
-      "step_4_title": "The link is yours",
-      "step_4_text": "One email. One verified, ready-to-buy link."
+      "step_4_title": "Your link arrives",
+      "step_4_text": "One email. One verified, ready-to-buy link. Only for you."
     },
     "statement": {
       "line_1": "See it.",
@@ -625,6 +634,9 @@
       "line_5": "Experience Better.",
       "line_6": "Feel Better.",
       "micro": "One message. One hour. One link."
+    },
+    "match": {
+      "note": "Checkout opens with this one item. Nothing else to pick."
     }
   }
 }
