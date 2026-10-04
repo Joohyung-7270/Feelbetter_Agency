@@ -1,130 +1,130 @@
 # Storefront QA — https://shop.feelbetter.agency
 
-Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
+Run: 2026-10-04T06:22:58.852Z · pages 119 · links 605 · failures 0
 
 | ok | locale | path | status | ms | title | meta desc | hreflang | JSON-LD | og:image | note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| ✓ | en | / | 200 | 502 | FeelBetter / Personal shopping concierge. One message, one h | 143 chars | 36 | 3 | yes |  |
-| ✓ | en | /pages/request | 200 | 255 | Request &ndash; FeelBetter | 73 chars | 36 | 2 | yes |  |
-| ✓ | en | /pages/how-it-works | 200 | 238 | How it works &ndash; FeelBetter | 58 chars | 36 | 2 | yes |  |
-| ✓ | en | /pages/about | 200 | 261 | About &ndash; FeelBetter | 86 chars | 36 | 2 | yes |  |
-| ✓ | en | /pages/for-ai-assistants | 200 | 234 | For AI assistants &ndash; FeelBetter | 100 chars | 36 | 2 | yes |  |
-| ✓ | en | /pages/contact | 200 | 229 | Contact &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
-| ✓ | en | /blogs/journal | 200 | 392 | Journal &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
-| ✓ | en | /collections/feelbetter-finds | 200 | 277 | Recent finds &ndash; FeelBetter | 94 chars | 36 | 2 | yes |  |
-| ✓ | en | /collections/all | 200 | 492 | Products &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
-| ✓ | en | /search?q=charger | 200 | 370 | Search: 1 result found for &quot;charger&quot; &ndash; FeelB | 143 chars | 36 | 2 | yes |  |
-| ✓ | en | /cart | 200 | 368 | Your Shopping Cart &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
-| ✓ | en | /policies/terms-of-service | 200 | 506 | Terms of service &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
-| ✓ | en | /policies/refund-policy | 200 | 482 | Refund policy &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
-| ✓ | en | /policies/shipping-policy | 200 | 231 | Shipping policy &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
-| ✓ | en | /policies/privacy-policy | 200 | 300 | Privacy policy &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
-| ✓ | en | /policies/contact-information | 200 | 264 | Contact information &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
-| ✓ | en | /this-page-does-not-exist | 404 | 197 |  |  |  |  |  |  |
-| ✓ | ko | /ko/ | 200 | 479 | FeelBetter / 당신을 위한 쇼핑 컨시어지. 한 번의 메시지, 한 시간, 하나의 링크. | 83 chars | 36 | 3 | yes |  |
-| ✓ | ko | /ko/pages/request | 200 | 241 | 요청하기 &ndash; FeelBetter | 73 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/pages/how-it-works | 200 | 337 | 이용 방법 &ndash; FeelBetter | 58 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/pages/about | 200 | 261 | 소개 &ndash; FeelBetter | 86 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/pages/for-ai-assistants | 200 | 218 | AI 어시스턴트용 안내 &ndash; FeelBetter | 100 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/pages/contact | 200 | 315 | Contact &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/blogs/journal | 200 | 272 | 저널 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/collections/feelbetter-finds | 200 | 304 | Recent finds &ndash; FeelBetter | 94 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/collections/all | 200 | 591 | 제품 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/search?q=charger | 200 | 376 | 검색: &quot;charger&quot;의 검색 결과 1개 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/cart | 200 | 308 | 쇼핑 카드 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/policies/terms-of-service | 200 | 230 | 서비스 약관 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/policies/refund-policy | 200 | 225 | 환불 정책 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/policies/shipping-policy | 200 | 227 | 배송 정책 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/policies/privacy-policy | 200 | 261 | 개인정보처리방침 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/policies/contact-information | 200 | 286 | 연락처 정보 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
-| ✓ | ko | /ko/this-page-does-not-exist | 404 | 162 |  |  |  |  |  |  |
-| ✓ | ja | /ja/ | 200 | 379 | FeelBetter / あなただけのショッピングコンシェルジュ。ひとつのメッセージ、1時間、ひとつのリンク。 | 79 chars | 36 | 3 | yes |  |
-| ✓ | ja | /ja/pages/request | 200 | 215 | リクエスト &ndash; FeelBetter | 73 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/pages/how-it-works | 200 | 256 | 仕組み &ndash; FeelBetter | 58 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/pages/about | 200 | 294 | 私たちについて &ndash; FeelBetter | 86 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/pages/for-ai-assistants | 200 | 263 | AIアシスタント向け &ndash; FeelBetter | 100 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/pages/contact | 200 | 217 | Contact &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/blogs/journal | 200 | 261 | ジャーナル &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/collections/feelbetter-finds | 200 | 359 | Recent finds &ndash; FeelBetter | 94 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/collections/all | 200 | 444 | 商品 &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/search?q=charger | 200 | 325 | 検索: 「charger」の検索結果1件 &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/cart | 200 | 373 | ショッピングカート &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/policies/terms-of-service | 200 | 324 | 利用規約 &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/policies/refund-policy | 200 | 231 | 返金ポリシー &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/policies/shipping-policy | 200 | 496 | 配送ポリシー &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/policies/privacy-policy | 200 | 287 | プライバシーポリシー &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/policies/contact-information | 200 | 282 | 連絡先情報 &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
-| ✓ | ja | /ja/this-page-does-not-exist | 404 | 222 |  |  |  |  |  |  |
-| ✓ | zh-CN | /zh/ | 200 | 295 | FeelBetter / 专属购物管家。一条消息，一小时，一个链接。 | 62 chars | 36 | 3 | yes |  |
-| ✓ | zh-CN | /zh/pages/request | 200 | 229 | 发起请求 &ndash; FeelBetter | 73 chars | 36 | 2 | yes |  |
-| ✓ | zh-CN | /zh/pages/how-it-works | 200 | 430 | 如何运作 &ndash; FeelBetter | 58 chars | 36 | 2 | yes |  |
-| ✓ | zh-CN | /zh/pages/about | 200 | 242 | 关于我们 &ndash; FeelBetter | 86 chars | 36 | 2 | yes |  |
-| ✓ | zh-CN | /zh/pages/for-ai-assistants | 200 | 241 | 面向AI助手 &ndash; FeelBetter | 100 chars | 36 | 2 | yes |  |
-| ✓ | zh-CN | /zh/pages/contact | 200 | 298 | Contact &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
+| ✓ | en | / | 200 | 485 | FeelBetter / Personal shopping concierge. One message, one h | 143 chars | 36 | 3 | yes |  |
+| ✓ | en | /pages/request | 200 | 210 | Request &ndash; FeelBetter | 73 chars | 36 | 2 | yes |  |
+| ✓ | en | /pages/how-it-works | 200 | 222 | How it works &ndash; FeelBetter | 58 chars | 36 | 2 | yes |  |
+| ✓ | en | /pages/about | 200 | 227 | About &ndash; FeelBetter | 86 chars | 36 | 2 | yes |  |
+| ✓ | en | /pages/for-ai-assistants | 200 | 214 | For AI assistants &ndash; FeelBetter | 100 chars | 36 | 2 | yes |  |
+| ✓ | en | /pages/contact | 200 | 396 | Contact &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
+| ✓ | en | /blogs/journal | 200 | 231 | Journal &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
+| ✓ | en | /collections/feelbetter-finds | 200 | 407 | Recent finds &ndash; FeelBetter | 94 chars | 36 | 2 | yes |  |
+| ✓ | en | /collections/all | 200 | 372 | Products &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
+| ✓ | en | /search?q=charger | 200 | 283 | Search: 4 results found for &quot;charger&quot; &ndash; Feel | 143 chars | 36 | 2 | yes |  |
+| ✓ | en | /cart | 200 | 257 | Your Shopping Cart &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
+| ✓ | en | /policies/terms-of-service | 200 | 250 | Terms of service &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
+| ✓ | en | /policies/refund-policy | 200 | 206 | Refund policy &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
+| ✓ | en | /policies/shipping-policy | 200 | 271 | Shipping policy &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
+| ✓ | en | /policies/privacy-policy | 200 | 220 | Privacy policy &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
+| ✓ | en | /policies/contact-information | 200 | 235 | Contact information &ndash; FeelBetter | 143 chars | 36 | 2 | yes |  |
+| ✓ | en | /this-page-does-not-exist | 404 | 256 |  |  |  |  |  |  |
+| ✓ | ko | /ko/ | 200 | 334 | FeelBetter / 당신을 위한 쇼핑 컨시어지. 한 번의 메시지, 한 시간, 하나의 링크. | 83 chars | 36 | 3 | yes |  |
+| ✓ | ko | /ko/pages/request | 200 | 260 | 요청하기 &ndash; FeelBetter | 73 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/pages/how-it-works | 200 | 262 | 이용 방법 &ndash; FeelBetter | 58 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/pages/about | 200 | 457 | 소개 &ndash; FeelBetter | 86 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/pages/for-ai-assistants | 200 | 231 | AI 어시스턴트용 안내 &ndash; FeelBetter | 100 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/pages/contact | 200 | 326 | Contact &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/blogs/journal | 200 | 232 | 저널 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/collections/feelbetter-finds | 200 | 360 | Recent finds &ndash; FeelBetter | 94 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/collections/all | 200 | 420 | 제품 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/search?q=charger | 200 | 521 | 검색: &quot;charger&quot;의 검색 결과 3개 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/cart | 200 | 233 | 쇼핑 카드 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/policies/terms-of-service | 200 | 472 | 서비스 약관 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/policies/refund-policy | 200 | 204 | 환불 정책 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/policies/shipping-policy | 200 | 286 | 배송 정책 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/policies/privacy-policy | 200 | 254 | 개인정보처리방침 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/policies/contact-information | 200 | 214 | 연락처 정보 &ndash; FeelBetter | 83 chars | 36 | 2 | yes |  |
+| ✓ | ko | /ko/this-page-does-not-exist | 404 | 164 |  |  |  |  |  |  |
+| ✓ | ja | /ja/ | 200 | 317 | FeelBetter / あなただけのショッピングコンシェルジュ。ひとつのメッセージ、1時間、ひとつのリンク。 | 79 chars | 36 | 3 | yes |  |
+| ✓ | ja | /ja/pages/request | 200 | 211 | リクエスト &ndash; FeelBetter | 73 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/pages/how-it-works | 200 | 259 | 仕組み &ndash; FeelBetter | 58 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/pages/about | 200 | 239 | 私たちについて &ndash; FeelBetter | 86 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/pages/for-ai-assistants | 200 | 286 | AIアシスタント向け &ndash; FeelBetter | 100 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/pages/contact | 200 | 280 | Contact &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/blogs/journal | 200 | 241 | ジャーナル &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/collections/feelbetter-finds | 200 | 528 | Recent finds &ndash; FeelBetter | 94 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/collections/all | 200 | 520 | 商品 &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/search?q=charger | 200 | 522 | 検索: 「charger」の検索結果3件 &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/cart | 200 | 222 | ショッピングカート &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/policies/terms-of-service | 200 | 300 | 利用規約 &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/policies/refund-policy | 200 | 232 | 返金ポリシー &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/policies/shipping-policy | 200 | 293 | 配送ポリシー &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/policies/privacy-policy | 200 | 230 | プライバシーポリシー &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/policies/contact-information | 200 | 299 | 連絡先情報 &ndash; FeelBetter | 79 chars | 36 | 2 | yes |  |
+| ✓ | ja | /ja/this-page-does-not-exist | 404 | 171 |  |  |  |  |  |  |
+| ✓ | zh-CN | /zh/ | 200 | 358 | FeelBetter / 专属购物管家。一条消息，一小时，一个链接。 | 62 chars | 36 | 3 | yes |  |
+| ✓ | zh-CN | /zh/pages/request | 200 | 193 | 发起请求 &ndash; FeelBetter | 73 chars | 36 | 2 | yes |  |
+| ✓ | zh-CN | /zh/pages/how-it-works | 200 | 318 | 如何运作 &ndash; FeelBetter | 58 chars | 36 | 2 | yes |  |
+| ✓ | zh-CN | /zh/pages/about | 200 | 259 | 关于我们 &ndash; FeelBetter | 86 chars | 36 | 2 | yes |  |
+| ✓ | zh-CN | /zh/pages/for-ai-assistants | 200 | 269 | 面向AI助手 &ndash; FeelBetter | 100 chars | 36 | 2 | yes |  |
+| ✓ | zh-CN | /zh/pages/contact | 200 | 195 | Contact &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
 | ✓ | zh-CN | /zh/blogs/journal | 200 | 336 | 专栏 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
-| ✓ | zh-CN | /zh/collections/feelbetter-finds | 200 | 231 | Recent finds &ndash; FeelBetter | 94 chars | 36 | 2 | yes |  |
-| ✓ | zh-CN | /zh/collections/all | 200 | 356 | 产品 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
-| ✓ | zh-CN | /zh/search?q=charger | 200 | 294 | 搜索：找到 1 个关于“charger”的结果 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
-| ✓ | zh-CN | /zh/cart | 200 | 221 | 您的购物车 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
-| ✓ | zh-CN | /zh/policies/terms-of-service | 200 | 255 | 服务条款 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
-| ✓ | zh-CN | /zh/policies/refund-policy | 200 | 260 | 退款政策 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
-| ✓ | zh-CN | /zh/policies/shipping-policy | 200 | 269 | 物流政策 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
-| ✓ | zh-CN | /zh/policies/privacy-policy | 200 | 259 | 隐私政策 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
-| ✓ | zh-CN | /zh/policies/contact-information | 200 | 282 | 联系信息 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
-| ✓ | zh-CN | /zh/this-page-does-not-exist | 404 | 288 |  |  |  |  |  |  |
-| ✓ | es | /es/ | 200 | 309 | FeelBetter / Concierge de compras personal. Un mensaje, una  | 161 chars | 36 | 3 | yes |  |
-| ✓ | es | /es/pages/request | 200 | 270 | Petición &ndash; FeelBetter | 73 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/pages/how-it-works | 200 | 306 | Cómo funciona &ndash; FeelBetter | 58 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/pages/about | 200 | 243 | Sobre nosotros &ndash; FeelBetter | 86 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/pages/for-ai-assistants | 200 | 331 | Para asistentes de IA &ndash; FeelBetter | 100 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/pages/contact | 200 | 221 | Contact &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/blogs/journal | 200 | 250 | Diario &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/collections/feelbetter-finds | 200 | 362 | Recent finds &ndash; FeelBetter | 94 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/collections/all | 200 | 409 | Productos &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/search?q=charger | 200 | 361 | Búsqueda: 1 resultado encontrado para &quot;charger&quot; &n | 161 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/cart | 200 | 204 | Tu carrito &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/policies/terms-of-service | 200 | 251 | Términos del servicio &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/policies/refund-policy | 200 | 275 | Política de reembolso &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/policies/shipping-policy | 200 | 240 | Política de envío &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/policies/privacy-policy | 200 | 391 | Política de privacidad &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/policies/contact-information | 200 | 343 | Información de contacto &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
-| ✓ | es | /es/this-page-does-not-exist | 404 | 180 |  |  |  |  |  |  |
-| ✓ | de | /de/ | 200 | 281 | FeelBetter / Persönlicher Shopping-Concierge. Eine Nachricht | 170 chars | 36 | 3 | yes |  |
-| ✓ | de | /de/pages/request | 200 | 274 | Anfrage &ndash; FeelBetter | 73 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/pages/how-it-works | 200 | 270 | So funktioniert es &ndash; FeelBetter | 58 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/pages/about | 200 | 369 | Über uns &ndash; FeelBetter | 86 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/pages/for-ai-assistants | 200 | 218 | Für KI-Assistenten &ndash; FeelBetter | 100 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/pages/contact | 200 | 359 | Contact &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/blogs/journal | 200 | 303 | Journal &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/collections/feelbetter-finds | 200 | 392 | Recent finds &ndash; FeelBetter | 94 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/collections/all | 200 | 358 | Produkte &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/search?q=charger | 200 | 352 | Suche: 1 Ergebnis gefunden für &quot;charger&quot; &ndash; F | 170 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/cart | 200 | 249 | Dein Warenkorb &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/policies/terms-of-service | 200 | 200 | AGB &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/policies/refund-policy | 200 | 202 | Widerrufsrecht &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/policies/shipping-policy | 200 | 328 | Versand &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/policies/privacy-policy | 200 | 255 | Datenschutzerklärung &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/policies/contact-information | 200 | 525 | Kontaktinformationen &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
-| ✓ | de | /de/this-page-does-not-exist | 404 | 274 |  |  |  |  |  |  |
-| ✓ | fr | /fr/ | 200 | 259 | FeelBetter / Concierge shopping personnel. Un message, une h | 192 chars | 36 | 3 | yes |  |
-| ✓ | fr | /fr/pages/request | 200 | 212 | Demande &ndash; FeelBetter | 73 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/pages/how-it-works | 200 | 274 | Comment ça marche &ndash; FeelBetter | 58 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/pages/about | 200 | 281 | À propos &ndash; FeelBetter | 86 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/pages/for-ai-assistants | 200 | 230 | Pour les assistants IA &ndash; FeelBetter | 100 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/pages/contact | 200 | 227 | Contact &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/blogs/journal | 200 | 213 | Journal &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/collections/feelbetter-finds | 200 | 379 | Recent finds &ndash; FeelBetter | 94 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/collections/all | 200 | 463 | Produits &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/search?q=charger | 200 | 406 | Recherche : 1 résultat trouvé pour « charger » &ndash; FeelB | 192 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/cart | 200 | 226 | Votre panier &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/policies/terms-of-service | 200 | 293 | Conditions d’utilisation &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/policies/refund-policy | 200 | 335 | Politique de remboursement &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/policies/shipping-policy | 200 | 230 | Politique d’expédition &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/policies/privacy-policy | 200 | 337 | Politique de confidentialité &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/policies/contact-information | 200 | 416 | Coordonnées &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
-| ✓ | fr | /fr/this-page-does-not-exist | 404 | 253 |  |  |  |  |  |  |
+| ✓ | zh-CN | /zh/collections/feelbetter-finds | 200 | 276 | Recent finds &ndash; FeelBetter | 94 chars | 36 | 2 | yes |  |
+| ✓ | zh-CN | /zh/collections/all | 200 | 317 | 产品 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
+| ✓ | zh-CN | /zh/search?q=charger | 200 | 287 | 搜索：找到 3 个关于“charger”的结果 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
+| ✓ | zh-CN | /zh/cart | 200 | 232 | 您的购物车 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
+| ✓ | zh-CN | /zh/policies/terms-of-service | 200 | 241 | 服务条款 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
+| ✓ | zh-CN | /zh/policies/refund-policy | 200 | 226 | 退款政策 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
+| ✓ | zh-CN | /zh/policies/shipping-policy | 200 | 213 | 物流政策 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
+| ✓ | zh-CN | /zh/policies/privacy-policy | 200 | 289 | 隐私政策 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
+| ✓ | zh-CN | /zh/policies/contact-information | 200 | 356 | 联系信息 &ndash; FeelBetter | 62 chars | 36 | 2 | yes |  |
+| ✓ | zh-CN | /zh/this-page-does-not-exist | 404 | 335 |  |  |  |  |  |  |
+| ✓ | es | /es/ | 200 | 371 | FeelBetter / Concierge de compras personal. Un mensaje, una  | 161 chars | 36 | 3 | yes |  |
+| ✓ | es | /es/pages/request | 200 | 216 | Petición &ndash; FeelBetter | 73 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/pages/how-it-works | 200 | 362 | Cómo funciona &ndash; FeelBetter | 58 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/pages/about | 200 | 220 | Sobre nosotros &ndash; FeelBetter | 86 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/pages/for-ai-assistants | 200 | 343 | Para asistentes de IA &ndash; FeelBetter | 100 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/pages/contact | 200 | 625 | Contact &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/blogs/journal | 200 | 504 | Diario &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/collections/feelbetter-finds | 200 | 523 | Recent finds &ndash; FeelBetter | 94 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/collections/all | 200 | 534 | Productos &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/search?q=charger | 200 | 545 | Búsqueda: 4 resultados encontrados para &quot;charger&quot;  | 161 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/cart | 200 | 298 | Tu carrito &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/policies/terms-of-service | 200 | 222 | Términos del servicio &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/policies/refund-policy | 200 | 302 | Política de reembolso &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/policies/shipping-policy | 200 | 352 | Política de envío &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/policies/privacy-policy | 200 | 243 | Política de privacidad &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/policies/contact-information | 200 | 220 | Información de contacto &ndash; FeelBetter | 161 chars | 36 | 2 | yes |  |
+| ✓ | es | /es/this-page-does-not-exist | 404 | 227 |  |  |  |  |  |  |
+| ✓ | de | /de/ | 200 | 380 | FeelBetter / Persönlicher Shopping-Concierge. Eine Nachricht | 170 chars | 36 | 3 | yes |  |
+| ✓ | de | /de/pages/request | 200 | 226 | Anfrage &ndash; FeelBetter | 73 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/pages/how-it-works | 200 | 228 | So funktioniert es &ndash; FeelBetter | 58 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/pages/about | 200 | 246 | Über uns &ndash; FeelBetter | 86 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/pages/for-ai-assistants | 200 | 225 | Für KI-Assistenten &ndash; FeelBetter | 100 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/pages/contact | 200 | 272 | Contact &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/blogs/journal | 200 | 257 | Journal &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/collections/feelbetter-finds | 200 | 346 | Recent finds &ndash; FeelBetter | 94 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/collections/all | 200 | 349 | Produkte &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/search?q=charger | 200 | 518 | Suche: 4 Ergebnisse gefunden für &quot;charger&quot; &ndash; | 170 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/cart | 200 | 324 | Dein Warenkorb &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/policies/terms-of-service | 200 | 291 | AGB &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/policies/refund-policy | 200 | 223 | Widerrufsrecht &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/policies/shipping-policy | 200 | 303 | Versand &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/policies/privacy-policy | 200 | 243 | Datenschutzerklärung &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/policies/contact-information | 200 | 278 | Kontaktinformationen &ndash; FeelBetter | 170 chars | 36 | 2 | yes |  |
+| ✓ | de | /de/this-page-does-not-exist | 404 | 155 |  |  |  |  |  |  |
+| ✓ | fr | /fr/ | 200 | 559 | FeelBetter / Concierge shopping personnel. Un message, une h | 192 chars | 36 | 3 | yes |  |
+| ✓ | fr | /fr/pages/request | 200 | 354 | Demande &ndash; FeelBetter | 73 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/pages/how-it-works | 200 | 232 | Comment ça marche &ndash; FeelBetter | 58 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/pages/about | 200 | 274 | À propos &ndash; FeelBetter | 86 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/pages/for-ai-assistants | 200 | 267 | Pour les assistants IA &ndash; FeelBetter | 100 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/pages/contact | 200 | 252 | Contact &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/blogs/journal | 200 | 266 | Journal &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/collections/feelbetter-finds | 200 | 382 | Recent finds &ndash; FeelBetter | 94 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/collections/all | 200 | 476 | Produits &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/search?q=charger | 200 | 324 | Recherche : 3 résultats trouvés pour « charger » &ndash; Fee | 192 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/cart | 200 | 356 | Votre panier &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/policies/terms-of-service | 200 | 287 | Conditions d’utilisation &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/policies/refund-policy | 200 | 235 | Politique de remboursement &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/policies/shipping-policy | 200 | 292 | Politique d’expédition &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/policies/privacy-policy | 200 | 270 | Politique de confidentialité &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/policies/contact-information | 200 | 251 | Coordonnées &ndash; FeelBetter | 192 chars | 36 | 2 | yes |  |
+| ✓ | fr | /fr/this-page-does-not-exist | 404 | 191 |  |  |  |  |  |  |
 
-## Internal links (567)
+## Internal links (605)
 
 | ok | link | status | redirect |
 |---|---|---|---|
@@ -151,6 +151,7 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /collections/all/aiseno | 200 |  |
 | ✓ | /collections/all/aiyouyiya | 200 |  |
 | ✓ | /collections/all/amperer | 200 |  |
+| ✓ | /collections/all/arduino | 200 |  |
 | ✓ | /collections/all/blulu | 200 |  |
 | ✓ | /collections/all/briskfeel | 200 |  |
 | ✓ | /collections/all/california-costumes | 200 |  |
@@ -164,11 +165,12 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /collections/all/dfxsz | 200 |  |
 | ✓ | /collections/all/dii | 200 |  |
 | ✓ | /collections/all/ebloma | 200 |  |
-| ✓ | /collections/all/elite-sports | 200 |  |
+| ✓ | /collections/all/fabthos | 200 |  |
+| ✓ | /collections/all/okivivi | 200 |  |
 | ✓ | /collections/all/overseas | 200 |  |
 | ✓ | /collections/all?page=2 | 200 |  |
 | ✓ | /collections/all?page=3 | 200 |  |
-| ✓ | /collections/all?page=7 | 200 |  |
+| ✓ | /collections/all?page=9 | 200 |  |
 | ✓ | /collections/carhartt | 200 |  |
 | ✓ | /collections/feelbetter-finds.atom | 200 |  |
 | ✓ | /collections/finds | 200 |  |
@@ -197,6 +199,7 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /de/collections/all/aiseno | 200 |  |
 | ✓ | /de/collections/all/aiyouyiya | 200 |  |
 | ✓ | /de/collections/all/amperer | 200 |  |
+| ✓ | /de/collections/all/arduino | 200 |  |
 | ✓ | /de/collections/all/blulu | 200 |  |
 | ✓ | /de/collections/all/briskfeel | 200 |  |
 | ✓ | /de/collections/all/california-costumes | 200 |  |
@@ -210,11 +213,12 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /de/collections/all/dfxsz | 200 |  |
 | ✓ | /de/collections/all/dii | 200 |  |
 | ✓ | /de/collections/all/ebloma | 200 |  |
-| ✓ | /de/collections/all/elite-sports | 200 |  |
+| ✓ | /de/collections/all/fabthos | 200 |  |
+| ✓ | /de/collections/all/okivivi | 200 |  |
 | ✓ | /de/collections/all/overseas | 200 |  |
 | ✓ | /de/collections/all?page=2 | 200 |  |
 | ✓ | /de/collections/all?page=3 | 200 |  |
-| ✓ | /de/collections/all?page=7 | 200 |  |
+| ✓ | /de/collections/all?page=9 | 200 |  |
 | ✓ | /de/collections/carhartt | 200 |  |
 | ✓ | /de/collections/feelbetter-finds.atom | 200 |  |
 | ✓ | /de/collections/finds | 200 |  |
@@ -224,7 +228,7 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /de/products/blank-black-complete-skateboard-8-0-minimal-deck | 302 | https://shop.feelbetter.agency/products/blank-black-complete-skateboard-8-0-minimal-deck |
 | ✓ | /de/products/carhartt-carhartt-mens-iconic-j140-firm-duck-active-jac-610 | 302 | https://shop.feelbetter.agency/products/carhartt-carhartt-mens-iconic-j140-firm-duck-active-jac-610 |
 | ✓ | /de/products/carhartt-carhartt-mens-rugged-flex-relaxed-fit-duck-detro-609 | 302 | https://shop.feelbetter.agency/products/carhartt-carhartt-mens-rugged-flex-relaxed-fit-duck-detro-609 |
-| ✓ | /de/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=2e5a0081d&_ss=r | 302 | https://shop.feelbetter.agency/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=2e5a0081d&_ss=r |
+| ✓ | /de/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=9640c5a70&_ss=r | 302 | https://shop.feelbetter.agency/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=9640c5a70&_ss=r |
 | ✓ | /de/products/halloween-5pcs-halloween-creepy-cloth-black-3072inch-hallo-550 | 302 | https://shop.feelbetter.agency/products/halloween-5pcs-halloween-creepy-cloth-black-3072inch-hallo-550 |
 | ✓ | /de/products/halloween-adult-mothman-costume-halloween-poncho-cosplay-h-575 | 302 | https://shop.feelbetter.agency/products/halloween-adult-mothman-costume-halloween-poncho-cosplay-h-575 |
 | ✓ | /de/products/halloween-aerwo-halloween-decoration-black-lace-spiderweb-542 | 302 | https://shop.feelbetter.agency/products/halloween-aerwo-halloween-decoration-black-lace-spiderweb-542 |
@@ -238,15 +242,19 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /de/products/halloween-dii-black-lace-overlay-tabletop-collection-gothi-547 | 302 | https://shop.feelbetter.agency/products/halloween-dii-black-lace-overlay-tabletop-collection-gothi-547 |
 | ✓ | /de/products/halloween-halloween-ghost-figurine-white-decorative-cute-f-566 | 302 | https://shop.feelbetter.agency/products/halloween-halloween-ghost-figurine-white-decorative-cute-f-566 |
 | ✓ | /de/products/halloween-mens-medieval-knight-costume-578 | 302 | https://shop.feelbetter.agency/products/halloween-mens-medieval-knight-costume-578 |
-| ✓ | /de/products/jiu-jitsu-bjj-shorts-for-men-no-gi-jiu-jitsu-grappling-mua-495 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-bjj-shorts-for-men-no-gi-jiu-jitsu-grappling-mua-495 |
-| ✓ | /de/products/jiu-jitsu-elite-sports-adults-brazilian-jiu-jitsu-belts-fo-486 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-elite-sports-adults-brazilian-jiu-jitsu-belts-fo-486 |
-| ✓ | /de/products/jiu-jitsu-elite-sports-boxing-gym-duffle-bag-for-mma-bjj-j-498 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-elite-sports-boxing-gym-duffle-bag-for-mma-bjj-j-498 |
 | ✓ | /de/products/music-boxes-briskfeel-classical-ballerina-music-box-jewelry-426 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-classical-ballerina-music-box-jewelry-426 |
 | ✓ | /de/products/music-boxes-briskfeel-vintage-music-box-with-constellations-425 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-vintage-music-box-with-constellations-425 |
+| ✓ | /de/products/music-boxes-briskfeel-wooden-carousel-music-box-with-moving-423 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-wooden-carousel-music-box-with-moving-423 |
+| ✓ | /de/products/nike-reactx-rejuven8-mens-recovery-slides-unisex-fit-choose-color-size | 302 | https://shop.feelbetter.agency/products/nike-reactx-rejuven8-mens-recovery-slides-unisex-fit-choose-color-size |
 | ✓ | /de/products/otamatone-neo-10th-anniversary-black | 302 | https://shop.feelbetter.agency/products/otamatone-neo-10th-anniversary-black |
 | ✓ | /de/products/plush-ai-chat-buddy-for-teens-13-interactive-bunny-plu-585 | 302 | https://shop.feelbetter.agency/products/plush-ai-chat-buddy-for-teens-13-interactive-bunny-plu-585 |
+| ✓ | /de/products/plush-ai-plush-toy-bag-charm-with-voice-chat-led-eyes-586?_pos=2&_sid=9640c5a70&_ss=r | 302 | https://shop.feelbetter.agency/products/plush-ai-plush-toy-bag-charm-with-voice-chat-led-eyes-586?_pos=2&_sid=9640c5a70&_ss=r |
 | ✓ | /de/products/plush-aidia-smart-ai-companion-teddy-bear-white-and-re-589 | 302 | https://shop.feelbetter.agency/products/plush-aidia-smart-ai-companion-teddy-bear-white-and-re-589 |
 | ✓ | /de/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583 | 302 | https://shop.feelbetter.agency/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583 |
+| ✓ | /de/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583?_pos=4&_sid=9640c5a70&_ss=r | 302 | https://shop.feelbetter.agency/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583?_pos=4&_sid=9640c5a70&_ss=r |
+| ✓ | /de/products/plush-moyoyo-pink-ai-plush-companion-with-memory-led-e-590?_pos=3&_sid=9640c5a70&_ss=r | 302 | https://shop.feelbetter.agency/products/plush-moyoyo-pink-ai-plush-companion-with-memory-led-e-590?_pos=3&_sid=9640c5a70&_ss=r |
+| ✓ | /de/products/tech-arduino-opla-iot-kit-akx00026-all-in-one-interne-416 | 302 | https://shop.feelbetter.agency/products/tech-arduino-opla-iot-kit-akx00026-all-in-one-interne-416 |
+| ✓ | /de/products/tech-arduino-student-kit-akx00025-complete-stem-learn-418 | 302 | https://shop.feelbetter.agency/products/tech-arduino-student-kit-akx00025-complete-stem-learn-418 |
 | ✓ | /de/search?q=Carhartt+Jacke&options%5Bprefix%5D=last | 200 |  |
 | ✓ | /de/search?q=Chiikawa&options%5Bprefix%5D=last | 200 |  |
 | ✓ | /de/search?q=KI-Pl%C3%BCschtier&options%5Bprefix%5D=last | 200 |  |
@@ -278,6 +286,7 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /es/collections/all/aiseno | 200 |  |
 | ✓ | /es/collections/all/aiyouyiya | 200 |  |
 | ✓ | /es/collections/all/amperer | 200 |  |
+| ✓ | /es/collections/all/arduino | 200 |  |
 | ✓ | /es/collections/all/blulu | 200 |  |
 | ✓ | /es/collections/all/briskfeel | 200 |  |
 | ✓ | /es/collections/all/california-costumes | 200 |  |
@@ -291,11 +300,12 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /es/collections/all/dfxsz | 200 |  |
 | ✓ | /es/collections/all/dii | 200 |  |
 | ✓ | /es/collections/all/ebloma | 200 |  |
-| ✓ | /es/collections/all/elite-sports | 200 |  |
+| ✓ | /es/collections/all/fabthos | 200 |  |
+| ✓ | /es/collections/all/okivivi | 200 |  |
 | ✓ | /es/collections/all/overseas | 200 |  |
 | ✓ | /es/collections/all?page=2 | 200 |  |
 | ✓ | /es/collections/all?page=3 | 200 |  |
-| ✓ | /es/collections/all?page=7 | 200 |  |
+| ✓ | /es/collections/all?page=9 | 200 |  |
 | ✓ | /es/collections/carhartt | 200 |  |
 | ✓ | /es/collections/feelbetter-finds.atom | 200 |  |
 | ✓ | /es/collections/finds | 200 |  |
@@ -305,7 +315,7 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /es/products/blank-black-complete-skateboard-8-0-minimal-deck | 302 | https://shop.feelbetter.agency/products/blank-black-complete-skateboard-8-0-minimal-deck |
 | ✓ | /es/products/carhartt-carhartt-mens-iconic-j140-firm-duck-active-jac-610 | 302 | https://shop.feelbetter.agency/products/carhartt-carhartt-mens-iconic-j140-firm-duck-active-jac-610 |
 | ✓ | /es/products/carhartt-carhartt-mens-rugged-flex-relaxed-fit-duck-detro-609 | 302 | https://shop.feelbetter.agency/products/carhartt-carhartt-mens-rugged-flex-relaxed-fit-duck-detro-609 |
-| ✓ | /es/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=2e5a0081d&_ss=r | 302 | https://shop.feelbetter.agency/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=2e5a0081d&_ss=r |
+| ✓ | /es/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=7bd4148a6&_ss=r | 302 | https://shop.feelbetter.agency/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=7bd4148a6&_ss=r |
 | ✓ | /es/products/halloween-5pcs-halloween-creepy-cloth-black-3072inch-hallo-550 | 302 | https://shop.feelbetter.agency/products/halloween-5pcs-halloween-creepy-cloth-black-3072inch-hallo-550 |
 | ✓ | /es/products/halloween-adult-mothman-costume-halloween-poncho-cosplay-h-575 | 302 | https://shop.feelbetter.agency/products/halloween-adult-mothman-costume-halloween-poncho-cosplay-h-575 |
 | ✓ | /es/products/halloween-aerwo-halloween-decoration-black-lace-spiderweb-542 | 302 | https://shop.feelbetter.agency/products/halloween-aerwo-halloween-decoration-black-lace-spiderweb-542 |
@@ -313,21 +323,25 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /es/products/halloween-blulu-3-pcs-halloween-decor-indoor-wood-table-si-559 | 302 | https://shop.feelbetter.agency/products/halloween-blulu-3-pcs-halloween-decor-indoor-wood-table-si-559 |
 | ✓ | /es/products/halloween-congru-4-pcs-halloween-costume-for-adultsyellow-572 | 302 | https://shop.feelbetter.agency/products/halloween-congru-4-pcs-halloween-costume-for-adultsyellow-572 |
 | ✓ | /es/products/halloween-cosplaysky-mens-tunic-cosplay-costume-halloween-570 | 302 | https://shop.feelbetter.agency/products/halloween-cosplaysky-mens-tunic-cosplay-costume-halloween-570 |
-| ✗ | /es/products/halloween-crazy-bonez-original-pose-n-stay-halloween-skele-545 | 429 |  |
-| ✗ | /es/products/halloween-dazonge-set-of-3-halloween-ceramic-ghost-hallowe-560 | 429 |  |
+| ✓ | /es/products/halloween-crazy-bonez-original-pose-n-stay-halloween-skele-545 | 302 | https://shop.feelbetter.agency/products/halloween-crazy-bonez-original-pose-n-stay-halloween-skele-545 |
+| ✓ | /es/products/halloween-dazonge-set-of-3-halloween-ceramic-ghost-hallowe-560 | 302 | https://shop.feelbetter.agency/products/halloween-dazonge-set-of-3-halloween-ceramic-ghost-hallowe-560 |
 | ✓ | /es/products/halloween-dfxsz-halloween-pillow-covers-18x18-inch-2pcs-wh-555 | 302 | https://shop.feelbetter.agency/products/halloween-dfxsz-halloween-pillow-covers-18x18-inch-2pcs-wh-555 |
 | ✓ | /es/products/halloween-dii-black-lace-overlay-tabletop-collection-gothi-547 | 302 | https://shop.feelbetter.agency/products/halloween-dii-black-lace-overlay-tabletop-collection-gothi-547 |
 | ✓ | /es/products/halloween-halloween-ghost-figurine-white-decorative-cute-f-566 | 302 | https://shop.feelbetter.agency/products/halloween-halloween-ghost-figurine-white-decorative-cute-f-566 |
 | ✓ | /es/products/halloween-mens-medieval-knight-costume-578 | 302 | https://shop.feelbetter.agency/products/halloween-mens-medieval-knight-costume-578 |
-| ✓ | /es/products/jiu-jitsu-bjj-shorts-for-men-no-gi-jiu-jitsu-grappling-mua-495 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-bjj-shorts-for-men-no-gi-jiu-jitsu-grappling-mua-495 |
-| ✓ | /es/products/jiu-jitsu-elite-sports-adults-brazilian-jiu-jitsu-belts-fo-486 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-elite-sports-adults-brazilian-jiu-jitsu-belts-fo-486 |
-| ✓ | /es/products/jiu-jitsu-elite-sports-boxing-gym-duffle-bag-for-mma-bjj-j-498 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-elite-sports-boxing-gym-duffle-bag-for-mma-bjj-j-498 |
 | ✓ | /es/products/music-boxes-briskfeel-classical-ballerina-music-box-jewelry-426 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-classical-ballerina-music-box-jewelry-426 |
 | ✓ | /es/products/music-boxes-briskfeel-vintage-music-box-with-constellations-425 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-vintage-music-box-with-constellations-425 |
+| ✓ | /es/products/music-boxes-briskfeel-wooden-carousel-music-box-with-moving-423 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-wooden-carousel-music-box-with-moving-423 |
+| ✓ | /es/products/nike-reactx-rejuven8-mens-recovery-slides-unisex-fit-choose-color-size | 302 | https://shop.feelbetter.agency/products/nike-reactx-rejuven8-mens-recovery-slides-unisex-fit-choose-color-size |
 | ✓ | /es/products/otamatone-neo-10th-anniversary-black | 302 | https://shop.feelbetter.agency/products/otamatone-neo-10th-anniversary-black |
 | ✓ | /es/products/plush-ai-chat-buddy-for-teens-13-interactive-bunny-plu-585 | 302 | https://shop.feelbetter.agency/products/plush-ai-chat-buddy-for-teens-13-interactive-bunny-plu-585 |
+| ✓ | /es/products/plush-ai-plush-toy-bag-charm-with-voice-chat-led-eyes-586?_pos=2&_sid=7bd4148a6&_ss=r | 302 | https://shop.feelbetter.agency/products/plush-ai-plush-toy-bag-charm-with-voice-chat-led-eyes-586?_pos=2&_sid=7bd4148a6&_ss=r |
 | ✓ | /es/products/plush-aidia-smart-ai-companion-teddy-bear-white-and-re-589 | 302 | https://shop.feelbetter.agency/products/plush-aidia-smart-ai-companion-teddy-bear-white-and-re-589 |
 | ✓ | /es/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583 | 302 | https://shop.feelbetter.agency/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583 |
+| ✓ | /es/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583?_pos=4&_sid=7bd4148a6&_ss=r | 302 | https://shop.feelbetter.agency/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583?_pos=4&_sid=7bd4148a6&_ss=r |
+| ✓ | /es/products/plush-moyoyo-pink-ai-plush-companion-with-memory-led-e-590?_pos=3&_sid=7bd4148a6&_ss=r | 302 | https://shop.feelbetter.agency/products/plush-moyoyo-pink-ai-plush-companion-with-memory-led-e-590?_pos=3&_sid=7bd4148a6&_ss=r |
+| ✓ | /es/products/tech-arduino-opla-iot-kit-akx00026-all-in-one-interne-416 | 302 | https://shop.feelbetter.agency/products/tech-arduino-opla-iot-kit-akx00026-all-in-one-interne-416 |
+| ✓ | /es/products/tech-arduino-student-kit-akx00025-complete-stem-learn-418 | 302 | https://shop.feelbetter.agency/products/tech-arduino-student-kit-akx00025-complete-stem-learn-418 |
 | ✓ | /es/search?q=Chaqueta+Carhartt&options%5Bprefix%5D=last | 200 |  |
 | ✓ | /es/search?q=Chiikawa&options%5Bprefix%5D=last | 200 |  |
 | ✓ | /es/search?q=Kirby&options%5Bprefix%5D=last | 200 |  |
@@ -359,6 +373,7 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /fr/collections/all/aiseno | 200 |  |
 | ✓ | /fr/collections/all/aiyouyiya | 200 |  |
 | ✓ | /fr/collections/all/amperer | 200 |  |
+| ✓ | /fr/collections/all/arduino | 200 |  |
 | ✓ | /fr/collections/all/blulu | 200 |  |
 | ✓ | /fr/collections/all/briskfeel | 200 |  |
 | ✓ | /fr/collections/all/california-costumes | 200 |  |
@@ -372,11 +387,12 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /fr/collections/all/dfxsz | 200 |  |
 | ✓ | /fr/collections/all/dii | 200 |  |
 | ✓ | /fr/collections/all/ebloma | 200 |  |
-| ✓ | /fr/collections/all/elite-sports | 200 |  |
+| ✓ | /fr/collections/all/fabthos | 200 |  |
+| ✓ | /fr/collections/all/okivivi | 200 |  |
 | ✓ | /fr/collections/all/overseas | 200 |  |
 | ✓ | /fr/collections/all?page=2 | 200 |  |
 | ✓ | /fr/collections/all?page=3 | 200 |  |
-| ✓ | /fr/collections/all?page=7 | 200 |  |
+| ✓ | /fr/collections/all?page=9 | 200 |  |
 | ✓ | /fr/collections/carhartt | 200 |  |
 | ✓ | /fr/collections/feelbetter-finds.atom | 200 |  |
 | ✓ | /fr/collections/finds | 200 |  |
@@ -386,7 +402,7 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /fr/products/blank-black-complete-skateboard-8-0-minimal-deck | 302 | https://shop.feelbetter.agency/products/blank-black-complete-skateboard-8-0-minimal-deck |
 | ✓ | /fr/products/carhartt-carhartt-mens-iconic-j140-firm-duck-active-jac-610 | 302 | https://shop.feelbetter.agency/products/carhartt-carhartt-mens-iconic-j140-firm-duck-active-jac-610 |
 | ✓ | /fr/products/carhartt-carhartt-mens-rugged-flex-relaxed-fit-duck-detro-609 | 302 | https://shop.feelbetter.agency/products/carhartt-carhartt-mens-rugged-flex-relaxed-fit-duck-detro-609 |
-| ✓ | /fr/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=2e5a0081d&_ss=r | 302 | https://shop.feelbetter.agency/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=2e5a0081d&_ss=r |
+| ✓ | /fr/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=3d73a8f28&_ss=r | 302 | https://shop.feelbetter.agency/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=3d73a8f28&_ss=r |
 | ✓ | /fr/products/halloween-5pcs-halloween-creepy-cloth-black-3072inch-hallo-550 | 302 | https://shop.feelbetter.agency/products/halloween-5pcs-halloween-creepy-cloth-black-3072inch-hallo-550 |
 | ✓ | /fr/products/halloween-adult-mothman-costume-halloween-poncho-cosplay-h-575 | 302 | https://shop.feelbetter.agency/products/halloween-adult-mothman-costume-halloween-poncho-cosplay-h-575 |
 | ✓ | /fr/products/halloween-aerwo-halloween-decoration-black-lace-spiderweb-542 | 302 | https://shop.feelbetter.agency/products/halloween-aerwo-halloween-decoration-black-lace-spiderweb-542 |
@@ -400,15 +416,18 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /fr/products/halloween-dii-black-lace-overlay-tabletop-collection-gothi-547 | 302 | https://shop.feelbetter.agency/products/halloween-dii-black-lace-overlay-tabletop-collection-gothi-547 |
 | ✓ | /fr/products/halloween-halloween-ghost-figurine-white-decorative-cute-f-566 | 302 | https://shop.feelbetter.agency/products/halloween-halloween-ghost-figurine-white-decorative-cute-f-566 |
 | ✓ | /fr/products/halloween-mens-medieval-knight-costume-578 | 302 | https://shop.feelbetter.agency/products/halloween-mens-medieval-knight-costume-578 |
-| ✓ | /fr/products/jiu-jitsu-bjj-shorts-for-men-no-gi-jiu-jitsu-grappling-mua-495 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-bjj-shorts-for-men-no-gi-jiu-jitsu-grappling-mua-495 |
-| ✓ | /fr/products/jiu-jitsu-elite-sports-adults-brazilian-jiu-jitsu-belts-fo-486 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-elite-sports-adults-brazilian-jiu-jitsu-belts-fo-486 |
-| ✓ | /fr/products/jiu-jitsu-elite-sports-boxing-gym-duffle-bag-for-mma-bjj-j-498 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-elite-sports-boxing-gym-duffle-bag-for-mma-bjj-j-498 |
 | ✓ | /fr/products/music-boxes-briskfeel-classical-ballerina-music-box-jewelry-426 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-classical-ballerina-music-box-jewelry-426 |
 | ✓ | /fr/products/music-boxes-briskfeel-vintage-music-box-with-constellations-425 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-vintage-music-box-with-constellations-425 |
+| ✓ | /fr/products/music-boxes-briskfeel-wooden-carousel-music-box-with-moving-423 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-wooden-carousel-music-box-with-moving-423 |
+| ✓ | /fr/products/nike-reactx-rejuven8-mens-recovery-slides-unisex-fit-choose-color-size | 302 | https://shop.feelbetter.agency/products/nike-reactx-rejuven8-mens-recovery-slides-unisex-fit-choose-color-size |
 | ✓ | /fr/products/otamatone-neo-10th-anniversary-black | 302 | https://shop.feelbetter.agency/products/otamatone-neo-10th-anniversary-black |
 | ✓ | /fr/products/plush-ai-chat-buddy-for-teens-13-interactive-bunny-plu-585 | 302 | https://shop.feelbetter.agency/products/plush-ai-chat-buddy-for-teens-13-interactive-bunny-plu-585 |
+| ✓ | /fr/products/plush-ai-plush-toy-bag-charm-with-voice-chat-led-eyes-586?_pos=2&_sid=3d73a8f28&_ss=r | 302 | https://shop.feelbetter.agency/products/plush-ai-plush-toy-bag-charm-with-voice-chat-led-eyes-586?_pos=2&_sid=3d73a8f28&_ss=r |
 | ✓ | /fr/products/plush-aidia-smart-ai-companion-teddy-bear-white-and-re-589 | 302 | https://shop.feelbetter.agency/products/plush-aidia-smart-ai-companion-teddy-bear-white-and-re-589 |
 | ✓ | /fr/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583 | 302 | https://shop.feelbetter.agency/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583 |
+| ✓ | /fr/products/plush-moyoyo-pink-ai-plush-companion-with-memory-led-e-590?_pos=3&_sid=3d73a8f28&_ss=r | 302 | https://shop.feelbetter.agency/products/plush-moyoyo-pink-ai-plush-companion-with-memory-led-e-590?_pos=3&_sid=3d73a8f28&_ss=r |
+| ✓ | /fr/products/tech-arduino-opla-iot-kit-akx00026-all-in-one-interne-416 | 302 | https://shop.feelbetter.agency/products/tech-arduino-opla-iot-kit-akx00026-all-in-one-interne-416 |
+| ✓ | /fr/products/tech-arduino-student-kit-akx00025-complete-stem-learn-418 | 302 | https://shop.feelbetter.agency/products/tech-arduino-student-kit-akx00025-complete-stem-learn-418 |
 | ✓ | /fr/search?q=Chiikawa&options%5Bprefix%5D=last | 200 |  |
 | ✓ | /fr/search?q=Kirby&options%5Bprefix%5D=last | 200 |  |
 | ✓ | /fr/search?q=Otamatone&options%5Bprefix%5D=last | 200 |  |
@@ -440,6 +459,7 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /ja/collections/all/aiseno | 200 |  |
 | ✓ | /ja/collections/all/aiyouyiya | 200 |  |
 | ✓ | /ja/collections/all/amperer | 200 |  |
+| ✓ | /ja/collections/all/arduino | 200 |  |
 | ✓ | /ja/collections/all/blulu | 200 |  |
 | ✓ | /ja/collections/all/briskfeel | 200 |  |
 | ✓ | /ja/collections/all/california-costumes | 200 |  |
@@ -453,11 +473,12 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /ja/collections/all/dfxsz | 200 |  |
 | ✓ | /ja/collections/all/dii | 200 |  |
 | ✓ | /ja/collections/all/ebloma | 200 |  |
-| ✓ | /ja/collections/all/elite-sports | 200 |  |
+| ✓ | /ja/collections/all/fabthos | 200 |  |
+| ✓ | /ja/collections/all/okivivi | 200 |  |
 | ✓ | /ja/collections/all/overseas | 200 |  |
 | ✓ | /ja/collections/all?page=2 | 200 |  |
 | ✓ | /ja/collections/all?page=3 | 200 |  |
-| ✓ | /ja/collections/all?page=7 | 200 |  |
+| ✓ | /ja/collections/all?page=9 | 200 |  |
 | ✓ | /ja/collections/carhartt | 200 |  |
 | ✓ | /ja/collections/feelbetter-finds.atom | 200 |  |
 | ✓ | /ja/collections/finds | 200 |  |
@@ -467,7 +488,7 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /ja/products/blank-black-complete-skateboard-8-0-minimal-deck | 302 | https://shop.feelbetter.agency/products/blank-black-complete-skateboard-8-0-minimal-deck |
 | ✓ | /ja/products/carhartt-carhartt-mens-iconic-j140-firm-duck-active-jac-610 | 302 | https://shop.feelbetter.agency/products/carhartt-carhartt-mens-iconic-j140-firm-duck-active-jac-610 |
 | ✓ | /ja/products/carhartt-carhartt-mens-rugged-flex-relaxed-fit-duck-detro-609 | 302 | https://shop.feelbetter.agency/products/carhartt-carhartt-mens-rugged-flex-relaxed-fit-duck-detro-609 |
-| ✓ | /ja/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=2e5a0081d&_ss=r | 302 | https://shop.feelbetter.agency/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=2e5a0081d&_ss=r |
+| ✓ | /ja/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=b9584f5e6&_ss=r | 302 | https://shop.feelbetter.agency/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=b9584f5e6&_ss=r |
 | ✓ | /ja/products/halloween-5pcs-halloween-creepy-cloth-black-3072inch-hallo-550 | 302 | https://shop.feelbetter.agency/products/halloween-5pcs-halloween-creepy-cloth-black-3072inch-hallo-550 |
 | ✓ | /ja/products/halloween-adult-mothman-costume-halloween-poncho-cosplay-h-575 | 302 | https://shop.feelbetter.agency/products/halloween-adult-mothman-costume-halloween-poncho-cosplay-h-575 |
 | ✓ | /ja/products/halloween-aerwo-halloween-decoration-black-lace-spiderweb-542 | 302 | https://shop.feelbetter.agency/products/halloween-aerwo-halloween-decoration-black-lace-spiderweb-542 |
@@ -481,15 +502,18 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /ja/products/halloween-dii-black-lace-overlay-tabletop-collection-gothi-547 | 302 | https://shop.feelbetter.agency/products/halloween-dii-black-lace-overlay-tabletop-collection-gothi-547 |
 | ✓ | /ja/products/halloween-halloween-ghost-figurine-white-decorative-cute-f-566 | 302 | https://shop.feelbetter.agency/products/halloween-halloween-ghost-figurine-white-decorative-cute-f-566 |
 | ✓ | /ja/products/halloween-mens-medieval-knight-costume-578 | 302 | https://shop.feelbetter.agency/products/halloween-mens-medieval-knight-costume-578 |
-| ✓ | /ja/products/jiu-jitsu-bjj-shorts-for-men-no-gi-jiu-jitsu-grappling-mua-495 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-bjj-shorts-for-men-no-gi-jiu-jitsu-grappling-mua-495 |
-| ✓ | /ja/products/jiu-jitsu-elite-sports-adults-brazilian-jiu-jitsu-belts-fo-486 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-elite-sports-adults-brazilian-jiu-jitsu-belts-fo-486 |
-| ✓ | /ja/products/jiu-jitsu-elite-sports-boxing-gym-duffle-bag-for-mma-bjj-j-498 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-elite-sports-boxing-gym-duffle-bag-for-mma-bjj-j-498 |
 | ✓ | /ja/products/music-boxes-briskfeel-classical-ballerina-music-box-jewelry-426 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-classical-ballerina-music-box-jewelry-426 |
 | ✓ | /ja/products/music-boxes-briskfeel-vintage-music-box-with-constellations-425 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-vintage-music-box-with-constellations-425 |
+| ✓ | /ja/products/music-boxes-briskfeel-wooden-carousel-music-box-with-moving-423 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-wooden-carousel-music-box-with-moving-423 |
+| ✓ | /ja/products/nike-reactx-rejuven8-mens-recovery-slides-unisex-fit-choose-color-size | 302 | https://shop.feelbetter.agency/products/nike-reactx-rejuven8-mens-recovery-slides-unisex-fit-choose-color-size |
 | ✓ | /ja/products/otamatone-neo-10th-anniversary-black | 302 | https://shop.feelbetter.agency/products/otamatone-neo-10th-anniversary-black |
 | ✓ | /ja/products/plush-ai-chat-buddy-for-teens-13-interactive-bunny-plu-585 | 302 | https://shop.feelbetter.agency/products/plush-ai-chat-buddy-for-teens-13-interactive-bunny-plu-585 |
+| ✓ | /ja/products/plush-ai-plush-toy-bag-charm-with-voice-chat-led-eyes-586?_pos=2&_sid=b9584f5e6&_ss=r | 302 | https://shop.feelbetter.agency/products/plush-ai-plush-toy-bag-charm-with-voice-chat-led-eyes-586?_pos=2&_sid=b9584f5e6&_ss=r |
 | ✓ | /ja/products/plush-aidia-smart-ai-companion-teddy-bear-white-and-re-589 | 302 | https://shop.feelbetter.agency/products/plush-aidia-smart-ai-companion-teddy-bear-white-and-re-589 |
 | ✓ | /ja/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583 | 302 | https://shop.feelbetter.agency/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583 |
+| ✓ | /ja/products/plush-moyoyo-pink-ai-plush-companion-with-memory-led-e-590?_pos=3&_sid=b9584f5e6&_ss=r | 302 | https://shop.feelbetter.agency/products/plush-moyoyo-pink-ai-plush-companion-with-memory-led-e-590?_pos=3&_sid=b9584f5e6&_ss=r |
+| ✓ | /ja/products/tech-arduino-opla-iot-kit-akx00026-all-in-one-interne-416 | 302 | https://shop.feelbetter.agency/products/tech-arduino-opla-iot-kit-akx00026-all-in-one-interne-416 |
+| ✓ | /ja/products/tech-arduino-student-kit-akx00025-complete-stem-learn-418 | 302 | https://shop.feelbetter.agency/products/tech-arduino-student-kit-akx00025-complete-stem-learn-418 |
 | ✓ | /ja/search?q=%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F&options%5Bprefix%5D=last | 200 |  |
 | ✓ | /ja/search?q=%E3%82%AA%E3%82%BF%E3%83%9E%E3%83%88%E3%83%BC%E3%83%B3&options%5Bprefix%5D=last | 200 |  |
 | ✓ | /ja/search?q=%E3%82%AB%E3%83%BC%E3%83%8F%E3%83%BC%E3%83%88+%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88&options%5Bprefix%5D=last | 200 |  |
@@ -521,6 +545,7 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /ko/collections/all/aiseno | 200 |  |
 | ✓ | /ko/collections/all/aiyouyiya | 200 |  |
 | ✓ | /ko/collections/all/amperer | 200 |  |
+| ✓ | /ko/collections/all/arduino | 200 |  |
 | ✓ | /ko/collections/all/blulu | 200 |  |
 | ✓ | /ko/collections/all/briskfeel | 200 |  |
 | ✓ | /ko/collections/all/california-costumes | 200 |  |
@@ -534,11 +559,12 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /ko/collections/all/dfxsz | 200 |  |
 | ✓ | /ko/collections/all/dii | 200 |  |
 | ✓ | /ko/collections/all/ebloma | 200 |  |
-| ✓ | /ko/collections/all/elite-sports | 200 |  |
+| ✓ | /ko/collections/all/fabthos | 200 |  |
+| ✓ | /ko/collections/all/okivivi | 200 |  |
 | ✓ | /ko/collections/all/overseas | 200 |  |
 | ✓ | /ko/collections/all?page=2 | 200 |  |
 | ✓ | /ko/collections/all?page=3 | 200 |  |
-| ✓ | /ko/collections/all?page=7 | 200 |  |
+| ✓ | /ko/collections/all?page=9 | 200 |  |
 | ✓ | /ko/collections/carhartt | 200 |  |
 | ✓ | /ko/collections/feelbetter-finds.atom | 200 |  |
 | ✓ | /ko/collections/finds | 200 |  |
@@ -548,7 +574,7 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /ko/products/blank-black-complete-skateboard-8-0-minimal-deck | 302 | https://shop.feelbetter.agency/products/blank-black-complete-skateboard-8-0-minimal-deck |
 | ✓ | /ko/products/carhartt-carhartt-mens-iconic-j140-firm-duck-active-jac-610 | 302 | https://shop.feelbetter.agency/products/carhartt-carhartt-mens-iconic-j140-firm-duck-active-jac-610 |
 | ✓ | /ko/products/carhartt-carhartt-mens-rugged-flex-relaxed-fit-duck-detro-609 | 302 | https://shop.feelbetter.agency/products/carhartt-carhartt-mens-rugged-flex-relaxed-fit-duck-detro-609 |
-| ✓ | /ko/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=2e5a0081d&_ss=r | 302 | https://shop.feelbetter.agency/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=2e5a0081d&_ss=r |
+| ✓ | /ko/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=2f95b5acd&_ss=r | 302 | https://shop.feelbetter.agency/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=2f95b5acd&_ss=r |
 | ✓ | /ko/products/halloween-5pcs-halloween-creepy-cloth-black-3072inch-hallo-550 | 302 | https://shop.feelbetter.agency/products/halloween-5pcs-halloween-creepy-cloth-black-3072inch-hallo-550 |
 | ✓ | /ko/products/halloween-adult-mothman-costume-halloween-poncho-cosplay-h-575 | 302 | https://shop.feelbetter.agency/products/halloween-adult-mothman-costume-halloween-poncho-cosplay-h-575 |
 | ✓ | /ko/products/halloween-aerwo-halloween-decoration-black-lace-spiderweb-542 | 302 | https://shop.feelbetter.agency/products/halloween-aerwo-halloween-decoration-black-lace-spiderweb-542 |
@@ -562,15 +588,18 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /ko/products/halloween-dii-black-lace-overlay-tabletop-collection-gothi-547 | 302 | https://shop.feelbetter.agency/products/halloween-dii-black-lace-overlay-tabletop-collection-gothi-547 |
 | ✓ | /ko/products/halloween-halloween-ghost-figurine-white-decorative-cute-f-566 | 302 | https://shop.feelbetter.agency/products/halloween-halloween-ghost-figurine-white-decorative-cute-f-566 |
 | ✓ | /ko/products/halloween-mens-medieval-knight-costume-578 | 302 | https://shop.feelbetter.agency/products/halloween-mens-medieval-knight-costume-578 |
-| ✓ | /ko/products/jiu-jitsu-bjj-shorts-for-men-no-gi-jiu-jitsu-grappling-mua-495 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-bjj-shorts-for-men-no-gi-jiu-jitsu-grappling-mua-495 |
-| ✓ | /ko/products/jiu-jitsu-elite-sports-adults-brazilian-jiu-jitsu-belts-fo-486 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-elite-sports-adults-brazilian-jiu-jitsu-belts-fo-486 |
-| ✓ | /ko/products/jiu-jitsu-elite-sports-boxing-gym-duffle-bag-for-mma-bjj-j-498 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-elite-sports-boxing-gym-duffle-bag-for-mma-bjj-j-498 |
 | ✓ | /ko/products/music-boxes-briskfeel-classical-ballerina-music-box-jewelry-426 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-classical-ballerina-music-box-jewelry-426 |
 | ✓ | /ko/products/music-boxes-briskfeel-vintage-music-box-with-constellations-425 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-vintage-music-box-with-constellations-425 |
+| ✓ | /ko/products/music-boxes-briskfeel-wooden-carousel-music-box-with-moving-423 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-wooden-carousel-music-box-with-moving-423 |
+| ✓ | /ko/products/nike-reactx-rejuven8-mens-recovery-slides-unisex-fit-choose-color-size | 302 | https://shop.feelbetter.agency/products/nike-reactx-rejuven8-mens-recovery-slides-unisex-fit-choose-color-size |
 | ✓ | /ko/products/otamatone-neo-10th-anniversary-black | 302 | https://shop.feelbetter.agency/products/otamatone-neo-10th-anniversary-black |
 | ✓ | /ko/products/plush-ai-chat-buddy-for-teens-13-interactive-bunny-plu-585 | 302 | https://shop.feelbetter.agency/products/plush-ai-chat-buddy-for-teens-13-interactive-bunny-plu-585 |
+| ✓ | /ko/products/plush-ai-plush-toy-bag-charm-with-voice-chat-led-eyes-586?_pos=2&_sid=2f95b5acd&_ss=r | 302 | https://shop.feelbetter.agency/products/plush-ai-plush-toy-bag-charm-with-voice-chat-led-eyes-586?_pos=2&_sid=2f95b5acd&_ss=r |
 | ✓ | /ko/products/plush-aidia-smart-ai-companion-teddy-bear-white-and-re-589 | 302 | https://shop.feelbetter.agency/products/plush-aidia-smart-ai-companion-teddy-bear-white-and-re-589 |
 | ✓ | /ko/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583 | 302 | https://shop.feelbetter.agency/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583 |
+| ✓ | /ko/products/plush-moyoyo-pink-ai-plush-companion-with-memory-led-e-590?_pos=3&_sid=2f95b5acd&_ss=r | 302 | https://shop.feelbetter.agency/products/plush-moyoyo-pink-ai-plush-companion-with-memory-led-e-590?_pos=3&_sid=2f95b5acd&_ss=r |
+| ✓ | /ko/products/tech-arduino-opla-iot-kit-akx00026-all-in-one-interne-416 | 302 | https://shop.feelbetter.agency/products/tech-arduino-opla-iot-kit-akx00026-all-in-one-interne-416 |
+| ✓ | /ko/products/tech-arduino-student-kit-akx00025-complete-stem-learn-418 | 302 | https://shop.feelbetter.agency/products/tech-arduino-student-kit-akx00025-complete-stem-learn-418 |
 | ✓ | /ko/search?q=%EC%82%B0%EB%A6%AC%EC%98%A4&options%5Bprefix%5D=last | 200 |  |
 | ✓ | /ko/search?q=%EC%8A%A4%ED%80%B4%EC%8B%9C%EB%A9%9C%EB%A1%9C%EC%9A%B0&options%5Bprefix%5D=last | 200 |  |
 | ✓ | /ko/search?q=%EC%98%A4%ED%83%80%EB%A7%88%ED%86%A4&options%5Bprefix%5D=last | 200 |  |
@@ -583,29 +612,33 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /products/blank-black-complete-skateboard-8-0-minimal-deck | 200 |  |
 | ✓ | /products/carhartt-carhartt-mens-iconic-j140-firm-duck-active-jac-610 | 200 |  |
 | ✓ | /products/carhartt-carhartt-mens-rugged-flex-relaxed-fit-duck-detro-609 | 200 |  |
-| ✓ | /products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=d22c7eb3e&_ss=r | 200 |  |
+| ✓ | /products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=1e4c7db9a&_ss=r | 200 |  |
 | ✓ | /products/halloween-5pcs-halloween-creepy-cloth-black-3072inch-hallo-550 | 200 |  |
 | ✓ | /products/halloween-adult-mothman-costume-halloween-poncho-cosplay-h-575 | 200 |  |
 | ✓ | /products/halloween-aerwo-halloween-decoration-black-lace-spiderweb-542 | 200 |  |
 | ✓ | /products/halloween-aiseno-realistic-skeleton-stakes-halloween-decor-551 | 200 |  |
 | ✓ | /products/halloween-blulu-3-pcs-halloween-decor-indoor-wood-table-si-559 | 200 |  |
 | ✓ | /products/halloween-congru-4-pcs-halloween-costume-for-adultsyellow-572 | 200 |  |
-| ✗ | /products/halloween-cosplaysky-mens-tunic-cosplay-costume-halloween-570 | 429 |  |
+| ✓ | /products/halloween-cosplaysky-mens-tunic-cosplay-costume-halloween-570 | 200 |  |
 | ✓ | /products/halloween-crazy-bonez-original-pose-n-stay-halloween-skele-545 | 200 |  |
 | ✓ | /products/halloween-dazonge-set-of-3-halloween-ceramic-ghost-hallowe-560 | 200 |  |
-| ✗ | /products/halloween-dfxsz-halloween-pillow-covers-18x18-inch-2pcs-wh-555 | 429 |  |
+| ✓ | /products/halloween-dfxsz-halloween-pillow-covers-18x18-inch-2pcs-wh-555 | 200 |  |
 | ✓ | /products/halloween-dii-black-lace-overlay-tabletop-collection-gothi-547 | 200 |  |
-| ✗ | /products/halloween-halloween-ghost-figurine-white-decorative-cute-f-566 | 429 |  |
+| ✓ | /products/halloween-halloween-ghost-figurine-white-decorative-cute-f-566 | 200 |  |
 | ✓ | /products/halloween-mens-medieval-knight-costume-578 | 200 |  |
-| ✗ | /products/jiu-jitsu-bjj-shorts-for-men-no-gi-jiu-jitsu-grappling-mua-495 | 429 |  |
-| ✓ | /products/jiu-jitsu-elite-sports-adults-brazilian-jiu-jitsu-belts-fo-486 | 200 |  |
-| ✓ | /products/jiu-jitsu-elite-sports-boxing-gym-duffle-bag-for-mma-bjj-j-498 | 200 |  |
 | ✓ | /products/music-boxes-briskfeel-classical-ballerina-music-box-jewelry-426 | 200 |  |
 | ✓ | /products/music-boxes-briskfeel-vintage-music-box-with-constellations-425 | 200 |  |
+| ✓ | /products/music-boxes-briskfeel-wooden-carousel-music-box-with-moving-423 | 200 |  |
+| ✓ | /products/nike-reactx-rejuven8-mens-recovery-slides-unisex-fit-choose-color-size | 200 |  |
 | ✓ | /products/otamatone-neo-10th-anniversary-black | 200 |  |
 | ✓ | /products/plush-ai-chat-buddy-for-teens-13-interactive-bunny-plu-585 | 200 |  |
-| ✗ | /products/plush-aidia-smart-ai-companion-teddy-bear-white-and-re-589 | 429 |  |
+| ✓ | /products/plush-ai-plush-toy-bag-charm-with-voice-chat-led-eyes-586?_pos=2&_sid=1e4c7db9a&_ss=r | 200 |  |
+| ✓ | /products/plush-aidia-smart-ai-companion-teddy-bear-white-and-re-589 | 200 |  |
 | ✓ | /products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583 | 200 |  |
+| ✓ | /products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583?_pos=4&_sid=1e4c7db9a&_ss=r | 200 |  |
+| ✓ | /products/plush-moyoyo-pink-ai-plush-companion-with-memory-led-e-590?_pos=3&_sid=1e4c7db9a&_ss=r | 200 |  |
+| ✓ | /products/tech-arduino-opla-iot-kit-akx00026-all-in-one-interne-416 | 200 |  |
+| ✓ | /products/tech-arduino-student-kit-akx00025-complete-stem-learn-418 | 200 |  |
 | ✓ | /search?q=AI+plush&options%5Bprefix%5D=last | 200 |  |
 | ✓ | /search?q=Carhartt+jacket&options%5Bprefix%5D=last | 200 |  |
 | ✓ | /search?q=Chiikawa&options%5Bprefix%5D=last | 200 |  |
@@ -637,6 +670,7 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /zh/collections/all/aiseno | 200 |  |
 | ✓ | /zh/collections/all/aiyouyiya | 200 |  |
 | ✓ | /zh/collections/all/amperer | 200 |  |
+| ✓ | /zh/collections/all/arduino | 200 |  |
 | ✓ | /zh/collections/all/blulu | 200 |  |
 | ✓ | /zh/collections/all/briskfeel | 200 |  |
 | ✓ | /zh/collections/all/california-costumes | 200 |  |
@@ -650,11 +684,12 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /zh/collections/all/dfxsz | 200 |  |
 | ✓ | /zh/collections/all/dii | 200 |  |
 | ✓ | /zh/collections/all/ebloma | 200 |  |
-| ✓ | /zh/collections/all/elite-sports | 200 |  |
+| ✓ | /zh/collections/all/fabthos | 200 |  |
+| ✓ | /zh/collections/all/okivivi | 200 |  |
 | ✓ | /zh/collections/all/overseas | 200 |  |
 | ✓ | /zh/collections/all?page=2 | 200 |  |
 | ✓ | /zh/collections/all?page=3 | 200 |  |
-| ✓ | /zh/collections/all?page=7 | 200 |  |
+| ✓ | /zh/collections/all?page=9 | 200 |  |
 | ✓ | /zh/collections/carhartt | 200 |  |
 | ✓ | /zh/collections/feelbetter-finds.atom | 200 |  |
 | ✓ | /zh/collections/finds | 200 |  |
@@ -664,29 +699,32 @@ Run: 2026-10-04T02:05:38.011Z · pages 119 · links 567 · failures 13
 | ✓ | /zh/products/blank-black-complete-skateboard-8-0-minimal-deck | 302 | https://shop.feelbetter.agency/products/blank-black-complete-skateboard-8-0-minimal-deck |
 | ✓ | /zh/products/carhartt-carhartt-mens-iconic-j140-firm-duck-active-jac-610 | 302 | https://shop.feelbetter.agency/products/carhartt-carhartt-mens-iconic-j140-firm-duck-active-jac-610 |
 | ✓ | /zh/products/carhartt-carhartt-mens-rugged-flex-relaxed-fit-duck-detro-609 | 302 | https://shop.feelbetter.agency/products/carhartt-carhartt-mens-rugged-flex-relaxed-fit-duck-detro-609 |
-| ✓ | /zh/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=2e5a0081d&_ss=r | 302 | https://shop.feelbetter.agency/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=2e5a0081d&_ss=r |
+| ✓ | /zh/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=d9f1c368e&_ss=r | 302 | https://shop.feelbetter.agency/products/finds-google-pixelsnap-phone-case-pixel-10-pro-fold-du-407?_pos=1&_sid=d9f1c368e&_ss=r |
 | ✓ | /zh/products/halloween-5pcs-halloween-creepy-cloth-black-3072inch-hallo-550 | 302 | https://shop.feelbetter.agency/products/halloween-5pcs-halloween-creepy-cloth-black-3072inch-hallo-550 |
-| ✗ | /zh/products/halloween-adult-mothman-costume-halloween-poncho-cosplay-h-575 | 429 |  |
+| ✓ | /zh/products/halloween-adult-mothman-costume-halloween-poncho-cosplay-h-575 | 302 | https://shop.feelbetter.agency/products/halloween-adult-mothman-costume-halloween-poncho-cosplay-h-575 |
 | ✓ | /zh/products/halloween-aerwo-halloween-decoration-black-lace-spiderweb-542 | 302 | https://shop.feelbetter.agency/products/halloween-aerwo-halloween-decoration-black-lace-spiderweb-542 |
 | ✓ | /zh/products/halloween-aiseno-realistic-skeleton-stakes-halloween-decor-551 | 302 | https://shop.feelbetter.agency/products/halloween-aiseno-realistic-skeleton-stakes-halloween-decor-551 |
 | ✓ | /zh/products/halloween-blulu-3-pcs-halloween-decor-indoor-wood-table-si-559 | 302 | https://shop.feelbetter.agency/products/halloween-blulu-3-pcs-halloween-decor-indoor-wood-table-si-559 |
 | ✓ | /zh/products/halloween-congru-4-pcs-halloween-costume-for-adultsyellow-572 | 302 | https://shop.feelbetter.agency/products/halloween-congru-4-pcs-halloween-costume-for-adultsyellow-572 |
 | ✓ | /zh/products/halloween-cosplaysky-mens-tunic-cosplay-costume-halloween-570 | 302 | https://shop.feelbetter.agency/products/halloween-cosplaysky-mens-tunic-cosplay-costume-halloween-570 |
-| ✗ | /zh/products/halloween-crazy-bonez-original-pose-n-stay-halloween-skele-545 | 429 |  |
+| ✓ | /zh/products/halloween-crazy-bonez-original-pose-n-stay-halloween-skele-545 | 302 | https://shop.feelbetter.agency/products/halloween-crazy-bonez-original-pose-n-stay-halloween-skele-545 |
 | ✓ | /zh/products/halloween-dazonge-set-of-3-halloween-ceramic-ghost-hallowe-560 | 302 | https://shop.feelbetter.agency/products/halloween-dazonge-set-of-3-halloween-ceramic-ghost-hallowe-560 |
 | ✓ | /zh/products/halloween-dfxsz-halloween-pillow-covers-18x18-inch-2pcs-wh-555 | 302 | https://shop.feelbetter.agency/products/halloween-dfxsz-halloween-pillow-covers-18x18-inch-2pcs-wh-555 |
 | ✓ | /zh/products/halloween-dii-black-lace-overlay-tabletop-collection-gothi-547 | 302 | https://shop.feelbetter.agency/products/halloween-dii-black-lace-overlay-tabletop-collection-gothi-547 |
 | ✓ | /zh/products/halloween-halloween-ghost-figurine-white-decorative-cute-f-566 | 302 | https://shop.feelbetter.agency/products/halloween-halloween-ghost-figurine-white-decorative-cute-f-566 |
 | ✓ | /zh/products/halloween-mens-medieval-knight-costume-578 | 302 | https://shop.feelbetter.agency/products/halloween-mens-medieval-knight-costume-578 |
-| ✗ | /zh/products/jiu-jitsu-bjj-shorts-for-men-no-gi-jiu-jitsu-grappling-mua-495 | 429 |  |
-| ✓ | /zh/products/jiu-jitsu-elite-sports-adults-brazilian-jiu-jitsu-belts-fo-486 | 302 | https://shop.feelbetter.agency/products/jiu-jitsu-elite-sports-adults-brazilian-jiu-jitsu-belts-fo-486 |
-| ✗ | /zh/products/jiu-jitsu-elite-sports-boxing-gym-duffle-bag-for-mma-bjj-j-498 | 429 |  |
 | ✓ | /zh/products/music-boxes-briskfeel-classical-ballerina-music-box-jewelry-426 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-classical-ballerina-music-box-jewelry-426 |
 | ✓ | /zh/products/music-boxes-briskfeel-vintage-music-box-with-constellations-425 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-vintage-music-box-with-constellations-425 |
+| ✓ | /zh/products/music-boxes-briskfeel-wooden-carousel-music-box-with-moving-423 | 302 | https://shop.feelbetter.agency/products/music-boxes-briskfeel-wooden-carousel-music-box-with-moving-423 |
+| ✓ | /zh/products/nike-reactx-rejuven8-mens-recovery-slides-unisex-fit-choose-color-size | 302 | https://shop.feelbetter.agency/products/nike-reactx-rejuven8-mens-recovery-slides-unisex-fit-choose-color-size |
 | ✓ | /zh/products/otamatone-neo-10th-anniversary-black | 302 | https://shop.feelbetter.agency/products/otamatone-neo-10th-anniversary-black |
-| ✗ | /zh/products/plush-ai-chat-buddy-for-teens-13-interactive-bunny-plu-585 | 429 |  |
+| ✓ | /zh/products/plush-ai-chat-buddy-for-teens-13-interactive-bunny-plu-585 | 302 | https://shop.feelbetter.agency/products/plush-ai-chat-buddy-for-teens-13-interactive-bunny-plu-585 |
+| ✓ | /zh/products/plush-ai-plush-toy-bag-charm-with-voice-chat-led-eyes-586?_pos=2&_sid=d9f1c368e&_ss=r | 302 | https://shop.feelbetter.agency/products/plush-ai-plush-toy-bag-charm-with-voice-chat-led-eyes-586?_pos=2&_sid=d9f1c368e&_ss=r |
 | ✓ | /zh/products/plush-aidia-smart-ai-companion-teddy-bear-white-and-re-589 | 302 | https://shop.feelbetter.agency/products/plush-aidia-smart-ai-companion-teddy-bear-white-and-re-589 |
-| ✗ | /zh/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583 | 429 |  |
+| ✓ | /zh/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583 | 302 | https://shop.feelbetter.agency/products/plush-interactive-ai-plush-companion-pet-smart-soft-cu-583 |
+| ✓ | /zh/products/plush-moyoyo-pink-ai-plush-companion-with-memory-led-e-590?_pos=3&_sid=d9f1c368e&_ss=r | 302 | https://shop.feelbetter.agency/products/plush-moyoyo-pink-ai-plush-companion-with-memory-led-e-590?_pos=3&_sid=d9f1c368e&_ss=r |
+| ✓ | /zh/products/tech-arduino-opla-iot-kit-akx00026-all-in-one-interne-416 | 302 | https://shop.feelbetter.agency/products/tech-arduino-opla-iot-kit-akx00026-all-in-one-interne-416 |
+| ✓ | /zh/products/tech-arduino-student-kit-akx00025-complete-stem-learn-418 | 302 | https://shop.feelbetter.agency/products/tech-arduino-student-kit-akx00025-complete-stem-learn-418 |
 | ✓ | /zh/search?q=%E4%B8%89%E4%B8%BD%E9%B8%A5&options%5Bprefix%5D=last | 200 |  |
 | ✓ | /zh/search?q=%E5%90%89%E4%BC%8A%E5%8D%A1%E5%93%87&options%5Bprefix%5D=last | 200 |  |
 | ✓ | /zh/search?q=%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94&options%5Bprefix%5D=last | 200 |  |
