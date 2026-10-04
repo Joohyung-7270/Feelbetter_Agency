@@ -124,5 +124,265 @@
       "남자친구선물"
     ]
   },
-  "locales": {}
+  "locales": {
+    "en": {
+      "title": "Hazbin Hotel Logo Tote Bag, 100% Cotton Canvas, 2 Designs",
+      "meta_title": "Hazbin Hotel Logo Tote Bag, 100% Cotton Canvas",
+      "meta_description": "Hazbin Hotel logo tote bag in 100% cotton canvas, 14 x 16 in, with a choice of Hotel Logo or VoxTek at one price. Delivery takes 7–14 business days.",
+      "headline": "A 100% cotton canvas Hazbin Hotel logo tote bag, in your choice of two designs",
+      "intro": "This Hazbin Hotel Logo Tote Bag is made of 100% cotton canvas, measures 14 x 16 inches (about 35.5 x 40.6 cm) and comes in two designs, Hotel Logo or VoxTek. Our concierge checked the model and listing, and we order it from the overseas seller after you place your order.",
+      "highlights": [
+        "The bag is made of 100% cotton canvas, which suits everyday carrying.",
+        "It measures 14 x 16 inches (about 35.5 x 40.6 cm), with room for everyday items.",
+        "You can choose between two designs, Hotel Logo and VoxTek, at the same price.",
+        "The seller's tagline, “Carry those sins in style,” sets a playful Hazbin Hotel tone.",
+        "Its listed weight is 227 g (about 8 oz), which keeps the bag light to carry."
+      ],
+      "sections": [
+        {
+          "h": "Size and material",
+          "p": "The tote is made of 100% cotton canvas and measures 14 x 16 inches (about 35.5 x 40.6 cm). The listing gives a weight of 227 g."
+        },
+        {
+          "h": "Choosing a design",
+          "p": "The Design option offers Hotel Logo and VoxTek at the same price, so you can pick the one you like. It also makes an easy gift for a Hazbin Hotel fan. After you order, delivery typically takes 7–14 business days, and tracking is sent by email."
+        }
+      ],
+      "cautions": [
+        "Compare the size, about 35.5 x 40.6 cm, with what you plan to carry; handle length, pockets and closure are not stated in the listing.",
+        "Double-check your design choice: once the seller order is placed it cannot be cancelled, except for defects or wrong items."
+      ],
+      "options": [
+        {
+          "name": "Design",
+          "values": [
+            "Hotel Logo",
+            "VoxTek"
+          ]
+        }
+      ]
+    },
+    "ko": {
+      "title": "Hazbin Hotel 로고 토트백, 100% 면 캔버스, 2가지 디자인",
+      "meta_title": "Hazbin Hotel 로고 토트백, 100% 면 캔버스",
+      "meta_description": "Hazbin Hotel 로고 토트백이에요. 100% 면 캔버스에 약 35.5x40.6cm 크기이고 Hotel 로고와 VoxTek 중 같은 가격에 고를 수 있어요. 배송은 보통 영업일 7~14일이에요.",
+      "headline": "두 가지 디자인 중에 고를 수 있는 100% 면 캔버스 Hazbin Hotel 로고 토트백이에요",
+      "intro": "Hazbin Hotel의 로고 토트백으로, 100% 면 캔버스 소재에 크기는 약 35.5x40.6cm이고 Hotel 로고와 VoxTek 두 가지 디자인이 있어요. 컨시어지가 모델과 판매 정보를 확인했고, 주문하시면 해외 판매처에서 구매해 보내드려요.",
+      "highlights": [
+        "100% 면 캔버스 소재라 매일 들고 다니기에 잘 어울려요.",
+        "약 35.5x40.6cm 크기라 일상 소지품을 담기 좋아요.",
+        "Hotel 로고와 VoxTek 두 가지 디자인 중에서 같은 가격에 고를 수 있어요.",
+        "판매처의 문구 “Carry those sins in style”이 Hazbin Hotel다운 장난스러운 분위기를 더해요.",
+        "상품 정보의 무게가 227g이라 가볍게 들고 다닐 수 있어요."
+      ],
+      "sections": [
+        {
+          "h": "크기와 소재",
+          "p": "100% 면 캔버스로 만들었고 크기는 약 35.5x40.6cm예요. 상품 정보에는 무게 227g이 적혀 있어요."
+        },
+        {
+          "h": "디자인 고르기",
+          "p": "디자인 옵션은 Hotel 로고와 VoxTek이고 같은 가격이라 마음에 드는 쪽을 고르면 돼요. Hazbin Hotel 팬에게 주는 선물로도 부담이 없어요. 주문 뒤 배송은 보통 영업일 7~14일 정도 걸리고, 배송 추적 정보는 이메일로 보내드려요."
+        }
+      ],
+      "cautions": [
+        "주문 전에 약 35.5x40.6cm 크기가 넣으려는 물건에 충분한지 확인해 주세요. 손잡이 길이, 주머니, 여밈 방식은 상품 정보에 없어요.",
+        "디자인은 주문 전에 꼭 다시 확인해 주세요. 판매처 주문이 들어가면 불량이나 오배송이 아닌 한 취소할 수 없어요."
+      ],
+      "options": [
+        {
+          "name": "디자인",
+          "values": [
+            "Hotel 로고",
+            "VoxTek"
+          ]
+        }
+      ]
+    },
+    "ja": {
+      "title": "Hazbin Hotel ロゴ トートバッグ コットン100%キャンバス 2デザイン",
+      "meta_title": "Hazbin Hotel ロゴ トートバッグ コットンキャンバス",
+      "meta_description": "Hazbin Hotelのロゴ入りトートバッグです。コットン100%のキャンバス地で約35.5×40.6cm、HotelロゴとVoxTekの2デザインから同じ価格で選べます。通常は営業日7〜14日でお届けします。",
+      "headline": "2つのデザインから選べる、コットン100%キャンバスのHazbin Hotelロゴトートバッグです",
+      "intro": "Hazbin Hotelのロゴトートバッグで、コットン100%のキャンバス地にサイズは約35.5×40.6cm、HotelロゴとVoxTekの2デザインがあります。コンシェルジュがモデルと掲載内容を確認しており、ご注文後に海外の販売元から購入してお届けします。",
+      "highlights": [
+        "コットン100%のキャンバス地なので、毎日の持ち歩きに向いています。",
+        "約35.5×40.6cmのサイズで、普段の持ち物を入れやすい大きさです。",
+        "HotelロゴとVoxTekの2デザインから、同じ価格で選べます。",
+        "販売元のキャッチコピー「Carry those sins in style」が、Hazbin Hotelらしい遊び心を添えます。",
+        "商品情報の重さは227gで、軽く持ち歩けます。"
+      ],
+      "sections": [
+        {
+          "h": "サイズと素材",
+          "p": "コットン100%のキャンバス地で、サイズは約35.5×40.6cmです。商品情報には重さ227gと記載されています。"
+        },
+        {
+          "h": "デザインの選び方",
+          "p": "デザインオプションはHotelロゴとVoxTekで、同じ価格なのでお好きな方を選べます。Hazbin Hotelファンへのギフトにも気軽に選べます。ご注文後のお届けは通常営業日7〜14日で、追跡情報はメールでお知らせします。"
+        }
+      ],
+      "cautions": [
+        "ご注文前に、約35.5×40.6cmのサイズが入れたい物に足りるかご確認ください。持ち手の長さやポケット、口の閉じ方は商品情報に記載がありません。",
+        "デザインはご注文前にもう一度ご確認ください。販売元への発注後は、不良品や誤配送を除きキャンセルできません。"
+      ],
+      "options": [
+        {
+          "name": "デザイン",
+          "values": [
+            "Hotelロゴ",
+            "VoxTek"
+          ]
+        }
+      ]
+    },
+    "zh-CN": {
+      "title": "Hazbin Hotel 标志托特包，100% 纯棉帆布，2 种设计",
+      "meta_title": "Hazbin Hotel 标志托特包，100% 纯棉帆布",
+      "meta_description": "Hazbin Hotel 标志托特包，100% 纯棉帆布，约 35.5 x 40.6 厘米，可选 Hotel 标志或 VoxTek 设计，价格相同。下单后通常 7–14 个工作日送达。",
+      "headline": "可从两种设计中挑选的 100% 纯棉帆布 Hazbin Hotel 标志托特包",
+      "intro": "这是 Hazbin Hotel 的标志托特包，采用 100% 纯棉帆布，尺寸约 35.5 x 40.6 厘米，有 Hotel 标志和 VoxTek 两种设计。礼宾客服已核对型号与商品信息，下单后由我们向海外卖家采购并寄给您。",
+      "highlights": [
+        "采用 100% 纯棉帆布，适合日常携带。",
+        "尺寸约 35.5 x 40.6 厘米，适合装日常物品。",
+        "可在 Hotel 标志和 VoxTek 两种设计中选择，价格相同。",
+        "卖家的宣传语 “Carry those sins in style” 为它增添了 Hazbin Hotel 式的俏皮气质。",
+        "商品信息标注重量为 227 克，携带起来比较轻便。"
+      ],
+      "sections": [
+        {
+          "h": "尺寸与材质",
+          "p": "采用 100% 纯棉帆布，尺寸约 35.5 x 40.6 厘米。商品信息中标注的重量为 227 克。"
+        },
+        {
+          "h": "如何选择设计",
+          "p": "设计选项包括 Hotel 标志和 VoxTek，价格相同，可以按喜好选择。也可以作为送给 Hazbin Hotel 粉丝的礼物。下单后通常 7–14 个工作日送达，物流追踪信息会通过邮件发送。"
+        }
+      ],
+      "cautions": [
+        "下单前请确认约 35.5 x 40.6 厘米的尺寸是否够装您想带的物品；提手长度、口袋和封口方式商品信息中没有标注。",
+        "请在下单前再次确认所选设计。卖家订单一旦下达，除非商品有缺陷或发错货，否则无法取消。"
+      ],
+      "options": [
+        {
+          "name": "设计",
+          "values": [
+            "Hotel 标志",
+            "VoxTek"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Bolsa Tote con Logo Hazbin Hotel, Lona 100 % Algodón, 2 Diseños",
+      "meta_title": "Bolsa Tote con Logo Hazbin Hotel, 2 Diseños",
+      "meta_description": "Bolsa tote con logo de Hazbin Hotel de lona 100 % algodón, unos 35,5 x 40,6 cm, a elegir entre Logotipo del Hotel o VoxTek. Entrega en 7–14 días hábiles.",
+      "headline": "Una bolsa tote con logo de Hazbin Hotel de lona 100 % algodón, a elegir entre dos diseños",
+      "intro": "Esta bolsa tote con logo de Hazbin Hotel es de lona 100 % algodón, mide unos 35,5 x 40,6 cm y se ofrece en dos diseños: Logotipo del Hotel o VoxTek. Nuestro conserje revisó el modelo y la ficha, y tras su pedido la compramos al vendedor del extranjero.",
+      "highlights": [
+        "Está hecha de lona 100 % algodón, un material adecuado para llevarla a diario.",
+        "Mide unos 35,5 x 40,6 cm, con espacio para las cosas de cada día.",
+        "Puede elegir entre dos diseños, Logotipo del Hotel y VoxTek, al mismo precio.",
+        "El lema del vendedor, «Carry those sins in style», da un tono divertido muy propio de Hazbin Hotel.",
+        "La ficha indica un peso de 227 g, lo que la hace ligera de llevar."
+      ],
+      "sections": [
+        {
+          "h": "Tamaño y material",
+          "p": "La bolsa es de lona 100 % algodón y mide unos 35,5 x 40,6 cm. La ficha indica un peso de 227 g."
+        },
+        {
+          "h": "Cómo elegir el diseño",
+          "p": "La opción de diseño ofrece Logotipo del Hotel y VoxTek al mismo precio, así que puede elegir el que más le guste. También es un regalo sencillo para un aficionado de Hazbin Hotel. Tras su pedido, la entrega suele tardar de 7 a 14 días hábiles y le enviamos el seguimiento por correo electrónico."
+        }
+      ],
+      "cautions": [
+        "Compare el tamaño, unos 35,5 x 40,6 cm, con lo que piensa llevar; la ficha no indica la longitud de las asas, los bolsillos ni el cierre.",
+        "Compruebe bien el diseño que elige: una vez realizado el pedido al vendedor no se puede cancelar, salvo por defectos o artículos equivocados."
+      ],
+      "options": [
+        {
+          "name": "Diseño",
+          "values": [
+            "Logotipo del Hotel",
+            "VoxTek"
+          ]
+        }
+      ]
+    },
+    "de": {
+      "title": "Hazbin Hotel Logo Tote Bag aus Baumwoll-Canvas, 2 Designs",
+      "meta_title": "Hazbin Hotel Logo Tote Bag aus Baumwolle, 2 Designs",
+      "meta_description": "Hazbin Hotel Logo Tote Bag aus 100 % Baumwoll-Canvas, etwa 35,5 x 40,6 cm, wahlweise Hotel-Logo oder VoxTek zum gleichen Preis. Lieferung in 7–14 Werktagen.",
+      "headline": "Eine Hazbin-Hotel-Logo-Tote-Bag aus 100 % Baumwoll-Canvas, wahlweise in zwei Designs",
+      "intro": "Diese Hazbin-Hotel-Logo-Tote-Bag besteht aus 100 % Baumwoll-Canvas, misst etwa 35,5 x 40,6 cm und ist in zwei Designs erhältlich: Hotel-Logo oder VoxTek. Unser Concierge hat Modell und Angebot geprüft, und wir bestellen sie nach Ihrer Bestellung beim Verkäufer im Ausland.",
+      "highlights": [
+        "Sie besteht aus 100 % Baumwoll-Canvas, einem Material, das sich für den täglichen Gebrauch eignet.",
+        "Sie misst etwa 35,5 x 40,6 cm und bietet Platz für Alltagsgegenstände.",
+        "Zur Wahl stehen zwei Designs, Hotel-Logo und VoxTek, zum gleichen Preis.",
+        "Der Slogan des Verkäufers, „Carry those sins in style“, setzt einen verspielten Hazbin-Hotel-Ton.",
+        "Im Angebot ist ein Gewicht von 227 g angegeben, das die Tasche leicht zu tragen macht."
+      ],
+      "sections": [
+        {
+          "h": "Größe und Material",
+          "p": "Die Tasche besteht aus 100 % Baumwoll-Canvas und misst etwa 35,5 x 40,6 cm. Im Angebot ist ein Gewicht von 227 g angegeben."
+        },
+        {
+          "h": "Das Design wählen",
+          "p": "Die Design-Option bietet Hotel-Logo und VoxTek zum gleichen Preis, sodass Sie das wählen können, das Ihnen besser gefällt. Sie ist außerdem ein einfaches Geschenk für Hazbin-Hotel-Fans. Nach Ihrer Bestellung dauert die Lieferung in der Regel 7–14 Werktage, die Sendungsverfolgung erhalten Sie per E-Mail."
+        }
+      ],
+      "cautions": [
+        "Vergleichen Sie die Größe von etwa 35,5 x 40,6 cm mit dem, was Sie darin tragen möchten; Henkellänge, Taschen und Verschluss sind im Angebot nicht angegeben.",
+        "Prüfen Sie das gewählte Design vor der Bestellung noch einmal: Nach der Bestellung beim Verkäufer ist keine Stornierung mehr möglich, außer bei Defekten oder falschen Artikeln."
+      ],
+      "options": [
+        {
+          "name": "Design",
+          "values": [
+            "Hotel-Logo",
+            "VoxTek"
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "title": "Tote Bag Logo Hazbin Hotel, Toile 100 % Coton, 2 Designs",
+      "meta_title": "Tote Bag Logo Hazbin Hotel, Toile Coton, 2 Designs",
+      "meta_description": "Tote bag logo Hazbin Hotel en toile 100 % coton, environ 35,5 x 40,6 cm, design Logo Hotel ou VoxTek au même prix. Livraison en 7 à 14 jours ouvrés.",
+      "headline": "Un tote bag logo Hazbin Hotel en toile 100 % coton, avec deux designs au choix",
+      "intro": "Ce tote bag logo Hazbin Hotel est en toile 100 % coton, mesure environ 35,5 x 40,6 cm et existe en deux designs : Logo Hotel ou VoxTek. Notre concierge a vérifié le modèle et l'annonce, et après votre commande nous l'achetons auprès du vendeur à l'étranger.",
+      "highlights": [
+        "Il est en toile 100 % coton, une matière adaptée à un usage quotidien.",
+        "Il mesure environ 35,5 x 40,6 cm, de quoi ranger ses affaires de tous les jours.",
+        "Deux designs sont proposés, Logo Hotel et VoxTek, au même prix.",
+        "La phrase d'accroche du vendeur, « Carry those sins in style », donne un ton amusant très Hazbin Hotel.",
+        "L'annonce indique un poids de 227 g, ce qui rend le sac léger à porter."
+      ],
+      "sections": [
+        {
+          "h": "Taille et matière",
+          "p": "Le sac est en toile 100 % coton et mesure environ 35,5 x 40,6 cm. L'annonce indique un poids de 227 g."
+        },
+        {
+          "h": "Choisir le design",
+          "p": "L'option de design propose Logo Hotel et VoxTek au même prix, vous pouvez donc prendre celui qui vous plaît. C'est aussi un cadeau simple pour un fan de Hazbin Hotel. Après votre commande, la livraison prend en général 7 à 14 jours ouvrés et le suivi vous est envoyé par e-mail."
+        }
+      ],
+      "cautions": [
+        "Comparez la taille, environ 35,5 x 40,6 cm, avec ce que vous comptez y mettre ; l'annonce n'indique ni la longueur des anses, ni les poches, ni la fermeture.",
+        "Vérifiez bien le design choisi : une fois la commande passée auprès du vendeur, elle ne peut plus être annulée, sauf en cas de défaut ou d'article erroné."
+      ],
+      "options": [
+        {
+          "name": "Design",
+          "values": [
+            "Logo Hotel",
+            "VoxTek"
+          ]
+        }
+      ]
+    }
+  }
 }
