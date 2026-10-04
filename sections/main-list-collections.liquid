@@ -62,7 +62,7 @@
         assign shown = 0
         capture cards
           for collection in collections
-            if collection.all_products_count == 0
+            if collection.all_products_count == 0 or collection.handle == 'frontpage'
               continue
             endif
             assign shown = shown | plus: 1
