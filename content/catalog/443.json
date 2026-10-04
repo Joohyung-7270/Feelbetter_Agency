@@ -99,5 +99,160 @@
       "집들이선물"
     ]
   },
-  "locales": {}
+  "locales": {
+    "en": {
+      "title": "Pingu Round Pouch with Pinga – Pingu Goods from Japan",
+      "meta_title": "Pingu Round Pouch with Pinga",
+      "meta_description": "Pingu round pouch with Pinga, bought from Japan's official Pingu online store and shipped to Korea. Typical delivery is 7–14 business days.",
+      "headline": "A round Pingu pouch featuring Pinga",
+      "intro": "This round pouch features Pinga and is sold on Japan's official Pingu online store. A FeelBetter concierge checked the model, stock and price, and after you order we buy it there and ship it to you.",
+      "highlights": [
+        "The round shape and the Pinga design make it a cute, easy-to-spot pouch.",
+        "As a pouch, it keeps small belongings together in one place.",
+        "It is sold as official Pingu goods and bought from Japan's official Pingu online store, so you receive genuine merchandise.",
+        "It makes an easy gift for Pingu and Pinga fans."
+      ],
+      "sections": [
+        {
+          "h": "Everyday use",
+          "p": "Use the pouch to keep small belongings tidy at home or on the go. If you are looking for another Pingu item, our concierge can help through the request page."
+        }
+      ],
+      "cautions": [
+        "The listing does not give the pouch's size, material or closure type, so please check the photos or ask our concierge before ordering."
+      ]
+    },
+    "ko": {
+      "title": "Pingu 라운드 파우치 (Pinga) – 일본 Pingu 굿즈",
+      "meta_title": "Pingu Pinga 라운드 파우치",
+      "meta_description": "일본 Pingu 공식 온라인 스토어에서 매입해 보내드리는 Pinga 라운드 파우치예요. 소품을 한곳에 모아 두기 좋고, 한국까지 보통 영업일 7~14일 걸려요.",
+      "headline": "Pinga 디자인의 동그란 Pingu 파우치",
+      "intro": "이 라운드 파우치는 Pinga 디자인의 상품으로, 일본 Pingu 공식 온라인 스토어에서 판매돼요. FeelBetter 컨시어지가 모델·재고·가격을 확인했고, 주문하시면 같은 스토어에서 매입해 보내드려요.",
+      "highlights": [
+        "동그란 모양과 Pinga 디자인 덕분에 눈에 잘 띄는 귀여운 파우치예요.",
+        "파우치라서 자잘한 소지품을 한곳에 모아 둘 수 있어요.",
+        "Pingu 공식 굿즈를 일본 Pingu 공식 온라인 스토어에서 매입하니 정식 상품을 받아보실 수 있어요.",
+        "Pingu와 Pinga를 좋아하는 분께 선물하기 쉬운 아이템이에요."
+      ],
+      "sections": [
+        {
+          "h": "이렇게 쓰세요",
+          "p": "집에서든 외출할 때든 자잘한 소지품을 가지런히 담아 두는 데 쓰시면 돼요. 다른 Pingu 굿즈를 찾으신다면 컨시어지 요청 페이지로 문의해 주세요."
+        }
+      ],
+      "cautions": [
+        "파우치의 크기, 소재, 잠금 방식은 상품 정보에 없어요. 주문 전에 사진을 확인하시거나 컨시어지에게 문의해 주세요."
+      ]
+    },
+    "ja": {
+      "title": "Pingu ラウンドポーチ（Pinga） 日本のPinguグッズ",
+      "meta_title": "Pingu ラウンドポーチ（Pinga）",
+      "meta_description": "日本のPingu公式オンラインストアで購入してお届けする、Pingaのデザインのラウンドポーチです。小物をまとめておくのに使いやすく、通常は営業日7〜14日でお届けします。",
+      "headline": "Pingaのデザインの、丸い形のPinguポーチ",
+      "intro": "このラウンドポーチはPingaのデザインで、日本のPingu公式オンラインストアで販売されています。コンシェルジュがモデル・在庫・価格を確認しており、ご注文後に同じストアで購入してお届けします。",
+      "highlights": [
+        "丸い形とPingaのデザインで、目を引くかわいいポーチです。",
+        "ポーチなので、細かな持ち物を一か所にまとめておけます。",
+        "Pingu公式グッズとして日本のPingu公式オンラインストアから購入するため、正規の商品をお届けできます。",
+        "PinguやPingaが好きな方へのギフトにも気軽に選べます。"
+      ],
+      "sections": [
+        {
+          "h": "使い方",
+          "p": "ご自宅でも外出先でも、細かな持ち物をすっきり収納するのにお使いください。ほかのPinguグッズをお探しの場合は、コンシェルジュのリクエストページからご相談ください。"
+        }
+      ],
+      "cautions": [
+        "ポーチのサイズ、素材、開閉方式は商品情報に記載がありません。ご注文前に写真をご確認いただくか、コンシェルジュにご相談ください。"
+      ]
+    },
+    "zh-CN": {
+      "title": "Pingu 圆形收纳包 Pinga 款 日本 Pingu 周边",
+      "meta_title": "Pingu 圆形收纳包 Pinga 款",
+      "meta_description": "从日本 Pingu 官方网店代购并寄送的 Pingu 圆形收纳包（Pinga 款），可以把零碎随身物品收在一起，也适合送给粉丝。下单后通常 7–14 个工作日送达。",
+      "headline": "带有 Pinga 的 Pingu 圆形收纳包",
+      "intro": "这款圆形收纳包采用 Pinga 的设计，在日本 Pingu 官方网店销售。礼宾已核对型号、库存和价格，您下单后，我们会从同一家网店购买并寄给您。",
+      "highlights": [
+        "圆形外观加上 Pinga 的设计，是一款显眼又可爱的收纳包。",
+        "作为收纳包，可以把零碎的随身物品收在一处。",
+        "作为 Pingu 官方周边，购自日本 Pingu 官方网店，您收到的是正规商品。",
+        "送给喜欢 Pingu 和 Pinga 的人，也是一份轻松的礼物。"
+      ],
+      "sections": [
+        {
+          "h": "使用方式",
+          "p": "无论在家还是外出，都可以用它把零碎的随身物品收拾整齐。如果您想找其他 Pingu 周边，请通过礼宾请求页面联系我们。"
+        }
+      ],
+      "cautions": [
+        "商品信息中没有标明收纳包的尺寸、材质和开合方式，下单前请查看图片或咨询礼宾。"
+      ]
+    },
+    "es": {
+      "title": "Estuche redondo Pingu con Pinga – artículos de Pingu desde Japón",
+      "meta_title": "Estuche redondo Pingu con Pinga desde Japón",
+      "meta_description": "Estuche redondo de Pingu con Pinga, comprado en la tienda oficial de Pingu en Japón y enviado a Corea. La entrega suele tardar 7–14 días laborables.",
+      "headline": "Un estuche redondo de Pingu con Pinga",
+      "intro": "Este estuche redondo presenta a Pinga y se vende en la tienda oficial en línea de Pingu en Japón. Un concierge de FeelBetter verificó el modelo, el stock y el precio; tras su pedido, lo compramos allí y se lo enviamos.",
+      "highlights": [
+        "La forma redonda y el diseño de Pinga lo convierten en un estuche simpático y fácil de reconocer.",
+        "Al ser un estuche, permite tener juntos en un solo lugar los objetos pequeños.",
+        "Se vende como producto oficial de Pingu y se compra en la tienda oficial en línea de Pingu en Japón, por lo que recibe mercancía auténtica.",
+        "Es un regalo fácil para los aficionados a Pingu y a Pinga."
+      ],
+      "sections": [
+        {
+          "h": "Uso diario",
+          "p": "Use el estuche para mantener ordenadas sus pertenencias pequeñas en casa o fuera de ella. Si busca otro artículo de Pingu, nuestro concierge puede ayudarle desde la página de solicitudes."
+        }
+      ],
+      "cautions": [
+        "La ficha no indica el tamaño, el material ni el tipo de cierre del estuche; revise las fotos o consulte a nuestro concierge antes de pedir."
+      ]
+    },
+    "de": {
+      "title": "Rundes Pingu-Täschchen mit Pinga – Artikel aus Japan",
+      "meta_title": "Rundes Pingu-Täschchen mit Pinga",
+      "meta_description": "Rundes Pingu-Täschchen mit Pinga aus dem offiziellen Pingu-Onlineshop in Japan, nach Korea geliefert. Lieferzeit in der Regel 7–14 Werktage.",
+      "headline": "Ein rundes Pingu-Täschchen mit Pinga",
+      "intro": "Dieses runde Täschchen zeigt Pinga und wird im offiziellen Pingu-Onlineshop in Japan verkauft. Ein FeelBetter-Concierge hat Modell, Bestand und Preis geprüft; nach Ihrer Bestellung kaufen wir es dort und schicken es Ihnen.",
+      "highlights": [
+        "Die runde Form und das Pinga-Motiv machen es zu einem niedlichen Täschchen, das sofort auffällt.",
+        "Als Täschchen hält es kleine Dinge an einem Ort zusammen.",
+        "Es wird als offizieller Pingu-Artikel im offiziellen Pingu-Onlineshop in Japan gekauft, Sie erhalten also Originalware.",
+        "Für Pingu- und Pinga-Fans ist es eine unkomplizierte Geschenkidee."
+      ],
+      "sections": [
+        {
+          "h": "Im Alltag",
+          "p": "Nutzen Sie das Täschchen, um kleine Dinge zu Hause oder unterwegs ordentlich zu verstauen. Wenn Sie einen anderen Pingu-Artikel suchen, wenden Sie sich über die Anfrageseite an unseren Concierge."
+        }
+      ],
+      "cautions": [
+        "Größe, Material und Verschlussart sind in den Angaben nicht genannt; bitte prüfen Sie die Fotos oder fragen Sie unseren Concierge, bevor Sie bestellen."
+      ]
+    },
+    "fr": {
+      "title": "Pochette ronde Pingu avec Pinga du Japon",
+      "meta_title": "Pochette ronde Pingu avec Pinga",
+      "meta_description": "Pochette ronde Pingu avec Pinga, achetée sur la boutique officielle Pingu au Japon et expédiée en Corée. Livraison généralement en 7 à 14 jours ouvrés.",
+      "headline": "Une pochette ronde Pingu avec Pinga",
+      "intro": "Cette pochette ronde met en scène Pinga et se vend sur la boutique en ligne officielle de Pingu au Japon. Un concierge FeelBetter a vérifié le modèle, le stock et le prix ; après votre commande, nous l'achetons là-bas et vous l'expédions.",
+      "highlights": [
+        "La forme ronde et le motif Pinga en font une pochette mignonne qui se remarque tout de suite.",
+        "En tant que pochette, elle réunit au même endroit les petits objets.",
+        "Elle est vendue comme article officiel Pingu et achetée sur la boutique en ligne officielle de Pingu au Japon, vous recevez donc un article authentique.",
+        "C'est une idée de cadeau facile pour les fans de Pingu et de Pinga."
+      ],
+      "sections": [
+        {
+          "h": "Au quotidien",
+          "p": "Utilisez la pochette pour garder vos petites affaires bien rangées, à la maison comme en déplacement. Pour un autre article Pingu, contactez notre concierge via la page de demande."
+        }
+      ],
+      "cautions": [
+        "La taille, la matière et le type de fermeture de la pochette ne sont pas indiqués dans la fiche ; consultez les photos ou demandez à notre concierge avant de commander."
+      ]
+    }
+  }
 }
