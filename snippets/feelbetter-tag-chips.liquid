@@ -22,7 +22,7 @@
         break
       endif
       assign first_char = tag | slice: 0, 1
-      if first_char == '_' or tag contains ':'
+      if first_char == '_' or tag contains ':' or tag == 'catalog' or tag == 'overseas-purchase' or tag == 'feelbetter'
         continue
       endif
       assign tag_handle = tag | handleize
