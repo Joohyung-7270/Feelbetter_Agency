@@ -93,5 +93,160 @@
       "집들이선물"
     ]
   },
-  "locales": {}
+  "locales": {
+    "en": {
+      "title": "Pingu Mug 330 ml – Pingu Goods from Japan",
+      "meta_title": "Pingu Mug 330 ml from Japan",
+      "meta_description": "Pingu mug with a 330 ml capacity, bought from Japan's official Pingu online store and shipped to Korea. Typical delivery is 7–14 business days.",
+      "headline": "A 330 ml Pingu mug from Japan's official Pingu store",
+      "intro": "This is a Pingu mug with a 330 ml capacity, sold on Japan's official Pingu online store. A FeelBetter concierge checked the model, stock and price, and after you order we buy it there and ship it to you.",
+      "highlights": [
+        "A 330 ml capacity is a handy size for everyday coffee, tea or other drinks.",
+        "The Pingu design lets you enjoy the character with every drink.",
+        "It is sold as official Pingu goods and bought from Japan's official Pingu online store, so you receive genuine merchandise.",
+        "A mug is an easy gift for Pingu fans."
+      ],
+      "sections": [
+        {
+          "h": "Everyday use",
+          "p": "Use it for your daily drinks at home or at your desk. If you are looking for another Pingu item, our concierge can help through the request page."
+        }
+      ],
+      "cautions": [
+        "The listing does not state the mug's material or whether it is microwave- or dishwasher-safe, so please check the photos or ask our concierge."
+      ]
+    },
+    "ko": {
+      "title": "Pingu 머그컵 330ml – 일본 Pingu 굿즈",
+      "meta_title": "Pingu 머그컵 330ml 일본 굿즈",
+      "meta_description": "일본 Pingu 공식 온라인 스토어에서 매입해 보내드리는 330ml 머그컵이에요. 일상에서 쓰기 좋은 용량이고, 한국까지 보통 영업일 7~14일 걸려요.",
+      "headline": "일본 Pingu 공식 스토어에서 찾은 330ml 머그컵",
+      "intro": "이 머그컵은 330ml 용량의 Pingu 디자인 상품으로, 일본 Pingu 공식 온라인 스토어에서 판매돼요. FeelBetter 컨시어지가 모델·재고·가격을 확인했고, 주문하시면 같은 스토어에서 매입해 보내드려요.",
+      "highlights": [
+        "330ml 용량이라 매일 마시는 커피나 차, 음료를 담기에 편한 크기예요.",
+        "Pingu 디자인이라 음료를 마실 때마다 캐릭터를 즐길 수 있어요.",
+        "Pingu 공식 굿즈를 일본 Pingu 공식 온라인 스토어에서 매입하니 정식 상품을 받아보실 수 있어요.",
+        "머그컵은 Pingu를 좋아하는 분께 선물하기 쉬운 아이템이에요."
+      ],
+      "sections": [
+        {
+          "h": "이렇게 쓰세요",
+          "p": "집이나 책상에서 매일 마시는 음료를 담아 쓰시면 돼요. 다른 Pingu 굿즈를 찾으신다면 컨시어지 요청 페이지로 문의해 주세요."
+        }
+      ],
+      "cautions": [
+        "머그컵의 소재와 전자레인지·식기세척기 사용 가능 여부는 상품 정보에 없어요. 사진을 확인하시거나 컨시어지에게 문의해 주세요."
+      ]
+    },
+    "ja": {
+      "title": "Pingu マグカップ 330ml 日本のPinguグッズ",
+      "meta_title": "Pingu マグカップ 330ml",
+      "meta_description": "日本のPingu公式オンラインストアで購入してお届けする、Pinguデザインの容量330mlのマグカップです。毎日の飲み物に使いやすく、通常は営業日7〜14日でお届けします。",
+      "headline": "日本のPingu公式ストアで見つけた、容量330mlのマグカップ",
+      "intro": "このマグカップは容量330mlのPinguデザインで、日本のPingu公式オンラインストアで販売されています。コンシェルジュがモデル・在庫・価格を確認しており、ご注文後に同じストアで購入してお届けします。",
+      "highlights": [
+        "容量は330mlで、毎日のコーヒーやお茶などの飲み物に使いやすいサイズです。",
+        "Pinguのデザインなので、飲み物を飲むたびにキャラクターを楽しめます。",
+        "Pingu公式グッズとして日本のPingu公式オンラインストアから購入するため、正規の商品をお届けできます。",
+        "マグカップはPinguが好きな方への贈り物にも選びやすいアイテムです。"
+      ],
+      "sections": [
+        {
+          "h": "使い方",
+          "p": "ご自宅やデスクで、毎日の飲み物にお使いください。ほかのPinguグッズをお探しの場合は、コンシェルジュのリクエストページからご相談ください。"
+        }
+      ],
+      "cautions": [
+        "マグカップの素材や、電子レンジ・食器洗い機の使用可否は商品情報に記載がありません。写真をご確認いただくか、コンシェルジュにご相談ください。"
+      ]
+    },
+    "zh-CN": {
+      "title": "Pingu 马克杯 330 毫升 日本 Pingu 周边",
+      "meta_title": "Pingu 马克杯 330 毫升 日本周边",
+      "meta_description": "从日本 Pingu 官方网店代购并寄送的 Pingu 马克杯，容量 330 毫升，适合日常饮品，也适合送给 Pingu 的粉丝。下单后通常 7–14 个工作日送达。",
+      "headline": "来自日本 Pingu 官方网店的 330 毫升马克杯",
+      "intro": "这款马克杯是容量 330 毫升的 Pingu 设计，在日本 Pingu 官方网店销售。礼宾已核对型号、库存和价格，您下单后，我们会从同一家网店购买并寄给您。",
+      "highlights": [
+        "容量为 330 毫升，用来装日常的咖啡、茶或其他饮品，大小很顺手。",
+        "采用 Pingu 设计，每次喝饮品时都能看到这个角色。",
+        "作为 Pingu 官方周边，购自日本 Pingu 官方网店，您收到的是正规商品。",
+        "马克杯也是送给 Pingu 粉丝的一份轻松礼物。"
+      ],
+      "sections": [
+        {
+          "h": "使用方式",
+          "p": "在家里或办公桌前，用它来装每天喝的饮品吧。如果您想找其他 Pingu 周边，请通过礼宾请求页面联系我们。"
+        }
+      ],
+      "cautions": [
+        "商品信息中没有标明马克杯的材质，也没有说明能否用于微波炉或洗碗机，请查看图片或咨询礼宾。"
+      ]
+    },
+    "es": {
+      "title": "Taza Pingu de 330 ml – artículos de Pingu desde Japón",
+      "meta_title": "Taza Pingu de 330 ml desde Japón",
+      "meta_description": "Taza Pingu con capacidad de 330 ml, comprada en la tienda oficial de Pingu en Japón y enviada a Corea. La entrega suele tardar 7–14 días laborables.",
+      "headline": "Una taza Pingu de 330 ml de la tienda oficial de Pingu en Japón",
+      "intro": "Esta es una taza Pingu con capacidad de 330 ml, a la venta en la tienda oficial en línea de Pingu en Japón. Un concierge de FeelBetter verificó el modelo, el stock y el precio; tras su pedido, la compramos allí y se la enviamos.",
+      "highlights": [
+        "Su capacidad de 330 ml es un tamaño cómodo para el café, el té u otras bebidas de cada día.",
+        "El diseño de Pingu le permite disfrutar del personaje con cada bebida.",
+        "Se vende como producto oficial de Pingu y se compra en la tienda oficial en línea de Pingu en Japón, por lo que recibe mercancía auténtica.",
+        "Una taza es un regalo fácil para los aficionados a Pingu."
+      ],
+      "sections": [
+        {
+          "h": "Uso diario",
+          "p": "Úsela para sus bebidas de cada día, en casa o en el escritorio. Si busca otro artículo de Pingu, nuestro concierge puede ayudarle desde la página de solicitudes."
+        }
+      ],
+      "cautions": [
+        "La ficha no indica el material de la taza ni si es apta para microondas o lavavajillas; revise las fotos o consulte a nuestro concierge."
+      ]
+    },
+    "de": {
+      "title": "Pingu Tasse 330 ml – Pingu-Artikel aus Japan",
+      "meta_title": "Pingu Tasse 330 ml aus Japan",
+      "meta_description": "Pingu-Tasse mit 330 ml Fassungsvermögen aus dem offiziellen Pingu-Onlineshop in Japan, nach Korea geliefert. Lieferzeit in der Regel 7–14 Werktage.",
+      "headline": "Eine Pingu-Tasse mit 330 ml aus dem offiziellen Pingu-Shop in Japan",
+      "intro": "Dies ist eine Pingu-Tasse mit 330 ml Fassungsvermögen, die im offiziellen Pingu-Onlineshop in Japan verkauft wird. Ein FeelBetter-Concierge hat Modell, Bestand und Preis geprüft; nach Ihrer Bestellung kaufen wir sie dort und schicken sie Ihnen.",
+      "highlights": [
+        "Mit 330 ml Fassungsvermögen ist sie eine praktische Größe für Kaffee, Tee oder andere Getränke im Alltag.",
+        "Das Pingu-Motiv lässt Sie bei jedem Getränk Freude an der Figur haben.",
+        "Sie wird als offizieller Pingu-Artikel im offiziellen Pingu-Onlineshop in Japan gekauft, Sie erhalten also Originalware.",
+        "Eine Tasse ist eine unkomplizierte Geschenkidee für Pingu-Fans."
+      ],
+      "sections": [
+        {
+          "h": "Im Alltag",
+          "p": "Nutzen Sie sie für Ihre täglichen Getränke, zu Hause oder am Schreibtisch. Wenn Sie einen anderen Pingu-Artikel suchen, wenden Sie sich über die Anfrageseite an unseren Concierge."
+        }
+      ],
+      "cautions": [
+        "Material und Eignung für Mikrowelle oder Spülmaschine sind in den Angaben nicht genannt; bitte prüfen Sie die Fotos oder fragen Sie unseren Concierge."
+      ]
+    },
+    "fr": {
+      "title": "Mug Pingu 330 ml – article Pingu du Japon",
+      "meta_title": "Mug Pingu 330 ml du Japon",
+      "meta_description": "Mug Pingu d'une capacité de 330 ml, acheté sur la boutique officielle Pingu au Japon et expédié en Corée. Livraison généralement en 7 à 14 jours ouvrés.",
+      "headline": "Un mug Pingu de 330 ml de la boutique officielle Pingu au Japon",
+      "intro": "Voici un mug Pingu d'une capacité de 330 ml, vendu sur la boutique en ligne officielle de Pingu au Japon. Un concierge FeelBetter a vérifié le modèle, le stock et le prix ; après votre commande, nous l'achetons là-bas et vous l'expédions.",
+      "highlights": [
+        "Sa capacité de 330 ml en fait un format pratique pour le café, le thé ou les autres boissons du quotidien.",
+        "Le motif Pingu vous permet de profiter du personnage à chaque boisson.",
+        "Il est vendu comme article officiel Pingu et acheté sur la boutique en ligne officielle de Pingu au Japon, vous recevez donc un article authentique.",
+        "Un mug est une idée de cadeau facile pour les fans de Pingu."
+      ],
+      "sections": [
+        {
+          "h": "Au quotidien",
+          "p": "Utilisez-le pour vos boissons de tous les jours, à la maison ou au bureau. Pour un autre article Pingu, contactez notre concierge via la page de demande."
+        }
+      ],
+      "cautions": [
+        "La matière du mug et son usage au micro-ondes ou au lave-vaisselle ne sont pas indiqués dans la fiche ; consultez les photos ou demandez à notre concierge."
+      ]
+    }
+  }
 }

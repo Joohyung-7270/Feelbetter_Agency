@@ -126,8 +126,8 @@
         }
       ],
       "cautions": [
-        "The seller gives one set of dimensions without saying whether they are inside or outside measurements, so check your items against them.",
-        "The seller does not describe how the tin opens and closes or its finish, so ask the concierge if that matters to you."
+        "The listing gives one set of dimensions, and we do not know whether they are inside or outside measurements, so check your items against them.",
+        "We have no details on how the tin opens and closes or on its finish, so ask the concierge if that matters to you."
       ]
     },
     "ko": {
@@ -154,8 +154,8 @@
         }
       ],
       "cautions": [
-        "판매처가 알려 준 크기는 한 가지뿐이고 안쪽 치수인지 바깥 치수인지는 밝히지 않아서, 넣으실 물건과 비교해 확인해 주세요.",
-        "판매처에서 틴이 어떻게 열리고 닫히는지, 마감이 어떤지는 설명하지 않아요. 중요하시면 컨시어지에 문의해 주세요."
+        "표기된 크기는 한 가지뿐이고 안쪽 치수인지 바깥 치수인지는 저희도 알지 못해서, 넣으실 물건과 비교해 확인해 주세요.",
+        "틴이 어떻게 열리고 닫히는지, 마감이 어떤지는 저희에게 정보가 없어요. 중요하시면 컨시어지에 문의해 주세요."
       ]
     },
     "ja": {
@@ -182,8 +182,8 @@
         }
       ],
       "cautions": [
-        "販売元が示すサイズは1種類のみで、内寸か外寸かは書かれていません。入れたいものと見比べてご確認ください。",
-        "開閉の仕組みや仕上がりについては、販売元の説明がありません。気になる場合はコンシェルジュにご相談ください。"
+        "表記のサイズは1種類のみで、内寸か外寸かは把握しておりません。入れたいものと見比べてご確認ください。",
+        "開閉の仕組みや仕上がりについては、こちらでは情報を持っておりません。気になる場合はコンシェルジュにご相談ください。"
       ]
     },
     "zh-CN": {
@@ -210,8 +210,8 @@
         }
       ],
       "cautions": [
-        "卖家只给出了一组尺寸，没有说明是内部尺寸还是外部尺寸，请对照您要放的东西确认。",
-        "卖家没有说明铁盒如何开合，也没有描述表面处理；如果这些对您很重要，请联系礼宾顾问。"
+        "页面只标注了一组尺寸，我们不清楚是内部尺寸还是外部尺寸，请对照您要放的东西确认。",
+        "铁盒如何开合、表面处理如何，我们目前没有相关信息；如果这些对您很重要，请联系礼宾顾问。"
       ]
     },
     "es": {
@@ -238,8 +238,8 @@
         }
       ],
       "cautions": [
-        "El vendedor da un solo juego de medidas sin aclarar si son interiores o exteriores; compárelas con lo que quiere guardar.",
-        "El vendedor no describe cómo se abre y se cierra la lata ni su acabado; consulte al concierge si eso le importa."
+        "El anuncio da un solo juego de medidas y no sabemos si son interiores o exteriores; compárelas con lo que quiere guardar.",
+        "No tenemos datos sobre cómo se abre y se cierra la lata ni sobre su acabado; consulte al concierge si eso le importa."
       ]
     },
     "de": {
@@ -266,8 +266,8 @@
         }
       ],
       "cautions": [
-        "Der Verkäufer nennt nur einen Satz Maße und sagt nicht, ob es Innen- oder Außenmaße sind; vergleichen Sie sie mit dem, was Sie aufbewahren möchten.",
-        "Der Verkäufer beschreibt weder, wie sich die Dose öffnen und schließen lässt, noch ihre Oberfläche; fragen Sie den Concierge, wenn Ihnen das wichtig ist."
+        "Das Angebot nennt nur einen Satz Maße, und wir wissen nicht, ob es Innen- oder Außenmaße sind; vergleichen Sie sie mit dem, was Sie aufbewahren möchten.",
+        "Zu Öffnen und Schließen der Dose sowie zu ihrer Oberfläche haben wir keine Angaben; fragen Sie den Concierge, wenn Ihnen das wichtig ist."
       ]
     },
     "fr": {
@@ -294,8 +294,8 @@
         }
       ],
       "cautions": [
-        "Le vendeur ne donne qu'un seul jeu de dimensions sans préciser s'il s'agit de mesures intérieures ou extérieures ; comparez-les avec ce que vous voulez ranger.",
-        "Le vendeur ne décrit ni la façon dont la boîte s'ouvre et se ferme, ni sa finition ; interrogez le concierge si cela compte pour vous."
+        "L'annonce ne donne qu'un seul jeu de dimensions et nous ignorons s'il s'agit de mesures intérieures ou extérieures ; comparez-les avec ce que vous voulez ranger.",
+        "Nous n'avons aucune information sur l'ouverture et la fermeture de la boîte ni sur sa finition ; interrogez le concierge si cela compte pour vous."
       ]
     }
   }

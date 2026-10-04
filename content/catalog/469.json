@@ -132,7 +132,7 @@
         }
       ],
       "cautions": [
-        "The seller does not say how many stickers the set contains, what they are made of or whether they are weatherproof, so ask the concierge before ordering if that matters to you."
+        "We do not know how many stickers the set contains, what they are made of or whether they are weatherproof, so ask the concierge before ordering if that matters to you."
       ]
     },
     "ko": {
@@ -159,7 +159,7 @@
         }
       ],
       "cautions": [
-        "판매처에서 세트에 스티커가 몇 장 들어 있는지, 소재가 무엇인지, 방수가 되는지는 알려 주지 않아요. 중요하시면 주문 전에 컨시어지에 문의해 주세요."
+        "세트에 스티커가 몇 장 들어 있는지, 소재가 무엇인지, 방수가 되는지는 저희도 알지 못해요. 중요하시면 주문 전에 컨시어지에 문의해 주세요."
       ]
     },
     "ja": {
@@ -186,7 +186,7 @@
         }
       ],
       "cautions": [
-        "販売元は、セットに何枚のステッカーが入っているか、素材は何か、耐水性があるかを案内していません。気になる場合は、ご注文前にコンシェルジュへご相談ください。"
+        "セットに何枚のステッカーが入っているか、素材は何か、耐水性があるかは、こちらでは把握しておりません。気になる場合は、ご注文前にコンシェルジュへご相談ください。"
       ]
     },
     "zh-CN": {
@@ -213,7 +213,7 @@
         }
       ],
       "cautions": [
-        "卖家没有说明套装内有多少张贴纸、是什么材质，也没有说明是否防水。如果这些对您很重要，请在下单前联系礼宾顾问。"
+        "套装内有多少张贴纸、是什么材质、是否防水，我们目前都不清楚。如果这些对您很重要，请在下单前联系礼宾顾问。"
       ]
     },
     "es": {
@@ -240,7 +240,7 @@
         }
       ],
       "cautions": [
-        "El vendedor no indica cuántas pegatinas incluye el juego, de qué material son ni si resisten la intemperie; consulte al concierge antes de pedir si eso le importa."
+        "Desconocemos cuántas pegatinas incluye el juego, de qué material son y si resisten la intemperie; consulte al concierge antes de pedir si eso le importa."
       ]
     },
     "de": {
@@ -267,7 +267,7 @@
         }
       ],
       "cautions": [
-        "Der Verkäufer nennt weder die Anzahl der Aufkleber im Set noch das Material oder die Wetterfestigkeit; fragen Sie vor der Bestellung den Concierge, wenn Ihnen das wichtig ist."
+        "Uns ist weder die Anzahl der Aufkleber im Set noch das Material oder die Wetterfestigkeit bekannt; fragen Sie vor der Bestellung den Concierge, wenn Ihnen das wichtig ist."
       ]
     },
     "fr": {
@@ -294,7 +294,7 @@
         }
       ],
       "cautions": [
-        "Le vendeur n'indique ni le nombre d'autocollants du lot, ni leur matière, ni leur résistance aux intempéries ; si cela compte pour vous, interrogez le concierge avant de commander."
+        "Nous ne connaissons ni le nombre d'autocollants du lot, ni leur matière, ni leur résistance aux intempéries ; si cela compte pour vous, interrogez le concierge avant de commander."
       ]
     }
   }

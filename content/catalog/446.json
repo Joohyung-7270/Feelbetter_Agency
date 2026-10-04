@@ -115,5 +115,223 @@
       "집들이선물"
     ]
   },
-  "locales": {}
+  "locales": {
+    "en": {
+      "title": "Pingu Color Mug – Green or White & Pink, from Japan",
+      "meta_title": "Pingu Color Mug – Green or White & Pink",
+      "meta_description": "Pingu color mug in green or white and pink, bought from Japan's official Pingu online store and shipped to Korea. Typical delivery is 7–14 business days.",
+      "headline": "A Pingu color mug in green or white and pink",
+      "intro": "This is the Pingu Color Mug, offered in green or white and pink and sold on Japan's official Pingu online store. A FeelBetter concierge checked the model, variant, stock and price, and after you order we buy it there and ship it to you.",
+      "highlights": [
+        "Two color choices, green or white and pink, let you pick the one that suits your taste.",
+        "It is a mug, so it is ready for everyday coffee, tea or other drinks.",
+        "It is sold as official Pingu goods and bought from Japan's official Pingu online store, so you receive genuine merchandise.",
+        "Offered in two colors, it is an easy gift for Pingu fans."
+      ],
+      "sections": [
+        {
+          "h": "Choosing a color",
+          "p": "Select Green or White & Pink from the option menu, and look at the product photos to see each color before you decide. If you are looking for another Pingu item, our concierge can help through the request page."
+        }
+      ],
+      "cautions": [
+        "The listing does not state the mug's capacity or material, or whether it is microwave- or dishwasher-safe, so please check the photos or ask our concierge."
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Green",
+            "White & Pink"
+          ]
+        }
+      ]
+    },
+    "ko": {
+      "title": "Pingu 컬러 머그 그린 또는 화이트·핑크 – 일본 Pingu 굿즈",
+      "meta_title": "Pingu 컬러 머그 그린·화이트·핑크",
+      "meta_description": "일본 Pingu 공식 온라인 스토어에서 매입해 보내드리는 컬러 머그예요. 그린과 화이트·핑크 중에서 고를 수 있고, 한국까지 보통 영업일 7~14일 걸려요.",
+      "headline": "그린과 화이트·핑크 중에서 고르는 Pingu 컬러 머그",
+      "intro": "이 머그는 그린과 화이트·핑크 두 가지 색으로 만나는 Pingu 컬러 머그로, 일본 Pingu 공식 온라인 스토어에서 판매돼요. FeelBetter 컨시어지가 모델·옵션·재고·가격을 확인했고, 주문하시면 같은 스토어에서 매입해 보내드려요.",
+      "highlights": [
+        "그린과 화이트·핑크 두 가지 색 중에서 취향에 맞는 색을 고를 수 있어요.",
+        "머그컵이라 매일 마시는 커피나 차, 음료에 바로 쓸 수 있어요.",
+        "Pingu 공식 굿즈를 일본 Pingu 공식 온라인 스토어에서 매입하니 정식 상품을 받아보실 수 있어요.",
+        "색을 두 가지로 고를 수 있어서 Pingu를 좋아하는 분께 선물하기 좋아요."
+      ],
+      "sections": [
+        {
+          "h": "색상 고르기",
+          "p": "옵션에서 그린 또는 화이트·핑크를 선택하시고, 상품 사진으로 색을 확인한 뒤 결정해 주세요. 다른 Pingu 굿즈를 찾으신다면 컨시어지 요청 페이지로 문의해 주세요."
+        }
+      ],
+      "cautions": [
+        "머그의 용량과 소재, 전자레인지·식기세척기 사용 가능 여부는 상품 정보에 없어요. 사진을 확인하시거나 컨시어지에게 문의해 주세요."
+      ],
+      "options": [
+        {
+          "name": "컬러",
+          "values": [
+            "그린",
+            "화이트·핑크"
+          ]
+        }
+      ]
+    },
+    "ja": {
+      "title": "Pingu カラーマグ グリーン／ホワイト×ピンク 日本のPinguグッズ",
+      "meta_title": "Pingu カラーマグ グリーン／ホワイト×ピンク",
+      "meta_description": "日本のPingu公式オンラインストアで購入してお届けする、Pinguのカラーマグです。グリーンとホワイト×ピンクの2色から選べ、通常は営業日7〜14日でお届けします。",
+      "headline": "グリーンとホワイト×ピンクから選べる、Pinguのカラーマグ",
+      "intro": "このカラーマグは、グリーンとホワイト×ピンクの2色から選べるPinguのマグカップで、日本のPingu公式オンラインストアで販売されています。コンシェルジュがモデル・バリエーション・在庫・価格を確認しており、ご注文後に同じストアで購入してお届けします。",
+      "highlights": [
+        "グリーンとホワイト×ピンクの2色から、お好みの色を選べます。",
+        "マグカップなので、毎日のコーヒーやお茶などの飲み物にそのまま使えます。",
+        "Pingu公式グッズとして日本のPingu公式オンラインストアから購入するため、正規の商品をお届けできます。",
+        "2色から選べるので、Pinguが好きな方へのギフトにも選びやすいアイテムです。"
+      ],
+      "sections": [
+        {
+          "h": "色の選び方",
+          "p": "オプションからグリーンまたはホワイト×ピンクを選び、商品写真で色を確認してからお決めください。ほかのPinguグッズをお探しの場合は、コンシェルジュのリクエストページからご相談ください。"
+        }
+      ],
+      "cautions": [
+        "マグカップの容量や素材、電子レンジ・食器洗い機の使用可否は商品情報に記載がありません。写真をご確認いただくか、コンシェルジュにご相談ください。"
+      ],
+      "options": [
+        {
+          "name": "カラー",
+          "values": [
+            "グリーン",
+            "ホワイト×ピンク"
+          ]
+        }
+      ]
+    },
+    "zh-CN": {
+      "title": "Pingu 彩色马克杯 绿色或白色与粉色 日本 Pingu 周边",
+      "meta_title": "Pingu 彩色马克杯 绿色或白色与粉色",
+      "meta_description": "从日本 Pingu 官方网店代购并寄送的 Pingu 彩色马克杯，提供绿色和白色与粉色两种颜色可选，适合日常饮品，也适合送给 Pingu 的粉丝。下单后通常 7–14 个工作日送达。",
+      "headline": "绿色或白色与粉色可选的 Pingu 彩色马克杯",
+      "intro": "这款彩色马克杯提供绿色和白色与粉色两种颜色，在日本 Pingu 官方网店销售。礼宾已核对型号、款式、库存和价格，您下单后，我们会从同一家网店购买并寄给您。",
+      "highlights": [
+        "提供绿色和白色与粉色两种颜色，可以挑选符合自己喜好的一款。",
+        "它是马克杯，日常的咖啡、茶或其他饮品都可以直接使用。",
+        "作为 Pingu 官方周边，购自日本 Pingu 官方网店，您收到的是正规商品。",
+        "有两种颜色可选，也是送给 Pingu 粉丝的一份轻松礼物。"
+      ],
+      "sections": [
+        {
+          "h": "挑选颜色",
+          "p": "请在选项中选择绿色或白色与粉色，并先查看商品图片确认颜色后再决定。如果您想找其他 Pingu 周边，请通过礼宾请求页面联系我们。"
+        }
+      ],
+      "cautions": [
+        "商品信息中没有标明马克杯的容量和材质，也没有说明能否用于微波炉或洗碗机，请查看图片或咨询礼宾。"
+      ],
+      "options": [
+        {
+          "name": "颜色",
+          "values": [
+            "绿色",
+            "白色与粉色"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Taza Pingu de color, verde o blanco y rosa, desde Japón",
+      "meta_title": "Taza Pingu de color, verde o blanco y rosa",
+      "meta_description": "Taza Pingu de color en verde o en blanco y rosa, comprada en la tienda oficial de Pingu en Japón y enviada a Corea. Entrega habitual de 7–14 días laborables.",
+      "headline": "Una taza Pingu de color en verde o en blanco y rosa",
+      "intro": "Esta es la taza de color de Pingu, disponible en verde o en blanco y rosa y a la venta en la tienda oficial en línea de Pingu en Japón. Un concierge de FeelBetter verificó el modelo, la variante, el stock y el precio; tras su pedido, la compramos allí y se la enviamos.",
+      "highlights": [
+        "Dos colores a elegir, verde o blanco y rosa, para que escoja el que mejor vaya con su gusto.",
+        "Es una taza, así que está lista para el café, el té u otras bebidas de cada día.",
+        "Se vende como producto oficial de Pingu y se compra en la tienda oficial en línea de Pingu en Japón, por lo que recibe mercancía auténtica.",
+        "Al ofrecerse en dos colores, es un regalo fácil para los aficionados a Pingu."
+      ],
+      "sections": [
+        {
+          "h": "Cómo elegir el color",
+          "p": "Seleccione Verde o Blanco y rosa en el menú de opciones y mire las fotos del producto para ver cada color antes de decidir. Si busca otro artículo de Pingu, nuestro concierge puede ayudarle desde la página de solicitudes."
+        }
+      ],
+      "cautions": [
+        "La ficha no indica la capacidad ni el material de la taza, ni si es apta para microondas o lavavajillas; revise las fotos o consulte a nuestro concierge."
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Verde",
+            "Blanco y rosa"
+          ]
+        }
+      ]
+    },
+    "de": {
+      "title": "Pingu Tasse in Grün oder Weiß-Rosa aus Japan",
+      "meta_title": "Pingu Tasse in Grün oder Weiß-Rosa",
+      "meta_description": "Pingu-Tasse in Grün oder Weiß-Rosa aus dem offiziellen Pingu-Onlineshop in Japan, nach Korea geliefert. Lieferzeit in der Regel 7–14 Werktage.",
+      "headline": "Eine Pingu-Tasse in Grün oder Weiß-Rosa",
+      "intro": "Dies ist die farbige Pingu-Tasse, erhältlich in Grün oder Weiß-Rosa und im offiziellen Pingu-Onlineshop in Japan verkauft. Ein FeelBetter-Concierge hat Modell, Variante, Bestand und Preis geprüft; nach Ihrer Bestellung kaufen wir sie dort und schicken sie Ihnen.",
+      "highlights": [
+        "Zwei Farben stehen zur Wahl, Grün oder Weiß-Rosa, sodass Sie die auswählen können, die Ihnen besser gefällt.",
+        "Es ist eine Tasse, sie eignet sich also für Kaffee, Tee oder andere Getränke im Alltag.",
+        "Sie wird als offizieller Pingu-Artikel im offiziellen Pingu-Onlineshop in Japan gekauft, Sie erhalten also Originalware.",
+        "Durch die zwei Farbvarianten ist sie eine unkomplizierte Geschenkidee für Pingu-Fans."
+      ],
+      "sections": [
+        {
+          "h": "Die Farbe wählen",
+          "p": "Wählen Sie im Optionsmenü Grün oder Weiß-Rosa und sehen Sie sich die Produktfotos an, um jede Farbe vor der Entscheidung zu beurteilen. Wenn Sie einen anderen Pingu-Artikel suchen, wenden Sie sich über die Anfrageseite an unseren Concierge."
+        }
+      ],
+      "cautions": [
+        "Fassungsvermögen und Material der Tasse sind in den Angaben nicht genannt, ebenso wenig die Eignung für Mikrowelle oder Spülmaschine; bitte prüfen Sie die Fotos oder fragen Sie unseren Concierge."
+      ],
+      "options": [
+        {
+          "name": "Farbe",
+          "values": [
+            "Grün",
+            "Weiß-Rosa"
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "title": "Mug Pingu coloré en vert ou blanc et rose du Japon",
+      "meta_title": "Mug Pingu coloré en vert ou blanc et rose",
+      "meta_description": "Mug Pingu coloré en vert ou en blanc et rose, acheté sur la boutique officielle Pingu au Japon et expédié en Corée. Livraison en 7 à 14 jours ouvrés.",
+      "headline": "Un mug Pingu coloré, en vert ou en blanc et rose",
+      "intro": "Voici le mug coloré Pingu, proposé en vert ou en blanc et rose et vendu sur la boutique en ligne officielle de Pingu au Japon. Un concierge FeelBetter a vérifié le modèle, la variante, le stock et le prix ; après votre commande, nous l'achetons là-bas et vous l'expédions.",
+      "highlights": [
+        "Deux coloris sont proposés, vert ou blanc et rose, pour choisir celui qui correspond à vos goûts.",
+        "C'est un mug, prêt à accueillir votre café, votre thé ou vos autres boissons du quotidien.",
+        "Il est vendu comme article officiel Pingu et acheté sur la boutique en ligne officielle de Pingu au Japon, vous recevez donc un article authentique.",
+        "Proposé en deux coloris, c'est une idée de cadeau facile pour les fans de Pingu."
+      ],
+      "sections": [
+        {
+          "h": "Choisir le coloris",
+          "p": "Sélectionnez Vert ou Blanc et rose dans le menu des options, et regardez les photos du produit pour voir chaque coloris avant de décider. Pour un autre article Pingu, contactez notre concierge via la page de demande."
+        }
+      ],
+      "cautions": [
+        "La capacité et la matière du mug ne sont pas indiquées dans la fiche, pas plus que son usage au micro-ondes ou au lave-vaisselle ; consultez les photos ou demandez à notre concierge."
+      ],
+      "options": [
+        {
+          "name": "Couleur",
+          "values": [
+            "Vert",
+            "Blanc et rose"
+          ]
+        }
+      ]
+    }
+  }
 }

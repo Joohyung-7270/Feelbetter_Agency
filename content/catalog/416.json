@@ -144,5 +144,195 @@
       "해외디자인"
     ]
   },
-  "locales": {}
+  "locales": {
+    "en": {
+      "title": "Arduino OPLA IoT Kit AKX00026, IoT Learning Platform",
+      "meta_title": "Arduino OPLA IoT Kit AKX00026 Learning Platform",
+      "meta_description": "Arduino OPLA IoT Kit AKX00026 with sensors, actuators, communication modules, tutorials and example projects for learning IoT. Shipped to Korea from the US.",
+      "headline": "An all-in-one Arduino IoT learning kit with sensors, communication modules and tutorials for makers",
+      "intro": "The Arduino OPLA IoT Kit is a hardware set for prototyping Internet of Things projects, with sensors, actuators and communication modules, aimed at engineers, developers and hobbyists. Our concierge checked the model, variant, stock and price before listing; after you order, FeelBetter buys it from the seller in the United States and ships it to Korea, typically in 7–14 business days.",
+      "highlights": [
+        "A complete hardware set with sensors, actuators and communication modules lets you prototype IoT applications quickly.",
+        "A wide range of sensors, including temperature, humidity, motion and light, supports projects such as home automation, environmental monitoring and remote control.",
+        "It works with the Arduino platform and the Arduino IDE, so you can use Arduino's libraries, software tools and community resources.",
+        "Local and cloud-based protocols, including MQTT and HTTP, enable real-time data transmission, remote monitoring and device control.",
+        "Detailed guides and example projects are included to walk you through IoT concepts and use cases."
+      ],
+      "sections": [
+        {
+          "h": "What you can build",
+          "p": "The listing describes projects such as a smart home system, environmental data monitoring and controlling devices over the internet. Wi-Fi and Bluetooth are listed for wireless communication, and devices can be managed through the Arduino IoT Cloud. A user manual is included."
+        },
+        {
+          "h": "Kit details",
+          "p": "The spec sheet describes compatible devices as IoT devices, sensors and applications that connect to the Arduino MKR WiFi 1010 board or the MKR IoT Carrier and can be managed through the Arduino IoT Cloud. The kit measures about 11.02 x 8.66 x 3.19 inches (28 x 22 x 8.1 cm) and weighs 550 g (1.2 lb)."
+        }
+      ],
+      "cautions": [
+        "The listing shows two model codes (AKX00026 and AKX00027) and describes the wireless modules slightly differently in different places, so ask our concierge before ordering if you need the exact contents confirmed."
+      ]
+    },
+    "ko": {
+      "title": "Arduino OPLA IoT 키트 AKX00026 사물인터넷 학습 플랫폼",
+      "meta_title": "Arduino OPLA IoT 키트 AKX00026 학습 플랫폼",
+      "meta_description": "센서와 액추에이터, 통신 모듈, 튜토리얼과 예제 프로젝트가 담긴 Arduino OPLA IoT 키트 AKX00026이에요. 미국에서 구매해 한국으로 보내드려요.",
+      "headline": "센서와 통신 모듈, 튜토리얼까지 갖춘 올인원 Arduino IoT 학습 키트",
+      "intro": "Arduino OPLA IoT 키트는 센서, 액추에이터, 통신 모듈로 사물인터넷 프로젝트를 빠르게 만들어 볼 수 있는 하드웨어 세트로, 엔지니어와 개발자, 취미로 만드는 분께 맞춰져 있어요. 컨시어지가 모델과 옵션, 재고, 가격을 확인해 올렸고, 주문하시면 FeelBetter가 미국 판매처에서 구매해 한국으로 보내드려요(보통 영업일 7~14일).",
+      "highlights": [
+        "센서, 액추에이터, 통신 모듈이 모두 들어 있는 하드웨어 세트라서 IoT 앱을 빠르게 시제품으로 만들 수 있어요.",
+        "온도, 습도, 모션, 빛 등 다양한 센서로 홈 오토메이션, 환경 모니터링, 원격 제어 같은 프로젝트를 할 수 있어요.",
+        "Arduino 플랫폼과 Arduino IDE에서 쓸 수 있어서 Arduino의 라이브러리, 소프트웨어 도구, 커뮤니티 자료를 활용할 수 있어요.",
+        "MQTT, HTTP를 비롯한 로컬·클라우드 통신 방식으로 실시간 데이터 전송, 원격 모니터링, 기기 제어를 할 수 있어요.",
+        "IoT 개념과 활용 사례를 차근차근 알려 주는 안내서와 예제 프로젝트가 들어 있어요."
+      ],
+      "sections": [
+        {
+          "h": "만들어 볼 수 있는 것",
+          "p": "판매 페이지는 스마트홈 시스템, 환경 데이터 모니터링, 인터넷으로 기기 제어하기 같은 프로젝트를 예로 들어요. 무선 통신으로는 Wi-Fi와 Bluetooth가 표기되어 있고, Arduino IoT Cloud로 기기를 관리할 수 있어요. 사용 설명서도 함께 들어 있어요."
+        },
+        {
+          "h": "키트 정보",
+          "p": "사양표는 호환 기기를 Arduino MKR WiFi 1010 보드나 MKR IoT Carrier에 연결되고 Arduino IoT Cloud로 관리할 수 있는 IoT 기기, 센서, 애플리케이션이라고 설명해요. 크기는 약 28 x 22 x 8.1cm, 무게는 550g이에요."
+        }
+      ],
+      "cautions": [
+        "판매 페이지에 모델 코드가 두 가지(AKX00026, AKX00027)로 나오고 무선 모듈 설명도 곳곳이 조금 달라서, 정확한 구성을 확인하고 싶다면 주문 전에 컨시어지에게 문의해 주세요."
+      ]
+    },
+    "ja": {
+      "title": "Arduino OPLA IoTキット AKX00026 IoT学習プラットフォーム",
+      "meta_title": "Arduino OPLA IoTキット AKX00026 学習プラットフォーム",
+      "meta_description": "センサー、アクチュエーター、通信モジュール、チュートリアルを備えたArduino OPLA IoTキットAKX00026。米国から取り寄せて韓国へお届けします。",
+      "headline": "センサーと通信モジュール、チュートリアルを備えたオールインワンのArduino IoT学習キット",
+      "intro": "Arduino OPLA IoTキットは、センサー、アクチュエーター、通信モジュールでIoTプロジェクトを素早く試作できるハードウェアセットで、エンジニアや開発者、趣味で作る方に向けられています。コンシェルジュがモデル・バリエーション・在庫・価格を確認して掲載しており、ご注文後にFeelBetterが米国の販売店から購入して韓国へ発送します（通常7〜14営業日）。",
+      "highlights": [
+        "センサー、アクチュエーター、通信モジュールがそろったハードウェアセットで、IoTアプリケーションをすばやく試作できます。",
+        "温度、湿度、動き、光などのセンサーで、ホームオートメーションや環境モニタリング、リモート制御といったプロジェクトに取り組めます。",
+        "ArduinoプラットフォームとArduino IDEで使え、Arduinoのライブラリやソフトウェアツール、コミュニティの情報を活用できます。",
+        "MQTTやHTTPを含むローカル・クラウド通信に対応し、リアルタイムのデータ送信、遠隔モニタリング、機器の制御ができます。",
+        "IoTの考え方や活用例を順に解説するガイドとサンプルプロジェクトが付属します。"
+      ],
+      "sections": [
+        {
+          "h": "作れるもの",
+          "p": "出品情報では、スマートホームシステムや環境データのモニタリング、インターネット経由の機器制御といったプロジェクトが例に挙げられています。無線通信としてはWi-FiとBluetoothが記載されており、Arduino IoT Cloudで機器を管理できます。取扱説明書も付属します。"
+        },
+        {
+          "h": "キットの詳細",
+          "p": "仕様表では、互換機器をArduino MKR WiFi 1010ボードまたはMKR IoT Carrierに接続でき、Arduino IoT Cloudで管理できるIoTデバイス、センサー、アプリケーションと説明しています。サイズは約28×22×8.1cm、重さは550gです。"
+        }
+      ],
+      "cautions": [
+        "出品情報にはモデルコードが2つ（AKX00026、AKX00027）あり、無線モジュールの説明も箇所によって少し異なるため、正確な内容を確認したい場合はご注文前にコンシェルジュへご相談ください。"
+      ]
+    },
+    "zh-CN": {
+      "title": "Arduino OPLA IoT 套件 AKX00026 物联网学习平台",
+      "meta_title": "Arduino OPLA IoT 套件 AKX00026 学习平台",
+      "meta_description": "含传感器、执行器、通信模块、教程和示例项目的一站式 Arduino OPLA IoT 套件 AKX00026，适合学习和制作物联网原型。美国代购，下单后发往韩国。",
+      "headline": "集传感器、通信模块和教程于一体的 Arduino 物联网学习套件",
+      "intro": "Arduino OPLA IoT 套件是一套用于快速制作物联网原型的硬件，包含传感器、执行器和通信模块，面向工程师、开发者和爱好者。礼宾专员已核对型号、款式、库存和价格后上架，您下单后 FeelBetter 会向美国卖家采购并寄往韩国，通常需要 7–14 个工作日。",
+      "highlights": [
+        "传感器、执行器和通信模块齐全的硬件套装，可以快速做出物联网应用原型。",
+        "温度、湿度、运动、光线等多种传感器，适合家庭自动化、环境监测和远程控制等项目。",
+        "可配合 Arduino 平台和 Arduino IDE 使用，方便利用 Arduino 的库、软件工具和社区资源。",
+        "支持包括 MQTT 和 HTTP 在内的本地与云端通信，可实现实时数据传输、远程监控和设备控制。",
+        "附有详细指南和示例项目，带您逐步了解物联网的概念和应用场景。"
+      ],
+      "sections": [
+        {
+          "h": "可以做什么",
+          "p": "商品页面列举的项目包括智能家居系统、环境数据监测以及通过互联网控制设备。无线通信方面标注了 Wi-Fi 和 Bluetooth，设备可通过 Arduino IoT Cloud 管理。套件还附有用户手册。"
+        },
+        {
+          "h": "套件详情",
+          "p": "规格表将兼容设备描述为可连接 Arduino MKR WiFi 1010 开发板或 MKR IoT Carrier，并能通过 Arduino IoT Cloud 管理的物联网设备、传感器和应用。尺寸约 28 × 22 × 8.1 厘米，重 550 克。"
+        }
+      ],
+      "cautions": [
+        "商品页面列有两个型号代码（AKX00026 和 AKX00027），对无线模块的描述在不同位置也略有出入；如需确认具体配置，请在下单前联系礼宾专员。"
+      ]
+    },
+    "es": {
+      "title": "Arduino OPLA IoT Kit AKX00026, plataforma de aprendizaje IoT",
+      "meta_title": "Arduino OPLA IoT Kit AKX00026, aprendizaje IoT",
+      "meta_description": "Arduino OPLA IoT Kit AKX00026 con sensores, actuadores, módulos de comunicación, tutoriales y proyectos de ejemplo para aprender IoT. Enviado a Corea.",
+      "headline": "Kit de aprendizaje Arduino IoT todo en uno, con sensores, módulos de comunicación y tutoriales para makers",
+      "intro": "El Arduino OPLA IoT Kit es un conjunto de hardware para crear prototipos de proyectos del Internet de las cosas, con sensores, actuadores y módulos de comunicación, pensado para ingenieros, desarrolladores y aficionados. Nuestro concierge ha comprobado modelo, variante, existencias y precio antes de publicarlo; tras su pedido, FeelBetter lo compra al vendedor en Estados Unidos y lo envía a Corea, normalmente en 7–14 días laborables.",
+      "highlights": [
+        "Un conjunto completo de hardware con sensores, actuadores y módulos de comunicación permite prototipar aplicaciones IoT con rapidez.",
+        "Una amplia gama de sensores, como temperatura, humedad, movimiento y luz, sirve para proyectos de domótica, monitorización ambiental y control remoto.",
+        "Funciona con la plataforma Arduino y el Arduino IDE, así que puede usar las bibliotecas, herramientas de software y recursos de la comunidad de Arduino.",
+        "Los protocolos locales y en la nube, incluidos MQTT y HTTP, permiten transmitir datos en tiempo real, monitorizar a distancia y controlar dispositivos.",
+        "Incluye guías detalladas y proyectos de ejemplo que explican los conceptos y casos de uso de IoT."
+      ],
+      "sections": [
+        {
+          "h": "Qué puede construir",
+          "p": "El anuncio menciona proyectos como un sistema de hogar inteligente, la monitorización de datos ambientales y el control de dispositivos por internet. Para la comunicación inalámbrica figuran Wi-Fi y Bluetooth, y los dispositivos se pueden gestionar con Arduino IoT Cloud. También se incluye un manual de usuario."
+        },
+        {
+          "h": "Detalles del kit",
+          "p": "La ficha técnica describe los dispositivos compatibles como dispositivos IoT, sensores y aplicaciones que se conectan a la placa Arduino MKR WiFi 1010 o al MKR IoT Carrier y que pueden gestionarse con Arduino IoT Cloud. El kit mide unas 11,02 x 8,66 x 3,19 pulgadas (28 x 22 x 8,1 cm) y pesa 550 g."
+        }
+      ],
+      "cautions": [
+        "El anuncio muestra dos códigos de modelo (AKX00026 y AKX00027) y describe los módulos inalámbricos de forma algo distinta según el apartado; si necesita confirmar el contenido exacto, consulte a nuestro concierge antes de pedir."
+      ]
+    },
+    "de": {
+      "title": "Arduino OPLA IoT Kit AKX00026, IoT-Lernplattform",
+      "meta_title": "Arduino OPLA IoT Kit AKX00026, IoT-Lernplattform",
+      "meta_description": "Arduino OPLA IoT Kit AKX00026 mit Sensoren, Aktoren, Kommunikationsmodulen, Anleitungen und Beispielprojekten zum Lernen von IoT. Aus den USA nach Korea.",
+      "headline": "All-in-one-IoT-Lernkit von Arduino mit Sensoren, Kommunikationsmodulen und Anleitungen für Maker",
+      "intro": "Das Arduino OPLA IoT Kit ist ein Hardware-Set zum schnellen Prototyping von Internet-der-Dinge-Projekten mit Sensoren, Aktoren und Kommunikationsmodulen, gedacht für Ingenieure, Entwickler und Bastler. Unser Concierge hat Modell, Variante, Bestand und Preis vor der Listung geprüft; nach Ihrer Bestellung kauft FeelBetter das Kit beim Händler in den USA und versendet es nach Korea, in der Regel in 7–14 Werktagen.",
+      "highlights": [
+        "Ein komplettes Hardware-Set mit Sensoren, Aktoren und Kommunikationsmodulen ermöglicht schnelles Prototyping von IoT-Anwendungen.",
+        "Eine große Auswahl an Sensoren, etwa für Temperatur, Luftfeuchtigkeit, Bewegung und Licht, eignet sich für Projekte wie Hausautomation, Umweltüberwachung und Fernsteuerung.",
+        "Es arbeitet mit der Arduino-Plattform und der Arduino IDE zusammen, sodass Sie Arduinos Bibliotheken, Software-Tools und Community-Ressourcen nutzen können.",
+        "Lokale und cloudbasierte Protokolle, darunter MQTT und HTTP, ermöglichen Datenübertragung in Echtzeit, Fernüberwachung und Gerätesteuerung.",
+        "Ausführliche Anleitungen und Beispielprojekte führen Sie durch IoT-Konzepte und Anwendungsfälle."
+      ],
+      "sections": [
+        {
+          "h": "Was sich damit bauen lässt",
+          "p": "Das Angebot nennt Projekte wie ein Smart-Home-System, die Überwachung von Umweltdaten und die Steuerung von Geräten über das Internet. Für die drahtlose Kommunikation sind WLAN und Bluetooth angegeben, und Geräte lassen sich über die Arduino IoT Cloud verwalten. Ein Benutzerhandbuch ist enthalten."
+        },
+        {
+          "h": "Details zum Kit",
+          "p": "Das Datenblatt beschreibt kompatible Geräte als IoT-Geräte, Sensoren und Anwendungen, die sich mit dem Arduino MKR WiFi 1010 oder dem MKR IoT Carrier verbinden und über die Arduino IoT Cloud verwaltet werden können. Das Kit misst etwa 28 x 22 x 8,1 cm (11,02 x 8,66 x 3,19 Zoll) und wiegt 550 g."
+        }
+      ],
+      "cautions": [
+        "Das Angebot nennt zwei Modellcodes (AKX00026 und AKX00027) und beschreibt die Funkmodule an verschiedenen Stellen etwas unterschiedlich; wenn Sie den genauen Inhalt bestätigt haben möchten, fragen Sie vor der Bestellung unseren Concierge."
+      ]
+    },
+    "fr": {
+      "title": "Arduino OPLA IoT Kit AKX00026, plateforme d'apprentissage IoT",
+      "meta_title": "Arduino OPLA IoT Kit AKX00026, apprentissage IoT",
+      "meta_description": "Arduino OPLA IoT Kit AKX00026 : capteurs, actionneurs, modules de communication, tutoriels et projets d'exemple pour apprendre l'IoT. Livré en Corée.",
+      "headline": "Kit d'apprentissage Arduino IoT tout-en-un, avec capteurs, modules de communication et tutoriels pour makers",
+      "intro": "L'Arduino OPLA IoT Kit est un ensemble matériel pour prototyper des projets d'Internet des objets, avec capteurs, actionneurs et modules de communication, destiné aux ingénieurs, aux développeurs et aux amateurs. Notre concierge a vérifié le modèle, la variante, le stock et le prix avant la mise en ligne ; après votre commande, FeelBetter l'achète auprès du vendeur aux États-Unis et l'expédie en Corée, généralement en 7 à 14 jours ouvrés.",
+      "highlights": [
+        "Un ensemble matériel complet avec capteurs, actionneurs et modules de communication permet de prototyper rapidement des applications IoT.",
+        "Une large gamme de capteurs, dont température, humidité, mouvement et lumière, convient aux projets de domotique, de surveillance environnementale et de télécommande.",
+        "Il fonctionne avec la plateforme Arduino et l'Arduino IDE, ce qui permet d'utiliser les bibliothèques, outils logiciels et ressources communautaires d'Arduino.",
+        "Les protocoles locaux et cloud, dont MQTT et HTTP, permettent la transmission de données en temps réel, la surveillance à distance et le contrôle d'appareils.",
+        "Des guides détaillés et des projets d'exemple vous accompagnent dans les concepts et les cas d'usage de l'IoT."
+      ],
+      "sections": [
+        {
+          "h": "Ce que vous pouvez construire",
+          "p": "L'annonce cite des projets comme un système de maison connectée, la surveillance de données environnementales et le contrôle d'appareils par internet. Le Wi-Fi et le Bluetooth sont indiqués pour la communication sans fil, et les appareils peuvent être gérés avec Arduino IoT Cloud. Un manuel d'utilisation est inclus."
+        },
+        {
+          "h": "Détails du kit",
+          "p": "La fiche technique décrit les appareils compatibles comme des appareils IoT, capteurs et applications qui se connectent à la carte Arduino MKR WiFi 1010 ou au MKR IoT Carrier et peuvent être gérés avec Arduino IoT Cloud. Le kit mesure environ 11,02 x 8,66 x 3,19 pouces (28 x 22 x 8,1 cm) et pèse 550 g."
+        }
+      ],
+      "cautions": [
+        "L'annonce affiche deux codes de modèle (AKX00026 et AKX00027) et décrit les modules sans fil de façon légèrement différente selon les endroits ; si vous voulez confirmer le contenu exact, interrogez notre concierge avant de commander."
+      ]
+    }
+  }
 }

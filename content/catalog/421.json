@@ -135,5 +135,195 @@
       "방꾸미기"
     ]
   },
-  "locales": {}
+  "locales": {
+    "en": {
+      "title": "ELLDOO Crystal Piano Music Box, No Batteries, Plays For Elise",
+      "meta_title": "ELLDOO Crystal Piano Music Box, Plays For Elise",
+      "meta_description": "Clear crystal piano music box with a stainless steel movement. Turn the hand crank to play For Elise, no batteries needed. Shipped to Korea by FeelBetter.",
+      "headline": "A clear crystal piano that plays For Elise with a turn of the hand crank",
+      "intro": "This transparent piano ornament is made of clear crystal with a stainless steel clockwork movement, and it plays “For Elise” when you wind the hand crank at the bottom. FeelBetter orders it from the US seller after you check out and ships it to Korea, typically 7–14 business days after ordering, with tracking sent by email.",
+      "highlights": [
+        "Made of quality clear crystal with a stainless steel clockwork movement, strong and sturdy.",
+        "A piano-shaped design, classic and gorgeous, with a romantic look.",
+        "No batteries needed: twist the hand crank at the bottom to wind it and play “For Elise.”",
+        "At about 5.5 × 4.9 × 3.9 in, it is a good size for a bedroom, dresser, countertop or collection.",
+        "A gift for music lovers on birthdays, weddings, anniversaries, Valentine’s Day, Mother’s Day and housewarmings."
+      ],
+      "sections": [
+        {
+          "h": "How it plays",
+          "p": "Twist the hand crank at the bottom of the box to wind the movement, and the stainless steel clockwork plays “For Elise.” It needs no batteries. The piano shape and clear crystal give it a transparent, romantic look."
+        },
+        {
+          "h": "Display and gifting",
+          "p": "Its compact size suits a bedroom, dresser, countertop or any shelf in a home decor collection. The listing recommends it as a gift for music lovers on birthdays, weddings, anniversaries, Valentine’s Day, Mother’s Day, Thanksgiving, Christmas and housewarmings. Our concierge checked the model, stock and price before we listed it."
+        }
+      ],
+      "cautions": [
+        "Size is about 5.5 × 4.9 × 3.9 in (14 × 12.4 × 10 cm) according to the seller’s description, so check your display space."
+      ]
+    },
+    "ko": {
+      "title": "ELLDOO 크리스털 피아노 오르골 투명 태엽 뮤직박스 엘리제를 위하여",
+      "meta_title": "ELLDOO 크리스털 피아노 오르골 엘리제를 위하여",
+      "meta_description": "투명한 크리스털 피아노 모양 오르골이에요. 건전지 없이 아래쪽 크랭크를 돌려 태엽을 감으면 「엘리제를 위하여」가 연주돼요. 주문 후 미국에서 구매해 보내드려요.",
+      "headline": "크랭크를 돌리면 「엘리제를 위하여」가 흐르는 투명 크리스털 피아노",
+      "intro": "스테인리스 스틸 태엽 무브먼트를 넣은 투명한 크리스털 피아노 장식으로, 아래쪽 크랭크를 감으면 「엘리제를 위하여」가 연주돼요. 주문하시면 FeelBetter가 미국 판매처에서 구매해 한국으로 보내드리고, 보통 주문 후 영업일 기준 7~14일 걸리며 배송 추적 정보는 이메일로 안내해 드려요.",
+      "highlights": [
+        "고급 투명 크리스털에 스테인리스 스틸 태엽 무브먼트를 넣어 튼튼하게 만들었어요.",
+        "클래식하고 화려한 피아노 모양이라 로맨틱한 분위기가 나요.",
+        "건전지가 필요 없어요. 아래쪽 크랭크를 돌려 태엽을 감으면 「엘리제를 위하여」가 연주돼요.",
+        "약 14×12.4×10cm 크기라 침실, 화장대나 서랍장 위, 소품 진열에 두기 좋아요.",
+        "음악을 좋아하는 분께 생일, 결혼식, 기념일, 발렌타인데이, 어머니의 날, 집들이 선물로 어울려요."
+      ],
+      "sections": [
+        {
+          "h": "연주 방법",
+          "p": "상자 아래쪽 크랭크를 돌려 태엽을 감으면 스테인리스 스틸 무브먼트가 「엘리제를 위하여」를 연주해요. 건전지는 필요 없어요. 피아노 모양과 투명 크리스털이 맑고 로맨틱한 분위기를 더해요."
+        },
+        {
+          "h": "장식과 선물",
+          "p": "아담한 크기라 침실, 화장대, 선반 위 소품으로 어울려요. 상품 정보에서는 음악을 좋아하는 분께 생일, 결혼식, 기념일, 발렌타인데이, 어머니의 날, 추수감사절, 크리스마스, 집들이 선물로 권해요. 저희 컨시어지가 등록 전에 모델과 재고, 가격을 확인했어요."
+        }
+      ],
+      "cautions": [
+        "판매처 설명 기준 크기는 약 14×12.4×10cm(5.5×4.9×3.9인치)예요. 둘 자리를 먼저 확인해 주세요."
+      ]
+    },
+    "ja": {
+      "title": "ELLDOO クリスタル ピアノ オルゴール 電池不要 手回し式 エリーゼのために",
+      "meta_title": "ELLDOO クリスタルピアノ オルゴール エリーゼのために",
+      "meta_description": "透明なクリスタルのピアノ型オルゴールです。電池は不要で、底面のハンドルを回してぜんまいを巻くと「エリーゼのために」が流れます。ご注文後に海外から韓国へお届けします。",
+      "headline": "ハンドルを回すと「エリーゼのために」が流れる、透明クリスタルのピアノ",
+      "intro": "ステンレス製のぜんまいムーブメントを収めた透明なクリスタルのピアノ型オルゴールで、底面のハンドルを巻くと「エリーゼのために」が流れます。ご注文後にFeelBetterが米国の販売元から購入して韓国へお届けし、目安は注文から営業日で7〜14日、追跡情報はメールでお送りします。",
+      "highlights": [
+        "良質な透明クリスタルにステンレス製のぜんまいムーブメントを組み合わせ、丈夫に作られています。",
+        "クラシックで華やかなピアノ型で、ロマンチックな雰囲気です。",
+        "電池は不要です。底面のハンドルを回してぜんまいを巻くと、「エリーゼのために」が流れます。",
+        "サイズは約14×12.4×10cmで、寝室やドレッサー、カウンター、コレクションの飾りに向いています。",
+        "音楽好きの方への、誕生日・結婚祝い・記念日・バレンタインデー・母の日・新居祝いのギフトに向いています。"
+      ],
+      "sections": [
+        {
+          "h": "演奏のしかた",
+          "p": "ボックスの底面にあるハンドルを回してぜんまいを巻くと、ステンレス製ムーブメントが「エリーゼのために」を奏でます。電池は必要ありません。ピアノの形と透明なクリスタルが、澄んだロマンチックな雰囲気を添えます。"
+        },
+        {
+          "h": "飾り方とギフト",
+          "p": "コンパクトなサイズで、寝室、ドレッサー、カウンター、棚の上の小物としてなじみます。商品情報では、音楽好きの方への誕生日、結婚祝い、記念日、バレンタインデー、母の日、感謝祭、クリスマス、新居祝いのギフトに勧められています。掲載前に、コンシェルジュがモデル・在庫・価格を確認しています。"
+        }
+      ],
+      "cautions": [
+        "サイズは販売元の説明で約14×12.4×10cm(5.5×4.9×3.9インチ)です。置き場所を先にご確認ください。"
+      ]
+    },
+    "zh-CN": {
+      "title": "ELLDOO 水晶钢琴音乐盒 无需电池 手摇发条 致爱丽丝",
+      "meta_title": "ELLDOO 水晶钢琴音乐盒 致爱丽丝",
+      "meta_description": "透明水晶钢琴造型音乐盒，采用不锈钢发条机芯，不需要电池，转动底部摇柄上紧发条即可奏响经典的《致爱丽丝》。您下单后，FeelBetter 会向美国卖家采购并寄往韩国。",
+      "headline": "转动摇柄即奏响《致爱丽丝》的透明水晶钢琴",
+      "intro": "这款透明钢琴摆件由清透水晶和不锈钢发条机芯制成，转动底部的摇柄上紧发条，就会奏响《致爱丽丝》。您下单后，FeelBetter 会向美国卖家采购并寄往韩国，一般在下单后 7–14 个工作日送达，物流信息会通过邮件发送。",
+      "highlights": [
+        "采用优质透明水晶搭配不锈钢发条机芯，结实耐用。",
+        "钢琴造型经典华丽，带有浪漫气息。",
+        "无需电池，转动底部摇柄上紧发条即可播放《致爱丽丝》。",
+        "尺寸约 14 × 12.4 × 10 厘米，适合摆在卧室、梳妆台或台面上，也适合作为收藏摆件。",
+        "适合送给爱好音乐的人，用于生日、婚礼、纪念日、情人节、母亲节和乔迁。"
+      ],
+      "sections": [
+        {
+          "h": "播放方式",
+          "p": "转动盒子底部的摇柄上紧发条，不锈钢机芯便会奏响《致爱丽丝》。无需电池。钢琴造型与透明水晶，让整体显得通透而浪漫。"
+        },
+        {
+          "h": "摆放与送礼",
+          "p": "体型小巧，适合摆在卧室、梳妆台或架子上作装饰。商品信息建议作为送给音乐爱好者的礼物，适用于生日、婚礼、纪念日、情人节、母亲节、感恩节、圣诞节和乔迁。上架前，我们的购物顾问已核对型号、库存和价格。"
+        }
+      ],
+      "cautions": [
+        "按卖家说明，尺寸约 14 × 12.4 × 10 厘米（5.5 × 4.9 × 3.9 英寸），请先确认摆放位置。"
+      ]
+    },
+    "es": {
+      "title": "ELLDOO Caja de música piano de cristal sin pilas, Para Elisa",
+      "meta_title": "ELLDOO Caja de música piano de cristal, Para Elisa",
+      "meta_description": "Piano de cristal transparente con mecanismo de acero inoxidable. Dé cuerda con la manivela y suena Para Elisa, sin pilas. FeelBetter lo pide a Estados Unidos.",
+      "headline": "Un piano de cristal transparente que toca «Para Elisa» al girar la manivela",
+      "intro": "Este adorno con forma de piano está hecho de cristal transparente con un mecanismo de relojería de acero inoxidable, y toca «Para Elisa» al dar cuerda con la manivela de la base. FeelBetter lo pide al vendedor de Estados Unidos cuando usted compra y se lo envía a Corea, normalmente en 7 a 14 días hábiles desde el pedido, con seguimiento por correo electrónico.",
+      "highlights": [
+        "Cristal transparente de calidad con mecanismo de relojería de acero inoxidable, firme y resistente.",
+        "Diseño en forma de piano, clásico y elegante, con un aire romántico.",
+        "No necesita pilas: gire la manivela de la base para dar cuerda y que suene «Para Elisa».",
+        "Con unos 14 × 12,4 × 10 cm, tiene un tamaño ideal para un dormitorio, un tocador, una encimera o una colección.",
+        "Un regalo para amantes de la música en cumpleaños, bodas, aniversarios, San Valentín, el Día de la Madre e inauguraciones de casa."
+      ],
+      "sections": [
+        {
+          "h": "Cómo suena",
+          "p": "Gire la manivela de la parte inferior de la caja para dar cuerda al mecanismo, y el movimiento de acero inoxidable tocará «Para Elisa». No necesita pilas. La forma de piano y el cristal transparente le dan un aire limpio y romántico."
+        },
+        {
+          "h": "Decoración y regalo",
+          "p": "Su tamaño compacto encaja en un dormitorio, un tocador, una encimera o cualquier estante de una colección decorativa. El anuncio lo recomienda como regalo para amantes de la música en cumpleaños, bodas, aniversarios, San Valentín, el Día de la Madre, Acción de Gracias, Navidad e inauguraciones de casa. Nuestro concierge revisó el modelo, las existencias y el precio antes de publicarlo."
+        }
+      ],
+      "cautions": [
+        "Según la descripción del vendedor mide unos 14 × 12,4 × 10 cm (5,5 × 4,9 × 3,9 pulgadas); revise el espacio antes de comprar."
+      ]
+    },
+    "de": {
+      "title": "ELLDOO Kristall-Klavier-Spieluhr ohne Batterien, Für Elise",
+      "meta_title": "ELLDOO Kristall-Klavier-Spieluhr, Für Elise",
+      "meta_description": "Durchsichtiges Kristall-Klavier mit Edelstahl-Uhrwerk. Per Handkurbel aufziehen, dann spielt es Für Elise, ohne Batterien. Von FeelBetter in den USA bestellt.",
+      "headline": "Ein durchsichtiges Kristallklavier, das mit einer Kurbeldrehung „Für Elise“ spielt",
+      "intro": "Diese transparente Klavier-Dekoration besteht aus klarem Kristall mit einem Uhrwerk aus Edelstahl und spielt „Für Elise“, sobald Sie die Handkurbel an der Unterseite aufziehen. FeelBetter bestellt sie nach Ihrer Bestellung beim Verkäufer in den USA und liefert sie nach Korea, in der Regel 7–14 Werktage nach der Bestellung, mit Sendungsverfolgung per E-Mail.",
+      "highlights": [
+        "Aus hochwertigem klarem Kristall mit Edelstahl-Uhrwerk, stabil und robust.",
+        "Klassisches, edles Klaviermotiv mit romantischer Ausstrahlung.",
+        "Keine Batterien nötig: Die Handkurbel an der Unterseite drehen, aufziehen, und „Für Elise“ erklingt.",
+        "Mit etwa 14 × 12,4 × 10 cm hat sie die richtige Größe für Schlafzimmer, Frisierkommode, Arbeitsplatte oder Sammlung.",
+        "Ein Geschenk für Musikliebhaber zu Geburtstag, Hochzeit, Jahrestag, Valentinstag, Muttertag und Einzug."
+      ],
+      "sections": [
+        {
+          "h": "So spielt sie",
+          "p": "Drehen Sie die Handkurbel an der Unterseite, um das Werk aufzuziehen, dann spielt das Edelstahl-Uhrwerk „Für Elise“. Batterien werden nicht benötigt. Klavierform und klarer Kristall verleihen ihr eine durchsichtige, romantische Optik."
+        },
+        {
+          "h": "Dekoration und Geschenk",
+          "p": "Die kompakte Größe passt ins Schlafzimmer, auf die Frisierkommode, die Arbeitsplatte oder jedes Regal einer Dekosammlung. Die Produktbeschreibung empfiehlt sie als Geschenk für Musikliebhaber zu Geburtstag, Hochzeit, Jahrestag, Valentinstag, Muttertag, Thanksgiving, Weihnachten und Einzug. Unser Concierge hat Modell, Bestand und Preis vor der Aufnahme ins Sortiment geprüft."
+        }
+      ],
+      "cautions": [
+        "Laut Beschreibung des Verkäufers misst sie etwa 14 × 12,4 × 10 cm (5,5 × 4,9 × 3,9 Zoll); bitte prüfen Sie vorab den Platz."
+      ]
+    },
+    "fr": {
+      "title": "ELLDOO Boîte à musique piano en cristal sans piles, Lettre à Élise",
+      "meta_title": "ELLDOO Piano en cristal musical, Lettre à Élise",
+      "meta_description": "Piano transparent en cristal, mécanisme en acier inoxydable. Remontez la manivelle pour jouer Lettre à Élise, sans piles. Commandé aux États-Unis.",
+      "headline": "Un piano de cristal transparent qui joue « Lettre à Élise » d’un tour de manivelle",
+      "intro": "Ce piano décoratif transparent est en cristal clair avec un mécanisme d’horlogerie en acier inoxydable, et il joue « Lettre à Élise » quand vous remontez la manivelle située sous la boîte. FeelBetter le commande auprès du vendeur américain après votre achat et vous l’expédie en Corée, généralement 7 à 14 jours ouvrés après la commande, avec un suivi envoyé par e-mail.",
+      "highlights": [
+        "Cristal clair de qualité avec mécanisme d’horlogerie en acier inoxydable, solide et robuste.",
+        "Forme de piano classique et élégante, à l’allure romantique.",
+        "Aucune pile nécessaire : tournez la manivelle sous la boîte pour remonter le mécanisme et jouer « Lettre à Élise ».",
+        "Avec environ 14 × 12,4 × 10 cm, il a la bonne taille pour une chambre, une coiffeuse, un plan de travail ou une collection.",
+        "Un cadeau pour les mélomanes à l’occasion d’un anniversaire, d’un mariage, de la Saint-Valentin, de la fête des Mères ou d’une pendaison de crémaillère."
+      ],
+      "sections": [
+        {
+          "h": "Comment il joue",
+          "p": "Tournez la manivelle sous la boîte pour remonter le mécanisme : le mouvement en acier inoxydable joue alors « Lettre à Élise ». Aucune pile n’est nécessaire. La forme de piano et le cristal clair lui donnent un air transparent et romantique."
+        },
+        {
+          "h": "Décoration et cadeau",
+          "p": "Sa taille compacte convient à une chambre, une coiffeuse, un plan de travail ou une étagère de collection déco. L’annonce le recommande comme cadeau pour les mélomanes à l’occasion d’un anniversaire, d’un mariage ou d’un anniversaire de mariage, de la Saint-Valentin, de la fête des Mères, de Thanksgiving, de Noël ou d’une pendaison de crémaillère. Notre concierge a vérifié le modèle, le stock et le prix avant la mise en vente."
+        }
+      ],
+      "cautions": [
+        "Selon la description du vendeur, il mesure environ 14 × 12,4 × 10 cm (5,5 × 4,9 × 3,9 po) : vérifiez la place disponible."
+      ]
+    }
+  }
 }
