@@ -147,5 +147,202 @@
       "과학키트"
     ]
   },
-  "locales": {}
+  "locales": {
+    "en": {
+      "title": "Arduino Student Kit AKX00025 STEM Electronics and Programming Kit",
+      "meta_title": "Arduino Student Kit AKX00025 STEM Learning Kit",
+      "meta_description": "Arduino Student Kit AKX00025 for learning electronics and programming with guided projects, sensors and a breadboard. Shipped to Korea by FeelBetter.",
+      "headline": "A guided Arduino kit for learning electronics and programming by building",
+      "intro": "The Arduino Student Kit [AKX00025] is a hands-on STEM learning kit that teaches circuit design, sensor integration and programming through guided projects. FeelBetter orders it from the US seller after you check out and ships it to Korea, typically 7–14 business days after ordering, with tracking sent by email.",
+      "highlights": [
+        "Designed for students and beginners to learn electronics, programming and STEM through real-world projects.",
+        "Build projects such as a traffic light system, a light-sensitive lamp and a motion-activated alarm.",
+        "An interactive curriculum with step-by-step tutorials, plus video tutorials and online resources, suits the classroom or self-paced learning.",
+        "Components include LEDs, resistors, capacitors, motors, sensors and a breadboard for prototyping.",
+        "A practical starting point for students, teachers and hobbyists, from workshops to maker projects."
+      ],
+      "sections": [
+        {
+          "h": "What you can build",
+          "p": "Beginner-friendly projects such as a traffic light system, a light-sensitive lamp and a motion-activated alarm teach the basics of digital and analog circuits, sensors, actuators and microcontroller programming with the Arduino IDE. The listing says the kit includes everything needed to build real-world projects, and its included-components field lists a microprocessor."
+        },
+        {
+          "h": "Curriculum and parts",
+          "p": "An interactive curriculum guides you through each project with step-by-step tutorials, and the kit gives access to video tutorials and online resources for classroom use or self-paced learning. The parts include LEDs, resistors, capacitors, motors, sensors and a breadboard for prototyping. It suits students, teachers and hobbyists, and the listing mentions STEM education, workshops and maker projects."
+        }
+      ],
+      "cautions": [
+        "It includes small electronic parts such as LEDs, resistors and capacitors, so store them carefully.",
+        "Programming uses the Arduino IDE software, so plan to use your own computer."
+      ]
+    },
+    "ko": {
+      "title": "Arduino 스튜던트 키트 AKX00025 STEM 전자 코딩 입문 프로젝트 학습 세트",
+      "meta_title": "Arduino 스튜던트 키트 AKX00025 STEM 학습 키트",
+      "meta_description": "신호등, 조명, 경보기 같은 프로젝트를 만들며 전자회로와 프로그래밍을 배우는 Arduino 스튜던트 키트예요. 센서와 브레드보드가 들어 있어요. 주문 후 미국에서 구매해 보내드려요.",
+      "headline": "만들면서 전자회로와 코딩을 배우는 단계별 Arduino 키트",
+      "intro": "Arduino 스튜던트 키트 [AKX00025]는 안내에 따라 프로젝트를 만들며 회로 설계, 센서 연결, 프로그래밍을 익히는 실습형 STEM 학습 키트예요. 주문하시면 FeelBetter가 미국 판매처에서 구매해 한국으로 보내드리고, 보통 주문 후 영업일 기준 7~14일 걸리며 배송 추적 정보는 이메일로 안내해 드려요.",
+      "highlights": [
+        "학생과 초보자가 실제 프로젝트를 만들며 전자, 프로그래밍, STEM을 배우도록 만들어진 키트예요.",
+        "신호등, 빛에 반응하는 조명, 움직임을 감지하는 경보기 같은 프로젝트를 만들어 볼 수 있어요.",
+        "단계별 자습서가 있는 인터랙티브 커리큘럼에 동영상 자습서와 온라인 자료까지 있어 수업이나 혼자 공부하기에 좋아요.",
+        "LED, 저항, 커패시터, 모터, 센서와 시제품용 브레드보드 등이 들어 있어요.",
+        "학생, 교사, 취미로 즐기는 분 모두에게 워크숍과 메이커 프로젝트의 실용적인 출발점이 돼요."
+      ],
+      "sections": [
+        {
+          "h": "만들 수 있는 것",
+          "p": "초보자도 따라 할 수 있는 신호등, 빛에 반응하는 조명, 움직임 감지 경보기 같은 프로젝트를 만들며 디지털·아날로그 회로, 센서, 액추에이터, Arduino IDE를 이용한 마이크로컨트롤러 프로그래밍의 기초를 익혀요. 상품 정보에서는 실제 프로젝트를 만드는 데 필요한 것이 모두 들어 있다고 하고, 포함 구성 항목에 마이크로프로세서가 적혀 있어요."
+        },
+        {
+          "h": "커리큘럼과 부품",
+          "p": "인터랙티브 커리큘럼이 단계별 자습서로 각 프로젝트를 안내하고, 동영상 자습서와 온라인 자료도 이용할 수 있어 수업용이나 혼자 하는 학습에 알맞아요. LED, 저항, 커패시터, 모터, 센서, 시제품 제작용 브레드보드 등이 들어 있어요. 학생, 교사, 취미로 즐기는 분께 어울리고, 상품 정보에서는 STEM 교육, 워크숍, 메이커 프로젝트에 좋다고 소개해요."
+        }
+      ],
+      "cautions": [
+        "LED, 저항, 커패시터 같은 작은 전자 부품이 들어 있으니 잘 정리해서 보관해 주세요.",
+        "프로그래밍은 Arduino IDE 소프트웨어로 하므로 사용하시는 컴퓨터가 필요해요."
+      ]
+    },
+    "ja": {
+      "title": "Arduino スチューデントキット AKX00025 STEM 電子工作・プログラミング学習セット",
+      "meta_title": "Arduino スチューデントキット AKX00025 STEM 学習キット",
+      "meta_description": "信号機や光で点くランプ、動きを感知するアラームなどを作りながら、電子回路とプログラミングを学べるArduino スチューデントキットです。センサーやブレッドボード付きです。",
+      "headline": "作りながら電子回路とプログラミングを学べる、ステップ式のArduinoキット",
+      "intro": "Arduino スチューデントキット[AKX00025]は、ガイドに沿ってプロジェクトを作りながら、回路設計、センサー連携、プログラミングを身につける実践型のSTEM学習キットです。ご注文後にFeelBetterが米国の販売元から購入して韓国へお届けし、目安は注文から営業日で7〜14日、追跡情報はメールでお送りします。",
+      "highlights": [
+        "学生や初心者が、実際のプロジェクトを作りながら電子工作、プログラミング、STEMを学べるよう設計されたキットです。",
+        "信号機、明るさに反応するランプ、動きを感知するアラームなどのプロジェクトを作れます。",
+        "ステップごとのチュートリアルがあるインタラクティブなカリキュラムに加え、動画チュートリアルやオンライン資料も使え、授業にも自習にも向いています。",
+        "LED、抵抗、コンデンサー、モーター、センサー、試作用のブレッドボードなどが含まれています。",
+        "学生、教師、趣味で楽しむ方に向け、ワークショップやメイカープロジェクトの実用的な出発点になります。"
+      ],
+      "sections": [
+        {
+          "h": "作れるもの",
+          "p": "初心者でも取り組みやすい、信号機、明るさに反応するランプ、動きを感知するアラームなどのプロジェクトを作りながら、デジタル・アナログ回路、センサー、アクチュエーター、Arduino IDEを使ったマイコンのプログラミングの基本を学びます。商品情報では、実際のプロジェクトを作るのに必要なものがすべて入っているとされ、同梱品の項目にはマイクロプロセッサーが記載されています。"
+        },
+        {
+          "h": "カリキュラムと部品",
+          "p": "インタラクティブなカリキュラムがステップごとのチュートリアルで各プロジェクトを案内し、動画チュートリアルやオンライン資料も利用できるため、授業にも自習にも向いています。LED、抵抗、コンデンサー、モーター、センサー、試作用のブレッドボードなどが含まれます。学生、教師、趣味で楽しむ方に向いており、商品情報ではSTEM教育、ワークショップ、メイカープロジェクトに適しているとされています。"
+        }
+      ],
+      "cautions": [
+        "LEDや抵抗、コンデンサーなどの小さな電子部品が入っているので、整理して保管してください。",
+        "プログラミングにはArduino IDEソフトウェアを使うため、お使いのパソコンが必要です。"
+      ]
+    },
+    "zh-CN": {
+      "title": "Arduino 学生套件 AKX00025 STEM 电子与编程学习套装",
+      "meta_title": "Arduino 学生套件 AKX00025 STEM 学习套件",
+      "meta_description": "通过制作红绿灯、感光灯、动作感应警报等项目学习电子与编程的 Arduino 学生套件，含传感器和面包板。您下单后，FeelBetter 会向美国卖家采购并寄往韩国。",
+      "headline": "边做边学电子与编程的循序渐进 Arduino 套件",
+      "intro": "Arduino 学生套件 [AKX00025] 是一款实践型 STEM 学习套件，在引导式项目中学习电路设计、传感器集成和编程。您下单后，FeelBetter 会向美国卖家采购并寄往韩国，一般在下单后 7–14 个工作日送达，物流信息会通过邮件发送。",
+      "highlights": [
+        "面向学生和初学者，通过制作真实项目学习电子、编程和 STEM。",
+        "可以制作红绿灯系统、感光灯、动作感应警报等项目。",
+        "互动课程配有分步教程，还能使用视频教程和在线资源，适合课堂或自主学习。",
+        "元件包括 LED、电阻、电容、电机、传感器，以及用于原型搭建的面包板。",
+        "适合学生、教师和爱好者，用于工作坊和创客项目，是实用的入门选择。"
+      ],
+      "sections": [
+        {
+          "h": "能做什么",
+          "p": "通过制作适合初学者的红绿灯系统、感光灯和动作感应警报等项目，学习数字和模拟电路、传感器、执行器，以及使用 Arduino IDE 进行微控制器编程的基础。商品信息称套件包含制作真实项目所需的一切，包含组件一栏列有微处理器。"
+        },
+        {
+          "h": "课程与元件",
+          "p": "互动课程以分步教程引导完成每个项目，还可使用视频教程和在线资源，适合课堂使用或按自己的节奏学习。元件包括 LED、电阻、电容、电机、传感器和用于原型搭建的面包板。适合学生、教师和爱好者，商品信息也提到适用于 STEM 教育、工作坊和创客项目。"
+        }
+      ],
+      "cautions": [
+        "内含 LED、电阻、电容等小型电子元件，请整理妥善保管。",
+        "编程使用 Arduino IDE 软件，需要自备电脑。"
+      ]
+    },
+    "es": {
+      "title": "Arduino Student Kit AKX00025 Kit STEM de electrónica y programación",
+      "meta_title": "Arduino Student Kit AKX00025 Kit STEM de aprendizaje",
+      "meta_description": "Arduino Student Kit AKX00025 para aprender electrónica y programación con proyectos guiados, sensores y placa de pruebas. FeelBetter lo pide a Estados Unidos.",
+      "headline": "Un kit Arduino guiado para aprender electrónica y programación construyendo",
+      "intro": "El Arduino Student Kit [AKX00025] es un kit STEM práctico que enseña diseño de circuitos, integración de sensores y programación mediante proyectos guiados. FeelBetter lo pide al vendedor de Estados Unidos cuando usted compra y se lo envía a Corea, normalmente en 7 a 14 días hábiles desde el pedido, con seguimiento por correo electrónico.",
+      "highlights": [
+        "Pensado para estudiantes y principiantes que quieren aprender electrónica, programación y STEM con proyectos reales.",
+        "Permite construir proyectos como un semáforo, una lámpara sensible a la luz y una alarma activada por movimiento.",
+        "Un currículo interactivo con tutoriales paso a paso, más vídeos y recursos en línea, sirve para el aula o para aprender a su ritmo.",
+        "Los componentes incluyen LED, resistencias, condensadores, motores, sensores y una placa de pruebas para prototipos.",
+        "Es un punto de partida práctico para estudiantes, docentes y aficionados, desde talleres hasta proyectos maker."
+      ],
+      "sections": [
+        {
+          "h": "Qué se puede construir",
+          "p": "Con proyectos aptos para principiantes, como un semáforo, una lámpara sensible a la luz y una alarma activada por movimiento, se aprenden los fundamentos de los circuitos digitales y analógicos, los sensores, los actuadores y la programación de microcontroladores con el IDE de Arduino. El anuncio indica que el kit incluye todo lo necesario para construir proyectos reales y su campo de componentes incluidos menciona un microprocesador."
+        },
+        {
+          "h": "Currículo y componentes",
+          "p": "Un currículo interactivo guía cada proyecto con tutoriales paso a paso, y el kit da acceso a vídeos y recursos en línea, así que sirve para el aula o para aprender a su propio ritmo. Los componentes incluyen LED, resistencias, condensadores, motores, sensores y una placa de pruebas para crear prototipos. Es adecuado para estudiantes, docentes y aficionados, y el anuncio lo menciona para educación STEM, talleres y proyectos maker."
+        }
+      ],
+      "cautions": [
+        "Incluye pequeños componentes electrónicos como LED, resistencias y condensadores; guárdelos con cuidado.",
+        "La programación se hace con el software IDE de Arduino, por lo que necesitará su propio ordenador."
+      ]
+    },
+    "de": {
+      "title": "Arduino Student Kit AKX00025 STEM-Lernset Elektronik und Coding",
+      "meta_title": "Arduino Student Kit AKX00025 STEM-Lernset",
+      "meta_description": "Arduino Student Kit AKX00025: STEM-Lernset für Elektronik und Programmierung mit Projekten, Sensoren und Steckbrett. Von FeelBetter in den USA bestellt.",
+      "headline": "Ein geführtes Arduino-Set, um Elektronik und Programmierung beim Bauen zu lernen",
+      "intro": "Das Arduino Student Kit [AKX00025] ist ein praxisnahes STEM-Lernset, das Schaltungsentwurf, Sensoreinbindung und Programmierung anhand geführter Projekte vermittelt. FeelBetter bestellt es nach Ihrer Bestellung beim Verkäufer in den USA und liefert es nach Korea, in der Regel 7–14 Werktage nach der Bestellung, mit Sendungsverfolgung per E-Mail.",
+      "highlights": [
+        "Gedacht für Schüler, Studierende und Einsteiger, die Elektronik, Programmierung und STEM an echten Projekten lernen wollen.",
+        "Sie bauen Projekte wie eine Ampelschaltung, eine lichtempfindliche Lampe und einen bewegungsaktivierten Alarm.",
+        "Ein interaktives Curriculum mit Schritt-für-Schritt-Anleitungen sowie Videotutorials und Online-Ressourcen eignet sich für den Unterricht und das Selbststudium.",
+        "Zu den Bauteilen gehören LEDs, Widerstände, Kondensatoren, Motoren, Sensoren und ein Steckbrett für Prototypen.",
+        "Ein praktischer Einstieg für Lernende, Lehrkräfte und Hobbybastler, von Workshops bis zu Maker-Projekten."
+      ],
+      "sections": [
+        {
+          "h": "Was sich bauen lässt",
+          "p": "Mit einsteigerfreundlichen Projekten wie einer Ampelschaltung, einer lichtempfindlichen Lampe und einem bewegungsaktivierten Alarm lernen Sie die Grundlagen digitaler und analoger Schaltungen, von Sensoren, Aktoren und der Mikrocontroller-Programmierung mit der Arduino IDE. Laut Beschreibung enthält das Set alles, was für echte Projekte nötig ist, und im Feld für enthaltene Komponenten ist ein Mikroprozessor genannt."
+        },
+        {
+          "h": "Curriculum und Bauteile",
+          "p": "Ein interaktives Curriculum führt mit Schritt-für-Schritt-Anleitungen durch jedes Projekt, dazu gibt es Zugang zu Videotutorials und Online-Ressourcen, sodass es sich für den Unterricht oder das Lernen im eigenen Tempo eignet. Zu den Bauteilen zählen LEDs, Widerstände, Kondensatoren, Motoren, Sensoren und ein Steckbrett für Prototypen. Es passt zu Lernenden, Lehrkräften und Hobbybastlern, und die Produktbeschreibung nennt STEM-Bildung, Workshops und Maker-Projekte."
+        }
+      ],
+      "cautions": [
+        "Enthält kleine elektronische Bauteile wie LEDs, Widerstände und Kondensatoren; bitte ordentlich aufbewahren.",
+        "Die Programmierung erfolgt mit der Arduino IDE, Sie benötigen dafür einen eigenen Computer."
+      ]
+    },
+    "fr": {
+      "title": "Arduino Student Kit AKX00025, kit STEM électronique et codage",
+      "meta_title": "Arduino Student Kit AKX00025, kit STEM d’apprentissage",
+      "meta_description": "Arduino Student Kit AKX00025 : apprenez l’électronique et la programmation avec des projets guidés et des capteurs. Commandé aux États-Unis par FeelBetter.",
+      "headline": "Un kit Arduino guidé pour apprendre l’électronique et la programmation en construisant",
+      "intro": "L’Arduino Student Kit [AKX00025] est un kit d’apprentissage STEM pratique qui enseigne la conception de circuits, l’intégration de capteurs et la programmation à travers des projets guidés. FeelBetter le commande auprès du vendeur américain après votre achat et vous l’expédie en Corée, généralement 7 à 14 jours ouvrés après la commande, avec un suivi envoyé par e-mail.",
+      "highlights": [
+        "Conçu pour les élèves, les étudiants et les débutants qui veulent apprendre l’électronique, la programmation et les STEM avec des projets concrets.",
+        "On y construit des projets comme un feu tricolore, une lampe sensible à la lumière et une alarme déclenchée par le mouvement.",
+        "Un cursus interactif avec tutoriels pas à pas, des vidéos et des ressources en ligne convient à la classe comme à l’apprentissage à son rythme.",
+        "Les composants comprennent LED, résistances, condensateurs, moteurs, capteurs et une platine d’essai pour les prototypes.",
+        "Un point de départ pratique pour élèves, enseignants et amateurs, des ateliers aux projets de makers."
+      ],
+      "sections": [
+        {
+          "h": "Ce que l’on peut construire",
+          "p": "Avec des projets accessibles aux débutants, comme un feu tricolore, une lampe sensible à la lumière et une alarme déclenchée par le mouvement, on apprend les bases des circuits numériques et analogiques, des capteurs, des actionneurs et de la programmation de microcontrôleurs avec l’IDE Arduino. L’annonce indique que le kit contient tout le nécessaire pour réaliser de vrais projets, et son champ des composants inclus mentionne un microprocesseur."
+        },
+        {
+          "h": "Cursus et composants",
+          "p": "Un cursus interactif guide chaque projet par des tutoriels pas à pas, et le kit donne accès à des vidéos et à des ressources en ligne, ce qui convient à la classe comme à l’apprentissage à son propre rythme. Les composants comprennent LED, résistances, condensateurs, moteurs, capteurs et une platine d’essai pour réaliser des prototypes. Il s’adresse aux élèves, aux enseignants et aux amateurs, et l’annonce le cite pour l’enseignement STEM, les ateliers et les projets de makers."
+        }
+      ],
+      "cautions": [
+        "Contient de petits composants électroniques comme des LED, des résistances et des condensateurs : rangez-les avec soin.",
+        "La programmation se fait avec le logiciel IDE Arduino ; un ordinateur personnel est nécessaire."
+      ]
+    }
+  }
 }
