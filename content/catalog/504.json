@@ -1,0 +1,99 @@
+{
+  "id": 504,
+  "handle": "opanchu-usagi--504",
+  "group": "opanchu-usagi",
+  "vendor": "",
+  "source_url": "https://perfectworld.shop/?pid=191920453",
+  "naver_no": "13783980839",
+  "naver_display": "ON",
+  "price_krw": 40590,
+  "list_price_krw": 58860,
+  "total_cost_krw": 35854,
+  "krw_cost": 23704,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 1760,
+  "source_currency": "JPY",
+  "origin": "일본",
+  "weight_g": 300,
+  "keyword": "오판츄우사기 굿즈",
+  "options": [],
+  "images": [
+    "https://img07.shop-pro.jp/PA01418/427/product/191920453.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191920453_o1.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191920453_o2.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191920453_o3.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191920453_o4.jpg"
+  ],
+  "en": {
+    "title": "おぱんちゅうさぎ ポーチ付きショッピングエコバッグ レトロ遊園地",
+    "bullets": [],
+    "description": "おぱんちゅうさぎのポーチ付きが嬉しいショッピングエコバッグです。洗濯OKで衛生的♪使わない時は折りたたんで、可愛いポーチに収納できちゃいます♪ループ付きでバッグなどに取り付けられます☆持ち手が長めで肩に掛けやすいので使い勝手が良く大活躍すること間違いなしです♪【容量：13.5L】",
+    "specs": {}
+  },
+  "ko": {
+    "title": "오판츄우사기 파우치형 접이식 장바구니 레트로 유원지 쇼핑 에코백",
+    "headline": "오판츄우사기 에코백, 찾던 그 제품",
+    "subheadline": "해외에서 들여오는 오판츄우사기 에코백이에요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "파우치 포함",
+        "body": "사용하지 않을 때는 접어서 귀여운 파우치에 보관할 수 있어요."
+      },
+      {
+        "title": "세탁 가능",
+        "body": "세탁하여 위생적으로 사용할 수 있어요."
+      },
+      {
+        "title": "편한 착용",
+        "body": "손잡이가 길어 어깨에 걸기 좋아요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "용량",
+        "value": "13.5L"
+      },
+      {
+        "label": "원산지",
+        "value": "해외"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "에코백",
+      "예쁜에코백",
+      "접이식에코백",
+      "에코백디자인",
+      "캐릭터에코백",
+      "고급에코백",
+      "귀여운에코백",
+      "선물추천",
+      "생일선물",
+      "집들이선물"
+    ]
+  },
+  "locales": {}
+}

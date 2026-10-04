@@ -1,62 +1,138 @@
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
+{%- comment -%}
+  Catalog landing (/collections): editorial header, one FeelBetter card per
+  collection (image, product count, title, description) and a closing
+  "Can't find it? Ask the concierge" card. Empty collections are skipped.
+  Copy comes from feelbetter.plp.* when the settings are empty.
+{%- endcomment -%}
+{%- liquid
+  assign root = routes.root_url
+  if root == '/'
+    assign root = ''
+  endif
+  assign title = section.settings.title
+  if title == blank
+    assign title = 'feelbetter.plp.catalog_title' | t
+  endif
+  assign text = section.settings.text
+  if text == blank
+    assign text = 'feelbetter.plp.catalog_text' | t
+  endif
 
-<div class="page-width">
-  <h1 class="title title--primary inline-richtext{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-    {{ section.settings.title }}
-  </h1>
-  {%- liquid
-    case section.settings.sort
-      when 'products_high', 'products_low'
-        assign collections = collections | sort: 'all_products_count'
-      when 'date', 'date_reversed'
-        assign collections = collections | sort: 'published_at'
-    endcase
+  case section.settings.sort
+    when 'products_high', 'products_low'
+      assign collections = collections | sort: 'all_products_count'
+    when 'date', 'date_reversed'
+      assign collections = collections | sort: 'published_at'
+  endcase
 
-    if section.settings.sort == 'products_high' or section.settings.sort == 'date_reversed' or section.settings.sort == 'alphabetical_reversed'
-      assign collections = collections | reverse
-    endif
+  if section.settings.sort == 'products_high' or section.settings.sort == 'date_reversed' or section.settings.sort == 'alphabetical_reversed'
+    assign collections = collections | reverse
+  endif
+-%}
 
-    assign moduloResult = 28 | modulo: section.settings.columns_desktop
-    assign paginate_by = 30
-    if moduloResult == 0
-      assign paginate_by = 28
-    endif
-  -%}
-  {%- paginate collections by paginate_by -%}
-    <ul
-      class="collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
-      role="list"
-    >
-      {%- for collection in collections -%}
-        <li
-          class="collection-list__item grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {% if settings.animations_reveal_on_scroll %}
-            data-cascade
-            style="--animation-order: {{ forloop.index }};"
-          {% endif %}
-        >
-          {% render 'card-collection',
-            card_collection: collection,
-            media_aspect_ratio: section.settings.image_ratio,
-            columns: 3
-          %}
-        </li>
-      {%- endfor -%}
-    </ul>
-    {% render 'pagination', paginate: paginate %}
-  {%- endpaginate -%}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="fb-catalog color-{{ section.settings.color_scheme }} gradient">
+  <div class="page-width section-{{ section.id }}-padding">
+    <header class="fb-section-head fb-catalog__head{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <p class="fb-eyebrow"><span class="fb-dot" aria-hidden="true"></span><span>{{ 'feelbetter.plp.catalog_eyebrow' | t }}</span></p>
+      <h1 class="fb-catalog__title h0 inline-richtext">{{ title }}</h1>
+      {%- if text != blank -%}
+        <p class="fb-section-head__text">{{ text | escape_once }}</p>
+      {%- endif -%}
+      <p class="fb-catalog__meta">
+        <a class="fb-textlink" href="{{ routes.all_products_collection_url }}">{{ 'feelbetter.plp.catalog_all' | t }} <span aria-hidden="true">→</span></a>
+      </p>
+    </header>
+
+    {%- paginate collections by 30 -%}
+      {%- liquid
+        assign shown = 0
+        capture cards
+          for collection in collections
+            if collection.all_products_count == 0
+              continue
+            endif
+            assign shown = shown | plus: 1
+            assign lazy = true
+            if shown <= 3 and paginate.current_page == 1
+              assign lazy = false
+            endif
+            echo '<li class="fb-catalog__item'
+            if settings.animations_reveal_on_scroll
+              echo ' scroll-trigger animate--slide-in" data-cascade style="--animation-order: '
+              echo shown
+              echo ';'
+            endif
+            echo '">'
+            render 'feelbetter-collection-card', collection: collection, lazy: lazy, heading_tag: 'h2'
+            echo '</li>'
+          endfor
+        endcapture
+      -%}
+
+      {%- if shown > 0 -%}
+        <ul class="fb-catalog__grid" role="list">
+          {{ cards }}
+          {%- if section.settings.show_ask -%}
+            <li class="fb-catalog__item">
+              <aside class="fb-ccard fb-ccard--ask fb-card" aria-labelledby="CatalogAsk-{{ section.id }}">
+                <p class="fb-eyebrow"><span class="fb-dot" aria-hidden="true"></span><span>{{ 'feelbetter.request.eyebrow' | t }}</span></p>
+                <h2 class="fb-ccard__title" id="CatalogAsk-{{ section.id }}">{{ 'feelbetter.plp.catalog_ask_heading' | t }}</h2>
+                <p class="fb-ccard__text">{{ 'feelbetter.plp.catalog_ask_text' | t }}</p>
+                <a class="button" href="{{ root }}/pages/request">{{ 'feelbetter.plp.catalog_ask_cta' | t }}</a>
+              </aside>
+            </li>
+          {%- endif -%}
+        </ul>
+      {%- else -%}
+        <div class="fb-journal__empty fb-card">
+          <p class="fb-journal__empty-text">{{ 'feelbetter.plp.empty' | t }}</p>
+          <a class="button" href="{{ root }}/pages/request">{{ 'feelbetter.plp.catalog_ask_cta' | t }}</a>
+        </div>
+      {%- endif -%}
+
+      {%- if paginate.pages > 1 -%}
+        <div class="fb-catalog__pagination">
+          {%- render 'pagination', paginate: paginate -%}
+        </div>
+      {%- endif -%}
+    {%- endpaginate -%}
+  </div>
 </div>
+
 {% schema %}
 {
   "name": "t:sections.main-list-collections.name",
   "class": "section",
   "settings": [
     {
+      "type": "paragraph",
+      "content": "Catalog landing page. Leave the text fields empty: the theme renders its translated copy (feelbetter.plp.*) in every published language."
+    },
+    {
       "type": "inline_richtext",
       "id": "title",
       "label": "t:sections.main-list-collections.settings.title.label",
-      "default": "t:sections.main-list-collections.settings.title.default"
+      "info": "Empty = translated copy."
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Intro text",
+      "info": "Empty = translated copy."
     },
     {
       "type": "select",
@@ -91,49 +167,40 @@
       "label": "t:sections.main-list-collections.settings.sort.label"
     },
     {
-      "type": "select",
-      "id": "image_ratio",
-      "options": [
-        {
-          "value": "adapt",
-          "label": "t:sections.main-list-collections.settings.image_ratio.options__1.label"
-        },
-        {
-          "value": "portrait",
-          "label": "t:sections.main-list-collections.settings.image_ratio.options__2.label"
-        },
-        {
-          "value": "square",
-          "label": "t:sections.main-list-collections.settings.image_ratio.options__3.label"
-        }
-      ],
-      "default": "adapt",
-      "label": "t:sections.main-list-collections.settings.image_ratio.label"
+      "type": "checkbox",
+      "id": "show_ask",
+      "label": "Show the 'Ask the concierge' card",
+      "default": true
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
     },
     {
       "type": "range",
-      "id": "columns_desktop",
-      "min": 1,
-      "max": 6,
-      "step": 1,
-      "default": 3,
-      "label": "t:sections.main-list-collections.settings.columns_desktop.label"
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 64
     },
     {
-      "type": "select",
-      "id": "columns_mobile",
-      "options": [
-        {
-          "value": "1",
-          "label": "t:sections.main-list-collections.settings.columns_mobile.options__1.label"
-        },
-        {
-          "value": "2",
-          "label": "t:sections.main-list-collections.settings.columns_mobile.options__2.label"
-        }
-      ],
-      "default": "2",
-      "label": "t:sections.main-list-collections.settings.columns_mobile.label"
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 88
     }
   ]
 }

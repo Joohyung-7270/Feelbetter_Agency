@@ -1,0 +1,114 @@
+{
+  "id": 456,
+  "handle": "hazbin-hotel-pride-2025-tote-bag-456",
+  "group": "hazbin-hotel",
+  "vendor": "Hazbin Hotel",
+  "source_url": "https://hazbinhotel.com/products/hazbin-hotel-pride-2025-tote-bag",
+  "naver_no": "13783928371",
+  "naver_display": "ON",
+  "price_krw": 63200,
+  "list_price_krw": 91640,
+  "total_cost_krw": 55705,
+  "krw_cost": 40675,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 30,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 500,
+  "keyword": "해즈빈호텔 굿즈",
+  "options": [],
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/20250520_A24_Hazbin_257161x1_56868386-f5d5-4359-9039-a4008e48e0c9.jpg?v=1765078696",
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/20250520_A24_Hazbin_25717_1x1_235366a6-fd35-4b14-8a4a-7ec492781ae7.jpg?v=1765078696"
+  ],
+  "en": {
+    "title": "Pride 2025 Tote Bag",
+    "bullets": [],
+    "description": "Happy Pride from Hazbin Hotel! 14.5\" x 15.5\" x 7\", 100% cotton canvas. Art by Kanomareki.",
+    "specs": {
+      "Weight": "454 g"
+    }
+  },
+  "ko": {
+    "title": "해즈빈호텔 프라이드 2025 토트백 레인보우 한정 디자인 숄더 에코백",
+    "headline": "오늘 코디의 포인트, 토트백 하나로",
+    "subheadline": "해외에서 들여오는 해즈빈호텔 토트백이에요. 사이즈는 아래 상품 정보에서 꼭 확인해 주세요.",
+    "for_whom": [
+      "국내에 흔하지 않은 디자인을 찾는 분",
+      "해즈빈호텔 스타일을 좋아하는 분",
+      "선물을 고르는 분",
+      "계절 코디에 포인트가 필요한 분"
+    ],
+    "selling_points": [
+      {
+        "title": "면 캔버스 소재",
+        "body": "100% 면 캔버스 재질로 제작되었습니다."
+      },
+      {
+        "title": "넉넉한 사이즈",
+        "body": "약 36.8x39.4x17.8cm 크기로 수납이 가능합니다."
+      },
+      {
+        "title": "일러스트 디자인",
+        "body": "카노마레키의 아트워크가 포함되어 있습니다."
+      }
+    ],
+    "sections": [
+      {
+        "title": "선물로도 좋아요",
+        "body": "받는 사람의 취향을 담을 수 있는 선물이에요."
+      },
+      {
+        "title": "사이즈를 먼저 확인하세요",
+        "body": "해외 사이즈는 국내와 다를 수 있어요. 상품 정보의 실측을 평소 입는 옷과 비교해 보세요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "소재",
+        "value": "면 캔버스"
+      },
+      {
+        "label": "크기",
+        "value": "36.8x39.4x17.8cm"
+      },
+      {
+        "label": "무게",
+        "value": "454g"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "사이즈가 국내와 같나요?",
+        "a": "해외 사이즈라 국내와 다를 수 있어요. 실측을 비교해 보시고, 궁금하면 문의 주세요."
+      },
+      {
+        "q": "교환·반품이 되나요?",
+        "a": "해외 구매대행 상품이라 단순 변심 반품은 국제 배송비가 들어요. 주문 전 사이즈를 꼭 확인해 주세요."
+      }
+    ],
+    "cautions": [
+      "해외 사이즈 기준이라 국내 사이즈와 다를 수 있어요.",
+      "단순 변심 교환·반품은 국제 배송비가 발생해요."
+    ],
+    "closing": "흔하지 않은 디자인, 지금 골라 보세요",
+    "tags": [
+      "토트백",
+      "캔버스토트백",
+      "예쁜토트백",
+      "면토트백",
+      "데일리룩",
+      "선물추천",
+      "커플아이템",
+      "겨울코디",
+      "여자친구선물",
+      "남자친구선물"
+    ]
+  },
+  "locales": {}
+}

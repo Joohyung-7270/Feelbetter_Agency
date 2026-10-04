@@ -1,0 +1,158 @@
+{
+  "id": 486,
+  "handle": "jiu-jitsu-elite-sports-adults-brazilian-jiu-jitsu-belts-fo-486",
+  "group": "jiu-jitsu",
+  "vendor": "Elite Sports",
+  "source_url": "https://www.amazon.com/dp/B01KIVV1JY",
+  "naver_no": "13783977337",
+  "naver_display": "ON",
+  "price_krw": 32150,
+  "list_price_krw": 46620,
+  "total_cost_krw": 28575,
+  "krw_cost": 13545,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 9.99,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 400,
+  "keyword": "주짓수 용품",
+  "options": [
+    {
+      "name": "컬러",
+      "values": [
+        {
+          "label": "화이트",
+          "add_price": 0
+        },
+        {
+          "label": "블루",
+          "add_price": 0
+        },
+        {
+          "label": "퍼플",
+          "add_price": 0
+        },
+        {
+          "label": "브라운",
+          "add_price": 0
+        },
+        {
+          "label": "블랙",
+          "add_price": 0
+        }
+      ]
+    },
+    {
+      "name": "사이즈",
+      "values": [
+        {
+          "label": "A1",
+          "add_price": 0
+        },
+        {
+          "label": "A2",
+          "add_price": 0
+        },
+        {
+          "label": "A3",
+          "add_price": 0
+        },
+        {
+          "label": "A4",
+          "add_price": 0
+        },
+        {
+          "label": "A5",
+          "add_price": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    "https://m.media-amazon.com/images/I/81vWHbhAjaL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71sPtLoednL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81gOSkpDjWL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81z80xnJPcL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81rKgao8NTL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81N-r+cSwdL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81NoihN5wBL._AC_SL1500_.jpg"
+  ],
+  "en": {
+    "title": "Elite Sports Adults Brazilian Jiu Jitsu Belts for Men & Women,Cotton IBJJF Approved BJJ Belts with Ranking Stripes Sleeve Bar",
+    "bullets": [],
+    "description": "",
+    "specs": {
+      "Department\n": "unisex-adult"
+    }
+  },
+  "ko": {
+    "title": "엘리트스포츠 성인 주짓수 띠 코튼 승급 벨트 흰띠 블루 퍼플 브라운 블랙",
+    "headline": "Elite Sports 주짓수 벨트, 찾던 그 제품",
+    "subheadline": "해외에서 들여오는 Elite Sports 주짓수 벨트예요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "남녀 공용 디자인",
+        "body": "성인 남녀 모두 착용할 수 있는 주짓수 벨트예요."
+      },
+      {
+        "title": "면 소재 사용",
+        "body": "면 소재로 제작된 주짓수 벨트예요."
+      },
+      {
+        "title": "랭킹 스트라이프 슬리브 바",
+        "body": "랭킹 스트라이프 슬리브 바가 포함되어 있어요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      },
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "소재",
+        "value": "면"
+      },
+      {
+        "label": "사용 대상",
+        "value": "성인 공용"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "주짓수벨트",
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈",
+      "연말선물",
+      "여자친구선물",
+      "남자친구선물",
+      "감성소품"
+    ]
+  },
+  "locales": {}
+}

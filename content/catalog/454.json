@@ -1,0 +1,110 @@
+{
+  "id": 454,
+  "handle": "hazbin-hotel-keekee-ita-bag-454",
+  "group": "hazbin-hotel",
+  "vendor": "Hazbin Hotel",
+  "source_url": "https://hazbinhotel.com/products/hazbin-hotel-keekee-ita-bag",
+  "naver_no": "13783928312",
+  "naver_display": "ON",
+  "price_krw": 136220,
+  "list_price_krw": 197520,
+  "total_cost_krw": 119598,
+  "krw_cost": 101688,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 75,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 1200,
+  "keyword": "해즈빈호텔 굿즈",
+  "options": [],
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/20241010_HazbinHotel_KeeKee_Ita-bag_5280.jpg?v=1763595385",
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/20241010_HazbinHotel_KeeKee_Back_Ita-bag_5280.jpg?v=1763595385"
+  ],
+  "en": {
+    "title": "KeeKee Ita-bag",
+    "bullets": [],
+    "description": "She'll keep your items safe, at all costs. Vegan leather backpack with metal key pulls and enamel logo plate. Comes with a removable insert and three straps—one for crossbody, two to make it a backpack. Designed by Wivensbane.",
+    "specs": {
+      "Weight": "907 g"
+    }
+  },
+  "ko": {
+    "title": "해즈빈호텔 키키 이타백 캔뱃지 진열 투명창 숄더백 덕질 가방",
+    "headline": "오늘 코디의 포인트, 백팩 하나로",
+    "subheadline": "해외에서 들여오는 Hazbin Hotel 백팩이에요. 사이즈는 아래 상품 정보에서 꼭 확인해 주세요.",
+    "for_whom": [
+      "국내에 흔하지 않은 디자인을 찾는 분",
+      "Hazbin Hotel 스타일을 좋아하는 분",
+      "선물을 고르는 분",
+      "계절 코디에 포인트가 필요한 분"
+    ],
+    "selling_points": [
+      {
+        "title": "비건 레더 소재",
+        "body": "비건 레더 소재로 제작된 가방이에요."
+      },
+      {
+        "title": "다양한 연출",
+        "body": "크로스백과 백팩으로 모두 활용할 수 있어요."
+      },
+      {
+        "title": "탈부착 인서트",
+        "body": "탈부착 가능한 인서트가 포함되어 있어요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "선물로도 좋아요",
+        "body": "받는 사람의 취향을 담을 수 있는 선물이에요."
+      },
+      {
+        "title": "사이즈를 먼저 확인하세요",
+        "body": "해외 사이즈는 국내와 다를 수 있어요. 상품 정보의 실측을 평소 입는 옷과 비교해 보세요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "무게",
+        "value": "907g"
+      },
+      {
+        "label": "소재",
+        "value": "비건 레더"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "사이즈가 국내와 같나요?",
+        "a": "해외 사이즈라 국내와 다를 수 있어요. 실측을 비교해 보시고, 궁금하면 문의 주세요."
+      },
+      {
+        "q": "교환·반품이 되나요?",
+        "a": "해외 구매대행 상품이라 단순 변심 반품은 국제 배송비가 들어요. 주문 전 사이즈를 꼭 확인해 주세요."
+      }
+    ],
+    "cautions": [
+      "해외 사이즈 기준이라 국내 사이즈와 다를 수 있어요.",
+      "단순 변심 교환·반품은 국제 배송비가 발생해요."
+    ],
+    "closing": "흔하지 않은 디자인, 지금 골라 보세요",
+    "tags": [
+      "백팩",
+      "학생백팩",
+      "키즈백팩",
+      "예쁜백팩",
+      "빈티지백팩",
+      "이타백백팩",
+      "귀여운백팩",
+      "데일리룩",
+      "선물추천",
+      "커플아이템"
+    ]
+  },
+  "locales": {}
+}

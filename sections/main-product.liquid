@@ -75,7 +75,7 @@
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <product-component view-event-payload="{{ product | standard_event_data: 'view', context: 'page' | escape }}">
     <div class="page-width">
-      <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+      <div class="product fb-pdp product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
         <div class="grid__item product__media-wrapper">
           {% render 'product-media-gallery', variant_images: variant_images %}
         </div>
@@ -193,11 +193,17 @@
                     {%- endif -%}
                   </p>
                 {%- when 'description' -%}
-                  {%- if product.description != blank -%}
+                  {%- comment -%}
+                    With "description_below" on, the FeelBetter layout renders this
+                    block under the gallery and buy box instead (see after the grid).
+                  {%- endcomment -%}
+                  {%- if product.description != blank and section.settings.description_below != true -%}
                     <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                       {{ product.description }}
                     </div>
                   {%- endif -%}
+                {%- when 'feelbetter_trust' -%}
+                  {%- render 'feelbetter-pdp-trust', product: product, block: block -%}
                 {%- when 'sku' -%}
                   <p
                     class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -698,6 +704,25 @@
         </div>
       </div>
 
+      {%- comment -%}
+        FeelBetter layout: the description as a 720px column under the gallery and
+        buy box. Tables are wrapped so wide ones scroll sideways on phones.
+      {%- endcomment -%}
+      {%- if section.settings.description_below and product.description != blank -%}
+        {%- liquid
+          assign fb_description_block = section.blocks | where: 'type', 'description' | first
+          assign fb_description = product.description | replace: '<table', '<div class="fb-prose__scroll"><table' | replace: '</table>', '</table></div>'
+        -%}
+        {%- if fb_description_block -%}
+          <div class="fb-pd-wrap quick-add-hidden" {{ fb_description_block.shopify_attributes }}>
+            <p class="fb-eyebrow"><span class="fb-dot" aria-hidden="true"></span><span>{{ 'feelbetter.pdp.description_eyebrow' | t }}</span></p>
+            <div class="fb-pd-prose fb-prose">
+              {{ fb_description }}
+            </div>
+          </div>
+        {%- endif -%}
+      {%- endif -%}
+
       {% render 'product-media-modal', variant_images: variant_images %}
 
       {% assign popups = section.blocks | where: 'type', 'popup' %}
@@ -947,6 +972,35 @@
       "type": "description",
       "name": "t:sections.main-product.blocks.description.name",
       "limit": 1
+    },
+    {
+      "type": "feelbetter_trust",
+      "name": "FeelBetter trust strip",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Trust strip (verified seller · overseas purchase on demand · delivery · secure checkout), the 'Ask the concierge' link and tag chips that link to collections. Copy comes from feelbetter.pdp.* in every language."
+        },
+        {
+          "type": "checkbox",
+          "id": "show_trust",
+          "default": true,
+          "label": "Show trust strip"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_ask",
+          "default": true,
+          "label": "Show 'Ask the concierge' link"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_tags",
+          "default": true,
+          "label": "Show tag chips"
+        }
+      ]
     },
     {
       "type": "share",
@@ -2152,6 +2206,13 @@
       "id": "enable_sticky_info",
       "default": true,
       "label": "t:sections.main-product.settings.enable_sticky_info.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "description_below",
+      "default": false,
+      "label": "Show the description below the gallery",
+      "info": "FeelBetter layout: the Description block renders as a 720px column under the gallery and buy box instead of inside the buy box."
     },
     {
       "type": "color_scheme",

@@ -1,0 +1,101 @@
+{
+  "id": 507,
+  "handle": "opanchu-usagi--507",
+  "group": "opanchu-usagi",
+  "vendor": "",
+  "source_url": "https://perfectworld.shop/?pid=191452643",
+  "naver_no": "13783981796",
+  "naver_display": "ON",
+  "price_krw": 58970,
+  "list_price_krw": 85510,
+  "total_cost_krw": 52008,
+  "krw_cost": 36978,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 3300,
+  "source_currency": "JPY",
+  "origin": "일본",
+  "weight_g": 600,
+  "keyword": "오판츄우사기 굿즈",
+  "options": [],
+  "images": [
+    "https://img07.shop-pro.jp/PA01418/427/product/191452643.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191452643_o1.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191452643_o2.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191452643_o3.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191452643_o4.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191452643_o5.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191452643_o6.jpg"
+  ],
+  "en": {
+    "title": "おぱんちゅうさぎ スクリューハンドル付マグボトル ストロベリー 水筒 ランチ",
+    "bullets": [],
+    "description": "おぱんちゅうさぎの持ち運びに便利なハンドル付きマグボトルです。真空二重構造で保温＆保冷効力あり！氷が入れやすい広口タイプ。ハンドル付きでバッグに入れても取り出しやすく持ち運びにも便利♪専用の箱入りなのでプレゼントやギフトにおすすめです☆彡【容量：350ml】",
+    "specs": {}
+  },
+  "ko": {
+    "title": "오판츄우사기 손잡이 마그보틀 스트로베리 스테인리스 보온 보냉병 물병",
+    "headline": "해외에서 찾은 텀블러",
+    "subheadline": "해외에서 들여오는 오판츄우사기 텀블러예요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "편리한 핸들",
+        "body": "스크류 핸들 리드가 있어 가방에서 꺼내거나 들고 다니기 편해요."
+      },
+      {
+        "title": "진공이중구조",
+        "body": "진공 이중 구조로 제작되어 보온 및 보냉 기능을 사용할 수 있어요."
+      },
+      {
+        "title": "넓은 입구",
+        "body": "얼음을 넣기 쉬운 넓은 입구 타입으로 실용적이에요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      },
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "용량",
+        "value": "350ml"
+      },
+      {
+        "label": "원산지",
+        "value": "해외"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "텀블러",
+      "보온텀블러",
+      "보냉텀블러",
+      "캐릭터텀블러",
+      "핸들텀블러",
+      "예쁜텀블러",
+      "키즈텀블러",
+      "선물추천",
+      "생일선물",
+      "집들이선물"
+    ]
+  },
+  "locales": {}
+}

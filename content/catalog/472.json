@@ -1,0 +1,123 @@
+{
+  "id": 472,
+  "handle": "hazbin-hotel-alastor-bff-tee-472",
+  "group": "hazbin-hotel",
+  "vendor": "Hazbin Hotel",
+  "source_url": "https://hazbinhotel.com/products/alastor-bff-tee",
+  "naver_no": "13783929833",
+  "naver_display": "ON",
+  "price_krw": 63200,
+  "list_price_krw": 91640,
+  "total_cost_krw": 55705,
+  "krw_cost": 40675,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 30,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 400,
+  "keyword": "해즈빈호텔 굿즈",
+  "options": [
+    {
+      "name": "사이즈",
+      "values": [
+        {
+          "label": "S",
+          "add_price": 0
+        },
+        {
+          "label": "3XL",
+          "add_price": 0
+        },
+        {
+          "label": "4XL",
+          "add_price": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/AlastorTee.jpg?v=1788315602"
+  ],
+  "en": {
+    "title": "Alastor BFF Tee",
+    "bullets": [],
+    "description": "Deer! 100% Cotton Unisex Tee. Art by Calis. Ships in October.",
+    "specs": {
+      "Weight": "227 g"
+    }
+  },
+  "ko": {
+    "title": "해즈빈호텔 알래스터 BFF 티셔츠 라디오데몬 그래픽 반소매 상의",
+    "headline": "알래스터 반팔티, 원하던 디자인 그대로",
+    "subheadline": "해외에서 들여오는 해즈빈 호텔 반팔티예요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "면 100% 소재",
+        "body": "면 100% 소재로 제작된 남녀공용 반팔티예요."
+      },
+      {
+        "title": "아트워크 디자인",
+        "body": "Calis의 아트워크가 프린트되어 있어요."
+      },
+      {
+        "title": "미국 수입",
+        "body": "미국에서 배송되는 상품이에요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      },
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "소재",
+        "value": "면 100%"
+      },
+      {
+        "label": "무게",
+        "value": "227g"
+      },
+      {
+        "label": "제조국",
+        "value": "미국"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "반팔티",
+      "면반팔티",
+      "빈티지반팔티",
+      "남녀공용반팔티",
+      "예쁜반팔티",
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈"
+    ]
+  },
+  "locales": {}
+}

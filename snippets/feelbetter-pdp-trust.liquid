@@ -1,0 +1,78 @@
+{% comment %}
+  Buy-box extras for the product page (main-product block "feelbetter_trust"):
+  - trust strip: verified seller · overseas purchase on demand · typical delivery
+    7-14 business days · secure Shopify checkout
+  - "Need a different size or colour? Ask the concierge" -> /pages/request
+    (locale-prefixed via routes.root_url)
+  - tag chips linking to the matching collections
+  All copy comes from feelbetter.pdp.*.
+
+  Accepts:
+  - product {Object}
+  - block {Object} - the section block (settings show_trust / show_ask / show_tags)
+
+  Usage:
+  {% render 'feelbetter-pdp-trust', product: product, block: block %}
+{% endcomment %}
+{%- liquid
+  assign root = routes.root_url
+  if root == '/'
+    assign root = ''
+  endif
+  assign show_trust = block.settings.show_trust | default: true, allow_false: true
+  assign show_ask = block.settings.show_ask | default: true, allow_false: true
+  assign show_tags = block.settings.show_tags | default: true, allow_false: true
+-%}
+<div class="fb-pdp-trust quick-add-hidden" {{ block.shopify_attributes }}>
+  {%- if show_trust -%}
+    <ul class="fb-pdp-trust__list" role="list" aria-label="{{ 'feelbetter.pdp.trust_label' | t | escape }}">
+      <li class="fb-pdp-trust__item">
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M8 1.5l1.8 1.3 2.2-.2.6 2.1 1.9 1.2-1 2 1 2-1.9 1.2-.6 2.1-2.2-.2L8 14.5l-1.8-1.3-2.2.2-.6-2.1-1.9-1.2 1-2-1-2 1.9-1.2.6-2.1 2.2.2z"/>
+          <path d="M5.5 8.2l1.7 1.6 3.3-3.4"/>
+        </svg>
+        <span>{{ 'feelbetter.pdp.trust_verified' | t }}</span>
+      </li>
+      <li class="fb-pdp-trust__item">
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="8" cy="8" r="6.5"/>
+          <path d="M1.5 8h13M8 1.5c2 2.2 2 10.8 0 13M8 1.5c-2 2.2-2 10.8 0 13"/>
+        </svg>
+        <span>{{ 'feelbetter.pdp.trust_overseas' | t }}</span>
+      </li>
+      <li class="fb-pdp-trust__item">
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="8" cy="8" r="6.5"/>
+          <path d="M8 4.5V8l2.3 1.6"/>
+        </svg>
+        <span>{{ 'feelbetter.pdp.trust_delivery' | t }}</span>
+      </li>
+      <li class="fb-pdp-trust__item">
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="7" width="10" height="7.5" rx="1.5"/>
+          <path d="M5.2 7V5a2.8 2.8 0 0 1 5.6 0v2"/>
+        </svg>
+        <span>{{ 'feelbetter.pdp.trust_checkout' | t }}</span>
+      </li>
+    </ul>
+  {%- endif -%}
+
+  {%- if show_ask -%}
+    <p class="fb-pdp-trust__ask">
+      <span>{{ 'feelbetter.pdp.ask_text' | t }}</span>
+      <a class="fb-textlink" href="{{ root }}/pages/request">{{ 'feelbetter.pdp.ask_link' | t }} <span aria-hidden="true">→</span></a>
+    </p>
+  {%- endif -%}
+
+  {%- if show_tags and product.tags.size > 0 -%}
+    {%- capture tag_chips -%}
+      {% render 'feelbetter-tag-chips', product: product, limit: 6 %}
+    {%- endcapture -%}
+    {%- if tag_chips contains '<li' -%}
+      <div class="fb-pdp-trust__tags">
+        <p class="fb-pdp-trust__tags-label fb-mono">{{ 'feelbetter.pdp.browse_label' | t }}</p>
+        {{ tag_chips }}
+      </div>
+    {%- endif -%}
+  {%- endif -%}
+</div>

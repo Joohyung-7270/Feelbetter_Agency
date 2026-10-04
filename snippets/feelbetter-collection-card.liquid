@@ -1,0 +1,57 @@
+{% comment %}
+  Collection card for the catalog landing (/collections): image, product count as a
+  mono eyebrow, serif title, short description. The whole card is clickable.
+
+  Accepts:
+  - collection {Object}
+  - lazy {Boolean} - lazy-load the image (default true)
+  - heading_tag {String} - 'h2' or 'h3' (default 'h2')
+
+  Usage:
+  {% render 'feelbetter-collection-card', collection: collection %}
+{% endcomment %}
+{%- liquid
+  assign heading_tag = heading_tag | default: 'h2'
+  assign loading = 'lazy'
+  if lazy == false
+    assign loading = 'eager'
+  endif
+  assign image = collection.featured_image
+  assign text = collection.description | strip_html | strip
+  assign lang = request.locale.iso_code | slice: 0, 2 | downcase
+  if lang == 'ja' or lang == 'zh'
+    assign text = text | truncate: 70
+  else
+    assign text = text | truncatewords: 18
+  endif
+-%}
+<article class="fb-ccard fb-card">
+  <div class="fb-ccard__media{% unless image %} fb-ccard__media--empty{% endunless %}"{% unless image %} aria-hidden="true"{% endunless %}>
+    {%- if image -%}
+      {{
+        image
+        | image_url: width: 1400
+        | image_tag:
+          loading: loading,
+          sizes: '(min-width: 990px) 33vw, (min-width: 750px) 50vw, 100vw',
+          widths: '400, 600, 800, 1000, 1200, 1400',
+          class: 'fb-ccard__img'
+      }}
+    {%- else -%}
+      <span class="fb-ccard__mark">f</span>
+    {%- endif -%}
+  </div>
+  <div class="fb-ccard__body">
+    <p class="fb-ccard__count fb-mono">
+      <span class="fb-dot fb-dot--static" aria-hidden="true"></span>
+      <span>{{ 'feelbetter.plp.count' | t: count: collection.all_products_count }}</span>
+    </p>
+    <{{ heading_tag }} class="fb-ccard__title">
+      <a class="fb-ccard__link" href="{{ collection.url }}">{{ collection.title | escape }}</a>
+    </{{ heading_tag }}>
+    {%- if text != blank -%}
+      <p class="fb-ccard__text">{{ text }}</p>
+    {%- endif -%}
+    <span class="fb-ccard__more fb-textlink" aria-hidden="true">{{ 'feelbetter.plp.view_collection' | t }} →</span>
+  </div>
+</article>

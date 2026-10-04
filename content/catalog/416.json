@@ -1,0 +1,148 @@
+{
+  "id": 416,
+  "handle": "tech-arduino-opla-iot-kit-akx00026-all-in-one-interne-416",
+  "group": "tech",
+  "vendor": "Arduino",
+  "source_url": "https://www.amazon.com/dp/B08LY4G87J",
+  "naver_no": "13783905049",
+  "naver_display": "ON",
+  "price_krw": 233490,
+  "list_price_krw": 338570,
+  "total_cost_krw": 204682,
+  "krw_cost": 183892,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 135.63,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 1500,
+  "keyword": "아두이노 오플라 IoT 키트",
+  "options": [],
+  "images": [
+    "https://m.media-amazon.com/images/I/51m3ssWqClL._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/51C-DRmAk9L._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/51M7iMzJ7TL._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/518kEdKX+rL._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/51asfbGhwvL._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/61wsCgYavOL._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/51OWud4Z5mL._AC_SL1000_.jpg"
+  ],
+  "en": {
+    "title": "Arduino OPLA IoT Kit [AKX00026] - All-in-One Internet of Things Learning Platform for Makers, Developers & Hobbyists | Includes Sensors, Modules & Tutorials for Easy IoT Projects",
+    "bullets": [
+      "Comprehensive IoT Learning Platform: The Arduino OPLA IoT Kit [AKX00026] provides a complete set of hardware components—including sensors, actuators, and communication modules—designed to enable rapid prototyping of Internet of Things (IoT) applications. This kit is an ideal starting point for engineers, developers, and hobbyists who want to explore the world of IoT.",
+      "Extensive Sensor and Module Selection: The kit includes a wide range of sensors (temperature, humidity, motion, light, and more) along with essential communication modules like Wi-Fi, Bluetooth, and LoRa, giving you the flexibility to build diverse IoT systems such as home automation, environmental monitoring, and remote control projects.",
+      "Compatible with Arduino Ecosystem: Fully integrated with the Arduino platform, this kit works seamlessly with the Arduino IDE and comes pre-configured for easy setup. Utilize Arduino's extensive libraries, software tools, and community resources to accelerate your IoT project development. It's the perfect tool for anyone familiar with or new to Arduino.",
+      "Advanced Connectivity & Cloud Integration: The OPLA IoT Kit supports both local and cloud-based communication protocols, including MQTT and HTTP, enabling real-time data transmission, remote monitoring, and device control. With built-in connectivity features, you can easily interface with online services like Blynk, ThingSpeak, or AWS IoT to create end-to-end IoT solutions.",
+      "Comprehensive Tutorials & Project Support: Detailed guides and example projects are included, walking you through various IoT concepts and use cases. Whether you're building a smart home system, monitoring environmental data, or controlling devices over the internet, these resources ensure you can quickly get up to speed and create innovative, scalable IoT projects."
+    ],
+    "description": "",
+    "specs": {
+      "CPU Model": "Cortex",
+      "Connectivity Technology": "USB, Wi-Fi",
+      "Operating System": "FreeRTOS",
+      "Processor Brand": "Atmel/Microchip",
+      "Wireless Compability": "Bluetooth",
+      "Compatible Devices": "IoT devices, sensors, and applications that can connect to the Arduino MKR WiFi 1010 board or the MKR IoT Carrier and can be managed through the Arduino IoT Cloud",
+      "RAM Memory Technology": "SRAM",
+      "Processor Count": "1",
+      "Total Usb Ports": "1",
+      "Item Dimensions L x W x H": "11.02\"L x 8.66\"W x 3.19\"H",
+      "Brand": "Arduino",
+      "Model Name": "AKX00026",
+      "Built-In Media": "User Manual",
+      "Number of Items": "1",
+      "Global Trade Identification Number": "07630049202665",
+      "External Testing Certification": "Não aplicável",
+      "Item Weight": "550 g",
+      "Manufacturer": "Arduino S.r.l.",
+      "Model Number": "AKX00027",
+      "Mfr Part Number": "AKX00027"
+    }
+  },
+  "ko": {
+    "title": "아두이노 오플라 IoT 키트 AKX00026 스마트홈 클라우드 연동 사물인터넷 학습 세트",
+    "headline": "아두이노 IoT 키트, 찾던 그 제품",
+    "subheadline": "해외에서 들여오는 아두이노 IoT 키트예요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "종합 IoT 학습",
+        "body": "센서, 액츄에이터, 통신 모듈이 포함된 하드웨어 세트예요."
+      },
+      {
+        "title": "다양한 센서 구성",
+        "body": "온도, 습도, 모션, 빛 등 다양한 센서가 포함되어 있어요."
+      },
+      {
+        "title": "아두이노 호환",
+        "body": "아두이노 플랫폼과 통합되어 쉽게 설정하고 사용할 수 있어요."
+      },
+      {
+        "title": "클라우드 연동",
+        "body": "실시간 데이터 전송과 원격 모니터링을 지원해요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      },
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "브랜드",
+        "value": "아두이노"
+      },
+      {
+        "label": "모델명",
+        "value": "AKX00026"
+      },
+      {
+        "label": "연결 기술",
+        "value": "USB, Wi-Fi"
+      },
+      {
+        "label": "무게",
+        "value": "550g"
+      },
+      {
+        "label": "크기",
+        "value": "약 28cm"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈",
+      "연말선물",
+      "여자친구선물",
+      "남자친구선물",
+      "감성소품",
+      "해외디자인"
+    ]
+  },
+  "locales": {}
+}

@@ -1,0 +1,108 @@
+{
+  "id": 521,
+  "handle": "opanchu-usagi--521",
+  "group": "opanchu-usagi",
+  "vendor": "",
+  "source_url": "https://perfectworld.shop/?pid=186588410",
+  "naver_no": "13783983286",
+  "naver_display": "ON",
+  "price_krw": 34080,
+  "list_price_krw": 49420,
+  "total_cost_krw": 30165,
+  "krw_cost": 18015,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 1100,
+  "source_currency": "JPY",
+  "origin": "일본",
+  "weight_g": 150,
+  "keyword": "오판츄우사기 굿즈",
+  "options": [
+    {
+      "name": "디자인",
+      "values": [
+        {
+          "label": "오판츄·곰 그린",
+          "add_price": 0
+        },
+        {
+          "label": "오판츄 블루",
+          "add_price": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    "https://img07.shop-pro.jp/PA01418/427/product/186588410.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/186588410_o1.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/186588410_o2.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/186588410_o3.jpg"
+  ],
+  "en": {
+    "title": "おぱんちゅうさぎ おぱんちゅ＆着衣グマ スマートフォンリング スマホリング グリーン",
+    "bullets": [],
+    "description": "おぱんちゅうさぎと着衣グマのスマホリング！スマホに貼るだけでOK◎落下防止やスマホスタンドになる便利でかわいいアイテムです♪",
+    "specs": {}
+  },
+  "ko": {
+    "title": "오판츄우사기 스마트폰 링 그립 오판츄 곰 그린 블루 휴대폰 거치 2종",
+    "headline": "오판츄우사기 스마트폰링, 원하던 디자인 그대로",
+    "subheadline": "해외에서 들여오는 오판츄우사기 스마트폰링이에요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "스마트폰 링",
+        "body": "뒷면에 부착하여 사용하는 스마트폰 링입니다."
+      },
+      {
+        "title": "낙하 방지",
+        "body": "손가락을 걸어 사용하여 휴대전화 낙하를 방지합니다."
+      },
+      {
+        "title": "스마트폰 스탠드",
+        "body": "거치대 기능으로 스마트폰을 세워둘 수 있습니다."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "원산지",
+        "value": "해외"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "스마트폰링",
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈",
+      "연말선물",
+      "여자친구선물",
+      "남자친구선물",
+      "감성소품"
+    ]
+  },
+  "locales": {}
+}

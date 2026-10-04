@@ -1,0 +1,95 @@
+{
+  "id": 506,
+  "handle": "opanchu-usagi--506",
+  "group": "opanchu-usagi",
+  "vendor": "",
+  "source_url": "https://perfectworld.shop/?pid=191452644",
+  "naver_no": "13783981752",
+  "naver_display": "ON",
+  "price_krw": 40590,
+  "list_price_krw": 58860,
+  "total_cost_krw": 35854,
+  "krw_cost": 23704,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 1760,
+  "source_currency": "JPY",
+  "origin": "일본",
+  "weight_g": 200,
+  "keyword": "오판츄우사기 굿즈",
+  "options": [],
+  "images": [
+    "https://img07.shop-pro.jp/PA01418/427/product/191452644.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191452644_o1.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191452644_o2.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191452644_o3.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191452644_o4.jpg"
+  ],
+  "en": {
+    "title": "おぱんちゅうさぎ くっつくランチクロス",
+    "bullets": [],
+    "description": "おぱんちゅうさぎの生地の表と裏を重ねるとピタッとくっつくランチクロスです。丸型、三角、2段弁当箱、ボトルなど様々な形状に対応◎普段のランチ用にはもちろん、お子様の遠足や運動会などにもおすすめです☆彡",
+    "specs": {}
+  },
+  "ko": {
+    "title": "오판츄우사기 붙는 런치 클로스 도시락 보자기 매트 겸용 천",
+    "headline": "해외에서 찾은 런치클로스",
+    "subheadline": "해외에서 들여오는 오판츄우사기 런치클로스예요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "피타っと くっつく",
+        "body": "천의 앞과 뒤를 겹치면 딱 달라붙는 런치 클로스예요."
+      },
+      {
+        "title": "다양한 형태 대응",
+        "body": "원형, 삼각, 2단 도시락, 보틀 등 다양한 형태에 대응해요."
+      },
+      {
+        "title": "다양한 용도",
+        "body": "평소 도시락용은 물론 아이의 소풍이나 운동회 등에 추천해요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "원산지",
+        "value": "해외"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈",
+      "연말선물",
+      "여자친구선물",
+      "남자친구선물",
+      "감성소품",
+      "해외디자인"
+    ]
+  },
+  "locales": {}
+}

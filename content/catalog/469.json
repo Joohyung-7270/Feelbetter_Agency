@@ -1,0 +1,111 @@
+{
+  "id": 469,
+  "handle": "hazbin-hotel-voxtek-bumper-sticker-set-469",
+  "group": "hazbin-hotel",
+  "vendor": "Hazbin Hotel",
+  "source_url": "https://hazbinhotel.com/products/voxtek-bumper-sticker-set",
+  "naver_no": "13783929794",
+  "naver_display": "ON",
+  "price_krw": 28980,
+  "list_price_krw": 42030,
+  "total_cost_krw": 25708,
+  "krw_cost": 13558,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 10,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 150,
+  "keyword": "해즈빈호텔 굿즈",
+  "options": [],
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/9x16.jpg?v=1768431380"
+  ],
+  "en": {
+    "title": "VoxTek Bumper Sticker Set",
+    "bullets": [],
+    "description": "And VoxTek loves you too... 11.5\" x 3\" Bumper Stickers. Design by Onyx.",
+    "specs": {
+      "Weight": "28 g"
+    }
+  },
+  "ko": {
+    "title": "해즈빈호텔 복스텍 범퍼 스티커 세트 노트북 캐리어 꾸미기 데칼",
+    "headline": "쓰는 맛이 있는 스티커",
+    "subheadline": "",
+    "for_whom": [
+      "다이어리 꾸미기를 좋아하는 분",
+      "새해·새 학기 선물을 고르는 분",
+      "국내에 없는 해외 디자인을 찾는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "복스텍 디자인",
+        "body": "복스텍 테마의 범퍼 스티커 세트예요."
+      },
+      {
+        "title": "오닉스 디자인",
+        "body": "오닉스 작가가 디자인한 제품이에요."
+      },
+      {
+        "title": "가벼운 무게",
+        "body": "28g의 무게로 제작되었어요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "선물로도 좋아요",
+        "body": "부담 없는 가격대에 받는 사람의 취향을 담을 수 있어 선물로 고르기 좋아요."
+      },
+      {
+        "title": "기록이 즐거워지는 이유",
+        "body": "펼칠 때마다 좋아하는 그림이 보이면, 한 줄이라도 더 쓰고 싶어져요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "크기",
+        "value": "29.2x7.6cm"
+      },
+      {
+        "label": "무게",
+        "value": "28g"
+      },
+      {
+        "label": "브랜드",
+        "value": "Hazbin Hotel"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "속지 언어는 뭔가요?",
+        "a": "해외 제품이라 표기가 영문(또는 현지어)일 수 있어요."
+      },
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [
+      "해외 제품이라 표기가 영문(또는 현지어)일 수 있어요."
+    ],
+    "closing": "오늘부터 한 줄씩, 기분 좋게",
+    "tags": [
+      "스티커",
+      "스티커메모",
+      "방수스티커",
+      "캐릭터스티커",
+      "귀여운스티커",
+      "빈티지스티커",
+      "인테리어스티커",
+      "다이어리꾸미기",
+      "문구덕후",
+      "새해선물"
+    ]
+  },
+  "locales": {}
+}

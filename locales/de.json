@@ -844,6 +844,49 @@
       "h_contact": "Kontakt",
       "contact_text": "Questions about an order or a request go through the contact page. The company site, feelbetter.agency, has the concierge app and the long-form journal.",
       "cta": "Anfrage stellen"
+    },
+    "pdp": {
+      "description_eyebrow": "Über dieses Produkt",
+      "trust_label": "Warum hier kaufen",
+      "trust_verified": "Geprüfter Händler",
+      "trust_overseas": "Auslandskauf auf Anfrage",
+      "trust_delivery": "Lieferung meist in 7–14 Werktagen",
+      "trust_checkout": "Sicherer Shopify-Checkout",
+      "ask_text": "Brauchst du eine andere Größe oder Farbe?",
+      "ask_link": "Frag den Concierge",
+      "browse_label": "Mehr davon",
+      "related_eyebrow": "Passend dazu",
+      "related_heading": "Das könnte dir auch gefallen",
+      "related_all": "Zum Katalog"
+    },
+    "plp": {
+      "eyebrow": "Kollektion",
+      "count": {
+        "one": "{{ count }} Produkt",
+        "other": "{{ count }} Produkte"
+      },
+      "ask_text": "Nicht dabei, was du suchst?",
+      "ask_link": "Frag den Concierge",
+      "badge_overseas": "Auslandskauf",
+      "catalog_eyebrow": "Katalog",
+      "catalog_title": "Kollektionen",
+      "catalog_text": "Was wir immer wieder gefragt werden – bereit zum Bestellen. Alles andere: einfach fragen.",
+      "catalog_all": "Alle Produkte",
+      "catalog_ask_heading": "Nicht gefunden?",
+      "catalog_ask_text": "Sag uns, was du gesehen hast. Ein geprüfter Link, innerhalb einer Stunde.",
+      "catalog_ask_cta": "Frag den Concierge",
+      "view_collection": "Kollektion ansehen",
+      "empty": "Noch keine Kollektionen."
+    },
+    "search": {
+      "eyebrow": "Suche",
+      "heading": "Wonach suchst du?",
+      "results_for": "Ergebnisse für „{{ terms }}“",
+      "no_results_heading": "Nichts gefunden für „{{ terms }}“.",
+      "no_results_text": "Probier einen dieser Begriffe oder lass den Concierge für dich suchen.",
+      "ask_link": "Frag den Concierge",
+      "suggestions_heading": "Beliebte Suchen",
+      "suggestions": "Otamatone|Carhartt Jacke|Squishmallows|Chiikawa|KI-Plüschtier|Kirby|Sanrio|Pusheen"
     }
   }
 }

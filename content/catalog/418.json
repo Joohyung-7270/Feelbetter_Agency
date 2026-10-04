@@ -1,0 +1,151 @@
+{
+  "id": 418,
+  "handle": "tech-arduino-student-kit-akx00025-complete-stem-learn-418",
+  "group": "tech",
+  "vendor": "Arduino",
+  "source_url": "https://www.amazon.com/dp/B0886JS8TX",
+  "naver_no": "13783905237",
+  "naver_display": "ON",
+  "price_krw": 140090,
+  "list_price_krw": 203140,
+  "total_cost_krw": 123074,
+  "krw_cost": 102284,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 75.44,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 1500,
+  "keyword": "아두이노 스튜던트 키트",
+  "options": [],
+  "images": [
+    "https://m.media-amazon.com/images/I/61uwiCLkArL._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/61CwOOjBlZL._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/51MHb6OYqEL._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/51BwRHA-G1L._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/51lfo7X7xSL._AC_SL1000_.jpg"
+  ],
+  "en": {
+    "title": "Arduino Student Kit [AKX00025] - Complete STEM Learning Kit with Hands-On Projects, Sensors, Components, and Interactive Curriculum for Electronics and Programming",
+    "bullets": [
+      "Ideal STEM Learning Kit for Students: The Arduino Student Kit [AKX00025] is designed to provide an engaging and comprehensive learning experience for students and beginners interested in electronics, programming, and STEM education. It includes everything needed to build real-world projects while developing a deep understanding of core concepts in circuit design, programming, and sensor integration.",
+      "Hands-On Projects and Interactive Learning: The kit comes with a series of fun, beginner-friendly projects that introduce key principles of electronics and programming. Build projects like a traffic light system, light-sensitive lamp, motion-activated alarm, and more, while learning the basics of digital and analog circuits, sensors, actuators, and microcontroller programming using the Arduino IDE.",
+      "Comprehensive Curriculum and Step-by-Step Instructions: The Arduino Student Kit includes an interactive curriculum with detailed, step-by-step tutorials that guide students through each project. Along with written instructions, the kit provides access to video tutorials and online resources, making it perfect for classroom use or self-paced learning.",
+      "Broad Range of Components for Experimentation: The kit contains a wide variety of high-quality components, including LEDs, resistors, capacitors, motors, sensors, and a breadboard for prototyping. With these components, students can experiment and explore various configurations, learning through hands-on creation and iteration while gaining practical skills in circuit building and problem-solving.",
+      "Great for Students, Educators, and Hobbyists: Whether you're a student just starting with electronics, a teacher introducing Arduino to your class, or a hobbyist wanting to expand your skillset, the Arduino Student Kit offers a fun, practical, and comprehensive way to learn and create. It’s an excellent resource for STEM education, workshops, and maker projects."
+    ],
+    "description": "",
+    "specs": {
+      "Brand Name": "Arduino",
+      "Educational Objective": "STEM",
+      "Set Name": "Arduino Student Kit",
+      "Number of Packs": "1",
+      "Number of Items": "1",
+      "Unit Count": "1 Count",
+      "Included Components": "microprocessor",
+      "Model Number": "AKX00025",
+      "Manufacturer": "Arduino",
+      "Manufacturer Part Number": "AKX00025",
+      "Manufacturer recommended age": "11 months - 14 years",
+      "Theme": "Computer",
+      "Material Type": "The product may contain various materials including Plastic, Metal, and possibly Silicon.",
+      "Size": "17 cm x 21 cm x 13 cm",
+      "Item Dimensions": "8.27 x 6.69 x 5.12 inches",
+      "Item Weight": "100 g"
+    }
+  },
+  "ko": {
+    "title": "아두이노 스튜던트 키트 AKX00025 정식 보드 포함 코딩 입문 프로젝트 학습 세트",
+    "headline": "아두이노 학습 키트 STEM",
+    "subheadline": "해외에서 들여오는 아두이노 학습 키트예요. 구성품과 전원을 먼저 확인해 주세요.",
+    "for_whom": [
+      "손으로 하는 취미를 찾는 분",
+      "화면 대신 함께할 놀이를 찾는 가족",
+      "그리기·코딩을 재미있게 시작하고 싶은 분",
+      "특별한 선물을 찾는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "실습형 STEM 학습",
+        "body": "학생과 초보자를 위한 전자부품 및 프로그래밍 학습 키트예요."
+      },
+      {
+        "title": "다양한 프로젝트",
+        "body": "신호등, 조명, 경보기 등을 직접 만들어볼 수 있어요."
+      },
+      {
+        "title": "단계별 커리큘럼",
+        "body": "상세한 자습서와 온라인 리소스가 포함되어 있어요."
+      },
+      {
+        "title": "다양한 부품 구성",
+        "body": "LED, 저항, 센서, 브레드보드 등이 포함되어 있어요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "안전하게 쓰려면",
+        "body": "작은 부품이 있어요. 보관과 충전에 주의해 주세요."
+      },
+      {
+        "title": "이렇게 써요",
+        "body": "카드를 넣거나 명령을 주면 로봇이 그림을 그리고 움직여요. 제품마다 기능이 조금씩 달라요 — 상품 정보에서 확인해 주세요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "브랜드",
+        "value": "아두이노"
+      },
+      {
+        "label": "모델번호",
+        "value": "AKX00025"
+      },
+      {
+        "label": "크기",
+        "value": "17x21x13cm"
+      },
+      {
+        "label": "무게",
+        "value": "100g"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "음성이 한국어인가요?",
+        "a": "해외 제품이라 음성·설명서가 영어인 경우가 많아요 (제품마다 달라요)."
+      },
+      {
+        "q": "배터리는 어떻게 되나요?",
+        "a": "충전식 또는 건전지식이에요 — 상품 정보의 전원 항목을 확인해 주세요."
+      },
+      {
+        "q": "국내에서 A/S 되나요?",
+        "a": "해외 유통 제품이라 국내 공식 A/S 가 안 될 수 있어요."
+      }
+    ],
+    "cautions": [
+      "해외 제품이라 음성·설명서가 영어일 수 있어요.",
+      "작은 부품이 있어요 — 보관에 주의해 주세요.",
+      "충전 중에는 자리를 비우지 마세요."
+    ],
+    "closing": "만들고 움직이며 배우는 선물, 지금 골라 보세요",
+    "tags": [
+      "드로잉로봇",
+      "코딩로봇",
+      "로봇키트",
+      "STEM로봇",
+      "교육용로봇",
+      "스마트로봇",
+      "AI로봇",
+      "취미로봇",
+      "로봇선물",
+      "과학키트"
+    ]
+  },
+  "locales": {}
+}

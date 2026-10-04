@@ -1,0 +1,104 @@
+{
+  "id": 432,
+  "handle": "pingu-pg--432",
+  "group": "pingu",
+  "vendor": "",
+  "source_url": "https://www.pingu-store.jp/?pid=175613382",
+  "naver_no": "13783918165",
+  "naver_display": "ON",
+  "price_krw": 39500,
+  "list_price_krw": 57280,
+  "total_cost_krw": 34905,
+  "krw_cost": 22755,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 1650,
+  "source_currency": "JPY",
+  "origin": "일본",
+  "weight_g": 200,
+  "keyword": "핑구 굿즈",
+  "options": [],
+  "images": [
+    "https://img07.shop-pro.jp/PA01428/996/product/175613382.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/175613382_o1.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/175613382_o2.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/175613382_o3.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/175613382_o4.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/175613382_o5.jpg"
+  ],
+  "en": {
+    "title": "ピンバッジセット（フェイス）ブラック　PG - ピングーグッズ公式オンラインストア",
+    "bullets": [],
+    "description": "ピングーグッズの公式通販サイト。ピングーグッズが何でもそろう専門ショップ。ピングーグッズはピングー公式オンラインストアで",
+    "specs": {}
+  },
+  "ko": {
+    "title": "핑구 핀배지 세트 페이스 블랙 가방 모자 포인트 캐릭터 브로치 모음",
+    "headline": "해외에서 찾은 핀버튼 세트",
+    "subheadline": "해외에서 들여오는 핑구 핀버튼 세트예요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "핑구 핀버튼 세트",
+        "body": "페이스 디자인의 블랙 컬러 핀버튼 세트예요."
+      },
+      {
+        "title": "다양한 활용",
+        "body": "가방이나 옷 등에 장식하여 포인트로 쓸 수 있어요."
+      },
+      {
+        "title": "공식 온라인 스토어",
+        "body": "해외 공식 스토어에서 판매되는 상품이에요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "색상",
+        "value": "블랙"
+      },
+      {
+        "label": "구성",
+        "value": "핀버튼 세트"
+      },
+      {
+        "label": "원산지",
+        "value": "해외"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "핀버튼세트",
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈",
+      "연말선물",
+      "여자친구선물",
+      "남자친구선물",
+      "감성소품"
+    ]
+  },
+  "locales": {}
+}

@@ -151,12 +151,16 @@
                 id="product-grid"
                 data-id="{{ section.id }}"
                 class="
-                  grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+                  grid product-grid fb-plp-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
                   grid--{{ section.settings.columns_desktop }}-col-desktop
                   {% if section.settings.quick_add == 'bulk' %} collection-quick-add-bulk{% endif %}
                 "
               >
-                {% assign skip_card_product_styles = false %}
+                {%- liquid
+                  assign skip_card_product_styles = false
+                  assign fb_card_vw = 100 | divided_by: section.settings.columns_desktop
+                  assign fb_card_sizes = '(min-width: 990px) ' | append: fb_card_vw | append: 'vw, 50vw'
+                -%}
                 {%- for product in collection.products -%}
                   {% assign lazy_load = false %}
                   {%- if forloop.index > 2 -%}
@@ -169,19 +173,34 @@
                       style="--animation-order: {{ forloop.index }};"
                     {% endif %}
                   >
-                    {% render 'card-product',
-                      card_product: product,
-                      media_aspect_ratio: section.settings.image_ratio,
-                      image_shape: section.settings.image_shape,
-                      show_secondary_image: section.settings.show_secondary_image,
-                      show_vendor: section.settings.show_vendor,
-                      show_rating: section.settings.show_rating,
-                      lazy_load: lazy_load,
-                      skip_styles: skip_card_product_styles,
-                      quick_add: section.settings.quick_add,
-                      section_id: section.id,
-                      product_view_context: 'collection'
-                    %}
+                    {%- comment -%}
+                      FeelBetter card by default. Dawn's card is kept for the quick-add
+                      modes, which need its product form markup.
+                    {%- endcomment -%}
+                    {%- if section.settings.quick_add == 'none' -%}
+                      {% render 'feelbetter-product-card',
+                        product: product,
+                        show_secondary_image: section.settings.show_secondary_image,
+                        show_vendor: section.settings.show_vendor,
+                        lazy: lazy_load,
+                        sizes: fb_card_sizes,
+                        view_context: 'collection'
+                      %}
+                    {%- else -%}
+                      {% render 'card-product',
+                        card_product: product,
+                        media_aspect_ratio: section.settings.image_ratio,
+                        image_shape: section.settings.image_shape,
+                        show_secondary_image: section.settings.show_secondary_image,
+                        show_vendor: section.settings.show_vendor,
+                        show_rating: section.settings.show_rating,
+                        lazy_load: lazy_load,
+                        skip_styles: skip_card_product_styles,
+                        quick_add: section.settings.quick_add,
+                        section_id: section.id,
+                        product_view_context: 'collection'
+                      %}
+                    {%- endif -%}
                   </li>
                   {%- assign skip_card_product_styles = true -%}
                 {%- endfor -%}

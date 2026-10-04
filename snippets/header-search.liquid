@@ -88,6 +88,12 @@
             <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
           {%- endif -%}
         </form>
+        {%- comment -%}
+          Recommended search terms, shown under the field until the visitor types
+          (CSS hides the panel once the input has a value or results are open).
+        {%- endcomment -%}
+        {%- assign fb_suggest_id = input_id | append: '-Suggest' -%}
+        {%- render 'feelbetter-search-suggestions', id: fb_suggest_id, class: 'fb-search-suggest--header' -%}
         {%- if settings.predictive_search_enabled -%}
           </predictive-search>
         {%- else -%}

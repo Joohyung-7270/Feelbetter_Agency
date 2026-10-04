@@ -844,6 +844,49 @@
       "h_contact": "联系",
       "contact_text": "Questions about an order or a request go through the contact page. The company site, feelbetter.agency, has the concierge app and the long-form journal.",
       "cta": "提交需求"
+    },
+    "pdp": {
+      "description_eyebrow": "关于这件商品",
+      "trust_label": "为什么可以放心买",
+      "trust_verified": "已核实卖家",
+      "trust_overseas": "按需海外代购",
+      "trust_delivery": "通常 7–14 个工作日送达",
+      "trust_checkout": "安全的 Shopify 结账",
+      "ask_text": "需要别的尺码或颜色？",
+      "ask_link": "问问管家",
+      "browse_label": "更多同类",
+      "related_eyebrow": "相关商品",
+      "related_heading": "你可能还喜欢",
+      "related_all": "浏览目录"
+    },
+    "plp": {
+      "eyebrow": "系列",
+      "count": {
+        "one": "{{ count }} 件商品",
+        "other": "{{ count }} 件商品"
+      },
+      "ask_text": "没找到想要的？",
+      "ask_link": "问问管家",
+      "badge_overseas": "海外代购",
+      "catalog_eyebrow": "目录",
+      "catalog_title": "系列",
+      "catalog_text": "大家反复来找的东西，都整理好可以直接下单。其他的，开口就行。",
+      "catalog_all": "全部商品",
+      "catalog_ask_heading": "找不到？",
+      "catalog_ask_text": "告诉我们你看到了什么。一小时内，一个已核实的链接。",
+      "catalog_ask_cta": "问问管家",
+      "view_collection": "查看系列",
+      "empty": "还没有系列。"
+    },
+    "search": {
+      "eyebrow": "搜索",
+      "heading": "你在找什么？",
+      "results_for": "“{{ terms }}”的搜索结果",
+      "no_results_heading": "没有找到与“{{ terms }}”相关的内容。",
+      "no_results_text": "试试下面这些，或者让管家帮你找。",
+      "ask_link": "问问管家",
+      "suggestions_heading": "热门搜索",
+      "suggestions": "Otamatone 电音蝌蚪|Carhartt 夹克|Squishmallows|吉伊卡哇|AI 毛绒玩偶|星之卡比|三丽鸥|Pusheen"
     }
   }
 }

@@ -1,0 +1,43 @@
+{% comment %}
+  Recommended search terms ("추천 검색어") as chips. Terms come from
+  feelbetter.search.suggestions (pipe-separated, 6-8 per locale) and each chip is a
+  plain link to the locale's search page. Shared by the header search modal and the
+  search template.
+
+  Accepts:
+  - id {String} - unique id prefix (required when rendered more than once per page)
+  - heading {Boolean} - show the "Popular searches" heading (default true)
+  - heading_tag {String} - element for the heading (default 'p')
+  - class {String} - extra class on the wrapper (optional)
+
+  Usage:
+  {% render 'feelbetter-search-suggestions', id: 'Search-Suggest', class: 'fb-search-suggest--header' %}
+{% endcomment %}
+{%- liquid
+  assign raw_terms = 'feelbetter.search.suggestions' | t
+  assign terms = raw_terms | split: '|'
+  assign show_heading = heading | default: true, allow_false: true
+  assign heading_tag = heading_tag | default: 'p'
+  assign uid = id | default: 'FbSearchSuggest'
+-%}
+{%- if raw_terms != blank and terms.size > 0 -%}
+  <nav class="fb-search-suggest{% if class != blank %} {{ class }}{% endif %}" aria-labelledby="{{ uid }}-heading">
+    <{{ heading_tag }} id="{{ uid }}-heading" class="fb-search-suggest__heading fb-eyebrow{% unless show_heading %} visually-hidden{% endunless %}">
+      <span class="fb-dot fb-dot--static" aria-hidden="true"></span>
+      <span>{{ 'feelbetter.search.suggestions_heading' | t }}</span>
+    </{{ heading_tag }}>
+    <ul class="fb-chips fb-search-suggest__list" role="list">
+      {%- for term in terms -%}
+        {%- assign term_clean = term | strip -%}
+        {%- if term_clean == blank -%}
+          {%- continue -%}
+        {%- endif -%}
+        <li>
+          <a class="fb-chip fb-chip--link fb-search-suggest__chip" href="{{ routes.search_url }}?q={{ term_clean | url_encode }}&options%5Bprefix%5D=last">
+            {{- term_clean | escape -}}
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+{%- endif -%}

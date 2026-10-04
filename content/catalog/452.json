@@ -1,0 +1,97 @@
+{
+  "id": 452,
+  "handle": "hazbin-hotel-hotel-keychain-452",
+  "group": "hazbin-hotel",
+  "vendor": "Hazbin Hotel",
+  "source_url": "https://hazbinhotel.com/products/keychain",
+  "naver_no": "13783928279",
+  "naver_display": "ON",
+  "price_krw": 28980,
+  "list_price_krw": 42030,
+  "total_cost_krw": 25708,
+  "krw_cost": 13558,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 10,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 200,
+  "keyword": "해즈빈호텔 굿즈",
+  "options": [],
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/20251113_A24_HazbinHotel_Hazbin_Keychain_11985_b2e8ae78-208e-4d48-8425-dd06a7a5d0c2.jpg?v=1763595035"
+  ],
+  "en": {
+    "title": "Hotel Keychain",
+    "bullets": [],
+    "description": "Unlock the gates to Hell’s hottest hotel. Limited-edition die-cast metal keychain.",
+    "specs": {
+      "Weight": "227 g"
+    }
+  },
+  "ko": {
+    "title": "해즈빈호텔 호텔 룸키 모양 키체인 열쇠 태그 로고 굿즈 가방 장식",
+    "headline": "해외에서 찾은 열쇠고리",
+    "subheadline": "해외에서 들여오는 Hazbin Hotel 열쇠고리예요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "금속 재질",
+        "body": "다이캐스트 금속으로 제작된 열쇠고리예요."
+      },
+      {
+        "title": "독특한 디자인",
+        "body": "호텔 테마로 디자인된 열쇠고리예요."
+      },
+      {
+        "title": "가벼운 휴대",
+        "body": "소지품에 달아 가볍게 휴대할 수 있어요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "무게",
+        "value": "227 g"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "열쇠고리",
+      "캐릭터열쇠고리",
+      "고급열쇠고리",
+      "금속열쇠고리",
+      "예쁜열쇠고리",
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈"
+    ]
+  },
+  "locales": {}
+}

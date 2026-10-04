@@ -1,0 +1,116 @@
+{
+  "id": 450,
+  "handle": "hazbin-hotel-alastor-rosie-bff-necklace-450",
+  "group": "hazbin-hotel",
+  "vendor": "Hazbin Hotel",
+  "source_url": "https://hazbinhotel.com/products/alastor-rosie-bff-necklace",
+  "naver_no": "13783927137",
+  "naver_display": "ON",
+  "price_krw": 52250,
+  "list_price_krw": 75770,
+  "total_cost_krw": 46046,
+  "krw_cost": 33896,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 25,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 300,
+  "keyword": "해즈빈호텔 굿즈",
+  "options": [
+    {
+      "name": "캐릭터",
+      "values": [
+        {
+          "label": "알래스터·로지",
+          "add_price": 0
+        },
+        {
+          "label": "엔젤더스트·체리밤",
+          "add_price": 0
+        },
+        {
+          "label": "발렌티노·벨벳",
+          "add_price": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/Alastor_Rosie.jpg?v=1788314808",
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/Alastor_Rosie1.jpg?v=1788314808"
+  ],
+  "en": {
+    "title": "Alastor & Rosie BFF Necklace",
+    "bullets": [],
+    "description": "Best Friends Forever. Premium hard enamel necklace. Design by MistMistly. Ships in November.",
+    "specs": {
+      "Weight": "227 g"
+    }
+  },
+  "ko": {
+    "title": "해즈빈호텔 BFF 우정 목걸이 알래스터 로지 커플 펜던트 캐릭터 3종",
+    "headline": "해즈빈호텔 목걸이, 찾던 그 제품",
+    "subheadline": "해외에서 들여오는 해즈빈호텔 목걸이예요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "베스트프렌드 디자인",
+        "body": "알래스터와 로지 디자인의 베스트 프렌드 목걸이에요."
+      },
+      {
+        "title": "하드 에나멜 마감",
+        "body": "단단한 하드 에나멜 소재로 제작된 목걸이에요."
+      },
+      {
+        "title": "디자이너 협업",
+        "body": "미스트미슬리(MistMistly)의 디자인이 적용되었어요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      },
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "무게",
+        "value": "227g"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "목걸이",
+      "심플목걸이",
+      "학생목걸이",
+      "목걸이선물",
+      "예쁜목걸이",
+      "고급목걸이",
+      "귀여운목걸이",
+      "선물추천",
+      "생일선물",
+      "집들이선물"
+    ]
+  },
+  "locales": {}
+}

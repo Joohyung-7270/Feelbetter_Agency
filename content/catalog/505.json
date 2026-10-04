@@ -1,0 +1,118 @@
+{
+  "id": 505,
+  "handle": "opanchu-usagi--505",
+  "group": "opanchu-usagi",
+  "vendor": "Perfect World Tokyo",
+  "source_url": "https://perfectworld.shop/?pid=191490741",
+  "naver_no": "13783980874",
+  "naver_display": "ON",
+  "price_krw": 52460,
+  "list_price_krw": 76070,
+  "total_cost_krw": 46319,
+  "krw_cost": 31289,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 2640,
+  "source_currency": "JPY",
+  "origin": "일본",
+  "weight_g": 500,
+  "keyword": "오판츄우사기 굿즈",
+  "options": [
+    {
+      "name": "컬러",
+      "values": [
+        {
+          "label": "오프화이트",
+          "add_price": 0
+        },
+        {
+          "label": "오렌지",
+          "add_price": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    "https://img07.shop-pro.jp/PA01418/427/product/191490741.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191490741_o1.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191490741_o2.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191490741_o3.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191490741_o4.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191490741_o5.jpg"
+  ],
+  "en": {
+    "title": "おぱんちゅうさぎ ぴょこっとトートバッグ オフホワイト",
+    "bullets": [],
+    "description": "愛くるしい表情が◎ おぱんちゅうさぎのぴょこっとトートバッグです。内ポケット付きなのでスマートフォンなど小物も取り出しやすいのが◎A4サイズも楽々入るので通勤・通学にぴったりです☆彡 サイズ：39cm×32cm×5cm 素材：綿 JAN：4548626272136 (C)KAWAISOUNI!",
+    "specs": {}
+  },
+  "ko": {
+    "title": "오판츄우사기 빼꼼 토트백 오프화이트 오렌지 캔버스 데일리 가방 2컬러",
+    "headline": "Perfect World Tokyo 토트백, 찾던 그 제품",
+    "subheadline": "해외에서 들여오는 Perfect World Tokyo 토트백이에요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "넉넉한 A4 수납",
+        "body": "A4 사이즈가 들어가서 출퇴근이나 통학용으로 좋습니다."
+      },
+      {
+        "title": "편리한 내포켓",
+        "body": "내부 포켓이 있어 스마트폰 등의 소품을 쉽게 넣고 뺄 수 있습니다."
+      },
+      {
+        "title": "귀여운 표정 디자인",
+        "body": "사랑스러운 표정의 오판츄우사기 디자인이 특징입니다."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "소재",
+        "value": "면"
+      },
+      {
+        "label": "크기",
+        "value": "39x32x5cm"
+      },
+      {
+        "label": "원산지",
+        "value": "해외"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "토트백",
+      "예쁜토트백",
+      "면토트백",
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈",
+      "연말선물",
+      "여자친구선물"
+    ]
+  },
+  "locales": {}
+}

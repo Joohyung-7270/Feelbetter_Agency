@@ -3152,3 +3152,967 @@ feelbetter-request {
     transition: none;
   }
 }
+
+/* ------------------------------------------------------------------ */
+/* Catalog: shared chips and badges                                     */
+/* ------------------------------------------------------------------ */
+
+:lang(ko) .fb-pdp,
+:lang(ko) .fb-pd-wrap,
+:lang(ko) .fb-plp-head,
+:lang(ko) .fb-catalog,
+:lang(ko) .fb-pcard,
+:lang(ko) .fb-ccard,
+:lang(ko) .fb-search-head,
+:lang(ko) .fb-search-empty {
+  word-break: keep-all;
+}
+
+/* a chip that is a link (tags, suggested searches) */
+.fb-chip--link {
+  position: relative;
+  z-index: 2;
+  color: rgb(var(--color-foreground));
+  font-family: var(--font-body-family);
+  text-decoration: none;
+  transition:
+    border-color var(--duration-short, 0.1s) ease,
+    background-color var(--duration-short, 0.1s) ease;
+}
+
+.fb-chip--link:hover {
+  border-color: rgb(var(--fb-sunlight));
+  background: rgba(var(--fb-sunlight), 0.14);
+}
+
+.fb-chip--link:focus-visible {
+  outline: 0.2rem solid rgb(var(--fb-sunlight));
+  outline-offset: 0.3rem;
+}
+
+.fb-badge--overseas {
+  background: rgba(var(--fb-ivory), 0.94);
+  border-color: rgba(var(--fb-navy), 0.18);
+  color: rgb(var(--fb-navy));
+}
+
+.fb-badge--sale {
+  background: rgb(var(--fb-sunlight));
+  border-color: rgb(var(--fb-sunlight));
+  color: rgb(var(--fb-navy));
+}
+
+/* custom elements are inline by default; the card needs the full cell */
+.fb-plp-grid product-component,
+.fb-related product-component {
+  display: grid;
+  height: 100%;
+}
+
+.fb-plp-grid {
+  row-gap: 2.4rem;
+}
+
+/* ------------------------------------------------------------------ */
+/* Product card                                                        */
+/* ------------------------------------------------------------------ */
+
+.fb-pcard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.fb-pcard__media {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  /* product shots arrive on white; keep the box white so they sit flush */
+  background: #fff;
+}
+
+.fb-pcard__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 6%;
+  object-fit: contain;
+  object-position: center;
+  background: #fff;
+  transition:
+    transform 0.8s var(--fb-ease),
+    opacity 0.45s var(--fb-ease);
+}
+
+.fb-pcard__img--secondary {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.fb-pcard:hover .fb-pcard__img--primary {
+  transform: scale(1.03);
+}
+
+.fb-pcard--swap:hover .fb-pcard__img--primary,
+.fb-pcard--swap:focus-within .fb-pcard__img--primary {
+  transform: none;
+}
+
+.fb-pcard--swap:hover .fb-pcard__img--secondary,
+.fb-pcard--swap:focus-within .fb-pcard__img--secondary {
+  opacity: 1;
+}
+
+.fb-pcard--sold-out .fb-pcard__img {
+  opacity: 0.55;
+}
+
+.fb-pcard--sold-out.fb-pcard--swap:hover .fb-pcard__img--secondary {
+  opacity: 0.55;
+}
+
+.fb-pcard__media--empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(closest-side at 70% 30%, rgba(var(--fb-sunlight), 0.28), transparent 70%),
+    rgb(var(--fb-navy));
+  color: rgb(var(--fb-sunlight));
+}
+
+.fb-pcard__mark,
+.fb-ccard__mark {
+  font-family: var(--font-heading-family);
+  font-style: italic;
+  font-size: 6.4rem;
+  line-height: 1;
+}
+
+.fb-pcard__badges {
+  position: absolute;
+  left: 1.2rem;
+  bottom: 1.2rem;
+  z-index: 2;
+  gap: 0.5rem;
+}
+
+.fb-pcard__badges .fb-badge {
+  padding: 0.45rem 0.9rem 0.5rem;
+  font-size: 1.05rem;
+}
+
+.fb-pcard__body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 1.6rem 1.6rem 1.8rem;
+}
+
+.fb-pcard__vendor {
+  margin: 0;
+  font-size: 1.05rem;
+  color: rgba(var(--color-foreground), 0.6);
+}
+
+.fb-pcard__title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  margin: 0;
+  font-family: var(--font-heading-family);
+  font-weight: var(--font-heading-weight);
+  font-size: 1.9rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-transform: none;
+}
+
+.fb-pcard__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* the whole card is the link */
+.fb-pcard__link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+}
+
+.fb-pcard__link:focus-visible {
+  outline: none;
+}
+
+.fb-pcard:has(.fb-pcard__link:focus-visible) {
+  outline: 0.2rem solid rgb(var(--fb-sunlight));
+  outline-offset: 0.3rem;
+}
+
+.fb-pcard__price {
+  margin-top: auto;
+  padding-top: 0.4rem;
+}
+
+.fb-pcard__price .price {
+  font-size: 1.5rem;
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.fb-pcard__price .price--on-sale .price-item--regular {
+  color: rgba(var(--color-foreground), 0.55);
+}
+
+.fb-pcard__tags {
+  margin-top: 0.2rem;
+}
+
+.fb-pcard__chip {
+  padding: 0.4rem 0.9rem 0.45rem;
+  font-size: 1.1rem;
+}
+
+@media screen and (min-width: 750px) {
+  .fb-plp-grid {
+    row-gap: 3.2rem;
+  }
+
+  .fb-pcard__body {
+    gap: 0.7rem;
+    padding: 1.8rem 2rem 2rem;
+  }
+
+  .fb-pcard__title {
+    font-size: 2rem;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Collection list page (header) and product grid                      */
+/* ------------------------------------------------------------------ */
+
+.fb-plp-head__inner {
+  display: grid;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.fb-plp-head__title {
+  margin: 0;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.fb-plp-head__desc {
+  max-width: 60ch;
+  margin: 1.4rem 0 0;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: rgba(var(--color-foreground), 0.75);
+}
+
+.fb-plp-head__desc > :first-child {
+  margin-top: 0;
+}
+
+.fb-plp-head__desc > :last-child {
+  margin-bottom: 0;
+}
+
+.fb-plp-head__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.6rem 1rem;
+  margin: 2rem 0 0;
+  font-size: 1.45rem;
+  line-height: 1.5;
+  color: rgba(var(--color-foreground), 0.75);
+}
+
+.fb-plp-head__meta .fb-mono {
+  color: rgba(var(--color-foreground), 0.6);
+}
+
+.fb-plp-head__sep {
+  color: rgba(var(--color-foreground), 0.4);
+}
+
+.fb-plp-head__media {
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  border-radius: var(--media-radius, 1.6rem);
+  background: rgba(var(--color-foreground), 0.05);
+}
+
+.fb-plp-head__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 990px) {
+  .fb-plp-head__inner--image {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: 4.8rem;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Catalog landing (/collections)                                      */
+/* ------------------------------------------------------------------ */
+
+.fb-catalog__head {
+  margin-bottom: 4rem;
+}
+
+.fb-catalog__title {
+  margin: 0;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.fb-catalog__meta {
+  margin: 2rem 0 0;
+  font-size: 1.45rem;
+}
+
+.fb-catalog__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fb-catalog__item {
+  display: grid;
+  min-width: 0;
+}
+
+.fb-catalog__pagination {
+  margin-top: 4rem;
+}
+
+/* collection card */
+.fb-ccard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.fb-ccard__media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #fff;
+}
+
+.fb-ccard__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--fb-ease);
+}
+
+.fb-ccard:hover .fb-ccard__img {
+  transform: scale(1.03);
+}
+
+.fb-ccard__media--empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(closest-side at 70% 30%, rgba(var(--fb-sunlight), 0.28), transparent 70%),
+    rgb(var(--fb-navy));
+  color: rgb(var(--fb-sunlight));
+}
+
+.fb-ccard__body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 2rem 2.2rem;
+}
+
+.fb-ccard__count {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0;
+  font-size: 1.05rem;
+  color: rgba(var(--color-foreground), 0.6);
+}
+
+.fb-ccard__count .fb-dot {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+.fb-ccard__title {
+  margin: 0;
+  font-family: var(--font-heading-family);
+  font-weight: var(--font-heading-weight);
+  font-size: 2.6rem;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  text-transform: none;
+  text-wrap: balance;
+}
+
+.fb-ccard__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.fb-ccard__link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+}
+
+.fb-ccard__link:focus-visible {
+  outline: none;
+}
+
+.fb-ccard:has(.fb-ccard__link:focus-visible) {
+  outline: 0.2rem solid rgb(var(--fb-sunlight));
+  outline-offset: 0.3rem;
+}
+
+.fb-ccard__text {
+  margin: 0;
+  font-size: 1.45rem;
+  line-height: 1.6;
+  color: rgba(var(--color-foreground), 0.75);
+}
+
+.fb-ccard__more {
+  margin-top: auto;
+  padding-top: 0.8rem;
+  font-size: 1.3rem;
+}
+
+.fb-ccard:hover .fb-ccard__more {
+  text-decoration-color: rgb(var(--fb-sunlight));
+}
+
+/* the closing "Can't find it?" card: navy, sunlight button */
+.fb-ccard--ask {
+  --color-button: var(--fb-sunlight);
+  --color-button-text: var(--fb-navy);
+  --alpha-button-background: 1;
+  --alpha-button-border: 1;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 2.8rem 2.4rem 3rem;
+  border-color: transparent;
+  background:
+    radial-gradient(closest-side at 80% 10%, rgba(var(--fb-sunlight), 0.32), transparent 70%),
+    rgb(var(--fb-navy));
+  color: rgb(var(--fb-ivory));
+}
+
+.fb-ccard--ask .fb-eyebrow {
+  margin-bottom: 0.4rem;
+  color: rgba(var(--fb-ivory), 0.75);
+}
+
+.fb-ccard--ask .fb-ccard__title {
+  color: rgb(var(--fb-ivory));
+}
+
+.fb-ccard--ask .fb-ccard__text {
+  color: rgba(var(--fb-ivory), 0.8);
+}
+
+.fb-ccard--ask .button {
+  align-self: flex-start;
+  margin-top: 0.8rem;
+}
+
+.fb-ccard--ask .button:focus-visible {
+  outline: 0.2rem solid rgb(var(--fb-sunlight));
+  outline-offset: 0.3rem;
+}
+
+@media screen and (min-width: 750px) {
+  .fb-catalog__head {
+    margin-bottom: 5.6rem;
+  }
+
+  .fb-catalog__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.4rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .fb-catalog__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Product page                                                        */
+/* ------------------------------------------------------------------ */
+
+.fb-pdp .product__text.caption-with-letter-spacing {
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+  font-size: 1.1rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(var(--color-foreground), 0.65);
+}
+
+.fb-pdp .product__title h1 {
+  font-size: calc(var(--font-heading-scale) * 3rem);
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+.fb-pdp .price--large {
+  font-size: 2rem;
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.fb-pdp .fb-badges {
+  margin-top: 0.4rem;
+}
+
+/* buy box extras: trust strip, concierge link, tag chips */
+.fb-pdp-trust {
+  display: grid;
+  gap: 1.6rem;
+  padding-top: 1.8rem;
+  border-top: 1px solid rgba(var(--color-foreground), 0.12);
+}
+
+.fb-pdp-trust__list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.9rem 1.6rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fb-pdp-trust__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.9rem;
+  font-size: 1.35rem;
+  line-height: 1.4;
+  color: rgba(var(--color-foreground), 0.8);
+}
+
+.fb-pdp-trust__item svg {
+  flex: 0 0 auto;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-top: 0.1em;
+  color: rgb(var(--fb-green));
+}
+
+.fb-pdp-trust__ask {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.6rem;
+  margin: 0;
+  font-size: 1.45rem;
+  line-height: 1.5;
+}
+
+.fb-pdp-trust__tags {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.fb-pdp-trust__tags-label {
+  margin: 0;
+  font-size: 1.05rem;
+  color: rgba(var(--color-foreground), 0.6);
+}
+
+@media screen and (min-width: 750px) {
+  .fb-pdp-trust__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .fb-pdp .product__title h1 {
+    font-size: calc(var(--font-heading-scale) * 3.6rem);
+  }
+
+  .fb-pdp .product__info-wrapper .product__info-container {
+    max-width: none;
+    padding: 2.8rem;
+    border: 1px solid rgba(var(--color-foreground), 0.14);
+    border-radius: var(--text-boxes-radius, 2.4rem);
+    background: rgba(var(--color-background), 0.55);
+  }
+
+  .fb-pdp .product__column-sticky {
+    top: 2.4rem;
+  }
+}
+
+/* description column under the gallery and buy box (720px, centred) */
+.fb-pd-wrap {
+  max-width: 72rem;
+  margin: 4rem auto 0;
+  padding-top: 3.2rem;
+  border-top: 1px solid rgba(var(--color-foreground), 0.12);
+}
+
+.fb-pd-wrap .fb-eyebrow {
+  margin-bottom: 2rem;
+}
+
+.fb-pd-prose {
+  font-size: 1.6rem;
+}
+
+.fb-pd-prose .fb-pd > :first-child {
+  margin-top: 0;
+}
+
+.fb-pd-prose .fb-pd > :last-child {
+  margin-bottom: 0;
+}
+
+/* lead line */
+.fb-pd-prose .fb-pd__lead {
+  margin: 0 0 1em;
+  font-family: var(--font-heading-family);
+  font-weight: var(--font-heading-weight);
+  font-size: 2.6rem;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: rgb(var(--color-foreground));
+  text-wrap: balance;
+}
+
+/* h2 with a short sunlight rule above it */
+.fb-pd-prose h2 {
+  position: relative;
+  margin: 2.4em 0 0.8em;
+  padding-top: 1.4rem;
+  font-size: 2.4rem;
+}
+
+.fb-pd-prose h2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.2rem;
+  height: 0.2rem;
+  border-radius: 0.2rem;
+  background: rgb(var(--fb-sunlight));
+}
+
+/* specifications table: mono label column, zebra rows */
+.fb-pd-prose .fb-pd__specs {
+  font-size: 1.4rem;
+}
+
+.fb-pd-prose .fb-pd__specs tr > :first-child {
+  width: 34%;
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+  font-size: 1.1rem;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: rgba(var(--color-foreground), 0.65);
+  background: none;
+}
+
+.fb-pd-prose .fb-pd__specs th,
+.fb-pd-prose .fb-pd__specs td {
+  padding: 1rem 1.4rem;
+}
+
+.fb-pd-prose .fb-pd__specs tbody tr:nth-child(even) > * {
+  background: rgba(var(--color-foreground), 0.04);
+}
+
+/* FAQ accordion */
+.fb-pd-prose details {
+  border-bottom: 1px solid rgba(var(--color-foreground), 0.15);
+}
+
+.fb-pd-prose h2 + details {
+  border-top: 1px solid rgba(var(--color-foreground), 0.15);
+}
+
+.fb-pd-prose summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 2.4rem;
+  align-items: baseline;
+  gap: 1.2rem;
+  padding: 1.6rem 0;
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--font-heading-family);
+  font-weight: var(--font-heading-weight);
+  font-size: 1.9rem;
+  line-height: 1.25;
+  color: rgb(var(--color-foreground));
+  text-wrap: balance;
+}
+
+.fb-pd-prose summary::-webkit-details-marker {
+  display: none;
+}
+
+.fb-pd-prose summary::marker {
+  content: '';
+}
+
+.fb-pd-prose summary::after {
+  content: '+';
+  justify-self: end;
+  font-family: var(--font-body-family);
+  font-size: 2.4rem;
+  line-height: 1;
+  color: rgb(var(--fb-sunlight));
+}
+
+.fb-pd-prose details[open] > summary::after {
+  content: '−';
+}
+
+.fb-pd-prose summary:focus-visible {
+  outline: 0.2rem solid rgb(var(--fb-sunlight));
+  outline-offset: 0.3rem;
+  border-radius: 0.4rem;
+}
+
+.fb-pd-prose details > :not(summary) {
+  max-width: 64ch;
+  margin: 0 0 1.2em;
+  font-size: 1.5rem;
+  line-height: 1.65;
+  color: rgba(var(--color-foreground), 0.8);
+}
+
+.fb-pd-prose details > :not(summary):last-child {
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+}
+
+/* "Good to know": the list right before the customs note becomes a callout */
+.fb-pd-prose h2:has(+ ul + .fb-pd__note) {
+  margin-bottom: 0;
+  padding: 2.6rem 2.4rem 0;
+  border: 1px solid rgba(var(--fb-sunlight), 0.5);
+  border-bottom: 0;
+  border-radius: 1.6rem 1.6rem 0 0;
+  background: rgba(var(--fb-sunlight), 0.12);
+}
+
+.fb-pd-prose h2:has(+ ul + .fb-pd__note)::before {
+  top: 1.2rem;
+  left: 2.4rem;
+}
+
+.fb-pd-prose ul:has(+ .fb-pd__note) {
+  margin: 0 0 1.6em;
+  padding: 1.2rem 2.4rem 2.2rem;
+  border: 1px solid rgba(var(--fb-sunlight), 0.5);
+  border-top: 0;
+  border-radius: 0 0 1.6rem 1.6rem;
+  background: rgba(var(--fb-sunlight), 0.12);
+}
+
+.fb-pd-prose ul:has(+ .fb-pd__note) > li::before {
+  background: rgb(var(--color-foreground));
+}
+
+/* customs note */
+.fb-pd-prose .fb-pd__note {
+  margin: 0;
+  padding: 0.2rem 0 0 2rem;
+  border-left: 2px solid rgba(var(--color-foreground), 0.18);
+  font-size: 1.35rem;
+  line-height: 1.6;
+  color: rgba(var(--color-foreground), 0.62);
+}
+
+@media screen and (min-width: 750px) {
+  .fb-pd-prose {
+    font-size: 1.7rem;
+  }
+
+  .fb-pd-prose .fb-pd__lead {
+    font-size: 3.2rem;
+  }
+
+  .fb-pd-prose h2 {
+    font-size: 2.8rem;
+  }
+
+  .fb-pd-prose summary {
+    padding: 2rem 0;
+    font-size: 2.1rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .fb-pd-wrap {
+    margin-top: 6.4rem;
+    padding-top: 4rem;
+  }
+}
+
+/* related products */
+.fb-related__head {
+  margin-bottom: 3.2rem;
+}
+
+.fb-related .related-products__heading {
+  margin: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* Search: editorial header, recommended terms                         */
+/* ------------------------------------------------------------------ */
+
+.fb-search-head {
+  max-width: 72rem;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.fb-search-head__title {
+  margin: 0;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.fb-search-empty {
+  display: grid;
+  justify-items: center;
+  gap: 2rem;
+  max-width: 72rem;
+  margin: 2.4rem auto 0;
+  text-align: center;
+}
+
+.fb-search-empty__text {
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: rgba(var(--color-foreground), 0.75);
+}
+
+.fb-search-empty__ask {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.fb-search-suggest {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.fb-search-suggest__heading {
+  margin: 0;
+}
+
+.fb-search-suggest__list {
+  gap: 0.8rem;
+}
+
+.fb-search-suggest__chip {
+  padding: 0.7rem 1.3rem 0.75rem;
+  font-size: 1.3rem;
+}
+
+.fb-search-suggest--page {
+  justify-items: center;
+}
+
+.fb-search-suggest--page .fb-search-suggest__list {
+  justify-content: center;
+}
+
+/* header search modal: a panel under the field, like Dawn's predictive dropdown */
+.fb-search-suggest--header {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  padding: 1.8rem 2rem 2.2rem;
+  background: rgb(var(--color-background));
+  border-width: var(--popup-border-width);
+  border-style: solid;
+  border-color: rgba(var(--color-foreground), var(--popup-border-opacity));
+  border-top: 0;
+  border-bottom-right-radius: var(--popup-corner-radius);
+  border-bottom-left-radius: var(--popup-corner-radius);
+  box-shadow: var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius)
+    rgba(var(--color-shadow), var(--popup-shadow-opacity));
+}
+
+/* hide once the visitor types, or while predictive results are showing */
+.search-modal__form:has(.search__input:not(:placeholder-shown)) .fb-search-suggest--header,
+predictive-search[open] .fb-search-suggest--header,
+predictive-search[loading] .fb-search-suggest--header {
+  display: none;
+}
+
+@media screen and (min-width: 750px) {
+  .search-modal__form {
+    display: block;
+    position: relative;
+  }
+
+  .fb-search-suggest--header {
+    top: calc(100% + 0.1rem);
+    left: -0.1rem;
+    right: auto;
+    width: calc(100% + 0.2rem);
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Motion (catalog)                                                    */
+/* ------------------------------------------------------------------ */
+
+@media (prefers-reduced-motion: reduce) {
+  .fb-pcard__img,
+  .fb-ccard__img,
+  .fb-pcard:hover .fb-pcard__img--primary,
+  .fb-ccard:hover .fb-ccard__img {
+    transform: none;
+    transition: none;
+  }
+
+  .fb-chip--link {
+    transition: none;
+  }
+}

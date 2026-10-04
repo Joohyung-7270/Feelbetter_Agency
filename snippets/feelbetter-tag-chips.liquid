@@ -1,0 +1,52 @@
+{% comment %}
+  Tag chips for a product. Each tag links to the collection with the same handle
+  (the automated carhartt / plush / otamatone collections) or, when no such
+  collection exists, to /collections/all/<tag>. Internal tags (starting with "_"
+  or containing ":") are skipped. Collection URLs are locale-prefixed by Shopify.
+
+  Accepts:
+  - product {Object}
+  - limit {Number} - maximum number of chips (default 6)
+  - class {String} - extra class on the <ul> (optional)
+  - chip_class {String} - extra class on each chip link (optional)
+
+  Usage:
+  {% render 'feelbetter-tag-chips', product: product, limit: 6 %}
+{% endcomment %}
+{%- liquid
+  assign limit = limit | default: 6
+  assign shown = 0
+  capture chips
+    for tag in product.tags
+      if shown >= limit
+        break
+      endif
+      assign first_char = tag | slice: 0, 1
+      if first_char == '_' or tag contains ':'
+        continue
+      endif
+      assign tag_handle = tag | handleize
+      assign tag_collection = collections[tag_handle]
+      if tag_collection != blank and tag_collection.title != blank
+        assign chip_url = tag_collection.url
+        assign chip_label = tag_collection.title
+      else
+        assign chip_url = routes.all_products_collection_url | append: '/' | append: tag_handle
+        assign chip_label = tag
+      endif
+      assign shown = shown | plus: 1
+      echo '<li><a class="fb-chip fb-chip--link '
+      echo chip_class
+      echo '" href="'
+      echo chip_url
+      echo '">'
+      echo chip_label | escape
+      echo '</a></li>'
+    endfor
+  endcapture
+-%}
+{%- if shown > 0 -%}
+  <ul class="fb-chips{% if class != blank %} {{ class }}{% endif %}" role="list">
+    {{- chips -}}
+  </ul>
+{%- endif -%}

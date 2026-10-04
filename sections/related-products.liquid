@@ -1,10 +1,10 @@
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{%- comment -%}
+  Related products (Dawn's product-recommendations element, FeelBetter cards).
+  The heading setting falls back to feelbetter.pdp.related_heading when empty so it
+  is translated in every published language. Dawn's global.js fetches this section
+  with the recommended products and swaps the inner HTML in.
+{%- endcomment -%}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
-{{ 'section-related-products.css' | asset_url | stylesheet_tag }}
-
-{% if section.settings.image_shape == 'blob' %}
-  {{ 'mask-blobs.css' | asset_url | stylesheet_tag }}
-{%- endif -%}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -20,43 +20,50 @@
   }
 {%- endstyle -%}
 
+{%- liquid
+  assign heading = section.settings.heading
+  if heading == blank
+    assign heading = 'feelbetter.pdp.related_heading' | t
+  endif
+  assign card_vw = 100 | divided_by: section.settings.columns_desktop
+  assign card_sizes = '(min-width: 990px) ' | append: card_vw | append: 'vw, 50vw'
+-%}
+
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <product-recommendations
-    class="related-products page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    class="fb-related related-products page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     data-url="{{ routes.product_recommendations_url }}?limit={{ section.settings.products_to_show }}"
     data-section-id="{{ section.id }}"
     data-product-id="{{ product.id }}"
   >
     {% if recommendations.performed and recommendations.products_count > 0 %}
-      <h2 class="related-products__heading inline-richtext {{ section.settings.heading_size }}">
-        {{ section.settings.heading }}
-      </h2>
+      <header class="fb-section-head fb-journal-featured__head fb-related__head">
+        <div>
+          <p class="fb-eyebrow"><span class="fb-dot" aria-hidden="true"></span><span>{{ 'feelbetter.pdp.related_eyebrow' | t }}</span></p>
+          <h2 class="fb-section-head__heading related-products__heading inline-richtext {{ section.settings.heading_size }}">
+            {{ heading }}
+          </h2>
+        </div>
+        <a class="fb-textlink fb-journal-featured__all" href="{{ routes.collections_url }}">{{ 'feelbetter.pdp.related_all' | t }} <span aria-hidden="true">→</span></a>
+      </header>
       <ul
-        class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
+        class="grid product-grid fb-plp-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
         role="list"
       >
-        {% assign skip_card_product_styles = false %}
         {% for recommendation in recommendations.products %}
           <li class="grid__item">
-            {% render 'card-product',
-              card_product: recommendation,
-              media_aspect_ratio: section.settings.image_ratio,
-              image_shape: section.settings.image_shape,
+            {% render 'feelbetter-product-card',
+              product: recommendation,
               show_secondary_image: section.settings.show_secondary_image,
               show_vendor: section.settings.show_vendor,
-              show_rating: section.settings.show_rating,
-              skip_styles: skip_card_product_styles,
-              product_view_context: 'recommendation'
+              sizes: card_sizes,
+              view_context: 'recommendation'
             %}
           </li>
-          {%- assign skip_card_product_styles = true -%}
         {% endfor %}
       </ul>
     {% endif %}
   </product-recommendations>
-  {% if section.settings.image_shape == 'arch' %}
-    {{ 'mask-arch.svg' | inline_asset_content }}
-  {%- endif -%}
 </div>
 
 {% schema %}
@@ -73,7 +80,8 @@
       "type": "inline_richtext",
       "id": "heading",
       "default": "t:sections.related-products.settings.paragraph__1.default",
-      "label": "t:sections.related-products.settings.heading.label"
+      "label": "t:sections.related-products.settings.heading.label",
+      "info": "Empty = translated copy (feelbetter.pdp.related_heading)."
     },
     {
       "type": "select",
@@ -135,7 +143,7 @@
           "value": "2",
           "label": "t:sections.related-products.settings.columns_mobile.options__2.label"
         }
-      ]    
+      ]
     },
     {
       "type": "color_scheme",
@@ -166,7 +174,8 @@
         }
       ],
       "default": "adapt",
-      "label": "t:sections.related-products.settings.image_ratio.label"
+      "label": "t:sections.related-products.settings.image_ratio.label",
+      "info": "Not used by the FeelBetter card (always square)."
     },
     {
       "type": "select",
@@ -206,7 +215,8 @@
         }
       ],
       "default": "default",
-      "label": "t:sections.all.image_shape.label"
+      "label": "t:sections.all.image_shape.label",
+      "info": "Not used by the FeelBetter card."
     },
     {
       "type": "checkbox",

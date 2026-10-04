@@ -1,0 +1,98 @@
+{
+  "id": 437,
+  "handle": "pingu-pg--437",
+  "group": "pingu",
+  "vendor": "",
+  "source_url": "https://www.pingu-store.jp/?pid=174717639",
+  "naver_no": "13783918373",
+  "naver_display": "ON",
+  "price_krw": 41680,
+  "list_price_krw": 60440,
+  "total_cost_krw": 36802,
+  "krw_cost": 24652,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 1870,
+  "source_currency": "JPY",
+  "origin": "중국",
+  "weight_g": 250,
+  "keyword": "핑구 굿즈",
+  "options": [],
+  "images": [
+    "https://img07.shop-pro.jp/PA01428/996/product/174717639.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/174717639_o1.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/174717639_o2.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/174717639_o3.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/174717639_o4.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/174717639_o5.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/174717639_o6.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/174717639_o7.jpg"
+  ],
+  "en": {
+    "title": "防水スマホソフトケース（ピングーフェイス）PG - ピングーグッズ公式オンラインストア",
+    "bullets": [],
+    "description": "ピングーグッズの公式通販サイト。ピングーグッズが何でもそろう専門ショップ。ピングーグッズはピングー公式オンラインストアで",
+    "specs": {}
+  },
+  "ko": {
+    "title": "핑구 페이스 방수 스마트폰 소프트 케이스 물놀이 생활방수 폰파우치",
+    "headline": "핑구 방수팩, 원하던 디자인 그대로",
+    "subheadline": "해외에서 들여오는 핑구 방수팩이에요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "핑구 방수팩",
+        "body": "핑구 얼굴 디자인이 들어간 방수 스마트폰 소프트 케이스예요."
+      },
+      {
+        "title": "스마트폰 케이스",
+        "body": "스마트폰을 넣어서 사용할 수 있는 소프트 타입 방수 케이스예요."
+      },
+      {
+        "title": "방수 소프트 케이스",
+        "body": "물가나 야외 활동 시 스마트폰을 보호할 수 있어요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "원산지",
+        "value": "해외"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "방수팩",
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈",
+      "연말선물",
+      "여자친구선물",
+      "남자친구선물",
+      "감성소품"
+    ]
+  },
+  "locales": {}
+}

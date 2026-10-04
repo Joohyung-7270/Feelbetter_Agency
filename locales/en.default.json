@@ -845,6 +845,49 @@
       "h_contact": "Contact",
       "contact_text": "Questions about an order or a request go through the contact page. The company site, feelbetter.agency, has the concierge app and the long-form journal.",
       "cta": "Make a request"
+    },
+    "pdp": {
+      "description_eyebrow": "About this product",
+      "trust_label": "Why buy here",
+      "trust_verified": "Verified seller",
+      "trust_overseas": "Overseas purchase, on demand",
+      "trust_delivery": "Typically delivered in 7–14 business days",
+      "trust_checkout": "Secure Shopify checkout",
+      "ask_text": "Need a different size or colour?",
+      "ask_link": "Ask the concierge",
+      "browse_label": "More like this",
+      "related_eyebrow": "Related",
+      "related_heading": "You may also like",
+      "related_all": "Browse the catalog"
+    },
+    "plp": {
+      "eyebrow": "Collection",
+      "count": {
+        "one": "{{ count }} product",
+        "other": "{{ count }} products"
+      },
+      "ask_text": "Don't see what you're looking for?",
+      "ask_link": "Ask the concierge",
+      "badge_overseas": "Overseas purchase",
+      "catalog_eyebrow": "Catalog",
+      "catalog_title": "Collections",
+      "catalog_text": "The things people ask us for again and again, ready to order. Everything else: just ask.",
+      "catalog_all": "All products",
+      "catalog_ask_heading": "Can't find it?",
+      "catalog_ask_text": "Tell us what you saw. One verified link, within the hour.",
+      "catalog_ask_cta": "Ask the concierge",
+      "view_collection": "View collection",
+      "empty": "No collections yet."
+    },
+    "search": {
+      "eyebrow": "Search",
+      "heading": "What are you looking for?",
+      "results_for": "Results for “{{ terms }}”",
+      "no_results_heading": "Nothing found for “{{ terms }}”.",
+      "no_results_text": "Try one of these, or ask the concierge to find it for you.",
+      "ask_link": "Ask the concierge",
+      "suggestions_heading": "Popular searches",
+      "suggestions": "Otamatone|Carhartt jacket|Squishmallows|Chiikawa|AI plush|Kirby|Sanrio|Pusheen"
     }
   }
 }

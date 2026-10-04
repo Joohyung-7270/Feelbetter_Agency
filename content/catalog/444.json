@@ -1,0 +1,119 @@
+{
+  "id": 444,
+  "handle": "pingu-2pg--444",
+  "group": "pingu",
+  "vendor": "",
+  "source_url": "https://www.pingu-store.jp/?pid=163804265",
+  "naver_no": "13783919911",
+  "naver_display": "ON",
+  "price_krw": 42760,
+  "list_price_krw": 62010,
+  "total_cost_krw": 37750,
+  "krw_cost": 25600,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 1980,
+  "source_currency": "JPY",
+  "origin": "일본",
+  "weight_g": 300,
+  "keyword": "핑구 굿즈",
+  "options": [
+    {
+      "name": "컬러",
+      "values": [
+        {
+          "label": "핑크",
+          "add_price": 0
+        },
+        {
+          "label": "그레이",
+          "add_price": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    "https://img07.shop-pro.jp/PA01428/996/product/163804265.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/163804265_o1.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/163804265_o2.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/163804265_o3.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/163804265_o4.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/163804265_o5.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/163804265_o6.jpg"
+  ],
+  "en": {
+    "title": "ネックストラップ付 2ポケットパスケース（ピンク）PG - ピングーグッズ公式オンラインストア",
+    "bullets": [],
+    "description": "ピングーグッズの公式通販サイト。ピングーグッズが何でもそろう専門ショップ。ピングーグッズはピングー公式オンラインストアで",
+    "specs": {}
+  },
+  "ko": {
+    "title": "핑구 넥스트랩 2포켓 패스케이스 목걸이 카드지갑 사원증 2컬러",
+    "headline": "해외에서 찾은 패스케이스",
+    "subheadline": "해외에서 들여오는 핑구 패스케이스예요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "넥스트랩 포함",
+        "body": "목에 걸어 사용할 수 있는 스트랩이 포함되어 있어요."
+      },
+      {
+        "title": "2개 포켓",
+        "body": "카드를 나누어 수납할 수 있는 2개의 포켓이 있어요."
+      },
+      {
+        "title": "핑크 컬러",
+        "body": "화사한 핑크 컬러로 디자인된 패스케이스예요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "색상",
+        "value": "핑크"
+      },
+      {
+        "label": "구성",
+        "value": "넥스트랩, 패스케이스"
+      },
+      {
+        "label": "원산지",
+        "value": "해외"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "패스케이스",
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈",
+      "연말선물",
+      "여자친구선물",
+      "남자친구선물",
+      "감성소품"
+    ]
+  },
+  "locales": {}
+}

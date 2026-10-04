@@ -1,0 +1,102 @@
+{
+  "id": 449,
+  "handle": "pingu-s2339986-pg--449",
+  "group": "pingu",
+  "vendor": "",
+  "source_url": "https://www.pingu-store.jp/?pid=191120676",
+  "naver_no": "13783920039",
+  "naver_display": "ON",
+  "price_krw": 49270,
+  "list_price_krw": 71450,
+  "total_cost_krw": 43439,
+  "krw_cost": 31289,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 2640,
+  "source_currency": "JPY",
+  "origin": "중국",
+  "weight_g": 300,
+  "keyword": "핑구 굿즈",
+  "options": [],
+  "images": [
+    "https://img07.shop-pro.jp/PA01428/996/product/191120676.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/191120676_o1.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/191120676_o2.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/191120676_o3.jpg"
+  ],
+  "en": {
+    "title": "フェイスポーチ　（ピングー）　S2339986　PG - ピングーグッズ公式オンラインストア",
+    "bullets": [],
+    "description": "ピングーグッズの公式通販サイト。ピングーグッズが何でもそろう専門ショップ。ピングーグッズはピングー公式オンラインストアで",
+    "specs": {}
+  },
+  "ko": {
+    "title": "핑구 페이스 파우치 얼굴 모양 다용도 정리 지퍼 백 S2339986",
+    "headline": "핑구 파우치, 원하던 디자인 그대로",
+    "subheadline": "해외에서 들여오는 핑구 파우치예요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "핑구 얼굴 디자인",
+        "body": "핑구 캐릭터 얼굴 모양으로 제작된 파우치예요."
+      },
+      {
+        "title": "다용도 수납",
+        "body": "소품을 담아 보관하기에 좋은 파우치예요."
+      },
+      {
+        "title": "가벼운 휴대",
+        "body": "외출 시 가방에 넣어 간편하게 휴대할 수 있어요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "상품명",
+        "value": "페이스 파우치 핑구"
+      },
+      {
+        "label": "품번",
+        "value": "S2339986"
+      },
+      {
+        "label": "원산지",
+        "value": "해외"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "파우치",
+      "캐릭터파우치",
+      "귀여운파우치",
+      "예쁜파우치",
+      "휴대용파우치",
+      "고급파우치",
+      "선물파우치",
+      "선물추천",
+      "생일선물",
+      "집들이선물"
+    ]
+  },
+  "locales": {}
+}

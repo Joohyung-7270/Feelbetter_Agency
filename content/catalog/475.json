@@ -1,0 +1,336 @@
+{
+  "id": 475,
+  "handle": "hazbin-hotel-lute-bff-tee-475",
+  "group": "hazbin-hotel",
+  "vendor": "Hazbin Hotel",
+  "source_url": "https://hazbinhotel.com/products/lute-bff-tee",
+  "naver_no": "13783930589",
+  "naver_display": "ON",
+  "price_krw": 63200,
+  "list_price_krw": 91640,
+  "total_cost_krw": 55705,
+  "krw_cost": 40675,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 30,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 400,
+  "keyword": "해즈빈호텔 굿즈",
+  "options": [
+    {
+      "name": "사이즈",
+      "values": [
+        {
+          "label": "S",
+          "add_price": 0
+        },
+        {
+          "label": "M",
+          "add_price": 0
+        },
+        {
+          "label": "L",
+          "add_price": 0
+        },
+        {
+          "label": "XL",
+          "add_price": 0
+        },
+        {
+          "label": "2XL",
+          "add_price": 0
+        },
+        {
+          "label": "3XL",
+          "add_price": 0
+        },
+        {
+          "label": "4XL",
+          "add_price": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/LuteTee.jpg?v=1788315492"
+  ],
+  "en": {
+    "title": "Lute BFF Tee",
+    "bullets": [],
+    "description": "I'm with the Dickmaster. 100% Cotton Unisex Tee. Art by Calis. Ships in October.",
+    "specs": {
+      "Weight": "227 g"
+    }
+  },
+  "ko": {
+    "title": "해즈빈호텔 루트 BFF 엑소시스트 티셔츠 천사 캐릭터 반팔 면 상의",
+    "headline": "해외에서 찾은 반팔티",
+    "subheadline": "해외에서 들여오는 Hazbin Hotel 반팔티예요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "면 소재 반팔티",
+        "body": "100% 면 소재로 제작된 남녀공용 반팔 티셔츠예요."
+      },
+      {
+        "title": "아트워크 디자인",
+        "body": "Calis 작가의 아트가 프린트되어 있어요."
+      },
+      {
+        "title": "기본 티셔츠",
+        "body": "데일리로 착용하기 좋은 기본 반팔티예요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "소재",
+        "value": "면 100%"
+      },
+      {
+        "label": "무게",
+        "value": "227g"
+      },
+      {
+        "label": "성별",
+        "value": "남녀공용"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "반팔티",
+      "면반팔티",
+      "빈티지반팔티",
+      "남녀공용반팔티",
+      "예쁜반팔티",
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "Hazbin Hotel Lute BFF Tee, 100% Cotton Unisex, S to 4XL",
+      "meta_title": "Hazbin Hotel Lute BFF Tee, 100% Cotton Unisex",
+      "meta_description": "Lute BFF tee from Hazbin Hotel in 100% cotton, unisex, with art by Calis. Seven sizes, S to 4XL. We buy it overseas after you order and ship it to Korea.",
+      "headline": "Lute BFF tee: 100% cotton, unisex, with Hazbin Hotel art by Calis",
+      "intro": "The Lute BFF Tee is a Hazbin Hotel tee: unisex, 100% cotton and decorated with art by Calis. FeelBetter buys it from the overseas seller after you order and ships it to you in Korea.",
+      "highlights": [
+        "100% cotton makes it a simple tee you can wear day to day.",
+        "The unisex style means it is open to all wearers.",
+        "Art by Calis brings a Hazbin Hotel look to the Lute BFF design.",
+        "S, M, L, XL, 2XL, 3XL and 4XL are all offered at the same price.",
+        "The seller is an official or authorised one, and the concierge checks the model and size before the tee is listed."
+      ],
+      "sections": [
+        {
+          "h": "Sizes",
+          "p": "Seven sizes are available, from S to 4XL, with no price difference between them. The seller gives no size measurements, so if you are between sizes, ask the concierge before you order."
+        },
+        {
+          "h": "Details from the seller",
+          "p": "The seller lists the Lute BFF Tee as 100% cotton, unisex, with art by Calis and a weight of 227 g. We order it for you from overseas once you place your order."
+        }
+      ],
+      "cautions": [
+        "The seller lists this tee as shipping in October, so delivery may take longer than the usual 7–14 business days; ask the concierge if timing matters.",
+        "The seller's tagline for this tee is a crude adult joke, so think about whether it suits the person you are gifting it to."
+      ]
+    },
+    "ko": {
+      "title": "Hazbin Hotel Lute BFF 티셔츠 면 100% 유니섹스 S~4XL",
+      "meta_title": "Hazbin Hotel Lute BFF 티셔츠 면 100% 유니섹스",
+      "meta_description": "Hazbin Hotel Lute BFF 티셔츠예요. 면 100% 유니섹스에 Calis의 아트가 들어갔고, S부터 4XL까지 7가지 사이즈를 같은 가격으로 고를 수 있어요.",
+      "headline": "Lute BFF 티셔츠, 면 100% 유니섹스에 Calis의 아트가 들어간 Hazbin Hotel 굿즈",
+      "intro": "Lute BFF 티셔츠는 Hazbin Hotel 티셔츠로, 면 100% 소재의 유니섹스 상품에 Calis의 아트가 들어가 있어요. 주문하시면 FeelBetter가 해외 판매처에서 구매해 한국으로 보내드려요.",
+      "highlights": [
+        "면 100% 소재라 일상에서 편하게 입기 좋은 티셔츠예요.",
+        "유니섹스 상품이라 누구나 부담 없이 입을 수 있어요.",
+        "Calis의 아트가 들어가 Hazbin Hotel 분위기를 느낄 수 있어요.",
+        "S, M, L, XL, 2XL, 3XL, 4XL 모두 같은 가격이에요.",
+        "공식 또는 정식 판매처에서 가져오고, 컨시어지가 모델과 사이즈를 확인한 뒤 올려요."
+      ],
+      "sections": [
+        {
+          "h": "사이즈",
+          "p": "S부터 4XL까지 7가지 사이즈가 있고, 사이즈별 가격 차이는 없어요. 판매처에서 치수 정보를 따로 주지 않으니, 사이즈가 고민되시면 주문 전에 컨시어지에 문의해 주세요."
+        },
+        {
+          "h": "판매처 정보",
+          "p": "판매처는 Lute BFF 티셔츠를 면 100% 유니섹스, Calis의 아트, 무게 227g으로 안내해요. 주문하시면 해외에서 구매해 보내드려요."
+        }
+      ],
+      "cautions": [
+        "판매처 안내에 10월 출고로 적혀 있어서, 보통 7~14영업일 안내보다 배송이 더 걸릴 수 있어요. 일정이 중요하시면 컨시어지에 먼저 문의해 주세요.",
+        "판매처의 소개 문구가 거친 성인용 농담이라, 선물하실 때는 받는 분에게 어울리는지 생각해 보세요."
+      ]
+    },
+    "ja": {
+      "title": "Hazbin Hotel Lute BFF Tシャツ 綿100% ユニセックス S〜4XL",
+      "meta_title": "Hazbin Hotel Lute BFF Tシャツ 綿100%",
+      "meta_description": "Hazbin HotelのLute BFF Tシャツです。綿100%のユニセックスで、Calisのアート入り。Sから4XLまでの7サイズが同じ価格で、海外から購入してお届けします。",
+      "headline": "Lute BFF Tシャツ、綿100%のユニセックスでCalisのアート入り",
+      "intro": "Lute BFF Tシャツは、綿100%のユニセックスで、Calisのアートが入ったHazbin HotelのTシャツです。ご注文後に FeelBetter が海外の販売元から購入し、韓国のお届け先へ発送します。",
+      "highlights": [
+        "綿100%のシンプルなTシャツなので、普段から着やすいです。",
+        "ユニセックスなので、どなたでも着られます。",
+        "Calisのアートが入り、Hazbin Hotelの雰囲気を楽しめます。",
+        "S、M、L、XL、2XL、3XL、4XLのどのサイズも同じ価格です。",
+        "公式または正規の販売元から仕入れ、モデルとサイズをコンシェルジュが確認してから掲載しています。"
+      ],
+      "sections": [
+        {
+          "h": "サイズ",
+          "p": "SからXLを経て4XLまで7サイズあり、サイズによる価格差はありません。販売元からサイズ表の情報は提供されていないため、サイズに迷う場合はご注文前にコンシェルジュへご相談ください。"
+        },
+        {
+          "h": "販売元の情報",
+          "p": "販売元はLute BFF Tシャツを、綿100%のユニセックス、Calisのアート入り、重さ227gと案内しています。ご注文後に海外から購入してお届けします。"
+        }
+      ],
+      "cautions": [
+        "販売元の表記では10月出荷とされているため、通常の7〜14営業日の目安よりお届けまでに時間がかかる場合があります。日程が大切な場合は、先にコンシェルジュへご相談ください。",
+        "販売元の紹介文は過激な大人向けのジョークになっているため、贈り物にする際は相手に合うかをご検討ください。"
+      ]
+    },
+    "zh-CN": {
+      "title": "Hazbin Hotel Lute BFF T恤 100% 纯棉 男女同款 S-4XL",
+      "meta_title": "Hazbin Hotel Lute BFF T恤 100% 纯棉",
+      "meta_description": "Hazbin Hotel 的 Lute BFF T恤，100% 纯棉、男女同款，带有 Calis 的艺术设计。S 到 4XL 共 7 个尺码，下单后由 FeelBetter 海外代购并寄到韩国。",
+      "headline": "Lute BFF T恤：100% 纯棉、男女同款，带有 Calis 的 Hazbin Hotel 艺术设计",
+      "intro": "Lute BFF T恤是 Hazbin Hotel 的一款 T恤，100% 纯棉、男女同款，并带有 Calis 的艺术设计。下单后，FeelBetter 会向海外卖家购买并寄送到韩国。",
+      "highlights": [
+        "100% 纯棉面料，是适合平时穿的简单款 T恤。",
+        "男女同款，谁都可以穿。",
+        "带有 Calis 的艺术设计，能感受到 Hazbin Hotel 的风格。",
+        "S、M、L、XL、2XL、3XL、4XL 各个尺码价格都一样。",
+        "商品来自官方或授权卖家，上架前由礼宾顾问核对型号和尺码。"
+      ],
+      "sections": [
+        {
+          "h": "尺码",
+          "p": "共有 S 到 4XL 7 个尺码，各尺码之间没有价差。卖家没有提供尺寸数据，如果拿不准尺码，请在下单前联系礼宾顾问。"
+        },
+        {
+          "h": "卖家提供的信息",
+          "p": "卖家将 Lute BFF T恤标注为 100% 纯棉、男女同款、带有 Calis 的艺术设计，重量 227 克。下单后，我们会从海外为您购买。"
+        }
+      ],
+      "cautions": [
+        "卖家页面标注为 10 月发货，因此送达时间可能比通常的 7–14 个工作日更长。如果日期很重要，请先联系礼宾顾问。",
+        "卖家对这件 T恤的宣传语是粗俗的成人玩笑，送礼前请考虑是否适合对方。"
+      ]
+    },
+    "es": {
+      "title": "Hazbin Hotel Lute BFF, camiseta unisex 100% algodón, S a 4XL",
+      "meta_title": "Camiseta Hazbin Hotel Lute BFF 100% algodón",
+      "meta_description": "Camiseta Lute BFF de Hazbin Hotel, unisex y de 100% algodón, con arte de Calis. Siete tallas, de S a 4XL. La compramos en el extranjero y se la enviamos.",
+      "headline": "Camiseta Lute BFF: unisex, de 100% algodón y con arte de Calis de Hazbin Hotel",
+      "intro": "La camiseta Lute BFF es una prenda de Hazbin Hotel: unisex, de 100% algodón y decorada con arte de Calis. FeelBetter la compra al vendedor del extranjero después de su pedido y se la envía a Corea.",
+      "highlights": [
+        "El 100% algodón la hace una camiseta sencilla para llevar a diario.",
+        "Al ser unisex, la puede llevar cualquier persona.",
+        "El arte de Calis aporta al diseño Lute BFF el aire de Hazbin Hotel.",
+        "S, M, L, XL, 2XL, 3XL y 4XL cuestan lo mismo.",
+        "El vendedor es oficial o autorizado, y el concierge revisa modelo y talla antes de publicarla."
+      ],
+      "sections": [
+        {
+          "h": "Tallas",
+          "p": "Hay siete tallas, de S a 4XL, sin diferencia de precio entre ellas. El vendedor no da medidas, así que si duda entre dos tallas, consulte al concierge antes de pedir."
+        },
+        {
+          "h": "Datos del vendedor",
+          "p": "El vendedor presenta la camiseta Lute BFF como de 100% algodón, unisex, con arte de Calis y un peso de 227 g. Una vez hecho su pedido, la compramos por usted en el extranjero."
+        }
+      ],
+      "cautions": [
+        "El vendedor indica que se envía en octubre, por lo que la entrega puede tardar más que los 7–14 días hábiles habituales; si la fecha es importante, consulte antes al concierge.",
+        "El lema del vendedor para esta camiseta es un chiste soez para adultos; piense si le irá bien a quien la reciba, si es un regalo."
+      ]
+    },
+    "de": {
+      "title": "Hazbin Hotel Lute BFF T-Shirt, 100 % Baumwolle, Unisex, S–4XL",
+      "meta_title": "Hazbin Hotel Lute BFF T-Shirt, 100 % Baumwolle",
+      "meta_description": "Lute BFF T-Shirt von Hazbin Hotel: Unisex, 100 % Baumwolle, mit Artwork von Calis. Sieben Größen von S bis 4XL, im Ausland gekauft, Versand nach Korea.",
+      "headline": "Lute BFF T-Shirt: Unisex, 100 % Baumwolle, mit Hazbin-Hotel-Artwork von Calis",
+      "intro": "Das Lute BFF T-Shirt ist ein Hazbin-Hotel-Shirt: unisex, aus 100 % Baumwolle und mit Artwork von Calis verziert. FeelBetter kauft es nach Ihrer Bestellung beim Verkäufer im Ausland und schickt es Ihnen nach Korea.",
+      "highlights": [
+        "100 % Baumwolle machen es zu einem einfachen Shirt für den Alltag.",
+        "Als Unisex-Shirt kann es jede Person tragen.",
+        "Das Artwork von Calis bringt den Hazbin-Hotel-Look in das Lute-BFF-Design.",
+        "S, M, L, XL, 2XL, 3XL und 4XL kosten alle gleich viel.",
+        "Der Verkäufer ist offiziell oder autorisiert, und der Concierge prüft vor der Listung Modell und Größe."
+      ],
+      "sections": [
+        {
+          "h": "Größen",
+          "p": "Es gibt sieben Größen von S bis 4XL ohne Preisunterschied. Der Verkäufer nennt keine Maße; wenn Sie zwischen zwei Größen schwanken, fragen Sie vor der Bestellung bitte den Concierge."
+        },
+        {
+          "h": "Angaben des Verkäufers",
+          "p": "Der Verkäufer führt das Lute BFF T-Shirt als 100 % Baumwolle, unisex, mit Artwork von Calis und einem Gewicht von 227 g. Sobald Sie bestellt haben, kaufen wir es für Sie im Ausland."
+        }
+      ],
+      "cautions": [
+        "Der Verkäufer nennt einen Versand im Oktober, daher kann die Lieferung länger als die üblichen 7–14 Werktage dauern; fragen Sie bei wichtigem Termin vorab den Concierge.",
+        "Der Slogan des Verkäufers für dieses Shirt ist ein derber Erwachsenenwitz; überlegen Sie, ob er zur beschenkten Person passt."
+      ]
+    },
+    "fr": {
+      "title": "Hazbin Hotel Lute BFF, T-shirt unisexe 100 % coton, S à 4XL",
+      "meta_title": "T-shirt Hazbin Hotel Lute BFF 100 % coton",
+      "meta_description": "T-shirt Lute BFF de Hazbin Hotel, unisexe et en 100 % coton, avec illustration de Calis. Sept tailles, de S à 4XL ; acheté à l'étranger et expédié en Corée.",
+      "headline": "T-shirt Lute BFF : unisexe, 100 % coton, avec l'illustration Hazbin Hotel de Calis",
+      "intro": "Le T-shirt Lute BFF est un article Hazbin Hotel : unisexe, en 100 % coton et orné d'une illustration de Calis. FeelBetter l'achète auprès du vendeur étranger après votre commande et vous l'envoie en Corée.",
+      "highlights": [
+        "Le 100 % coton en fait un T-shirt simple à porter au quotidien.",
+        "Étant unisexe, il peut être porté par tout le monde.",
+        "L'illustration de Calis apporte l'esprit Hazbin Hotel au design Lute BFF.",
+        "S, M, L, XL, 2XL, 3XL et 4XL sont tous au même prix.",
+        "Le vendeur est officiel ou agréé, et le concierge vérifie le modèle et la taille avant la mise en ligne."
+      ],
+      "sections": [
+        {
+          "h": "Tailles",
+          "p": "Il existe sept tailles, de S à 4XL, sans écart de prix. Le vendeur ne donne pas de mensurations ; si vous hésitez entre deux tailles, demandez au concierge avant de commander."
+        },
+        {
+          "h": "Informations du vendeur",
+          "p": "Le vendeur présente le T-shirt Lute BFF en 100 % coton, unisexe, avec une illustration de Calis et un poids de 227 g. Une fois votre commande passée, nous l'achetons pour vous à l'étranger."
+        }
+      ],
+      "cautions": [
+        "Le vendeur annonce une expédition en octobre : la livraison peut donc dépasser les 7 à 14 jours ouvrés habituels. Si la date compte, interrogez d'abord le concierge.",
+        "La phrase d'accroche du vendeur pour ce T-shirt est une blague crue pour adultes ; demandez-vous si elle convient à la personne à qui vous l'offrez."
+      ]
+    }
+  }
+}

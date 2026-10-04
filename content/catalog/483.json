@@ -1,0 +1,163 @@
+{
+  "id": 483,
+  "handle": "jiu-jitsu-elite-sports-ultra-light-womens-bjj-gi-ibjjf-jiu-483",
+  "group": "jiu-jitsu",
+  "vendor": "Elite Sports",
+  "source_url": "https://www.amazon.com/dp/B08JCZB2J3",
+  "naver_no": "13783977052",
+  "naver_display": "ON",
+  "price_krw": 117580,
+  "list_price_krw": 170500,
+  "total_cost_krw": 103314,
+  "krw_cost": 85404,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 62.99,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 1300,
+  "keyword": "주짓수 도복",
+  "options": [
+    {
+      "name": "컬러",
+      "values": [
+        {
+          "label": "퍼플",
+          "add_price": 0
+        },
+        {
+          "label": "핑크",
+          "add_price": 0
+        },
+        {
+          "label": "화이트",
+          "add_price": 0
+        },
+        {
+          "label": "블랙",
+          "add_price": 1560
+        },
+        {
+          "label": "블루",
+          "add_price": 1560
+        }
+      ]
+    },
+    {
+      "name": "사이즈",
+      "values": [
+        {
+          "label": "F0",
+          "add_price": 0
+        },
+        {
+          "label": "F1",
+          "add_price": 0
+        },
+        {
+          "label": "F2",
+          "add_price": 0
+        },
+        {
+          "label": "F3",
+          "add_price": 0
+        },
+        {
+          "label": "F4",
+          "add_price": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    "https://m.media-amazon.com/images/I/91FnUUXiiqL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81KmxYOO4rL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81hmFK7uM+L._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/815QFL0FpBL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81mkW2RTlvL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81YyQbmEGHL._AC_SL1500_.jpg"
+  ],
+  "en": {
+    "title": "Elite Sports Ultra-Light Women's BJJ GI - IBJJF Jiu-Jitsu GI for Girls and women (See Special Sizing Guide)",
+    "bullets": [],
+    "description": "",
+    "specs": {
+      "Item model number\n": "ET1000",
+      "Department\n": "womens",
+      "Manufacturer\n": "Elite Sports"
+    }
+  },
+  "ko": {
+    "title": "엘리트스포츠 여성 주짓수 도복 초경량 IBJJF 여성용 기모노 핏 5컬러",
+    "headline": "Elite Sports 주짓수 도복, 찾던 그 제품",
+    "subheadline": "해외에서 들여오는 Elite Sports 주짓수 도복이에요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "여성용 주짓수 도복",
+        "body": "여성과 소녀들을 위해 제작된 주짓수 도복입니다."
+      },
+      {
+        "title": "초경량 설계",
+        "body": "가벼운 무게로 제작되어 활동성이 좋습니다."
+      },
+      {
+        "title": "대회 규격",
+        "body": "IBJJF 규정에 맞춰 사용할 수 있는 도복입니다."
+      }
+    ],
+    "sections": [
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      },
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "모델번호",
+        "value": "ET1000"
+      },
+      {
+        "label": "대상",
+        "value": "여성용"
+      },
+      {
+        "label": "제조사",
+        "value": "Elite Sports"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "주짓수도복",
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈",
+      "연말선물",
+      "여자친구선물",
+      "감성소품",
+      "해외디자인"
+    ]
+  },
+  "locales": {}
+}

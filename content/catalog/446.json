@@ -1,0 +1,119 @@
+{
+  "id": 446,
+  "handle": "pingu-pg--446",
+  "group": "pingu",
+  "vendor": "",
+  "source_url": "https://www.pingu-store.jp/?pid=166815557",
+  "naver_no": "13783919982",
+  "naver_display": "ON",
+  "price_krw": 41610,
+  "list_price_krw": 60340,
+  "total_cost_krw": 36837,
+  "krw_cost": 21807,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 1540,
+  "source_currency": "JPY",
+  "origin": "일본",
+  "weight_g": 700,
+  "keyword": "핑구 굿즈",
+  "options": [
+    {
+      "name": "컬러",
+      "values": [
+        {
+          "label": "그린",
+          "add_price": 0
+        },
+        {
+          "label": "화이트·핑크",
+          "add_price": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    "https://img07.shop-pro.jp/PA01428/996/product/166815557.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/166815557_o1.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/166815557_o2.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/166815557_o3.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/166815557_o4.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/166815557_o5.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/166815557_o6.jpg"
+  ],
+  "en": {
+    "title": "カラーマグ（グリーン）PG - ピングーグッズ公式オンラインストア",
+    "bullets": [],
+    "description": "ピングーグッズの公式通販サイト。ピングーグッズが何でもそろう専門ショップ。ピングーグッズはピングー公式オンラインストアで",
+    "specs": {}
+  },
+  "ko": {
+    "title": "핑구 컬러 머그 그린 화이트 핑크 도자기 커피잔 티컵 2종",
+    "headline": "해외에서 찾은 머그컵",
+    "subheadline": "해외에서 들여오는 핑구 머그컵이에요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "그린 컬러 디자인",
+        "body": "초록색 색상이 적용된 컵이에요."
+      },
+      {
+        "title": "핑구 머그컵",
+        "body": "핑구 디자인이 들어간 머그컵이에요."
+      },
+      {
+        "title": "온라인 구매",
+        "body": "온라인으로 구매할 수 있는 상품이에요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "색상",
+        "value": "그린"
+      },
+      {
+        "label": "종류",
+        "value": "머그컵"
+      },
+      {
+        "label": "원산지",
+        "value": "해외"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "머그컵",
+      "예쁜머그컵",
+      "머그컵선물",
+      "수입머그컵",
+      "캐릭터머그컵",
+      "고급머그컵",
+      "머그컵디자인",
+      "선물추천",
+      "생일선물",
+      "집들이선물"
+    ]
+  },
+  "locales": {}
+}

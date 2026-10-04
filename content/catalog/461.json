@@ -1,0 +1,107 @@
+{
+  "id": 461,
+  "handle": "hazbin-hotel-season-two-blu-ray-with-promo-card-pr-32-461",
+  "group": "hazbin-hotel",
+  "vendor": "Hazbin Hotel",
+  "source_url": "https://hazbinhotel.com/products/season-two-blu-ray-with-promo-card-pr-32",
+  "naver_no": "13783929562",
+  "naver_display": "ON",
+  "price_krw": 52250,
+  "list_price_krw": 75770,
+  "total_cost_krw": 46046,
+  "krw_cost": 33896,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 25,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 300,
+  "keyword": "해즈빈호텔 굿즈",
+  "options": [],
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/S2_Bluray_Card.jpg?v=1790360912",
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/Season_2_Bluray.jpg?v=1790360422",
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/S2_Bluray_Back.jpg?v=1790360911",
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/S2_Set.jpg?v=1790360911",
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/BluRayS2-3.jpg?v=1790358767",
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/WatchParty_7a79a129-276d-47ad-a6a9-54664026d711.jpg?v=1790359223"
+  ],
+  "en": {
+    "title": "Season Two Blu-ray with Promo Card (PR-32)",
+    "bullets": [],
+    "description": "LIVE ON EVERY TV. Hazbin Hotel Season Two on Blu-ray. 2-Disc Set featuring commentaries for all eight Season Two episodes with Creator Vivienne Medrano, Animation Director Skye Henwood, and Art Director Sam Miller. Each copy contains a fold-out poster, along with an exclusive promo card, Watch Party (PR-32) , for Hazbin Hotel Trading Cards .",
+    "specs": {
+      "Tags": "bluray",
+      "Weight": "17 g"
+    }
+  },
+  "ko": {
+    "title": "해즈빈호텔 시즌2 블루레이 디스크 프로모카드 PR-32 동봉 소장용",
+    "headline": "Hazbin Hotel 블루레이, 찾던 그 제품",
+    "subheadline": "해외에서 들여오는 Hazbin Hotel 블루레이예요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "시즌 투 블루레이",
+        "body": "해즈빈 호텔 시즌 투 에피소드가 수록되어 있어요."
+      },
+      {
+        "title": "오디오 코멘터리",
+        "body": "제작진이 참여한 여덟 개 에피소드 코멘터리가 포함되어 있어요."
+      },
+      {
+        "title": "특전 구성품",
+        "body": "접이식 포스터와 전용 프로모 카드가 포함되어 있어요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      },
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "구성",
+        "value": "2 디스크 세트"
+      },
+      {
+        "label": "중량",
+        "value": "17 g"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "블루레이",
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈",
+      "연말선물",
+      "여자친구선물",
+      "남자친구선물",
+      "감성소품"
+    ]
+  },
+  "locales": {}
+}

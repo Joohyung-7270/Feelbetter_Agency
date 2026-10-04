@@ -1,0 +1,110 @@
+{
+  "id": 479,
+  "handle": "hazbin-hotel-voxtek-employee-hat-479",
+  "group": "hazbin-hotel",
+  "vendor": "Hazbin Hotel",
+  "source_url": "https://hazbinhotel.com/products/voxtek-employee-hat",
+  "naver_no": "13783930740",
+  "naver_display": "ON",
+  "price_krw": 63200,
+  "list_price_krw": 91640,
+  "total_cost_krw": 55705,
+  "krw_cost": 40675,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 30,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 400,
+  "keyword": "해즈빈호텔 굿즈",
+  "options": [],
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/20260118_A24_HazbinHotel_VoxTek_Hat_07599x16_beba3886-9afa-45ed-a579-8ccb9d1764a2.jpg?v=1768601493",
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/20260118_A24_HazbinHotel_VoxTek_Hat_0764_9x16_69edf873-1b12-4019-b098-8e0bb467542e.jpg?v=1768601501"
+  ],
+  "en": {
+    "title": "VoxTek Employee Hat",
+    "bullets": [],
+    "description": "The ultimate status symbol. Are you even a VoxTek Employee without one? 6-Panel Cotton Twill Cap.",
+    "specs": {
+      "Weight": "227 g"
+    }
+  },
+  "ko": {
+    "title": "해즈빈호텔 복스텍 직원 볼캡 자수 로고 야구 모자 캐릭터 굿즈",
+    "headline": "Hazbin Hotel 모자, 흔하지 않은 디자인",
+    "subheadline": "해외에서 들여오는 Hazbin Hotel 모자예요. 사이즈는 아래 상품 정보에서 꼭 확인해 주세요.",
+    "for_whom": [
+      "국내에 흔하지 않은 디자인을 찾는 분",
+      "Hazbin Hotel 스타일을 좋아하는 분",
+      "선물을 고르는 분",
+      "계절 코디에 포인트가 필요한 분"
+    ],
+    "selling_points": [
+      {
+        "title": "코튼 소재",
+        "body": "6-Panel Cotton Twill Cap 사양입니다."
+      },
+      {
+        "title": "복스텍 모자",
+        "body": "VoxTek Employee Hat 상품입니다."
+      },
+      {
+        "title": "스태프 아이템",
+        "body": "관련 디자인이 적용된 모자 상품입니다."
+      }
+    ],
+    "sections": [
+      {
+        "title": "사이즈를 먼저 확인하세요",
+        "body": "해외 사이즈는 국내와 다를 수 있어요. 상품 정보의 실측을 평소 입는 옷과 비교해 보세요."
+      },
+      {
+        "title": "선물로도 좋아요",
+        "body": "받는 사람의 취향을 담을 수 있는 선물이에요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "소재",
+        "value": "코튼"
+      },
+      {
+        "label": "무게",
+        "value": "227g"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "사이즈가 국내와 같나요?",
+        "a": "해외 사이즈라 국내와 다를 수 있어요. 실측을 비교해 보시고, 궁금하면 문의 주세요."
+      },
+      {
+        "q": "교환·반품이 되나요?",
+        "a": "해외 구매대행 상품이라 단순 변심 반품은 국제 배송비가 들어요. 주문 전 사이즈를 꼭 확인해 주세요."
+      }
+    ],
+    "cautions": [
+      "해외 사이즈 기준이라 국내 사이즈와 다를 수 있어요.",
+      "단순 변심 교환·반품은 국제 배송비가 발생해요."
+    ],
+    "closing": "오늘 코디의 포인트",
+    "tags": [
+      "모자",
+      "볼캡모자",
+      "키즈모자",
+      "빈티지모자",
+      "예쁜모자",
+      "고급모자",
+      "아이모자",
+      "데일리룩",
+      "선물추천",
+      "커플아이템"
+    ]
+  },
+  "locales": {}
+}

@@ -1,0 +1,98 @@
+{
+  "id": 515,
+  "handle": "opanchu-usagi--515",
+  "group": "opanchu-usagi",
+  "vendor": "",
+  "source_url": "https://perfectworld.shop/?pid=190348089",
+  "naver_no": "13783982189",
+  "naver_display": "ON",
+  "price_krw": 56800,
+  "list_price_krw": 82360,
+  "total_cost_krw": 50111,
+  "krw_cost": 35081,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 3080,
+  "source_currency": "JPY",
+  "origin": "일본",
+  "weight_g": 700,
+  "keyword": "오판츄우사기 굿즈",
+  "options": [],
+  "images": [
+    "https://img07.shop-pro.jp/PA01418/427/product/190348089.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/190348089_o1.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/190348089_o2.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/190348089_o3.jpg"
+  ],
+  "en": {
+    "title": "おぱんちゅうさぎ なみだ もっちりフェイスクッション",
+    "bullets": [],
+    "description": "ひざの上にぴったりなサイズなクッションです。もっちりとした手触りでついついむぎゅとしたくなりますよ♪お部屋のアクセントにいかがでしょうか♪",
+    "specs": {}
+  },
+  "ko": {
+    "title": "오판츄우사기 눈물 쫀득 얼굴 쿠션 말랑 캐릭터 소파 인테리어",
+    "headline": "오판츄우사기 쿠션, 원하던 디자인 그대로",
+    "subheadline": "해외에서 들여오는 오판츄우사기 쿠션이에요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "무릎 위 사이즈",
+        "body": "무릎 위에 올려놓기 딱 좋은 크기의 쿠션이에요."
+      },
+      {
+        "title": "부드러운 촉감",
+        "body": "모찌처럼 쫀득하고 부드러운 촉감을 느낄 수 있어요."
+      },
+      {
+        "title": "인테리어 소품",
+        "body": "방 안의 분위기를 살려주는 포인트 소품으로 활용할 수 있어요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "종류",
+        "value": "쿠션"
+      },
+      {
+        "label": "원산지",
+        "value": "해외"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "쿠션",
+      "캐릭터쿠션",
+      "모찌쿠션",
+      "예쁜쿠션",
+      "사무실쿠션",
+      "인테리어쿠션",
+      "고급쿠션",
+      "선물추천",
+      "생일선물",
+      "집들이선물"
+    ]
+  },
+  "locales": {}
+}

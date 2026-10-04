@@ -1,0 +1,169 @@
+{
+  "id": 481,
+  "handle": "jiu-jitsu-elite-sports-bjj-gi-for-men-ibjjf-kimono-bjj-jiu-481",
+  "group": "jiu-jitsu",
+  "vendor": "Elite Sports",
+  "source_url": "https://www.amazon.com/dp/B088VXRLSZ",
+  "naver_no": "13783976734",
+  "naver_display": "ON",
+  "price_krw": 116120,
+  "list_price_krw": 168380,
+  "total_cost_krw": 102127,
+  "krw_cost": 81337,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 59.99,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 1800,
+  "keyword": "주짓수 도복",
+  "options": [
+    {
+      "name": "컬러",
+      "values": [
+        {
+          "label": "화이트",
+          "add_price": 0
+        },
+        {
+          "label": "블랙",
+          "add_price": 0
+        },
+        {
+          "label": "블루",
+          "add_price": 6210
+        },
+        {
+          "label": "네이비",
+          "add_price": 6210
+        },
+        {
+          "label": "그린",
+          "add_price": 6210
+        },
+        {
+          "label": "그레이",
+          "add_price": 6210
+        }
+      ]
+    },
+    {
+      "name": "사이즈",
+      "values": [
+        {
+          "label": "A1",
+          "add_price": 0
+        },
+        {
+          "label": "A2",
+          "add_price": 0
+        },
+        {
+          "label": "A3",
+          "add_price": 0
+        },
+        {
+          "label": "A4",
+          "add_price": 0
+        },
+        {
+          "label": "A5",
+          "add_price": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    "https://m.media-amazon.com/images/I/81ranuVYWaL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81TCB3SJGJL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81IOu26vfCL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/712kkvprjpL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81sX16TkziL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81dxhtK3CKL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61PEr-Aj+rL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61uEhUAoPPL._AC_SL1500_.jpg"
+  ],
+  "en": {
+    "title": "Elite Sports BJJ GI for Men IBJJF Kimono BJJ Jiujitsu GIS W/Preshrunk Fabric & Free Belt (See Special Sizing Guide)",
+    "bullets": [],
+    "description": "",
+    "specs": {
+      "Item model number\n": "ET500",
+      "Department\n": "Unisex",
+      "Manufacturer\n": "Elite Sports"
+    }
+  },
+  "ko": {
+    "title": "엘리트스포츠 주짓수 도복 남성 프리미엄 IBJJF 기모노 방축 원단 흰띠 포함 6컬러",
+    "headline": "해외에서 찾은 주짓수도복",
+    "subheadline": "해외에서 들여오는 엘리트스포츠 주짓수도복이에요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "사전수축 원단",
+        "body": "사전 수축된 원단을 사용하여 세탁 후 변형을 줄여줍니다."
+      },
+      {
+        "title": "벨트 포함",
+        "body": "구매 시 무료 벨트가 함께 구성되어 있습니다."
+      },
+      {
+        "title": "경기용 규격",
+        "body": "IBJJF 규정에 맞춘 주짓수 도복입니다."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "모델번호",
+        "value": "ET500"
+      },
+      {
+        "label": "성별",
+        "value": "공용"
+      },
+      {
+        "label": "제조사",
+        "value": "Elite Sports"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "주짓수도복",
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈",
+      "연말선물",
+      "남자친구선물",
+      "감성소품",
+      "해외디자인"
+    ]
+  },
+  "locales": {}
+}

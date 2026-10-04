@@ -1,0 +1,143 @@
+{
+  "id": 458,
+  "handle": "hazbin-hotel-alastor-pin-458",
+  "group": "hazbin-hotel",
+  "vendor": "Hazbin Hotel",
+  "source_url": "https://hazbinhotel.com/products/alastor-pin",
+  "naver_no": "13783928401",
+  "naver_display": "ON",
+  "price_krw": 36740,
+  "list_price_krw": 53280,
+  "total_cost_krw": 32488,
+  "krw_cost": 20338,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 15,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 150,
+  "keyword": "해즈빈호텔 굿즈",
+  "options": [
+    {
+      "name": "캐릭터",
+      "values": [
+        {
+          "label": "알래스터",
+          "add_price": 0
+        },
+        {
+          "label": "엔젤더스트",
+          "add_price": 0
+        },
+        {
+          "label": "찰리",
+          "add_price": 0
+        },
+        {
+          "label": "에그보이즈",
+          "add_price": 0
+        },
+        {
+          "label": "니프티",
+          "add_price": 0
+        },
+        {
+          "label": "서 펜티어스",
+          "add_price": 0
+        },
+        {
+          "label": "배기",
+          "add_price": 0
+        },
+        {
+          "label": "발렌티노",
+          "add_price": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/20251113_A24_HazbinHotel_Alastor_Pin_11958.jpg?v=1763589664"
+  ],
+  "en": {
+    "title": "Alastor Pin",
+    "bullets": [],
+    "description": "So, what do you think?! Premium hard enamel pin.",
+    "specs": {
+      "Weight": "227 g"
+    }
+  },
+  "ko": {
+    "title": "해즈빈호텔 캐릭터 에나멜 핀 알래스터 엔젤더스트 찰리 니프티 등 8종",
+    "headline": "알래스터 뱃지, 원하던 디자인 그대로",
+    "subheadline": "해외에서 들여오는 해즈빈 호텔 뱃지예요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "알래스터 핀",
+        "body": "해즈빈 호텔의 알래스터 디자인 하드에나멜 핀 상품이에요."
+      },
+      {
+        "title": "에나멜 소재",
+        "body": "단단한 하드에나멜 재질로 제작된 핀입니다."
+      },
+      {
+        "title": "미국 수입",
+        "body": "미국에서 배송되는 해즈빈 호텔 굿즈 상품이에요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "중량",
+        "value": "227g"
+      },
+      {
+        "label": "소재",
+        "value": "하드에나멜"
+      },
+      {
+        "label": "제조국",
+        "value": "미국"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "뱃지",
+      "핀뱃지",
+      "캐릭터뱃지",
+      "빈티지뱃지",
+      "뱃지디자인",
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈"
+    ]
+  },
+  "locales": {}
+}

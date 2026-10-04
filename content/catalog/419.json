@@ -1,0 +1,135 @@
+{
+  "id": 419,
+  "handle": "tech-m5stack-official-m5go-iot-starter-kit-v27-419",
+  "group": "tech",
+  "vendor": "M5Stack",
+  "source_url": "https://www.amazon.com/dp/B0C7QVY41L",
+  "naver_no": "13783905331",
+  "naver_display": "ON",
+  "price_krw": 168570,
+  "list_price_krw": 244430,
+  "total_cost_krw": 147767,
+  "krw_cost": 132737,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 97.9,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 800,
+  "keyword": "M5Stack M5GO IoT 스타터 키트",
+  "options": [],
+  "images": [
+    "https://m.media-amazon.com/images/I/7179DLUaPhL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61pOci-kwbL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61h-PGhzWLL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61G-AencrPL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71fgUKqtyDL._AC_SL1500_.jpg"
+  ],
+  "en": {
+    "title": "M5Stack Official M5GO IoT Starter Kit V2.7",
+    "bullets": [
+      "Comprehensive IoT Starter Kit: The M5GO IoT Starter Kit v2.7 is a cost-effective development kit that includes the Core Controller M5GO and six expansion units with various functions. This kit provides everything you need to kickstart your IoT projects, including sensors, actuators, and splitters.",
+      "Powerful ESP32 Development Platform: The Core Controller M5GO is based on the ESP32 chip, featuring two low-power Xtensa 32-bit LX6 microprocessors with a main frequency of 240MHz. With 16MB FLASH memory, it supports larger program sizes, making it ideal for complex IoT applications.",
+      "Integrated HD IPS Display and Hardware Peripherals: The kit includes an integrated 2.0-inch HD IPS display panel and various hardware peripherals. This allows for a rich user interface and interaction, enhancing the usability and functionality of your IoT projects.",
+      "Compatibility and Expandability: The M5GO IoT Starter Kit v2.7 offers compatibility with M5Stack stacking modules and sensors, providing a wide range of resources and expandability options. The base is also compatible with 8mm size LEGO blocks, allowing for creative and customizable structures.",
+      "Versatile Development Platforms: This kit supports multiple development platforms, including UIFlow, MicroPython, A rduino, and .NET nanoFramework. Whether you prefer graphical programming or traditional coding, the M5GO IoT Starter Kit v2.7 accommodates your preferred development style."
+    ],
+    "description": "",
+    "specs": {
+      "Memory Storage Capacity": "16 MB",
+      "Processor Speed": "240 MHz",
+      "Connectivity Technology": "GPIO, I2C, USB",
+      "Operating System": "UIFlow, Arduino, ESP32-IDF",
+      "Processor Brand": "Espressif",
+      "Wireless Compability": "Infrared",
+      "Compatible Devices": "M5Stack stacking modules, sensors, 8mm size LEGO blocks",
+      "RAM Memory Technology": "SRAM",
+      "Processor Count": "2",
+      "Total Usb Ports": "1",
+      "Brand": "M5Stack",
+      "Model Name": "M5GO IoT Starter Kit v2.7",
+      "Built-In Media": "1x M5GO, 6x Expansion Units (ENV III, IR, RGB, PIR, ANGLE, HUB), 4x LEGO Blocks, 12x LEGO Connections, 4x GROVE Cables, 1x Type-C USB Cable (20cm), 1x Quick Start Guide",
+      "Number of Items": "1",
+      "Item Highlight": "ESP32 IoT kit with 2.0\" display, 6 sensor units, Wi-Fi, 16MB Flash, mic & speaker, for STEM & smart home projects.",
+      "Manufacturer": "M5Stack Technology Co., Ltd.",
+      "Model Number": "M5GO IoT Starter Kit v2.7"
+    }
+  },
+  "ko": {
+    "title": "M5스택 M5GO IoT 스타터 키트 V2.7 ESP32 개발보드 센서 유닛 블록코딩 지원",
+    "headline": "해외에서 찾은 개발키트",
+    "subheadline": "해외에서 들여오는 M5Stack 개발키트예요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "IoT 스타터 키트",
+        "body": "코어 컨트롤러와 다양한 기능을 가진 6개의 확장 유닛이 포함되어 있어요."
+      },
+      {
+        "title": "ESP32 플랫폼",
+        "body": "16MB 플래시 메모리와 240MHz 주파수를 지원하는 프로세서가 탑재되어 있어요."
+      },
+      {
+        "title": "디스플레이 탑재",
+        "body": "2.0인치 HD IPS 디스플레이 패널과 다양한 하드웨어 주변 장치가 포함되어 있어요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "메모리 용량",
+        "value": "16 MB"
+      },
+      {
+        "label": "프로세서 속도",
+        "value": "240 MHz"
+      },
+      {
+        "label": "브랜드",
+        "value": "M5Stack"
+      },
+      {
+        "label": "크기",
+        "value": "약 5.1cm"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈",
+      "연말선물",
+      "여자친구선물",
+      "남자친구선물",
+      "감성소품",
+      "해외디자인"
+    ]
+  },
+  "locales": {}
+}

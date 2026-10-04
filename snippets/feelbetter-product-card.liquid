@@ -1,0 +1,102 @@
+{% comment %}
+  FeelBetter product card. Image (swaps to the second image on hover when there is
+  one), vendor as a mono eyebrow, serif title, price, first tag chip and the
+  "Overseas purchase" badge. The whole card is clickable (stretched link on the
+  title); the tag chip stays its own link.
+
+  Accepts:
+  - product {Object}
+  - show_vendor {Boolean} - default true
+  - show_secondary_image {Boolean} - hover-swap to the second image (default true)
+  - show_tag {Boolean} - first tag as a chip (default true)
+  - lazy {Boolean} - lazy-load the image (default true)
+  - heading_tag {String} - 'h2' or 'h3' (default 'h3')
+  - sizes {String} - img sizes attribute (default: 3-column grid)
+  - view_context {String} - standard_event_data context (default 'collection')
+
+  Usage:
+  {% render 'feelbetter-product-card', product: product, view_context: 'collection' %}
+{% endcomment %}
+{%- liquid
+  assign show_vendor = show_vendor | default: true, allow_false: true
+  assign show_secondary_image = show_secondary_image | default: true, allow_false: true
+  assign show_tag = show_tag | default: true, allow_false: true
+  assign heading_tag = heading_tag | default: 'h3'
+  assign view_context = view_context | default: 'collection'
+  assign loading = 'lazy'
+  if lazy == false
+    assign loading = 'eager'
+  endif
+  if sizes == blank
+    assign sizes = '(min-width: 990px) 30vw, 50vw'
+  endif
+  assign media = product.featured_media
+  assign secondary = blank
+  if show_secondary_image and product.media.size > 1
+    assign secondary = product.media[1]
+    if secondary.id == media.id
+      assign secondary = product.media[0]
+    endif
+  endif
+  assign on_sale = false
+  if product.available and product.compare_at_price > product.price
+    assign on_sale = true
+  endif
+-%}
+{%- if product and product != empty -%}
+  <product-component view-event-payload="{{ product | standard_event_data: 'view', context: view_context | escape }}">
+    <article class="fb-pcard fb-card{% unless product.available %} fb-pcard--sold-out{% endunless %}{% if secondary != blank %} fb-pcard--swap{% endif %}">
+      <div class="fb-pcard__media{% unless media %} fb-pcard__media--empty{% endunless %}"{% unless media %} aria-hidden="true"{% endunless %}>
+        {%- if media -%}
+          {{
+            media.preview_image
+            | image_url: width: 1200
+            | image_tag:
+              loading: loading,
+              sizes: sizes,
+              widths: '300, 400, 600, 800, 1000, 1200',
+              class: 'fb-pcard__img fb-pcard__img--primary'
+          }}
+          {%- if secondary != blank -%}
+            {{
+              secondary.preview_image
+              | image_url: width: 1200
+              | image_tag:
+                loading: 'lazy',
+                sizes: sizes,
+                widths: '300, 400, 600, 800, 1000, 1200',
+                class: 'fb-pcard__img fb-pcard__img--secondary'
+            }}
+          {%- endif -%}
+        {%- else -%}
+          <span class="fb-pcard__mark">f</span>
+        {%- endif -%}
+        <ul class="fb-badges fb-pcard__badges" role="list">
+          <li class="fb-badge fb-badge--overseas">{{ 'feelbetter.plp.badge_overseas' | t }}</li>
+          {%- if product.available == false -%}
+            <li class="fb-badge fb-badge--muted">{{ 'products.product.sold_out' | t }}</li>
+          {%- elsif on_sale -%}
+            <li class="fb-badge fb-badge--sale">{{ 'products.product.on_sale' | t }}</li>
+          {%- endif -%}
+        </ul>
+      </div>
+      <div class="fb-pcard__body">
+        {%- if show_vendor and product.vendor != blank -%}
+          <p class="fb-pcard__vendor fb-mono">
+            <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
+            {{- product.vendor | escape -}}
+          </p>
+        {%- endif -%}
+        <{{ heading_tag }} class="fb-pcard__title">
+          <a class="fb-pcard__link" href="{{ product.url }}">{{ product.title | escape }}</a>
+        </{{ heading_tag }}>
+        <div class="fb-pcard__price">
+          {% render 'price', product: product, price_class: '', show_compare_at_price: true %}
+        </div>
+        {%- if show_tag -%}
+          {% render 'feelbetter-tag-chips', product: product, limit: 1, class: 'fb-pcard__tags', chip_class: 'fb-pcard__chip' %}
+        {%- endif -%}
+      </div>
+    </article>
+  </product-component>
+{%- endif -%}

@@ -844,6 +844,49 @@
       "h_contact": "お問い合わせ",
       "contact_text": "Questions about an order or a request go through the contact page. The company site, feelbetter.agency, has the concierge app and the long-form journal.",
       "cta": "依頼する"
+    },
+    "pdp": {
+      "description_eyebrow": "この商品について",
+      "trust_label": "ここで買える理由",
+      "trust_verified": "確認済み販売元",
+      "trust_overseas": "リクエストに応じて海外から購入代行",
+      "trust_delivery": "通常7〜14営業日でお届け",
+      "trust_checkout": "安全なShopifyチェックアウト",
+      "ask_text": "別のサイズや色をお探しですか？",
+      "ask_link": "コンシェルジュに相談する",
+      "browse_label": "似ている商品",
+      "related_eyebrow": "関連商品",
+      "related_heading": "こちらもおすすめ",
+      "related_all": "カタログを見る"
+    },
+    "plp": {
+      "eyebrow": "コレクション",
+      "count": {
+        "one": "{{ count }}点の商品",
+        "other": "{{ count }}点の商品"
+      },
+      "ask_text": "お探しのものが見つかりませんか？",
+      "ask_link": "コンシェルジュに相談する",
+      "badge_overseas": "海外購入代行",
+      "catalog_eyebrow": "カタログ",
+      "catalog_title": "コレクション",
+      "catalog_text": "よくリクエストされるものを、すぐ注文できる形でまとめました。それ以外は、ひとこと伝えるだけ。",
+      "catalog_all": "すべての商品",
+      "catalog_ask_heading": "見つかりませんか？",
+      "catalog_ask_text": "見かけたものを教えてください。1時間以内に、確認済みのリンクをひとつお届けします。",
+      "catalog_ask_cta": "コンシェルジュに相談する",
+      "view_collection": "コレクションを見る",
+      "empty": "まだコレクションはありません。"
+    },
+    "search": {
+      "eyebrow": "検索",
+      "heading": "何をお探しですか？",
+      "results_for": "「{{ terms }}」の検索結果",
+      "no_results_heading": "「{{ terms }}」に一致するものはありませんでした。",
+      "no_results_text": "下のおすすめから選ぶか、コンシェルジュに探してもらいましょう。",
+      "ask_link": "コンシェルジュに相談する",
+      "suggestions_heading": "人気の検索ワード",
+      "suggestions": "オタマトーン|カーハート ジャケット|スクイッシュマロ|ちいかわ|AIぬいぐるみ|カービィ|サンリオ|プシーン"
     }
   }
 }

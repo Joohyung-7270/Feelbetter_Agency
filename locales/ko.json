@@ -844,6 +844,49 @@
       "h_contact": "문의",
       "contact_text": "Questions about an order or a request go through the contact page. The company site, feelbetter.agency, has the concierge app and the long-form journal.",
       "cta": "요청하기"
+    },
+    "pdp": {
+      "description_eyebrow": "상품 소개",
+      "trust_label": "여기서 사도 되는 이유",
+      "trust_verified": "검증된 판매처",
+      "trust_overseas": "요청 시 해외 구매대행",
+      "trust_delivery": "보통 영업일 7~14일 안에 도착",
+      "trust_checkout": "안전한 Shopify 결제",
+      "ask_text": "다른 사이즈나 색상이 필요하신가요?",
+      "ask_link": "컨시어지에게 물어보기",
+      "browse_label": "비슷한 상품",
+      "related_eyebrow": "함께 보기",
+      "related_heading": "이런 상품은 어떠세요",
+      "related_all": "카탈로그 둘러보기"
+    },
+    "plp": {
+      "eyebrow": "컬렉션",
+      "count": {
+        "one": "상품 {{ count }}개",
+        "other": "상품 {{ count }}개"
+      },
+      "ask_text": "찾는 상품이 없나요?",
+      "ask_link": "컨시어지에게 물어보기",
+      "badge_overseas": "해외 구매대행",
+      "catalog_eyebrow": "카탈로그",
+      "catalog_title": "컬렉션",
+      "catalog_text": "자주 요청받는 것들을 바로 주문할 수 있게 모았습니다. 그 밖의 것은 말씀만 하세요.",
+      "catalog_all": "전체 상품",
+      "catalog_ask_heading": "찾는 게 없나요?",
+      "catalog_ask_text": "보신 것을 말씀해 주세요. 한 시간 안에 검증된 링크 하나를 보내드립니다.",
+      "catalog_ask_cta": "컨시어지에게 물어보기",
+      "view_collection": "컬렉션 보기",
+      "empty": "아직 컬렉션이 없습니다."
+    },
+    "search": {
+      "eyebrow": "검색",
+      "heading": "무엇을 찾으세요?",
+      "results_for": "“{{ terms }}” 검색 결과",
+      "no_results_heading": "“{{ terms }}”에 대한 결과가 없습니다.",
+      "no_results_text": "아래 추천 검색어를 눌러 보시거나, 컨시어지에게 찾아달라고 요청해 보세요.",
+      "ask_link": "컨시어지에게 물어보기",
+      "suggestions_heading": "추천 검색어",
+      "suggestions": "오타마톤|칼하트 자켓|스퀴시멜로우|치이카와|AI 인형|커비|산리오|푸신"
     }
   }
 }

@@ -1,0 +1,109 @@
+{
+  "id": 467,
+  "handle": "hazbin-hotel-duck-season-alastor-mug-467",
+  "group": "hazbin-hotel",
+  "vendor": "Hazbin Hotel",
+  "source_url": "https://hazbinhotel.com/products/duck-season-alastor-mug",
+  "naver_no": "13783929766",
+  "naver_display": "ON",
+  "price_krw": 47690,
+  "list_price_krw": 69160,
+  "total_cost_krw": 42147,
+  "krw_cost": 27117,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 20,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 700,
+  "keyword": "해즈빈호텔 굿즈",
+  "options": [],
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/Mug_c02b5428-7ed6-4fec-a8e9-46e715e9a22d.jpg?v=1781281130"
+  ],
+  "en": {
+    "title": "\"Duck Season\" Alastor Mug",
+    "bullets": [],
+    "description": "Dumb. Dead. Ha. Ha. Ha. Ha. Ha. Double-sided ceramic mug used by Alastor.",
+    "specs": {
+      "Weight": "227 g"
+    }
+  },
+  "ko": {
+    "title": "해즈빈호텔 알래스터 덕시즌 머그컵 라디오 데몬 커피잔 선물",
+    "headline": "홈카페가 완성되는 머그컵",
+    "subheadline": "해외에서 들여오는 알래스터 머그컵이에요. 늘 마시던 한 잔도 좋아하는 그릇에 담으면 기분이 달라져요.",
+    "for_whom": [
+      "홈카페를 꾸미는 분",
+      "알래스터 굿즈를 모으는 분",
+      "집들이·신혼 선물을 고르는 분",
+      "매일 쓰는 식기부터 바꾸고 싶은 분"
+    ],
+    "selling_points": [
+      {
+        "title": "양면 디자인",
+        "body": "양면에 문구와 이미지가 인쇄되어 있는 세라믹 머그컵이에요."
+      },
+      {
+        "title": "세라믹 소재",
+        "body": "도자기 재질로 만들어져 음료를 담아 마실 수 있어요."
+      },
+      {
+        "title": "가벼운 무게",
+        "body": "약 227g의 무게로 제작되어 가볍게 사용할 수 있어요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "선물로도 좋아요",
+        "body": "취향을 크게 타지 않으면서도 받는 사람을 떠올리게 하는 선물이에요."
+      },
+      {
+        "title": "매일 쓰는 것부터",
+        "body": "하루에 몇 번씩 손이 가는 식기는 작은 차이가 크게 느껴져요. 좋아하는 디자인이면 마시는 시간이 짧은 휴식이 돼요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "무게",
+        "value": "227g"
+      },
+      {
+        "label": "소재",
+        "value": "세라믹"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "식기세척기·전자레인지 써도 되나요?",
+        "a": "제품 안내에 따로 표시가 없으면 손세척을 권해요. 문의 주시면 확인해 드려요."
+      },
+      {
+        "q": "배송 중 파손이 걱정돼요",
+        "a": "완충 포장해 보내드려요. 받으신 뒤 문제가 있으면 바로 연락 주세요."
+      }
+    ],
+    "cautions": [
+      "용량·크기는 상품 정보의 수치를 확인해 주세요.",
+      "수작업 공정이 있는 제품은 무늬·색이 조금씩 다를 수 있어요."
+    ],
+    "closing": "식탁 위 작은 기분 전환",
+    "tags": [
+      "머그컵",
+      "예쁜머그컵",
+      "아이머그컵",
+      "머그컵선물",
+      "수입머그컵",
+      "캐릭터머그컵",
+      "세라믹머그컵",
+      "홈카페",
+      "집들이선물",
+      "신혼선물"
+    ]
+  },
+  "locales": {}
+}

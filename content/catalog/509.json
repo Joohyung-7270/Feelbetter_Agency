@@ -1,0 +1,101 @@
+{
+  "id": 509,
+  "handle": "opanchu-usagi--509",
+  "group": "opanchu-usagi",
+  "vendor": "",
+  "source_url": "https://perfectworld.shop/?pid=191452639",
+  "naver_no": "13783981823",
+  "naver_display": "ON",
+  "price_krw": 33540,
+  "list_price_krw": 48640,
+  "total_cost_krw": 29691,
+  "krw_cost": 17541,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 1045,
+  "source_currency": "JPY",
+  "origin": "일본",
+  "weight_g": 150,
+  "keyword": "오판츄우사기 굿즈",
+  "options": [],
+  "images": [
+    "https://img07.shop-pro.jp/PA01418/427/product/191452639.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191452639_o1.jpg",
+    "https://img07.shop-pro.jp/PA01418/427/product/191452639_o2.jpg"
+  ],
+  "en": {
+    "title": "おぱんちゅうさぎ 塗り箸 シック 食器",
+    "bullets": [],
+    "description": "おぱんちゅうさぎの使いやすく持ちやすい箸です。先端部分は、食べ物をつかみやすくするためにすべり止め加工がしてあります♪おぱんちゅうさぎと一緒ならお食事も楽しくなること間違いなしです☆彡【サイズ：21cm】",
+    "specs": {}
+  },
+  "ko": {
+    "title": "오판츄우사기 옻칠 젓가락 시크 디자인 캐릭터 식기 커플 수저",
+    "headline": "오판츄우사기 젓가락, 찾던 그 제품",
+    "subheadline": "해외에서 들여오는 오판츄우사기 젓가락이에요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "편리한 사용감",
+        "body": "사용하기 쉽고 손에 쥐기 편한 형태로 제작되었어요."
+      },
+      {
+        "title": "미끄럼 방지",
+        "body": "끝부분에 미끄럼 방지 가공이 되어 있어 음식을 집기 편해요."
+      },
+      {
+        "title": "식사 시간",
+        "body": "오판츄우사기와 함께 즐거운 식사 시간을 보낼 수 있어요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      },
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "사이즈",
+        "value": "21cm"
+      },
+      {
+        "label": "크기",
+        "value": "약 21cm"
+      },
+      {
+        "label": "원산지",
+        "value": "해외"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "젓가락",
+      "캐릭터젓가락",
+      "논슬립젓가락",
+      "선물추천",
+      "생일선물",
+      "집들이선물",
+      "인테리어소품",
+      "캐릭터굿즈",
+      "연말선물",
+      "여자친구선물"
+    ]
+  },
+  "locales": {}
+}

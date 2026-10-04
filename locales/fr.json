@@ -856,6 +856,49 @@
       "h_contact": "Contact",
       "contact_text": "Questions about an order or a request go through the contact page. The company site, feelbetter.agency, has the concierge app and the long-form journal.",
       "cta": "Faire une demande"
+    },
+    "pdp": {
+      "description_eyebrow": "À propos de ce produit",
+      "trust_label": "Pourquoi acheter ici",
+      "trust_verified": "Vendeur vérifié",
+      "trust_overseas": "Achat à l'étranger, à la demande",
+      "trust_delivery": "Livraison en général sous 7 à 14 jours ouvrés",
+      "trust_checkout": "Paiement sécurisé Shopify",
+      "ask_text": "Besoin d'une autre taille ou d'une autre couleur ?",
+      "ask_link": "Demandez au concierge",
+      "browse_label": "Dans le même esprit",
+      "related_eyebrow": "Associés",
+      "related_heading": "Vous aimerez peut-être aussi",
+      "related_all": "Voir le catalogue"
+    },
+    "plp": {
+      "eyebrow": "Collection",
+      "count": {
+        "one": "{{ count }} produit",
+        "other": "{{ count }} produits"
+      },
+      "ask_text": "Vous ne trouvez pas ce que vous cherchez ?",
+      "ask_link": "Demandez au concierge",
+      "badge_overseas": "Achat à l'étranger",
+      "catalog_eyebrow": "Catalogue",
+      "catalog_title": "Collections",
+      "catalog_text": "Ce qu'on nous demande encore et encore, prêt à commander. Pour tout le reste : il suffit de demander.",
+      "catalog_all": "Tous les produits",
+      "catalog_ask_heading": "Introuvable ?",
+      "catalog_ask_text": "Dites-nous ce que vous avez vu. Un lien vérifié, en moins d'une heure.",
+      "catalog_ask_cta": "Demandez au concierge",
+      "view_collection": "Voir la collection",
+      "empty": "Pas encore de collections."
+    },
+    "search": {
+      "eyebrow": "Recherche",
+      "heading": "Que cherchez-vous ?",
+      "results_for": "Résultats pour « {{ terms }} »",
+      "no_results_heading": "Aucun résultat pour « {{ terms }} ».",
+      "no_results_text": "Essayez l'une de ces recherches, ou demandez au concierge de le trouver pour vous.",
+      "ask_link": "Demandez au concierge",
+      "suggestions_heading": "Recherches populaires",
+      "suggestions": "Otamatone|Veste Carhartt|Squishmallows|Chiikawa|Peluche IA|Kirby|Sanrio|Pusheen"
     }
   }
 }

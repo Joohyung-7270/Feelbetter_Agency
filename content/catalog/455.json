@@ -1,0 +1,128 @@
+{
+  "id": 455,
+  "handle": "hazbin-hotel-logo-tote-bag-455",
+  "group": "hazbin-hotel",
+  "vendor": "Hazbin Hotel",
+  "source_url": "https://hazbinhotel.com/products/logo-tote-bag",
+  "naver_no": "13783928354",
+  "naver_display": "ON",
+  "price_krw": 28980,
+  "list_price_krw": 42030,
+  "total_cost_krw": 25708,
+  "krw_cost": 13558,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 10,
+  "source_currency": "USD",
+  "origin": "미국",
+  "weight_g": 300,
+  "keyword": "해즈빈호텔 굿즈",
+  "options": [
+    {
+      "name": "디자인",
+      "values": [
+        {
+          "label": "호텔 로고",
+          "add_price": 0
+        },
+        {
+          "label": "복스텍",
+          "add_price": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0739/8545/8482/files/4x5_a9bb4a14-3d14-4dcc-bff5-31aa599d89b1.jpg?v=1778169212"
+  ],
+  "en": {
+    "title": "Logo Tote Bag",
+    "bullets": [],
+    "description": "Carry those sins in style. 14\" x 16\", 100% cotton canvas.",
+    "specs": {
+      "Tags": "LVL Up 2026",
+      "Weight": "227 g"
+    }
+  },
+  "ko": {
+    "title": "해즈빈호텔 로고 에코 토트백 복스텍 디자인 데일리 캔버스 가방 2종",
+    "headline": "오늘 코디의 포인트, 토트백 하나로",
+    "subheadline": "해외에서 들여오는 해즈빈호텔 토트백이에요. 사이즈는 아래 상품 정보에서 꼭 확인해 주세요.",
+    "for_whom": [
+      "국내에 흔하지 않은 디자인을 찾는 분",
+      "해즈빈호텔 스타일을 좋아하는 분",
+      "선물을 고르는 분",
+      "계절 코디에 포인트가 필요한 분"
+    ],
+    "selling_points": [
+      {
+        "title": "코튼 캔버스 소재",
+        "body": "면 캔버스 소재로 제작된 가방이에요."
+      },
+      {
+        "title": "넉넉한 크기",
+        "body": "14인치 x 16인치 크기로 제작되었어요."
+      },
+      {
+        "title": "가벼운 무게",
+        "body": "227g의 무게로 가볍게 들기 좋아요."
+      }
+    ],
+    "sections": [
+      {
+        "title": "선물로도 좋아요",
+        "body": "받는 사람의 취향을 담을 수 있는 선물이에요."
+      },
+      {
+        "title": "사이즈를 먼저 확인하세요",
+        "body": "해외 사이즈는 국내와 다를 수 있어요. 상품 정보의 실측을 평소 입는 옷과 비교해 보세요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "소재",
+        "value": "100% 면 캔버스"
+      },
+      {
+        "label": "크기",
+        "value": "35.5x40.6cm"
+      },
+      {
+        "label": "무게",
+        "value": "227g"
+      },
+      {
+        "label": "원산지",
+        "value": "미국"
+      }
+    ],
+    "faq": [
+      {
+        "q": "사이즈가 국내와 같나요?",
+        "a": "해외 사이즈라 국내와 다를 수 있어요. 실측을 비교해 보시고, 궁금하면 문의 주세요."
+      },
+      {
+        "q": "교환·반품이 되나요?",
+        "a": "해외 구매대행 상품이라 단순 변심 반품은 국제 배송비가 들어요. 주문 전 사이즈를 꼭 확인해 주세요."
+      }
+    ],
+    "cautions": [
+      "해외 사이즈 기준이라 국내 사이즈와 다를 수 있어요.",
+      "단순 변심 교환·반품은 국제 배송비가 발생해요."
+    ],
+    "closing": "흔하지 않은 디자인, 지금 골라 보세요",
+    "tags": [
+      "토트백",
+      "캔버스토트백",
+      "예쁜토트백",
+      "코튼토트백",
+      "데일리룩",
+      "선물추천",
+      "커플아이템",
+      "겨울코디",
+      "여자친구선물",
+      "남자친구선물"
+    ]
+  },
+  "locales": {}
+}

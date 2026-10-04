@@ -1,0 +1,123 @@
+{
+  "id": 435,
+  "handle": "pingu-pg--435",
+  "group": "pingu",
+  "vendor": "",
+  "source_url": "https://www.pingu-store.jp/?pid=163804262",
+  "naver_no": "13783918284",
+  "naver_display": "ON",
+  "price_krw": 37810,
+  "list_price_krw": 54830,
+  "total_cost_krw": 33519,
+  "krw_cost": 18489,
+  "duty_krw": 0,
+  "import_vat_krw": 0,
+  "source_price": 1155,
+  "source_currency": "JPY",
+  "origin": "일본",
+  "weight_g": 500,
+  "keyword": "핑구 굿즈",
+  "options": [
+    {
+      "name": "컬러",
+      "values": [
+        {
+          "label": "그린",
+          "add_price": 0
+        },
+        {
+          "label": "그레이",
+          "add_price": 0
+        },
+        {
+          "label": "블루",
+          "add_price": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    "https://img07.shop-pro.jp/PA01428/996/product/163804262.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/163804262_o1.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/163804262_o2.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/163804262_o3.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/163804262_o4.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/163804262_o5.jpg",
+    "https://img07.shop-pro.jp/PA01428/996/product/163804262_o6.jpg"
+  ],
+  "en": {
+    "title": "スタッキンググラス（ピンガ）グリーン　PG - ピングーグッズ公式オンラインストア",
+    "bullets": [],
+    "description": "ピングーグッズの公式通販サイト。ピングーグッズが何でもそろう専門ショップ。ピングーグッズはピングー公式オンラインストアで",
+    "specs": {}
+  },
+  "ko": {
+    "title": "핑구 동생 핑가 스태킹 유리잔 겹쳐 보관 홈카페 글라스 3컬러",
+    "headline": "핑구 유리컵, 찾던 그 제품",
+    "subheadline": "해외에서 들여오는 핑구 유리컵이에요. 상품 정보를 확인하고 편하게 주문하세요.",
+    "for_whom": [
+      "국내에서 찾기 어려운 제품을 찾는 분",
+      "해외 디자인을 좋아하는 분",
+      "선물을 고르는 분"
+    ],
+    "selling_points": [
+      {
+        "title": "그린 컬러 유리컵",
+        "body": "그린 컬러가 적용된 핑구 유리컵입니다."
+      },
+      {
+        "title": "스택형 디자인",
+        "body": "차곡차곡 포개어 보관할 수 있는 컵입니다."
+      },
+      {
+        "title": "캐릭터 굿즈",
+        "body": "핀가 디자인이 포함된 유리컵입니다."
+      }
+    ],
+    "sections": [
+      {
+        "title": "찾던 제품이라면",
+        "body": "국내에서 구하기 어려운 제품을 현지에서 직접 매입해 보내드려요."
+      },
+      {
+        "title": "구매 전 확인해 주세요",
+        "body": "크기·구성은 아래 상품 정보에서 확인해 주세요."
+      }
+    ],
+    "spec_rows": [
+      {
+        "label": "색상",
+        "value": "그린"
+      },
+      {
+        "label": "종류",
+        "value": "유리컵"
+      },
+      {
+        "label": "원산지",
+        "value": "해외"
+      }
+    ],
+    "faq": [
+      {
+        "q": "언제 받을 수 있나요?",
+        "a": "해외 구매대행 상품이라 주문 후 현지에서 매입해 보내드려요. 보통 영업일 7~14일 정도 걸려요."
+      }
+    ],
+    "cautions": [],
+    "closing": "찾던 제품, 지금 만나 보세요",
+    "tags": [
+      "유리컵",
+      "홈카페유리컵",
+      "예쁜유리컵",
+      "유리컵선물",
+      "빈티지유리컵",
+      "고급유리컵",
+      "수입유리컵",
+      "선물추천",
+      "생일선물",
+      "집들이선물"
+    ]
+  },
+  "locales": {}
+}

@@ -3,11 +3,13 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "title": "Collections",
+        "title": "",
+        "text": "",
         "sort": "alphabetical",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "columns_mobile": "2"
+        "show_ask": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 64,
+        "padding_bottom": 88
       }
     }
   },
