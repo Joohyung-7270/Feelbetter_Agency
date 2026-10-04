@@ -98,5 +98,195 @@
       "해외디자인"
     ]
   },
-  "locales": {}
+  "locales": {
+    "en": {
+      "title": "Pingu × Tuxedo Sam Gauze Towel Handkerchief – Retro Blue",
+      "meta_title": "Pingu × Tuxedo Sam Gauze Towel Handkerchief",
+      "meta_description": "Gauze towel handkerchief from the Pingu × Tuxedo Sam collaboration in Retro Blue, bought from Pingu's official store in Japan. Delivery in 7–14 business days.",
+      "headline": "A Pingu × Tuxedo Sam collaboration gauze towel handkerchief in Retro Blue",
+      "intro": "This gauze towel handkerchief comes from the collaboration between Pingu and Tuxedo Sam, in the colourway the store calls TXPG Retro Blue. Once you place an order, FeelBetter buys it from Pingu's official online store in Japan and ships it to you.",
+      "highlights": [
+        "It is bought from Pingu's official online store in Japan, so you receive genuine Pingu merchandise.",
+        "It is a collaboration with Tuxedo Sam, which makes it a pick for fans of either character.",
+        "It is a gauze towel handkerchief, meant for light everyday use.",
+        "The Retro Blue colour gives it a soft, nostalgic look.",
+        "A concierge checks the model, variant, stock and price before listing, so you can order with more confidence."
+      ],
+      "sections": [
+        {
+          "h": "Everyday use",
+          "p": "Keep it in a pocket or a bag and use it as a handkerchief whenever you need one. It is meant for light, casual use in your daily routine."
+        },
+        {
+          "h": "A collaboration item",
+          "p": "On the original listing the colourway is named TXPG Retro Blue, and the item is marked as a Tuxedo Sam collaboration. It also makes a small gift for fans of Pingu or Tuxedo Sam."
+        }
+      ],
+      "cautions": [
+        "Size and fabric details are not stated in the source listing; please check the photos."
+      ]
+    },
+    "ko": {
+      "title": "Pingu × Tuxedo Sam 콜라보 거즈 타월 손수건 – 레트로 블루",
+      "meta_title": "Pingu × Tuxedo Sam 콜라보 거즈 타월 손수건",
+      "meta_description": "일본 Pingu 공식 온라인 스토어에서 매입해 보내드리는 Pingu × Tuxedo Sam 콜라보 거즈 타월 손수건이에요. 레트로 블루 색상이고 보통 영업일 7~14일 걸려요.",
+      "headline": "Pingu × Tuxedo Sam 콜라보로 만든 레트로 블루 거즈 타월 손수건",
+      "intro": "이 거즈 타월 손수건은 Pingu와 Tuxedo Sam의 콜라보 상품으로, 스토어에서 TXPG 레트로 블루라고 부르는 색상이에요. 주문하시면 FeelBetter가 일본 Pingu 공식 온라인 스토어에서 매입해 보내드려요.",
+      "highlights": [
+        "일본 Pingu 공식 온라인 스토어에서 매입해서 정품 굿즈를 받아보실 수 있어요.",
+        "Tuxedo Sam과 콜라보한 상품이라 두 캐릭터 중 어느 쪽 팬에게나 반가운 아이템이에요.",
+        "거즈 타월 손수건이라 일상에서 가볍게 쓰기 좋아요.",
+        "레트로 블루 색상이 차분하고 복고풍인 분위기를 더해 줘요.",
+        "컨시어지가 모델, 옵션, 재고, 가격을 확인한 뒤에 올려서 더 안심하고 주문하실 수 있어요."
+      ],
+      "sections": [
+        {
+          "h": "이렇게 쓰세요",
+          "p": "주머니나 가방에 넣어 두고 필요할 때마다 손수건으로 사용해 보세요. 일상에서 가볍게 쓰기 좋은 타월 손수건이에요."
+        },
+        {
+          "h": "콜라보 상품이에요",
+          "p": "원본 상품 정보에는 Tuxedo Sam 콜라보 상품으로 표기되어 있고, 색상은 TXPG 레트로 블루라고 적혀 있어요. Pingu나 Tuxedo Sam 팬께 드리는 작은 선물로도 잘 어울려요."
+        }
+      ],
+      "cautions": [
+        "크기와 원단 구성은 원본 상품 정보에 없어요. 사진으로 확인해 주세요."
+      ]
+    },
+    "ja": {
+      "title": "Pingu × Tuxedo Sam コラボ ガーゼタオルハンカチ レトロブルー",
+      "meta_title": "Pingu × Tuxedo Sam コラボ ガーゼタオルハンカチ",
+      "meta_description": "日本のPingu公式オンラインストアで購入してお届けする、Pingu × Tuxedo Samコラボのガーゼタオルハンカチです。レトロブルーのデザインで、通常は営業日7〜14日でお届けします。",
+      "headline": "Pingu × Tuxedo Samのコラボで生まれた、レトロブルーのガーゼタオルハンカチ",
+      "intro": "こちらはPinguとTuxedo Samのコラボによるガーゼタオルハンカチで、ストアではTXPG レトロブルーという名前の色です。ご注文後、FeelBetterが日本のPingu公式オンラインストアで購入し、お客様にお届けします。",
+      "highlights": [
+        "Pingu公式オンラインストアで購入するため、正規のPinguグッズをお届けできます。",
+        "Tuxedo Samとのコラボ商品なので、どちらのキャラクターのファンにも喜ばれます。",
+        "ガーゼタオルのハンカチなので、毎日の暮らしで気軽に使いやすいです。",
+        "レトロブルーの色合いが、やわらかくどこか懐かしい雰囲気を添えます。",
+        "コンシェルジュがモデル・バリエーション・在庫・価格を確認してから掲載しているので、安心してご注文いただけます。"
+      ],
+      "sections": [
+        {
+          "h": "使い方",
+          "p": "ポケットやバッグに入れておき、必要なときにハンカチとしてお使いください。毎日の暮らしで気軽に使いやすいタオルハンカチです。"
+        },
+        {
+          "h": "コラボアイテムです",
+          "p": "元の商品情報ではTuxedo Samコラボの商品とされ、色はTXPG レトロブルーと記載されています。PinguやTuxedo Samが好きな方への小さなギフトにもぴったりです。"
+        }
+      ],
+      "cautions": [
+        "サイズと生地の詳細は元の商品情報に記載がありません。写真でご確認ください。"
+      ]
+    },
+    "zh-CN": {
+      "title": "Pingu × Tuxedo Sam 联名纱布毛巾手帕 复古蓝",
+      "meta_title": "Pingu × Tuxedo Sam 联名纱布毛巾手帕",
+      "meta_description": "从日本 Pingu 官方网店代购并寄送的 Pingu × Tuxedo Sam 联名纱布毛巾手帕，复古蓝配色。下单后通常 7–14 个工作日送达，物流追踪信息会通过邮件发送。",
+      "headline": "Pingu × Tuxedo Sam 联名的复古蓝纱布毛巾手帕",
+      "intro": "这款纱布毛巾手帕出自 Pingu 与 Tuxedo Sam 的联名合作，配色是店里称作 TXPG 复古蓝的款式。您下单后，FeelBetter 会从日本 Pingu 官方网店购买并寄给您。",
+      "highlights": [
+        "商品购自日本 Pingu 官方网店，您收到的是正规的 Pingu 周边。",
+        "这是与 Tuxedo Sam 的联名商品，喜欢其中任何一位角色的粉丝都会喜欢。",
+        "这是一条纱布毛巾手帕，适合日常轻松使用。",
+        "复古蓝的颜色带来柔和又怀旧的感觉。",
+        "上架前由礼宾核对型号、款式、库存和价格，让您下单更放心。"
+      ],
+      "sections": [
+        {
+          "h": "使用方式",
+          "p": "放进口袋或包里，需要时当作手帕使用。它适合在日常生活中轻松使用。"
+        },
+        {
+          "h": "联名款",
+          "p": "原商品信息中标明这是 Tuxedo Sam 联名商品，配色名称为 TXPG 复古蓝。它也很适合作为送给 Pingu 或 Tuxedo Sam 粉丝的小礼物。"
+        }
+      ],
+      "cautions": [
+        "原商品信息未标明尺寸和面料详情，请以商品图片为准。"
+      ]
+    },
+    "es": {
+      "title": "Pañuelo de gasa tipo toalla Pingu × Tuxedo Sam – azul retro",
+      "meta_title": "Pañuelo de gasa Pingu × Tuxedo Sam, azul retro",
+      "meta_description": "Pañuelo de gasa tipo toalla de la colaboración Pingu × Tuxedo Sam en azul retro, comprado en la tienda oficial de Pingu en Japón. Entrega en 7–14 días hábiles.",
+      "headline": "Un pañuelo de gasa tipo toalla de la colaboración Pingu × Tuxedo Sam, en azul retro",
+      "intro": "Este pañuelo de gasa tipo toalla nace de la colaboración entre Pingu y Tuxedo Sam, en el color que la tienda llama TXPG Retro Blue. Tras su pedido, FeelBetter lo compra en la tienda oficial en línea de Pingu en Japón y se lo envía.",
+      "highlights": [
+        "Se compra en la tienda oficial en línea de Pingu en Japón, así que recibe mercancía auténtica.",
+        "Es una colaboración con Tuxedo Sam, por lo que gustará a los aficionados de cualquiera de los dos personajes.",
+        "Es un pañuelo de gasa tipo toalla, pensado para un uso ligero y cotidiano.",
+        "El color azul retro le da un aspecto suave y nostálgico.",
+        "Un conserje comprueba el modelo, la variante, el stock y el precio antes de publicarlo, para que pida con más confianza."
+      ],
+      "sections": [
+        {
+          "h": "Uso diario",
+          "p": "Llévelo en el bolsillo o en el bolso y úselo como pañuelo cuando lo necesite. Está pensado para un uso ligero en el día a día."
+        },
+        {
+          "h": "Un artículo de colaboración",
+          "p": "En la ficha original el color se llama TXPG Retro Blue y el artículo figura como colaboración con Tuxedo Sam. También es un detalle sencillo para regalar a los aficionados de Pingu o de Tuxedo Sam."
+        }
+      ],
+      "cautions": [
+        "La ficha original no indica el tamaño ni los detalles del tejido; consulte las fotos."
+      ]
+    },
+    "de": {
+      "title": "Pingu × Tuxedo Sam Taschentuch aus Gaze – Retro-Blau",
+      "meta_title": "Pingu × Tuxedo Sam Taschentuch aus Gaze",
+      "meta_description": "Gaze-Handtuch-Taschentuch aus der Kollaboration Pingu × Tuxedo Sam in Retro-Blau, gekauft im offiziellen Pingu-Shop in Japan. Lieferzeit meist 7–14 Werktage.",
+      "headline": "Ein Gaze-Taschentuch aus der Kollaboration Pingu × Tuxedo Sam in Retro-Blau",
+      "intro": "Dieses Handtuch-Taschentuch aus Gaze stammt aus der Zusammenarbeit von Pingu und Tuxedo Sam und trägt in der Originalbeschreibung den Namen TXPG Retro Blue. Nach Ihrer Bestellung kauft FeelBetter es im offiziellen Pingu-Onlineshop in Japan und schickt es Ihnen.",
+      "highlights": [
+        "Es stammt aus dem offiziellen Pingu-Onlineshop in Japan, Sie erhalten also echte Pingu-Ware.",
+        "Als Kollaboration mit Tuxedo Sam ist es für Fans beider Figuren interessant.",
+        "Es ist ein Handtuch-Taschentuch aus Gaze, gedacht für den leichten Alltagsgebrauch.",
+        "Die Farbe Retro-Blau verleiht ihm einen weichen, nostalgischen Look.",
+        "Ein Concierge prüft Modell, Variante, Bestand und Preis vor der Veröffentlichung, damit Sie mit gutem Gefühl bestellen."
+      ],
+      "sections": [
+        {
+          "h": "Im Alltag",
+          "p": "Tragen Sie es in der Tasche und nutzen Sie es als Taschentuch, wann immer Sie eines brauchen. Es ist für den leichten Gebrauch im Alltag gedacht."
+        },
+        {
+          "h": "Ein Kollaborationsartikel",
+          "p": "In den Originalangaben heißt die Farbe TXPG Retro Blue, und der Artikel ist als Kollaboration mit Tuxedo Sam gekennzeichnet. Außerdem ist es ein kleines Geschenk für Fans von Pingu oder Tuxedo Sam."
+        }
+      ],
+      "cautions": [
+        "Größe und Stoffdetails sind in den Originalangaben nicht genannt; bitte die Fotos prüfen."
+      ]
+    },
+    "fr": {
+      "title": "Mouchoir en gaze Pingu × Tuxedo Sam – bleu rétro",
+      "meta_title": "Mouchoir en gaze Pingu × Tuxedo Sam, bleu rétro",
+      "meta_description": "Mouchoir en gaze de la collaboration Pingu × Tuxedo Sam, bleu rétro, acheté sur la boutique officielle Pingu au Japon. Livraison en 7 à 14 jours ouvrés.",
+      "headline": "Un mouchoir en gaze de la collaboration Pingu × Tuxedo Sam, en bleu rétro",
+      "intro": "Ce mouchoir en gaze type serviette est issu de la collaboration entre Pingu et Tuxedo Sam, dans le coloris que la boutique appelle TXPG Retro Blue. Après votre commande, FeelBetter l'achète sur la boutique en ligne officielle de Pingu au Japon et vous l'expédie.",
+      "highlights": [
+        "Il est acheté sur la boutique en ligne officielle de Pingu au Japon : vous recevez un article authentique.",
+        "Issu d'une collaboration avec Tuxedo Sam, il plaira aux fans de l'un comme de l'autre personnage.",
+        "C'est un mouchoir en gaze type serviette, pensé pour un usage léger au quotidien.",
+        "Le bleu rétro lui donne un aspect doux et nostalgique.",
+        "Un concierge vérifie le modèle, la variante, le stock et le prix avant la mise en ligne, pour que vous commandiez en confiance."
+      ],
+      "sections": [
+        {
+          "h": "Au quotidien",
+          "p": "Glissez-le dans une poche ou un sac et utilisez-le comme mouchoir quand vous en avez besoin. Il est pensé pour un usage léger au quotidien."
+        },
+        {
+          "h": "Un article de collaboration",
+          "p": "Dans la fiche d'origine, le coloris s'appelle TXPG Retro Blue et l'article est indiqué comme une collaboration avec Tuxedo Sam. C'est aussi un petit cadeau pour les fans de Pingu ou de Tuxedo Sam."
+        }
+      ],
+      "cautions": [
+        "La taille et les détails du tissu ne sont pas indiqués dans la fiche d'origine ; vérifiez les photos."
+      ]
+    }
+  }
 }

@@ -115,5 +115,265 @@
       "여자친구선물"
     ]
   },
-  "locales": {}
+  "locales": {
+    "en": {
+      "title": "Pingu Black Cutlery – Spoon, Fork or Knife",
+      "meta_title": "Pingu Black Cutlery in Spoon, Fork or Knife",
+      "meta_description": "Black Pingu cutlery in your choice of spoon, fork or knife, bought from Pingu's official online store in Japan and delivered to Korea in 7–14 business days.",
+      "headline": "Black Pingu cutlery for mealtimes, in your choice of spoon, fork or knife",
+      "intro": "This black Pingu cutlery comes as a spoon, a fork or a knife, and you pick the type on this page. Once you place an order, FeelBetter buys it from Pingu's official online store in Japan and ships it to you.",
+      "highlights": [
+        "It is bought from Pingu's official online store in Japan, so you receive genuine Pingu merchandise.",
+        "You can choose a spoon, a fork or a knife, and all three are listed at the same price.",
+        "The black colour gives a character item a calm look, and it is made for use at mealtimes.",
+        "A concierge checks the model, variant, stock and price before listing, so you can order with more confidence.",
+        "As a Pingu item for the table, it also makes a small gift for fans."
+      ],
+      "sections": [
+        {
+          "h": "Choosing your piece",
+          "p": "Select the spoon, the fork or the knife from the options on this page. If you would like a different variant, our concierge can help through the request page."
+        },
+        {
+          "h": "Who it is for",
+          "p": "It suits Pingu fans who want a character item for the table, and anyone looking for a small gift. Because FeelBetter buys on demand from Japan, it is also a way to get Pingu items that are hard to find in Korea."
+        }
+      ],
+      "cautions": [
+        "Exact size and material are not stated in the source listing; please check the photos."
+      ],
+      "options": [
+        {
+          "name": "Type",
+          "values": [
+            "Spoon",
+            "Fork",
+            "Knife"
+          ]
+        }
+      ]
+    },
+    "ko": {
+      "title": "Pingu 블랙 커트러리 – 스푼, 포크, 나이프 선택",
+      "meta_title": "Pingu 블랙 커트러리 스푼·포크·나이프",
+      "meta_description": "일본 Pingu 공식 온라인 스토어에서 매입해 보내드리는 블랙 커트러리예요. 스푼, 포크, 나이프 중에서 고를 수 있고 보통 영업일 7~14일 걸려요.",
+      "headline": "식사 시간에 쓰는 Pingu 블랙 커트러리, 스푼·포크·나이프 중에서 골라요",
+      "intro": "Pingu 블랙 커트러리는 스푼, 포크, 나이프 중에서 종류를 골라 주문할 수 있어요. 주문하시면 FeelBetter가 일본 Pingu 공식 온라인 스토어에서 매입해 보내드려요.",
+      "highlights": [
+        "일본 Pingu 공식 온라인 스토어에서 매입해서 정품 굿즈를 받아보실 수 있어요.",
+        "스푼, 포크, 나이프 중에서 고를 수 있고 세 종류 모두 가격이 같아요.",
+        "블랙 색상이라 캐릭터 상품인데도 차분한 느낌이고, 식사 시간에 쓰기 좋아요.",
+        "컨시어지가 모델, 옵션, 재고, 가격을 확인한 뒤에 올려서 더 안심하고 주문하실 수 있어요.",
+        "식탁에 두는 Pingu 아이템이라 팬분들께 드리는 작은 선물로도 좋아요."
+      ],
+      "sections": [
+        {
+          "h": "종류 고르기",
+          "p": "이 페이지의 옵션에서 스푼, 포크, 나이프 중 원하는 종류를 선택해 주세요. 다른 종류가 필요하시면 컨시어지 요청 페이지로 문의해 주세요."
+        },
+        {
+          "h": "이런 분께 좋아요",
+          "p": "식탁에 둘 캐릭터 상품을 찾는 Pingu 팬이나 작은 선물을 고르는 분께 잘 맞아요. FeelBetter가 주문을 받은 뒤 일본에서 매입하기 때문에, 국내에서 구하기 어려운 Pingu 상품을 만나는 방법이기도 해요."
+        }
+      ],
+      "cautions": [
+        "정확한 크기와 소재는 원본 상품 정보에 없어요. 사진으로 확인해 주세요."
+      ],
+      "options": [
+        {
+          "name": "종류",
+          "values": [
+            "스푼",
+            "포크",
+            "나이프"
+          ]
+        }
+      ]
+    },
+    "ja": {
+      "title": "Pingu ブラック カトラリー スプーン・フォーク・ナイフ",
+      "meta_title": "Pingu ブラック カトラリー スプーン・フォーク・ナイフ",
+      "meta_description": "日本のPingu公式オンラインストアで購入してお届けするブラックのカトラリーです。スプーン・フォーク・ナイフから選べます。通常は営業日7〜14日でお届けし、追跡情報はメールでお送りします。",
+      "headline": "スプーン・フォーク・ナイフから選べる、食事の時間のPinguブラックカトラリー",
+      "intro": "こちらはPinguのブラックのカトラリーで、スプーン・フォーク・ナイフの中から種類をお選びいただけます。ご注文後、FeelBetterが日本のPingu公式オンラインストアで購入し、お客様にお届けします。",
+      "highlights": [
+        "Pingu公式オンラインストアで購入するため、正規のPinguグッズをお届けできます。",
+        "スプーン・フォーク・ナイフの3種類から選べて、どれも同じ価格です。",
+        "ブラックのカラーでキャラクターグッズでも落ち着いた印象なので、食事の時間に使いやすいです。",
+        "コンシェルジュがモデル・バリエーション・在庫・価格を確認してから掲載しているので、安心してご注文いただけます。",
+        "食卓で使えるPinguのアイテムなので、ファンの方への小さなギフトにもなります。"
+      ],
+      "sections": [
+        {
+          "h": "種類の選び方",
+          "p": "このページのオプションから、スプーン・フォーク・ナイフのいずれかをお選びください。ほかの種類をご希望の場合は、コンシェルジュのリクエストページからご相談ください。"
+        },
+        {
+          "h": "こんな方におすすめ",
+          "p": "食卓で使えるキャラクターグッズを探しているPingu好きの方や、小さなギフトを探している方に向いています。FeelBetterはご注文後に日本から購入するため、韓国では見つけにくいPinguグッズを手に入れる方法にもなります。"
+        }
+      ],
+      "cautions": [
+        "正確なサイズと素材は元の商品情報に記載がありません。写真でご確認ください。"
+      ],
+      "options": [
+        {
+          "name": "種類",
+          "values": [
+            "スプーン",
+            "フォーク",
+            "ナイフ"
+          ]
+        }
+      ]
+    },
+    "zh-CN": {
+      "title": "Pingu 黑色餐具 勺子、叉子、餐刀可选",
+      "meta_title": "Pingu 黑色餐具 勺子、叉子、餐刀",
+      "meta_description": "从日本 Pingu 官方网店代购并寄送的黑色角色餐具，勺子、叉子、餐刀三种类型可任选一种，价格相同。下单后通常 7–14 个工作日送达，物流追踪信息会通过邮件发送。",
+      "headline": "用餐时光的 Pingu 黑色餐具，勺子、叉子、餐刀任选",
+      "intro": "这款 Pingu 黑色餐具提供勺子、叉子和餐刀三种类型，您可以在本页选择。您下单后，FeelBetter 会从日本 Pingu 官方网店购买并寄给您。",
+      "highlights": [
+        "商品购自日本 Pingu 官方网店，您收到的是正规的 Pingu 周边。",
+        "勺子、叉子、餐刀三种类型可选，价格都相同。",
+        "黑色让这件角色周边显得沉稳，适合用餐时使用。",
+        "上架前由礼宾核对型号、款式、库存和价格，让您下单更放心。",
+        "这是一件可以放在餐桌上的 Pingu 单品，也适合作为送给粉丝的小礼物。"
+      ],
+      "sections": [
+        {
+          "h": "选择类型",
+          "p": "请在本页的选项中选择勺子、叉子或餐刀。如果您需要其他类型，可以通过礼宾请求页面联系我们。"
+        },
+        {
+          "h": "适合谁",
+          "p": "适合想要一件餐桌角色单品的 Pingu 粉丝，也适合挑选小礼物的人。由于 FeelBetter 在您下单后才从日本购买，所以这也是入手韩国不易买到的 Pingu 商品的一种方式。"
+        }
+      ],
+      "cautions": [
+        "原商品信息未标明具体尺寸和材质，请以商品图片为准。"
+      ],
+      "options": [
+        {
+          "name": "款式",
+          "values": [
+            "勺子",
+            "叉子",
+            "餐刀"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Cubierto Pingu negro – cuchara, tenedor o cuchillo",
+      "meta_title": "Cubierto Pingu negro: cuchara, tenedor o cuchillo",
+      "meta_description": "Cubierto Pingu negro en cuchara, tenedor o cuchillo, comprado en la tienda oficial de Pingu en Japón y enviado a Corea. Entrega de 7 a 14 días hábiles.",
+      "headline": "Cubierto Pingu negro para las comidas, a elegir entre cuchara, tenedor o cuchillo",
+      "intro": "Este cubierto Pingu negro se ofrece como cuchara, tenedor o cuchillo, y usted elige el tipo en esta página. Tras su pedido, FeelBetter lo compra en la tienda oficial en línea de Pingu en Japón y se lo envía.",
+      "highlights": [
+        "Se compra en la tienda oficial en línea de Pingu en Japón, así que recibe mercancía auténtica.",
+        "Puede elegir entre cuchara, tenedor o cuchillo, y los tres tienen el mismo precio.",
+        "El color negro da un aire sobrio a un artículo de personaje y está pensado para usarse en las comidas.",
+        "Un conserje comprueba el modelo, la variante, el stock y el precio antes de publicarlo, para que pida con más confianza.",
+        "Al ser un artículo de Pingu para la mesa, también es un detalle sencillo para regalar a los aficionados."
+      ],
+      "sections": [
+        {
+          "h": "Cómo elegir su pieza",
+          "p": "Seleccione la cuchara, el tenedor o el cuchillo en las opciones de esta página. Si desea otra variante, nuestro conserje le ayudará desde la página de solicitudes."
+        },
+        {
+          "h": "Para quién es",
+          "p": "Encaja bien con los aficionados a Pingu que quieren un artículo de personaje para la mesa y con quienes buscan un detalle para regalar. Como FeelBetter lo compra en Japón una vez hecho el pedido, es también una forma de conseguir artículos de Pingu difíciles de encontrar en Corea."
+        }
+      ],
+      "cautions": [
+        "La ficha original no indica el tamaño ni el material exactos; consulte las fotos."
+      ],
+      "options": [
+        {
+          "name": "Tipo",
+          "values": [
+            "Cuchara",
+            "Tenedor",
+            "Cuchillo"
+          ]
+        }
+      ]
+    },
+    "de": {
+      "title": "Pingu Besteck in Schwarz – Löffel, Gabel oder Messer",
+      "meta_title": "Pingu Besteck in Schwarz: Löffel, Gabel, Messer",
+      "meta_description": "Schwarzes Pingu-Besteck als Löffel, Gabel oder Messer, gekauft im offiziellen Pingu-Shop in Japan und nach Korea geliefert. Lieferzeit meist 7–14 Werktage.",
+      "headline": "Schwarzes Pingu-Besteck für den Alltag bei Tisch – Löffel, Gabel oder Messer zur Wahl",
+      "intro": "Dieses schwarze Pingu-Besteck gibt es als Löffel, Gabel oder Messer, und Sie wählen die Art direkt auf dieser Seite. Nach Ihrer Bestellung kauft FeelBetter es im offiziellen Pingu-Onlineshop in Japan und schickt es Ihnen.",
+      "highlights": [
+        "Es stammt aus dem offiziellen Pingu-Onlineshop in Japan, Sie erhalten also echte Pingu-Ware.",
+        "Sie können zwischen Löffel, Gabel und Messer wählen, und alle drei kosten gleich viel.",
+        "Die schwarze Farbe verleiht dem Charakterartikel ein ruhiges Aussehen, und er ist für den Gebrauch bei Tisch gedacht.",
+        "Ein Concierge prüft Modell, Variante, Bestand und Preis vor der Veröffentlichung, damit Sie mit gutem Gefühl bestellen.",
+        "Als Pingu-Artikel für den Tisch ist es auch ein kleines Geschenk für Fans."
+      ],
+      "sections": [
+        {
+          "h": "Die passende Art wählen",
+          "p": "Wählen Sie in den Optionen auf dieser Seite Löffel, Gabel oder Messer aus. Wenn Sie eine andere Variante wünschen, hilft Ihnen unser Concierge über die Anfrageseite weiter."
+        },
+        {
+          "h": "Für wen es passt",
+          "p": "Es passt zu Pingu-Fans, die einen Charakterartikel für den Tisch suchen, und zu allen, die ein kleines Geschenk wünschen. Da FeelBetter erst nach Ihrer Bestellung in Japan einkauft, lassen sich auch Pingu-Artikel besorgen, die in Korea schwer zu finden sind."
+        }
+      ],
+      "cautions": [
+        "Genaue Größe und Material sind in den Originalangaben nicht genannt; bitte die Fotos prüfen."
+      ],
+      "options": [
+        {
+          "name": "Art",
+          "values": [
+            "Löffel",
+            "Gabel",
+            "Messer"
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "title": "Couvert Pingu noir – cuillère, fourchette ou couteau",
+      "meta_title": "Couvert Pingu noir : cuillère, fourchette, couteau",
+      "meta_description": "Couvert Pingu noir au choix : cuillère, fourchette ou couteau, acheté sur la boutique officielle Pingu au Japon et livré en Corée en 7 à 14 jours ouvrés.",
+      "headline": "Un couvert Pingu noir pour les repas, au choix : cuillère, fourchette ou couteau",
+      "intro": "Ce couvert Pingu noir existe en cuillère, en fourchette ou en couteau, et vous choisissez le type sur cette page. Après votre commande, FeelBetter l'achète sur la boutique en ligne officielle de Pingu au Japon et vous l'expédie.",
+      "highlights": [
+        "Il est acheté sur la boutique en ligne officielle de Pingu au Japon : vous recevez un article authentique.",
+        "Vous pouvez choisir une cuillère, une fourchette ou un couteau, au même prix pour les trois.",
+        "Le noir donne un air sobre à un article de personnage, pensé pour être utilisé au moment des repas.",
+        "Un concierge vérifie le modèle, la variante, le stock et le prix avant la mise en ligne, pour que vous commandiez en confiance.",
+        "Article Pingu pour la table, il fait aussi un petit cadeau pour les fans."
+      ],
+      "sections": [
+        {
+          "h": "Choisir votre pièce",
+          "p": "Sélectionnez la cuillère, la fourchette ou le couteau dans les options de cette page. Si vous souhaitez une autre variante, notre concierge peut vous aider via la page de demande."
+        },
+        {
+          "h": "À qui il s'adresse",
+          "p": "Il convient aux fans de Pingu qui veulent un article de personnage pour la table, et à ceux qui cherchent un petit cadeau. Comme FeelBetter l'achète au Japon après votre commande, c'est aussi un moyen de trouver des articles Pingu difficiles à dénicher en Corée."
+        }
+      ],
+      "cautions": [
+        "La taille exacte et la matière ne sont pas indiquées dans la fiche d'origine ; vérifiez les photos."
+      ],
+      "options": [
+        {
+          "name": "Type",
+          "values": [
+            "Cuillère",
+            "Fourchette",
+            "Couteau"
+          ]
+        }
+      ]
+    }
+  }
 }
