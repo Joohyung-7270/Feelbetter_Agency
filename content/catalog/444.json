@@ -115,5 +115,167 @@
       "감성소품"
     ]
   },
-  "locales": {}
+  "locales": {
+    "en": {
+      "title": "Pingu Pass Case with Neck Strap and 2 Pockets, Pink or Grey",
+      "meta_title": "Pingu Pass Case with Neck Strap, 2 Pockets",
+      "meta_description": "Pingu pass case with neck strap and two pockets in pink or grey, bought from Japan's official Pingu online store. Typical delivery is 7–14 business days.",
+      "headline": "A Pingu pass case with a neck strap and two pockets",
+      "intro": "This Pingu pass case comes with a neck strap and has two pockets, and you can choose pink or grey. A FeelBetter concierge checked the model, variant, stock and price, and after you order we buy it from the official Pingu online store in Japan and ship it to you.",
+      "highlights": [
+        "A neck strap is included, so you can wear the case around your neck and keep your pass or card within reach.",
+        "Two pockets give you separate places for cards or passes.",
+        "Pink or grey is on offer, so you can choose the color you prefer.",
+        "It is sold as official Pingu goods and bought from Japan's official Pingu online store, so you receive genuine merchandise.",
+        "It makes an easy gift for Pingu fans."
+      ],
+      "sections": [
+        {
+          "h": "Everyday use",
+          "p": "Hang the case around your neck to keep a pass or card handy. If you are looking for another Pingu item, our concierge can help through the request page."
+        }
+      ],
+      "cautions": [
+        "The listing does not give the case's size or material or the strap length, so please check the photos or ask our concierge before ordering."
+      ]
+    },
+    "ko": {
+      "title": "Pingu 넥스트랩 2포켓 패스케이스, 핑크 또는 그레이",
+      "meta_title": "Pingu 넥스트랩 2포켓 패스케이스",
+      "meta_description": "일본 Pingu 공식 온라인 스토어에서 매입해 보내드리는 패스케이스예요. 넥스트랩 포함에 포켓 2개, 핑크·그레이 중 선택하고, 한국까지 보통 영업일 7~14일 걸려요.",
+      "headline": "넥스트랩이 있고 포켓이 2개인 Pingu 패스케이스",
+      "intro": "이 Pingu 패스케이스는 넥스트랩이 함께 오고 포켓이 2개 있으며, 핑크와 그레이 중에서 고를 수 있어요. FeelBetter 컨시어지가 모델·옵션·재고·가격을 확인했고, 주문하시면 일본 Pingu 공식 온라인 스토어에서 매입해 보내드려요.",
+      "highlights": [
+        "넥스트랩이 포함돼 있어서 목에 걸고 카드나 패스를 손 닿는 곳에 둘 수 있어요.",
+        "포켓이 2개라서 카드나 패스를 나누어 넣을 수 있어요.",
+        "핑크와 그레이 중에서 원하는 색을 고를 수 있어요.",
+        "Pingu 공식 굿즈를 일본 Pingu 공식 온라인 스토어에서 매입하니 정식 상품을 받아보실 수 있어요.",
+        "Pingu를 좋아하는 분께 부담 없이 드리기 좋은 선물이에요."
+      ],
+      "sections": [
+        {
+          "h": "이렇게 쓰세요",
+          "p": "목에 걸어 두고 패스나 카드를 편하게 꺼내 쓰시면 돼요. 다른 Pingu 굿즈를 찾으신다면 컨시어지 요청 페이지로 문의해 주세요."
+        }
+      ],
+      "cautions": [
+        "패스케이스의 크기와 소재, 스트랩 길이는 상품 정보에 없어요. 주문 전에 사진을 확인하시거나 컨시어지에게 문의해 주세요."
+      ]
+    },
+    "ja": {
+      "title": "Pingu ネックストラップ付き 2ポケットパスケース ピンク／グレー",
+      "meta_title": "Pingu ネックストラップ付き 2ポケットパスケース",
+      "meta_description": "日本のPingu公式オンラインストアで購入してお届けする、ネックストラップ付きの2ポケットパスケースです。ピンクとグレーから選べ、通常は営業日7〜14日でお届けします。",
+      "headline": "ネックストラップ付きで2ポケットのPinguパスケース",
+      "intro": "このPinguのパスケースはネックストラップが付いていて、ポケットが2つあり、ピンクとグレーから選べます。コンシェルジュがモデル・バリエーション・在庫・価格を確認しており、ご注文後に日本のPingu公式オンラインストアで購入してお届けします。",
+      "highlights": [
+        "ネックストラップが付いているので、首から下げてカードやパスをすぐ取り出せる位置に置けます。",
+        "ポケットが2つあるので、カードやパスを分けて入れられます。",
+        "ピンクとグレーの2色から、お好みの色を選べます。",
+        "Pingu公式グッズとして日本のPingu公式オンラインストアから購入するため、正規の商品をお届けできます。",
+        "Pinguが好きな方へのギフトにも気軽に選べます。"
+      ],
+      "sections": [
+        {
+          "h": "使い方",
+          "p": "首から下げて、パスやカードをすぐ使えるようにしておけます。ほかのPinguグッズをお探しの場合は、コンシェルジュのリクエストページからご相談ください。"
+        }
+      ],
+      "cautions": [
+        "パスケースのサイズや素材、ストラップの長さは商品情報に記載がありません。ご注文前に写真をご確認いただくか、コンシェルジュにご相談ください。"
+      ]
+    },
+    "zh-CN": {
+      "title": "Pingu 带挂绳双口袋卡套 粉色或灰色 日本 Pingu 周边",
+      "meta_title": "Pingu 带挂绳双口袋卡套 粉色或灰色",
+      "meta_description": "从日本 Pingu 官方网店代购并寄送的 Pingu 带挂绳双口袋卡套，粉色和灰色可选，方便把卡片和通行证挂在身上随手取用，也适合送给粉丝。下单后通常 7–14 个工作日送达。",
+      "headline": "附挂绳、双口袋的 Pingu 卡套",
+      "intro": "这款 Pingu 卡套附有挂绳，设有两个口袋，可以选择粉色或灰色。礼宾已核对型号、款式、库存和价格，您下单后，我们会从日本 Pingu 官方网店购买并寄给您。",
+      "highlights": [
+        "附带挂绳，可以挂在脖子上，让卡片或通行证随手可取。",
+        "设有两个口袋，可以把卡片或通行证分开放置。",
+        "提供粉色和灰色两种颜色，可以选自己喜欢的一款。",
+        "作为 Pingu 官方周边，购自日本 Pingu 官方网店，您收到的是正规商品。",
+        "送给 Pingu 的粉丝，也是一份轻松的礼物。"
+      ],
+      "sections": [
+        {
+          "h": "使用方式",
+          "p": "把卡套挂在脖子上，需要用卡片或通行证时随手就能取出。如果您想找其他 Pingu 周边，请通过礼宾请求页面联系我们。"
+        }
+      ],
+      "cautions": [
+        "商品信息中没有标明卡套的尺寸、材质和挂绳长度，下单前请查看图片或咨询礼宾。"
+      ]
+    },
+    "es": {
+      "title": "Funda para tarjetas Pingu con cordón y 2 bolsillos, rosa o gris",
+      "meta_title": "Funda para tarjetas Pingu con cordón y 2 bolsillos",
+      "meta_description": "Funda para tarjetas Pingu con cordón y dos bolsillos, en rosa o gris, comprada en la tienda oficial de Pingu en Japón. Entrega en 7–14 días laborables.",
+      "headline": "Una funda para tarjetas Pingu con cordón para el cuello y dos bolsillos",
+      "intro": "Esta funda para tarjetas de Pingu incluye un cordón para el cuello, tiene dos bolsillos y puede elegirse en rosa o gris. Un concierge de FeelBetter verificó el modelo, la variante, el stock y el precio; tras su pedido, la compramos en la tienda oficial en línea de Pingu en Japón y se la enviamos.",
+      "highlights": [
+        "Incluye un cordón para el cuello, así que puede llevarla colgada y tener su pase o tarjeta a mano.",
+        "Los dos bolsillos le dan lugares separados para tarjetas o pases.",
+        "Se ofrece en rosa o gris, así que puede elegir el color que prefiera.",
+        "Se vende como producto oficial de Pingu y se compra en la tienda oficial en línea de Pingu en Japón, por lo que recibe mercancía auténtica.",
+        "Es un regalo fácil para los aficionados a Pingu."
+      ],
+      "sections": [
+        {
+          "h": "Uso diario",
+          "p": "Cuelgue la funda del cuello para tener a mano un pase o una tarjeta. Si busca otro artículo de Pingu, nuestro concierge puede ayudarle desde la página de solicitudes."
+        }
+      ],
+      "cautions": [
+        "La ficha no indica el tamaño ni el material de la funda ni la longitud del cordón; revise las fotos o consulte a nuestro concierge antes de pedir."
+      ]
+    },
+    "de": {
+      "title": "Pingu Kartenetui mit Umhängeband und 2 Fächern, Rosa oder Grau",
+      "meta_title": "Pingu Kartenetui mit Umhängeband und 2 Fächern",
+      "meta_description": "Pingu-Kartenetui mit Umhängeband und zwei Fächern in Rosa oder Grau aus dem offiziellen Pingu-Onlineshop in Japan. Lieferzeit in der Regel 7–14 Werktage.",
+      "headline": "Ein Pingu-Kartenetui mit Umhängeband und zwei Fächern",
+      "intro": "Dieses Pingu-Kartenetui wird mit Umhängeband geliefert, hat zwei Fächer und ist in Rosa oder Grau wählbar. Ein FeelBetter-Concierge hat Modell, Variante, Bestand und Preis geprüft; nach Ihrer Bestellung kaufen wir es im offiziellen Pingu-Onlineshop in Japan und schicken es Ihnen.",
+      "highlights": [
+        "Ein Umhängeband ist enthalten, sodass Sie das Etui um den Hals tragen und Ausweis oder Karte griffbereit haben.",
+        "Zwei Fächer bieten getrennte Plätze für Karten oder Ausweise.",
+        "Es gibt Rosa oder Grau, sodass Sie die Farbe wählen können, die Ihnen besser gefällt.",
+        "Es wird als offizieller Pingu-Artikel im offiziellen Pingu-Onlineshop in Japan gekauft, Sie erhalten also Originalware.",
+        "Für Pingu-Fans ist es eine unkomplizierte Geschenkidee."
+      ],
+      "sections": [
+        {
+          "h": "Im Alltag",
+          "p": "Tragen Sie das Etui um den Hals, damit Ausweis oder Karte immer griffbereit sind. Wenn Sie einen anderen Pingu-Artikel suchen, wenden Sie sich über die Anfrageseite an unseren Concierge."
+        }
+      ],
+      "cautions": [
+        "Größe und Material des Etuis sowie die Länge des Bands sind in den Angaben nicht genannt; bitte prüfen Sie die Fotos oder fragen Sie unseren Concierge, bevor Sie bestellen."
+      ]
+    },
+    "fr": {
+      "title": "Porte-cartes Pingu avec cordon et 2 poches, rose ou gris",
+      "meta_title": "Porte-cartes Pingu avec cordon et 2 poches",
+      "meta_description": "Porte-cartes Pingu avec cordon et deux poches, en rose ou gris, acheté sur la boutique officielle Pingu au Japon. Livraison en 7 à 14 jours ouvrés.",
+      "headline": "Un porte-cartes Pingu avec cordon tour de cou et deux poches",
+      "intro": "Ce porte-cartes Pingu est fourni avec un cordon tour de cou, compte deux poches et se choisit en rose ou en gris. Un concierge FeelBetter a vérifié le modèle, la variante, le stock et le prix ; après votre commande, nous l'achetons sur la boutique en ligne officielle de Pingu au Japon et vous l'expédions.",
+      "highlights": [
+        "Un cordon tour de cou est inclus, vous pouvez donc le porter autour du cou et garder votre pass ou votre carte à portée de main.",
+        "Les deux poches offrent des emplacements séparés pour vos cartes ou vos pass.",
+        "Il existe en rose ou en gris, pour choisir la couleur que vous préférez.",
+        "Il est vendu comme article officiel Pingu et acheté sur la boutique en ligne officielle de Pingu au Japon, vous recevez donc un article authentique.",
+        "C'est une idée de cadeau facile pour les fans de Pingu."
+      ],
+      "sections": [
+        {
+          "h": "Au quotidien",
+          "p": "Portez-le autour du cou pour avoir un pass ou une carte toujours sous la main. Pour un autre article Pingu, contactez notre concierge via la page de demande."
+        }
+      ],
+      "cautions": [
+        "La taille et la matière du porte-cartes ainsi que la longueur du cordon ne sont pas indiquées dans la fiche ; consultez les photos ou demandez à notre concierge avant de commander."
+      ]
+    }
+  }
 }
