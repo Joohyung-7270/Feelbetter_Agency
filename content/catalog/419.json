@@ -131,5 +131,195 @@
       "해외디자인"
     ]
   },
-  "locales": {}
+  "locales": {
+    "en": {
+      "title": "M5Stack M5GO IoT Starter Kit V2.7 with ESP32 and 2.0 in Display",
+      "meta_title": "M5Stack M5GO IoT Starter Kit V2.7 (ESP32)",
+      "meta_description": "M5Stack M5GO IoT Starter Kit V2.7: ESP32 controller with a 2.0 in IPS display, 16 MB Flash and six expansion units. Shipped to Korea by FeelBetter.",
+      "headline": "An ESP32 IoT starter kit with a 2.0 in display and six expansion units",
+      "intro": "The M5GO IoT Starter Kit V2.7 pairs the ESP32-based M5GO core controller, with its 2.0 in HD IPS display, with six expansion units that include sensors, actuators and splitters. FeelBetter orders it from the US seller after you check out and ships it to Korea, typically 7–14 business days after ordering, with tracking sent by email.",
+      "highlights": [
+        "The M5GO core controller runs on an ESP32 chip with two low-power 32-bit Xtensa LX6 processors at 240 MHz.",
+        "16 MB of Flash memory supports larger programs for more complex IoT applications.",
+        "An integrated 2.0 in HD IPS display and onboard peripherals, including a mic and speaker, allow a richer interface.",
+        "Six expansion units (ENV III, IR, RGB, PIR, ANGLE and HUB) come in the box, with four Grove cables and a 20 cm Type-C USB cable.",
+        "It supports UIFlow, MicroPython, Arduino and .NET nanoFramework, and the base is compatible with 8 mm LEGO blocks."
+      ],
+      "sections": [
+        {
+          "h": "What is in the box",
+          "p": "The kit contains one M5GO controller, six expansion units (ENV III, IR, RGB, PIR, ANGLE and HUB), four LEGO blocks, twelve LEGO connections, four Grove cables, a 20 cm Type-C USB cable and a quick start guide. It is described as a cost-effective way to start IoT projects with sensors, actuators and splitters."
+        },
+        {
+          "h": "Programming and expansion",
+          "p": "You can program it graphically with UIFlow or write code in MicroPython, Arduino or .NET nanoFramework. It works with M5Stack stacking modules and sensors, and the base is compatible with 8 mm LEGO blocks for custom structures. The listing positions it for STEM and smart home projects."
+        }
+      ],
+      "cautions": [
+        "The contents list a 20 cm Type-C USB cable only; no power adapter is listed."
+      ]
+    },
+    "ko": {
+      "title": "M5Stack M5GO IoT 스타터 키트 V2.7 ESP32 2.0인치 디스플레이 센서 유닛 6종",
+      "meta_title": "M5Stack M5GO IoT 스타터 키트 V2.7 ESP32",
+      "meta_description": "ESP32 기반 M5GO 컨트롤러에 2.0인치 IPS 디스플레이, 16MB 플래시, 확장 유닛 6개가 들어 있는 IoT 스타터 키트예요. UIFlow와 Arduino로 개발할 수 있어요.",
+      "headline": "2.0인치 디스플레이와 확장 유닛 6개를 담은 ESP32 IoT 스타터 키트",
+      "intro": "ESP32 기반 M5GO 코어 컨트롤러에 2.0인치 HD IPS 디스플레이가 들어 있고, 센서·액추에이터·분배기를 포함한 확장 유닛 6개가 함께 와요. 주문하시면 FeelBetter가 미국 판매처에서 구매해 한국으로 보내드리고, 보통 주문 후 영업일 기준 7~14일 걸리며 배송 추적 정보는 이메일로 안내해 드려요.",
+      "highlights": [
+        "M5GO 코어 컨트롤러는 ESP32 칩 기반으로, 저전력 Xtensa 32비트 LX6 프로세서 2개가 240MHz로 동작해요.",
+        "16MB 플래시 메모리라 더 큰 프로그램도 올릴 수 있어 복잡한 IoT 응용에 알맞아요.",
+        "2.0인치 HD IPS 디스플레이와 마이크·스피커 등 내장 주변장치로 풍부한 인터페이스를 만들 수 있어요.",
+        "ENV III, IR, RGB, PIR, ANGLE, HUB 확장 유닛 6개와 Grove 케이블 4개, 20cm USB Type-C 케이블이 들어 있어요.",
+        "UIFlow, MicroPython, Arduino, .NET nanoFramework로 개발할 수 있고, 베이스는 8mm LEGO 블록과 호환돼요."
+      ],
+      "sections": [
+        {
+          "h": "구성품",
+          "p": "M5GO 본체 1개, 확장 유닛 6개(ENV III, IR, RGB, PIR, ANGLE, HUB), LEGO 블록 4개, LEGO 연결부 12개, Grove 케이블 4개, 20cm USB Type-C 케이블 1개, 빠른 시작 안내서가 들어 있어요. 센서, 액추에이터, 분배기로 IoT 프로젝트를 시작하기에 알맞은 가성비 키트라고 소개돼요."
+        },
+        {
+          "h": "개발 환경과 확장",
+          "p": "UIFlow로 그래픽 프로그래밍을 하거나 MicroPython, Arduino, .NET nanoFramework로 코드를 쓸 수 있어요. M5Stack 스태킹 모듈·센서와 호환되고, 베이스는 8mm LEGO 블록과 맞아서 원하는 구조물을 만들 수 있어요. 상품 정보에서는 STEM 학습과 스마트홈 프로젝트용으로 소개해요."
+        }
+      ],
+      "cautions": [
+        "구성품 목록에는 20cm USB Type-C 케이블만 있고 전원 어댑터는 적혀 있지 않아요."
+      ]
+    },
+    "ja": {
+      "title": "M5Stack M5GO IoT スターターキット V2.7 ESP32 2.0インチ ディスプレイ付き",
+      "meta_title": "M5Stack M5GO IoT スターターキット V2.7 ESP32",
+      "meta_description": "ESP32搭載のM5GOコントローラーに、2.0インチIPSディスプレイ、16MBフラッシュ、6つの拡張ユニットが付いたIoTスターターキットです。UIFlowやArduinoで開発できます。",
+      "headline": "2.0インチディスプレイと6つの拡張ユニットを備えたESP32 IoTスターターキット",
+      "intro": "ESP32搭載のM5GOコアコントローラーには2.0インチのHD IPSディスプレイがあり、センサーやアクチュエーター、分配ユニットを含む6つの拡張ユニットが付属します。ご注文後にFeelBetterが米国の販売元から購入して韓国へお届けし、目安は注文から営業日で7〜14日、追跡情報はメールでお送りします。",
+      "highlights": [
+        "M5GOコアコントローラーはESP32チップ搭載で、低消費電力のXtensa 32ビットLX6プロセッサー2基が240MHzで動作します。",
+        "16MBのフラッシュメモリで、より大きなプログラムにも対応し、複雑なIoTアプリケーションに向いています。",
+        "2.0インチHD IPSディスプレイとマイク・スピーカーなどの内蔵周辺機器で、豊かなインターフェースを作れます。",
+        "ENV III、IR、RGB、PIR、ANGLE、HUBの拡張ユニット6個に加え、Groveケーブル4本と20cmのUSB Type-Cケーブルが付属します。",
+        "UIFlow、MicroPython、Arduino、.NET nanoFrameworkで開発でき、ベースは8mmのLEGOブロックと互換性があります。"
+      ],
+      "sections": [
+        {
+          "h": "セット内容",
+          "p": "M5GO本体1台、拡張ユニット6個(ENV III、IR、RGB、PIR、ANGLE、HUB)、LEGOブロック4個、LEGOコネクター12個、Groveケーブル4本、20cmのUSB Type-Cケーブル1本、クイックスタートガイドが入っています。センサー、アクチュエーター、分配ユニットでIoTプロジェクトを始められる、コストパフォーマンスの高いキットと紹介されています。"
+        },
+        {
+          "h": "開発環境と拡張性",
+          "p": "UIFlowでグラフィカルにプログラミングすることも、MicroPython、Arduino、.NET nanoFrameworkでコードを書くこともできます。M5Stackのスタッキングモジュールやセンサーに対応し、ベースは8mmのLEGOブロックと合うので、好みの構造物を作れます。商品情報ではSTEM学習やスマートホームのプロジェクト向けとされています。"
+        }
+      ],
+      "cautions": [
+        "セット内容には20cmのUSB Type-Cケーブルのみ記載があり、電源アダプターは記載されていません。"
+      ]
+    },
+    "zh-CN": {
+      "title": "M5Stack M5GO IoT 入门套件 V2.7 ESP32 2.0 英寸屏 六个扩展单元",
+      "meta_title": "M5Stack M5GO IoT 入门套件 V2.7 ESP32",
+      "meta_description": "基于 ESP32 的 M5GO 控制器，配 2.0 英寸 IPS 显示屏、16MB Flash 和 6 个扩展单元的 IoT 入门套件，支持 UIFlow、Arduino 等开发。您下单后由 FeelBetter 向美国卖家采购。",
+      "headline": "配 2.0 英寸屏幕和 6 个扩展单元的 ESP32 IoT 入门套件",
+      "intro": "M5GO 核心控制器基于 ESP32，内置 2.0 英寸 HD IPS 显示屏，并附带含传感器、执行器和分线器的 6 个扩展单元。您下单后，FeelBetter 会向美国卖家采购并寄往韩国，一般在下单后 7–14 个工作日送达，物流信息会通过邮件发送。",
+      "highlights": [
+        "M5GO 核心控制器基于 ESP32 芯片，搭载两颗低功耗 Xtensa 32 位 LX6 处理器，主频 240MHz。",
+        "16MB Flash 内存支持更大的程序，适合较复杂的 IoT 应用。",
+        "集成 2.0 英寸 HD IPS 显示屏及麦克风、扬声器等硬件外设，可打造丰富的交互界面。",
+        "随附 ENV III、IR、RGB、PIR、ANGLE、HUB 六个扩展单元，以及 4 根 Grove 线和一根 20 厘米 Type-C USB 线。",
+        "支持 UIFlow、MicroPython、Arduino 和 .NET nanoFramework 开发，底座兼容 8mm LEGO 积木。"
+      ],
+      "sections": [
+        {
+          "h": "套件内容",
+          "p": "套件包含 1 个 M5GO 主机、6 个扩展单元（ENV III、IR、RGB、PIR、ANGLE、HUB）、4 块 LEGO 积木、12 个 LEGO 连接件、4 根 Grove 线、1 根 20 厘米 Type-C USB 线和 1 份快速入门指南。商品信息称其是用传感器、执行器和分线器开启 IoT 项目的高性价比套件。"
+        },
+        {
+          "h": "开发方式与扩展",
+          "p": "可以用 UIFlow 进行图形化编程，也可以用 MicroPython、Arduino 或 .NET nanoFramework 编写代码。兼容 M5Stack 堆叠模块和传感器，底座可与 8mm LEGO 积木搭配，搭建自定义结构。商品信息将其定位为 STEM 和智能家居项目用套件。"
+        }
+      ],
+      "cautions": [
+        "套件清单中只列出一根 20 厘米 Type-C USB 线，未列出电源适配器。"
+      ]
+    },
+    "es": {
+      "title": "M5Stack M5GO IoT Starter Kit V2.7 con ESP32 y pantalla IPS",
+      "meta_title": "M5Stack M5GO IoT Starter Kit V2.7 con ESP32",
+      "meta_description": "Kit de inicio IoT M5Stack M5GO V2.7 con ESP32, pantalla IPS de 2,0 pulgadas, 16 MB de Flash y seis unidades de expansión. FeelBetter lo pide a Estados Unidos.",
+      "headline": "Un kit de inicio IoT con ESP32, pantalla de 2,0 pulgadas y seis unidades de expansión",
+      "intro": "El M5GO IoT Starter Kit V2.7 combina el controlador M5GO basado en ESP32, con pantalla IPS HD de 2,0 pulgadas, y seis unidades de expansión que incluyen sensores, actuadores y divisores. FeelBetter lo pide al vendedor de Estados Unidos cuando usted compra y se lo envía a Corea, normalmente en 7 a 14 días hábiles desde el pedido, con seguimiento por correo electrónico.",
+      "highlights": [
+        "El controlador M5GO usa un chip ESP32 con dos microprocesadores Xtensa LX6 de 32 bits y bajo consumo a 240 MHz.",
+        "Sus 16 MB de memoria Flash admiten programas más grandes para aplicaciones IoT más complejas.",
+        "La pantalla IPS HD integrada de 2,0 pulgadas y los periféricos de hardware, con micrófono y altavoz, permiten una interfaz más rica.",
+        "Incluye seis unidades de expansión (ENV III, IR, RGB, PIR, ANGLE y HUB), cuatro cables Grove y un cable USB Type-C de 20 cm.",
+        "Funciona con UIFlow, MicroPython, Arduino y .NET nanoFramework, y la base es compatible con bloques LEGO de 8 mm."
+      ],
+      "sections": [
+        {
+          "h": "Qué incluye",
+          "p": "El kit contiene un controlador M5GO, seis unidades de expansión (ENV III, IR, RGB, PIR, ANGLE y HUB), cuatro bloques LEGO, doce conectores LEGO, cuatro cables Grove, un cable USB Type-C de 20 cm y una guía de inicio rápido. Se describe como una forma económica de empezar proyectos IoT con sensores, actuadores y divisores."
+        },
+        {
+          "h": "Programación y ampliación",
+          "p": "Puede programarlo de forma gráfica con UIFlow o escribir código en MicroPython, Arduino o .NET nanoFramework. Es compatible con los módulos apilables y sensores de M5Stack, y la base admite bloques LEGO de 8 mm para crear estructuras a medida. El anuncio lo presenta para proyectos STEM y de hogar inteligente."
+        }
+      ],
+      "cautions": [
+        "La lista de contenido incluye solo un cable USB Type-C de 20 cm; no figura ningún adaptador de corriente."
+      ]
+    },
+    "de": {
+      "title": "M5Stack M5GO IoT Starter Kit V2.7 mit ESP32 und 2,0-Zoll-IPS-Display",
+      "meta_title": "M5Stack M5GO IoT Starter Kit V2.7 mit ESP32",
+      "meta_description": "IoT-Starterset M5Stack M5GO V2.7: ESP32-Controller mit 2,0-Zoll-IPS-Display, 16 MB Flash und sechs Erweiterungseinheiten. Von FeelBetter in den USA bestellt.",
+      "headline": "Ein ESP32-IoT-Starterset mit 2,0-Zoll-Display und sechs Erweiterungseinheiten",
+      "intro": "Das M5GO IoT Starter Kit V2.7 kombiniert den ESP32-basierten M5GO-Controller mit 2,0-Zoll-HD-IPS-Display und sechs Erweiterungseinheiten, darunter Sensoren, Aktoren und Verteiler. FeelBetter bestellt es nach Ihrer Bestellung beim Verkäufer in den USA und liefert es nach Korea, in der Regel 7–14 Werktage nach der Bestellung, mit Sendungsverfolgung per E-Mail.",
+      "highlights": [
+        "Der M5GO-Controller basiert auf einem ESP32-Chip mit zwei sparsamen 32-Bit-Xtensa-LX6-Prozessoren bei 240 MHz.",
+        "16 MB Flash-Speicher ermöglichen größere Programme für komplexere IoT-Anwendungen.",
+        "Das integrierte 2,0-Zoll-HD-IPS-Display und Hardware-Peripherie, darunter Mikrofon und Lautsprecher, erlauben eine reichhaltige Bedienoberfläche.",
+        "Im Lieferumfang sind sechs Erweiterungseinheiten (ENV III, IR, RGB, PIR, ANGLE und HUB), vier Grove-Kabel und ein 20 cm langes USB-Typ-C-Kabel.",
+        "Es unterstützt UIFlow, MicroPython, Arduino und .NET nanoFramework, und die Basis ist mit 8-mm-LEGO-Steinen kompatibel."
+      ],
+      "sections": [
+        {
+          "h": "Das ist enthalten",
+          "p": "Das Set enthält einen M5GO-Controller, sechs Erweiterungseinheiten (ENV III, IR, RGB, PIR, ANGLE und HUB), vier LEGO-Steine, zwölf LEGO-Verbinder, vier Grove-Kabel, ein 20 cm langes USB-Typ-C-Kabel und eine Kurzanleitung. Es wird als preiswerter Einstieg in IoT-Projekte mit Sensoren, Aktoren und Verteilern beschrieben."
+        },
+        {
+          "h": "Programmierung und Erweiterung",
+          "p": "Sie können grafisch mit UIFlow programmieren oder Code in MicroPython, Arduino oder .NET nanoFramework schreiben. Das Set arbeitet mit M5Stack-Stapelmodulen und -Sensoren zusammen, und die Basis passt zu 8-mm-LEGO-Steinen für individuelle Aufbauten. Die Produktbeschreibung empfiehlt es für STEM- und Smart-Home-Projekte."
+        }
+      ],
+      "cautions": [
+        "In der Inhaltsliste steht nur ein 20 cm langes USB-Typ-C-Kabel, ein Netzteil ist nicht aufgeführt."
+      ]
+    },
+    "fr": {
+      "title": "M5Stack M5GO IoT Starter Kit V2.7 avec ESP32 et écran IPS",
+      "meta_title": "M5Stack M5GO IoT Starter Kit V2.7 avec ESP32",
+      "meta_description": "Kit de démarrage IoT M5Stack M5GO V2.7 : ESP32, écran IPS 2,0 pouces, 16 Mo de Flash et six unités d’extension. Commandé aux États-Unis par FeelBetter.",
+      "headline": "Un kit de démarrage IoT ESP32 avec écran 2,0 pouces et six unités d’extension",
+      "intro": "Le M5GO IoT Starter Kit V2.7 associe le contrôleur M5GO basé sur ESP32, avec écran IPS HD de 2,0 pouces, à six unités d’extension comprenant capteurs, actionneurs et répartiteurs. FeelBetter le commande auprès du vendeur américain après votre achat et vous l’expédie en Corée, généralement 7 à 14 jours ouvrés après la commande, avec un suivi envoyé par e-mail.",
+      "highlights": [
+        "Le contrôleur M5GO repose sur une puce ESP32 avec deux microprocesseurs Xtensa LX6 32 bits basse consommation à 240 MHz.",
+        "Ses 16 Mo de mémoire Flash acceptent des programmes plus volumineux pour des applications IoT plus complexes.",
+        "L’écran IPS HD de 2,0 pouces intégré et les périphériques matériels, dont un micro et un haut-parleur, permettent une interface plus riche.",
+        "Six unités d’extension (ENV III, IR, RGB, PIR, ANGLE et HUB), quatre câbles Grove et un câble USB Type-C de 20 cm sont fournis.",
+        "Il fonctionne avec UIFlow, MicroPython, Arduino et .NET nanoFramework, et la base est compatible avec les briques LEGO de 8 mm."
+      ],
+      "sections": [
+        {
+          "h": "Contenu du kit",
+          "p": "Le kit comprend un contrôleur M5GO, six unités d’extension (ENV III, IR, RGB, PIR, ANGLE et HUB), quatre briques LEGO, douze connecteurs LEGO, quatre câbles Grove, un câble USB Type-C de 20 cm et un guide de démarrage rapide. Il est décrit comme un moyen économique de lancer des projets IoT avec capteurs, actionneurs et répartiteurs."
+        },
+        {
+          "h": "Programmation et extension",
+          "p": "Vous pouvez programmer en mode graphique avec UIFlow ou écrire du code en MicroPython, Arduino ou .NET nanoFramework. Il est compatible avec les modules empilables et les capteurs M5Stack, et la base s’adapte aux briques LEGO de 8 mm pour des structures sur mesure. L’annonce le destine aux projets STEM et domotiques."
+        }
+      ],
+      "cautions": [
+        "La liste du contenu mentionne seulement un câble USB Type-C de 20 cm ; aucun adaptateur secteur n’y figure."
+      ]
+    }
+  }
 }

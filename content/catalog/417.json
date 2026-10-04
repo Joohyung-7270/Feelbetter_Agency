@@ -116,5 +116,195 @@
       "감성소품"
     ]
   },
-  "locales": {}
+  "locales": {
+    "en": {
+      "title": "OSOYOO IoT Smart Home Learner Kit for Arduino Mega2560, 19 Lessons",
+      "meta_title": "OSOYOO IoT Smart Home Learner Kit, Mega2560",
+      "meta_description": "OSOYOO IoT smart home learner kit for Arduino Mega2560 with a wooden house model, sensors, RFID, LCD, relay and a 19-lesson guide. Ages 15+. Shipped to Korea.",
+      "headline": "A build-your-own smart home kit for Arduino Mega2560 with a 19-lesson guide, sensors and a wooden house model",
+      "intro": "The OSOYOO IoT Smart Home Learner Kit is an introduction to programmable electronics and IoT, taking you from a simple \"Hello World!\" program to a working smart home built around a wooden house model. Our concierge checked the model, variant, stock and price before listing; after you order, FeelBetter buys it from the seller in the United States and ships it to Korea, typically in 7–14 business days.",
+      "highlights": [
+        "A 19-lesson tutorial takes learners from a simple \"Hello World!\" program to a fully functional smart home with an RFID door switch, motion detection and ultrasonic distance detection.",
+        "Wi-Fi programming and control let you manage devices from a web browser or a smartphone.",
+        "The kit includes a wooden house model, an OSOYOO MEGA2560 board, a MEGA IoT extension board, a one-channel relay, a micro servo motor and a 1602 I2C LCD module.",
+        "Gas, flame and sound detection modules, RFID, LED and button modules and a 4x4 matrix keypad come with a sensor set (photosensitive, temperature and humidity, buzzer, ultrasonic and PIR motion).",
+        "The MEGA IoT extension board supports XH2.54, so plug-and-play devices connect without errors, which makes the kit easier for beginners."
+      ],
+      "sections": [
+        {
+          "h": "What you learn",
+          "p": "The guide covers setting up temperature and humidity detection, controlling a servo motor, RFID entry and more, and the listing says it can all be done right in your web browser. It is described as a STEAM curriculum for the classroom or home, for any skill level."
+        },
+        {
+          "h": "Who it is for",
+          "p": "The listing describes the kit as ideal for IoT classes, summer camps, science clubs and hands-on centers, and for STEM education in general. The recommended age is 15 and up. The model number is DKRK101100-1."
+        }
+      ],
+      "cautions": [
+        "The recommended age is 15 and up."
+      ]
+    },
+    "ko": {
+      "title": "OSOYOO IoT 스마트홈 러너 키트 Arduino Mega2560용 19강 실습",
+      "meta_title": "OSOYOO IoT 스마트홈 러너 키트 Mega2560",
+      "meta_description": "나무 집 모형과 센서, RFID, LCD, 릴레이, 19강 안내서가 들어 있는 OSOYOO IoT 스마트홈 키트예요. Arduino Mega2560용이며 권장 연령은 15세 이상이에요.",
+      "headline": "19강 안내서와 센서, 나무 집 모형으로 직접 만드는 Arduino Mega2560용 스마트홈 키트",
+      "intro": "OSOYOO IoT 스마트홈 러너 키트는 프로그래밍할 수 있는 전자 부품과 IoT를 입문하는 세트로, 간단한 'Hello World!' 프로그램에서 나무 집 모형으로 만드는 스마트홈까지 차근차근 이어져요. 컨시어지가 모델과 옵션, 재고, 가격을 확인해 올렸고, 주문하시면 FeelBetter가 미국 판매처에서 구매해 한국으로 보내드려요(보통 영업일 7~14일).",
+      "highlights": [
+        "19강 튜토리얼이 간단한 'Hello World!' 프로그램부터 RFID 도어 스위치, 모션 감지, 초음파 거리 감지까지 갖춘 스마트홈 완성까지 이끌어 줘요.",
+        "Wi-Fi로 프로그래밍하고 제어해서 웹 브라우저나 스마트폰으로 기기를 다룰 수 있어요.",
+        "나무 집 모형, OSOYOO MEGA2560 보드, MEGA IoT 확장 보드, 1채널 릴레이, 마이크로 서보 모터, 1602 I2C LCD 모듈이 들어 있어요.",
+        "가스, 불꽃, 소리 감지 모듈과 RFID, LED, 버튼 모듈, 4x4 매트릭스 키패드에 센서 세트(조도, 온습도, 부저, 초음파, PIR 모션)까지 함께 와요.",
+        "MEGA IoT 확장 보드가 XH2.54를 지원해서 플러그 앤 플레이 기기를 오류 없이 연결할 수 있어, 입문자도 쉽게 따라 할 수 있어요."
+      ],
+      "sections": [
+        {
+          "h": "배울 수 있는 것",
+          "p": "안내서는 온습도 감지 설정, 서보 모터 제어, RFID 출입 등을 차례로 다루고, 판매 페이지에 따르면 모두 웹 브라우저에서 바로 진행할 수 있어요. 수준에 상관없이 교실이나 집에서 쓸 수 있는 STEAM 커리큘럼으로 소개돼요."
+        },
+        {
+          "h": "이런 분께 좋아요",
+          "p": "판매 페이지는 IoT 수업, 여름 캠프, 과학 동아리, 체험 센터, 그리고 STEM 교육 전반에 알맞다고 소개해요. 권장 연령은 15세 이상이고, 모델번호는 DKRK101100-1이에요."
+        }
+      ],
+      "cautions": [
+        "권장 연령은 15세 이상이에요."
+      ]
+    },
+    "ja": {
+      "title": "OSOYOO IoTスマートホーム学習キット Arduino Mega2560用 全19レッスン",
+      "meta_title": "OSOYOO IoTスマートホーム学習キット Mega2560",
+      "meta_description": "木製ハウスモデルやセンサー、RFID、LCD、リレー、全19レッスンのガイド付きOSOYOO IoTスマートホームキット。Arduino Mega2560用で、推奨年齢は15歳以上です。",
+      "headline": "全19レッスンのガイドとセンサー、木製ハウスモデルで作るArduino Mega2560用スマートホームキット",
+      "intro": "OSOYOO IoTスマートホーム学習キットは、プログラマブルな電子工作とIoTの入門セットで、簡単な「Hello World!」から木製ハウスモデルを使ったスマートホームづくりまで段階的に進められます。コンシェルジュがモデル・バリエーション・在庫・価格を確認して掲載しており、ご注文後にFeelBetterが米国の販売店から購入して韓国へ発送します（通常7〜14営業日）。",
+      "highlights": [
+        "全19レッスンのチュートリアルで、簡単な「Hello World!」からRFIDドアスイッチ、人感検知、超音波距離検知まで備えたスマートホームの完成まで進められます。",
+        "Wi-Fiでのプログラミングと制御により、Webブラウザやスマートフォンから機器を操作できます。",
+        "木製ハウスモデル、OSOYOO MEGA2560ボード、MEGA IoT拡張ボード、1チャンネルリレー、マイクロサーボモーター、1602 I2C LCDモジュールが入っています。",
+        "ガス・炎・音の検知モジュール、RFID・LED・ボタンモジュール、4x4マトリクスキーパッドに加え、センサーセット（光、温湿度、ブザー、超音波、PIR人感）も付属します。",
+        "MEGA IoT拡張ボードがXH2.54に対応し、プラグアンドプレイの機器を接続ミスなくつなげるため、初心者でも取り組みやすくなっています。"
+      ],
+      "sections": [
+        {
+          "h": "学べること",
+          "p": "ガイドでは温湿度検知の設定、サーボモーターの制御、RFIDによる入室などを順に扱い、出品情報によればすべてWebブラウザ上でそのまま進められます。レベルを問わず教室でも家庭でも使えるSTEAMカリキュラムとして紹介されています。"
+        },
+        {
+          "h": "こんな方におすすめ",
+          "p": "出品情報では、IoTの授業、サマーキャンプ、科学クラブ、体験施設、そしてSTEM教育全般に向いているとされています。推奨年齢は15歳以上で、型番はDKRK101100-1です。"
+        }
+      ],
+      "cautions": [
+        "推奨年齢は15歳以上です。"
+      ]
+    },
+    "zh-CN": {
+      "title": "OSOYOO IoT 智能家居学习套件 适用 Arduino Mega2560 含 19 课教程",
+      "meta_title": "OSOYOO IoT 智能家居学习套件 Mega2560",
+      "meta_description": "含木质房屋模型、传感器、RFID、LCD、继电器和 19 课教程的 OSOYOO IoT 智能家居套件，适用 Arduino Mega2560，建议 15 岁以上。美国代购，发往韩国。",
+      "headline": "含 19 课教程、传感器和木质房屋模型的 Arduino Mega2560 智能家居学习套件",
+      "intro": "OSOYOO IoT 智能家居学习套件是可编程电子和物联网的入门套装，从简单的“Hello World!”程序到用木质房屋模型搭建功能完整的智能家居，循序渐进。礼宾专员已核对型号、款式、库存和价格后上架，您下单后 FeelBetter 会向美国卖家采购并寄往韩国，通常需要 7–14 个工作日。",
+      "highlights": [
+        "19 课教程带您从简单的“Hello World!”程序，一步步做出带 RFID 门禁开关、运动检测和超声波测距的完整智能家居。",
+        "借助 Wi-Fi 编程与控制，可以通过网页浏览器或智能手机操控设备。",
+        "套件包含木质房屋模型、OSOYOO MEGA2560 主板、MEGA IoT 扩展板、单路继电器、微型舵机和 1602 I2C LCD 模块。",
+        "气体、火焰和声音检测模块，RFID、LED 和按键模块，4x4 矩阵键盘，以及传感器套装（光敏、温湿度、蜂鸣器、超声波、PIR 人体感应）一应俱全。",
+        "MEGA IoT 扩展板支持 XH2.54，即插即用的设备可以无错连接，让初学者更容易上手。"
+      ],
+      "sections": [
+        {
+          "h": "可以学到什么",
+          "p": "教程依次讲解温湿度检测的设置、舵机控制、RFID 门禁等内容，据商品页面介绍，全部可直接在网页浏览器中完成。它被介绍为适合各种水平、可在课堂或家中使用的 STEAM 课程。"
+        },
+        {
+          "h": "适合哪些人",
+          "p": "商品页面称它适合用作物联网课程、夏令营、科学社团、动手体验中心的演示套件，也适合一般的 STEM 教育。建议年龄 15 岁以上，型号为 DKRK101100-1。"
+        }
+      ],
+      "cautions": [
+        "建议年龄为 15 岁以上。"
+      ]
+    },
+    "es": {
+      "title": "OSOYOO kit IoT de casa inteligente para Arduino Mega2560",
+      "meta_title": "OSOYOO kit IoT de casa inteligente, Mega2560",
+      "meta_description": "Kit IoT de casa inteligente OSOYOO para Arduino Mega2560 con maqueta de madera, sensores, RFID, LCD, relé y 19 lecciones. Edad recomendada: desde 15 años.",
+      "headline": "Kit de casa inteligente para Arduino Mega2560 con guía de 19 lecciones, sensores y maqueta de madera",
+      "intro": "El OSOYOO IoT Smart Home Learner Kit es una introducción a la electrónica programable y al IoT que va desde un sencillo programa «Hello World!» hasta una casa inteligente funcional con una maqueta de madera. Nuestro concierge ha comprobado modelo, variante, existencias y precio antes de publicarlo; tras su pedido, FeelBetter lo compra al vendedor en Estados Unidos y lo envía a Corea, normalmente en 7–14 días laborables.",
+      "highlights": [
+        "Un tutorial de 19 lecciones lleva desde un sencillo programa «Hello World!» hasta una casa inteligente completa con interruptor de puerta RFID, detección de movimiento y de distancia por ultrasonidos.",
+        "La programación y el control por Wi-Fi permiten manejar los dispositivos desde un navegador web o un smartphone.",
+        "El kit incluye una maqueta de casa de madera, una placa OSOYOO MEGA2560, una placa de expansión MEGA IoT, un relé de un canal, un microservomotor y un módulo LCD 1602 I2C.",
+        "Se suman módulos de detección de gas, llama y sonido, módulos RFID, LED y pulsador, un teclado matricial 4x4 y un juego de sensores (fotosensible, temperatura y humedad, zumbador, ultrasonidos y movimiento PIR).",
+        "La placa de expansión MEGA IoT admite XH2.54, de modo que los dispositivos plug and play se conectan sin errores, lo que facilita el aprendizaje a los principiantes."
+      ],
+      "sections": [
+        {
+          "h": "Qué se aprende",
+          "p": "La guía explica cómo configurar la detección de temperatura y humedad, controlar un servomotor, la entrada con RFID y mucho más, y según el anuncio todo se hace desde el navegador web. Se presenta como un currículo STEAM para el aula o el hogar, para cualquier nivel."
+        },
+        {
+          "h": "Para quién es",
+          "p": "El anuncio lo describe como ideal para clases de IoT, campamentos de verano, clubes de ciencias y centros prácticos, y para la educación STEM en general. La edad recomendada es de 15 años en adelante y el número de modelo es DKRK101100-1."
+        }
+      ],
+      "cautions": [
+        "La edad recomendada es de 15 años o más."
+      ]
+    },
+    "de": {
+      "title": "OSOYOO IoT Smart-Home-Lernkit für Arduino Mega2560, 19 Lektionen",
+      "meta_title": "OSOYOO IoT Smart-Home-Lernkit für Mega2560",
+      "meta_description": "OSOYOO IoT Smart-Home-Lernkit für Arduino Mega2560 mit Holzhausmodell, Sensoren, RFID, LCD, Relais und 19 Lektionen. Empfohlenes Alter: ab 15 Jahren.",
+      "headline": "Smart-Home-Bausatz für Arduino Mega2560 mit 19 Lektionen, Sensoren und Holzhausmodell",
+      "intro": "Das OSOYOO IoT Smart Home Learner Kit führt in programmierbare Elektronik und IoT ein, vom einfachen „Hello World!“-Programm bis zu einem funktionsfähigen Smart Home mit einem Holzhausmodell. Unser Concierge hat Modell, Variante, Bestand und Preis vor der Listung geprüft; nach Ihrer Bestellung kauft FeelBetter das Kit beim Händler in den USA und versendet es nach Korea, in der Regel in 7–14 Werktagen.",
+      "highlights": [
+        "Ein Tutorial mit 19 Lektionen führt vom einfachen „Hello World!“-Programm zu einem voll funktionsfähigen Smart Home mit RFID-Türschalter, Bewegungserkennung und Ultraschall-Abstandsmessung.",
+        "Über WLAN-Programmierung und -Steuerung lassen sich Geräte per Webbrowser oder Smartphone bedienen.",
+        "Im Set sind ein Holzhausmodell, ein OSOYOO MEGA2560 Board, ein MEGA IoT Erweiterungsboard, ein Ein-Kanal-Relais, ein Mikro-Servomotor und ein 1602-I2C-LCD-Modul.",
+        "Dazu kommen Gas-, Flammen- und Geräuschmodule, RFID-, LED- und Tastermodule, eine 4x4-Matrixtastatur und ein Sensorset (Fotosensor, Temperatur und Luftfeuchtigkeit, Summer, Ultraschall, PIR-Bewegung).",
+        "Das MEGA IoT Erweiterungsboard unterstützt XH2.54, sodass Plug-and-Play-Geräte fehlerfrei angeschlossen werden, was Anfängern den Einstieg erleichtert."
+      ],
+      "sections": [
+        {
+          "h": "Was Sie lernen",
+          "p": "Die Anleitung behandelt unter anderem die Einrichtung der Temperatur- und Feuchtigkeitserkennung, die Steuerung eines Servomotors und den Zutritt per RFID, und laut Angebot geschieht das alles direkt im Webbrowser. Sie wird als STEAM-Lehrplan für Klassenzimmer oder Zuhause für jedes Niveau beschrieben."
+        },
+        {
+          "h": "Für wen geeignet",
+          "p": "Laut Angebot eignet sich das Kit als Demo für IoT-Kurse, Sommercamps, Wissenschafts-AGs und Mitmachzentren sowie allgemein für MINT-Bildung. Das empfohlene Alter beträgt 15 Jahre und mehr, die Modellnummer lautet DKRK101100-1."
+        }
+      ],
+      "cautions": [
+        "Das empfohlene Alter liegt bei 15 Jahren oder älter."
+      ]
+    },
+    "fr": {
+      "title": "OSOYOO kit IoT maison connectée pour Arduino Mega2560, 19 leçons",
+      "meta_title": "OSOYOO kit IoT maison connectée, Mega2560",
+      "meta_description": "Kit IoT maison connectée OSOYOO pour Arduino Mega2560 avec maquette en bois, capteurs, RFID, LCD, relais et guide de 19 leçons. Âge recommandé : 15 ans et plus.",
+      "headline": "Kit de maison connectée pour Arduino Mega2560 avec guide de 19 leçons, capteurs et maquette en bois",
+      "intro": "L'OSOYOO IoT Smart Home Learner Kit initie à l'électronique programmable et à l'IoT, d'un simple programme « Hello World ! » jusqu'à une maison connectée fonctionnelle avec une maquette en bois. Notre concierge a vérifié le modèle, la variante, le stock et le prix avant la mise en ligne ; après votre commande, FeelBetter l'achète auprès du vendeur aux États-Unis et l'expédie en Corée, généralement en 7 à 14 jours ouvrés.",
+      "highlights": [
+        "Un tutoriel de 19 leçons mène d'un simple programme « Hello World ! » à une maison connectée complète avec interrupteur de porte RFID, détection de mouvement et mesure de distance par ultrasons.",
+        "La programmation et le contrôle par Wi-Fi permettent de piloter les appareils depuis un navigateur web ou un smartphone.",
+        "Le kit comprend une maquette de maison en bois, une carte OSOYOO MEGA2560, une carte d'extension MEGA IoT, un relais à un canal, un micro servomoteur et un module LCD 1602 I2C.",
+        "S'y ajoutent des modules de détection de gaz, de flamme et de son, des modules RFID, LED et bouton, un clavier matriciel 4x4 et un jeu de capteurs (photosensible, température et humidité, buzzer, ultrasons, mouvement PIR).",
+        "La carte d'extension MEGA IoT prend en charge le XH2.54, ce qui permet de brancher les appareils plug and play sans erreur et facilite l'apprentissage des débutants."
+      ],
+      "sections": [
+        {
+          "h": "Ce que vous apprenez",
+          "p": "Le guide explique entre autres comment configurer la détection de température et d'humidité, commander un servomoteur et gérer l'entrée par RFID, et selon l'annonce tout se fait directement dans le navigateur web. Il est présenté comme un programme STEAM pour la classe ou la maison, à tous les niveaux."
+        },
+        {
+          "h": "À qui s'adresse-t-il ?",
+          "p": "Selon l'annonce, le kit convient comme démonstration pour des cours d'IoT, des camps d'été, des clubs de sciences et des espaces d'expérimentation, ainsi que pour l'enseignement STEM en général. L'âge recommandé est de 15 ans et plus, et le numéro de modèle est DKRK101100-1."
+        }
+      ],
+      "cautions": [
+        "L'âge recommandé est de 15 ans et plus."
+      ]
+    }
+  }
 }
