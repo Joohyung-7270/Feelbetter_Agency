@@ -90,3 +90,12 @@
 
 - QA 크롤 리포트: `docs/QA_REPORT.md` · 이 보고서: `docs/TEST_REPORT.md` (Feelbetter_Agency)
 - 테마 커밋 `adc528e` (main) · 앱 커밋 `004a341` (`concierge-shopify`, PR #8)
+
+## 9. 추가 (2026-10-04 10:45 KST) — 카탈로그 · 운영 배포 · Town 재테스트
+
+- **스토어 공개 완료**(비밀번호 해제) → `/.well-known/ucp` · 사이트맵 200. Vercel 환경변수 적용 + PR #9 머지로 운영 요청함 API 200, `orders/paid` 웹훅을 feelbetter.agency에 등록.
+- **Town 자동 처리(운영)**: FB-00006을 Town이 자동으로 가져가 소싱(Claude) → 검증(Codex) → 상세(scribe)까지 진행. 등록 직전 "가격 없음"으로 `needs_human` — 원인은 리뷰어 FIX 패치의 `source_price: null`이 소싱 값을 덮어쓴 Town 버그. `JaydenTown@ba570cb`로 수정(커밋·푸시). **Town 재시작 후** 명령 막대에 `/컨시어지 FB-00006` 입력하면 이어서 처리.
+- **카탈로그**: 스마트스토어 라이브 206개 중 7개 언어 문구가 끝난 **159개**를 10:44 KST 최종 업로드(ACTIVE) 시작 — 터미널 탭 "Catalog final upload" (로그 `/tmp/catalog-final.log`), 이어서 Shop 메뉴 생성과 QA 크롤이 자동 실행. 그룹: 할로윈 39 · 인형 31 · 해즈빈 21 · 주짓수 16 · 오판츄 14 · PMP 10 · 오타마톤 6 · 핑구 6 · 오르골 4 · 기타. 나머지 47개는 문구 파일이 채워지는 대로 `node scripts/shopify-catalog.mjs` 한 번이면 올라간다(멱등).
+- **가격 규칙**: Radar 원가(환율·관부가세·배송 포함) × 1.10 ÷ (1 − PayPal 4.4% − Shopify 0.6%) + ₩600, ₩100 올림. 예: 원가 ₩31,037 → ₩36,600.
+- **테마 라운드 5(라이브)**: PDP 720px 본문(특징 · 스펙표 · FAQ 아코디언 · 확인사항 · 관부가세 안내) · 신뢰 스트립 · 컨시어지 CTA · 관련 상품, PLP 카드/필터/정렬, `/collections` 랜딩, 추천 검색어 칩(헤더 검색 · 검색 결과 없음), 7개 언어 문자열.
+- **남은 사용자 작업**: Search & Discovery → 필터 추가(브랜드 · 상품 유형); PayPal 온보딩 완료; Town 재시작; 환영/생일 메일 템플릿 켜기.
