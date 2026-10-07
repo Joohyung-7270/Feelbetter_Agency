@@ -112,6 +112,22 @@
       >
     </div>
 
+    <div class="fb-form__field">
+      <label class="fb-form__label" for="{{ fb_id }}-country">
+        {{- 'feelbetter.form.ship_to_label' | t -}}
+      </label>
+      {%- liquid
+        assign fb_countries = 'KR:South Korea,US:United States,JP:Japan,CN:China,TW:Taiwan,HK:Hong Kong,SG:Singapore,MY:Malaysia,TH:Thailand,VN:Vietnam,PH:Philippines,ID:Indonesia,IN:India,AU:Australia,NZ:New Zealand,CA:Canada,MX:Mexico,BR:Brazil,GB:United Kingdom,IE:Ireland,DE:Germany,FR:France,ES:Spain,IT:Italy,NL:Netherlands,BE:Belgium,CH:Switzerland,AT:Austria,SE:Sweden,NO:Norway,DK:Denmark,FI:Finland,PL:Poland,PT:Portugal,AE:United Arab Emirates,SA:Saudi Arabia,IL:Israel,TR:Türkiye,ZA:South Africa' | split: ','
+      -%}
+      <select class="fb-form__input fb-form__select" id="{{ fb_id }}-country" name="shipCountry" autocomplete="country" data-ship-country>
+        {%- for pair in fb_countries -%}
+          {%- assign fb_c = pair | split: ':' -%}
+          <option value="{{ fb_c[0] }}"{% if fb_c[0] == 'KR' %} selected{% endif %}>{{ fb_c[1] }}</option>
+        {%- endfor -%}
+        <option value="ZZ" data-other>{{ 'feelbetter.form.ship_to_other' | t }}</option>
+      </select>
+    </div>
+
     <p class="fb-form__error" id="{{ fb_id }}-error" role="alert" aria-live="assertive" data-error hidden>
       <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
         <circle cx="8" cy="8" r="6.5"/>

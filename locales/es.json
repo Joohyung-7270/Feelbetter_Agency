@@ -593,6 +593,8 @@
       "link_placeholder": "https://",
       "email_label": "Correo electrónico",
       "email_placeholder": "tu@ejemplo.com",
+      "ship_to_label": "País de envío",
+      "ship_to_other": "Otro país (indícalo arriba)",
       "submit": "Encuéntralo por mí",
       "submitting": "Enviando…",
       "fine_print": "Sin registro. Sin spam. Un correo, un enlace, encontrado para ti en menos de {{ minutes }} minutos.",

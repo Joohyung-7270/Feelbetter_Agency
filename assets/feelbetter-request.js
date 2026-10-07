@@ -51,7 +51,9 @@
         prompt: this.form.querySelector('[name="prompt"]'),
         link: this.form.querySelector('[name="productUrl"]'),
         email: this.form.querySelector('[name="email"]'),
+        country: this.form.querySelector('[name="shipCountry"]'),
       };
+      this.setupCountry();
       this.linkWrap = this.form.querySelector('[data-link-wrap]');
       this.linkToggle = this.form.querySelector('[data-link-toggle]');
       this.error = this.form.querySelector('[data-error]');
@@ -177,6 +179,7 @@
       const payload = {
         prompt: (this.fields.prompt?.value || '').trim(),
         email: (this.fields.email?.value || '').trim(),
+        shipCountry: this.fields.country?.value || '',
         locale: this.locale,
         productUrl: this.linkOpen ? (this.fields.link?.value || '').trim() : '',
         source: 'shopify',
@@ -234,6 +237,24 @@
     }
 
     /* ---------- received panel ---------- */
+
+    /** Country names in the page language, and a first guess of the destination from the browser (ko-KR → KR …). */
+    setupCountry() {
+      const select = this.fields.country;
+      if (!select) return;
+      const lang = document.documentElement.lang || this.locale || 'en';
+      try {
+        const names = new Intl.DisplayNames([lang], { type: 'region' });
+        for (const opt of select.options) if (!opt.hasAttribute('data-other')) opt.textContent = names.of(opt.value) || opt.textContent;
+      } catch (_) { /* keep the English names */ }
+      const codes = Array.from(select.options).map((o) => o.value);
+      const byLang = { ko: 'KR', ja: 'JP', zh: 'CN', de: 'DE', fr: 'FR', es: 'ES', it: 'IT', nl: 'NL', pt: 'BR' };
+      const tags = [...(navigator.languages || [navigator.language || '']), lang];
+      let guess = null;
+      for (const t of tags) { const r = (t.split('-')[1] || '').toUpperCase(); if (codes.includes(r)) { guess = r; break; } }
+      if (!guess) for (const t of tags) { const l = byLang[(t.split('-')[0] || '').toLowerCase()]; if (l) { guess = l; break; } }
+      if (guess) select.value = guess;
+    }
 
     showReceived(ref, email) {
       if (!this.received) return;

@@ -581,6 +581,8 @@
       "link_placeholder": "https://",
       "email_label": "E-Mail",
       "email_placeholder": "du@beispiel.de",
+      "ship_to_label": "Lieferland",
+      "ship_to_other": "Anderes Land (bitte oben angeben)",
       "submit": "Finde es für mich",
       "submitting": "Wird gesendet…",
       "fine_print": "Keine Registrierung. Kein Spam. Eine E-Mail, ein Link, für dich gefunden innerhalb von {{ minutes }} Minuten.",

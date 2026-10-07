@@ -4116,3 +4116,16 @@ predictive-search[loading] .fb-search-suggest--header {
     transition: none;
   }
 }
+
+/* Ship-to country select on the request form */
+.fb-form__select {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  padding-right: 2.75rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23999' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m4 6 4 4 4-4'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1.1rem center;
+  background-size: 1rem;
+}
+.fb-form__select option { color: #0b1f3a; background: #f6f1e7; }

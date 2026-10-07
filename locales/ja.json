@@ -581,6 +581,8 @@
       "link_placeholder": "https://",
       "email_label": "メールアドレス",
       "email_placeholder": "you@example.com",
+      "ship_to_label": "お届け先の国",
+      "ship_to_other": "その他の国（リクエストに記入）",
       "submit": "探してもらう",
       "submitting": "送信中…",
       "fine_print": "会員登録なし。迷惑メールなし。{{ minutes }}分以内に、あなたのために見つけたリンクひとつをメール一通で。",
