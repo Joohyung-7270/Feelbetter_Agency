@@ -583,6 +583,8 @@
       "email_placeholder": "du@beispiel.de",
       "ship_to_label": "Lieferland",
       "ship_to_other": "Anderes Land (bitte oben angeben)",
+      "ship_to_search": "Land suchen",
+      "ship_to_none": "Kein Land gefunden — wählen Sie „Anderes Land“",
       "submit": "Finde es für mich",
       "submitting": "Wird gesendet…",
       "fine_print": "Keine Registrierung. Kein Spam. Eine E-Mail, ein Link, für dich gefunden innerhalb von {{ minutes }} Minuten.",

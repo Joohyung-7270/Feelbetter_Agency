@@ -583,6 +583,8 @@
       "email_placeholder": "you@example.com",
       "ship_to_label": "收货国家/地区",
       "ship_to_other": "其他国家（请在需求中注明）",
+      "ship_to_search": "搜索国家/地区",
+      "ship_to_none": "没有找到 — 请选择其他国家",
       "submit": "帮我找到它",
       "submitting": "发送中……",
       "fine_print": "无需注册，不发垃圾邮件。{{ minutes }} 分钟内，一封邮件，一个为你找到的链接。",

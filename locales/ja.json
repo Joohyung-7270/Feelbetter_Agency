@@ -583,6 +583,8 @@
       "email_placeholder": "you@example.com",
       "ship_to_label": "お届け先の国",
       "ship_to_other": "その他の国（リクエストに記入）",
+      "ship_to_search": "国を検索",
+      "ship_to_none": "見つかりません — その他の国を選択",
       "submit": "探してもらう",
       "submitting": "送信中…",
       "fine_print": "会員登録なし。迷惑メールなし。{{ minutes }}分以内に、あなたのために見つけたリンクひとつをメール一通で。",

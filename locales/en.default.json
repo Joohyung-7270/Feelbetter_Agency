@@ -584,6 +584,8 @@
       "email_placeholder": "you@example.com",
       "ship_to_label": "Ship to",
       "ship_to_other": "Other country (tell us above)",
+      "ship_to_search": "Search country",
+      "ship_to_none": "No country found — choose Other",
       "submit": "Find it for me",
       "submitting": "Sending…",
       "fine_print": "No sign-up. No spam. One email, one link, found for you within {{ minutes }} minutes.",

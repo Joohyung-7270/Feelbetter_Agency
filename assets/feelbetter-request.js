@@ -51,7 +51,7 @@
         prompt: this.form.querySelector('[name="prompt"]'),
         link: this.form.querySelector('[name="productUrl"]'),
         email: this.form.querySelector('[name="email"]'),
-        country: this.form.querySelector('[name="shipCountry"]'),
+        country: this.form.querySelector('[data-ship-value]'),
       };
       this.setupCountry();
       this.linkWrap = this.form.querySelector('[data-link-wrap]');
@@ -238,22 +238,130 @@
 
     /* ---------- received panel ---------- */
 
-    /** Country names in the page language, and a first guess of the destination from the browser (ko-KR → KR …). */
+    /**
+     * "Ship to" pill: a searchable dropdown (combobox). The panel is appended to <body> with fixed coordinates so no
+     * neighbouring panel or overflow-hidden card can cover or clip it; it opens upward when there is no room below.
+     */
     setupCountry() {
-      const select = this.fields.country;
-      if (!select) return;
+      const root = this.form.querySelector('[data-ship]');
+      if (!root) return;
+      const hidden = root.querySelector('[data-ship-value]');
+      const btn = root.querySelector('[data-ship-btn]');
+      const current = root.querySelector('[data-ship-current]');
       const lang = document.documentElement.lang || this.locale || 'en';
-      try {
-        const names = new Intl.DisplayNames([lang], { type: 'region' });
-        for (const opt of select.options) if (!opt.hasAttribute('data-other')) opt.textContent = names.of(opt.value) || opt.textContent;
-      } catch (_) { /* keep the English names */ }
-      const codes = Array.from(select.options).map((o) => o.value);
+      let names = null;
+      let namesEn = null;
+      try { names = new Intl.DisplayNames([lang], { type: 'region' }); namesEn = new Intl.DisplayNames(['en'], { type: 'region' }); } catch (_) { /* codes only */ }
+      const other = root.dataset.other || 'Other';
+      const options = (root.dataset.codes || '').split(',').filter(Boolean).map((code) => ({ code, name: names?.of(code) || code, en: namesEn?.of(code) || code }));
+      options.push({ code: 'ZZ', name: other, en: 'Other' });
+
+      const show = (code) => {
+        const o = options.find((x) => x.code === code) || options[0];
+        hidden.value = o.code;
+        current.textContent = o.code === 'ZZ' ? other.split(' (')[0].split('（')[0] : o.name;
+      };
+      // first guess: browser region, then browser/page language
+      const codes = options.map((o) => o.code);
       const byLang = { ko: 'KR', ja: 'JP', zh: 'CN', de: 'DE', fr: 'FR', es: 'ES', it: 'IT', nl: 'NL', pt: 'BR' };
       const tags = [...(navigator.languages || [navigator.language || '']), lang];
       let guess = null;
       for (const t of tags) { const r = (t.split('-')[1] || '').toUpperCase(); if (codes.includes(r)) { guess = r; break; } }
       if (!guess) for (const t of tags) { const l = byLang[(t.split('-')[0] || '').toLowerCase()]; if (l) { guess = l; break; } }
-      if (guess) select.value = guess;
+      show(guess || 'KR');
+
+      let panel = null;
+      let active = 0;
+      let list = [];
+      const close = () => {
+        if (!panel) return;
+        panel.remove();
+        panel = null;
+        btn.setAttribute('aria-expanded', 'false');
+        window.removeEventListener('resize', place);
+        window.removeEventListener('scroll', place, true);
+        document.removeEventListener('mousedown', outside, true);
+      };
+      const outside = (e) => { if (panel && !panel.contains(e.target) && !root.contains(e.target)) close(); };
+      const place = () => {
+        if (!panel) return;
+        const r = btn.getBoundingClientRect();
+        const vw = window.innerWidth;
+        const vh = window.innerHeight;
+        const width = Math.min(288, vw - 24);
+        const left = Math.max(12, Math.min(r.right - width, vw - width - 12));
+        const below = vh - r.bottom - 16;
+        const above = r.top - 16;
+        const want = 340;
+        let top; let h;
+        if (below >= Math.min(want, 240) || below >= above) { h = Math.min(want, below); top = r.bottom + 8; } else { h = Math.min(want, above); top = r.top - 8 - h; }
+        Object.assign(panel.style, { top: `${top}px`, left: `${left}px`, width: `${width}px` });
+        panel.querySelector('ul').style.maxHeight = `${Math.max(120, h - 60)}px`;
+      };
+      const render = (q) => {
+        const query = (q || '').trim().toLowerCase();
+        list = query ? options.filter((o) => o.name.toLowerCase().includes(query) || o.en.toLowerCase().includes(query) || o.code.toLowerCase() === query) : options;
+        active = Math.max(0, list.findIndex((o) => o.code === hidden.value));
+        if (query) active = 0;
+        const ul = panel.querySelector('ul');
+        ul.innerHTML = '';
+        if (!list.length) {
+          const li = document.createElement('li');
+          li.className = 'fb-ship__empty';
+          li.textContent = root.dataset.noMatch || '';
+          ul.appendChild(li);
+          return;
+        }
+        list.forEach((o, i) => {
+          const li = document.createElement('li');
+          li.setAttribute('role', 'option');
+          li.id = `fb-ship-${o.code}`;
+          li.dataset.i = String(i);
+          li.setAttribute('aria-selected', String(o.code === hidden.value));
+          li.className = `fb-ship__opt${i === active ? ' is-active' : ''}`;
+          const name = document.createElement('span');
+          name.textContent = o.name;
+          const tag = document.createElement('span');
+          tag.className = 'fb-ship__code';
+          tag.textContent = o.code === hidden.value ? '✓' : o.code === 'ZZ' ? '' : o.code;
+          li.append(name, tag);
+          li.addEventListener('mouseenter', () => setActive(i));
+          li.addEventListener('mousedown', (e) => { e.preventDefault(); show(o.code); close(); btn.focus(); });
+          ul.appendChild(li);
+        });
+        setActive(active);
+      };
+      const setActive = (i) => {
+        active = i;
+        panel.querySelectorAll('.fb-ship__opt').forEach((li, j) => li.classList.toggle('is-active', j === i));
+        const el = panel.querySelector(`[data-i="${i}"]`);
+        if (el) { el.scrollIntoView({ block: 'nearest' }); panel.querySelector('input').setAttribute('aria-activedescendant', el.id); }
+      };
+      const open = () => {
+        panel = document.createElement('div');
+        panel.className = 'fb-ship__panel';
+        panel.innerHTML = '<div class="fb-ship__search"><input type="text" role="combobox" aria-expanded="true" aria-controls="fb-ship-list" autocomplete="off" spellcheck="false"></div><ul id="fb-ship-list" role="listbox"></ul>';
+        const input = panel.querySelector('input');
+        input.placeholder = root.dataset.search || '';
+        panel.querySelector('ul').setAttribute('aria-label', root.dataset.label || '');
+        document.body.appendChild(panel);
+        btn.setAttribute('aria-expanded', 'true');
+        render('');
+        place();
+        input.addEventListener('input', () => render(input.value));
+        input.addEventListener('keydown', (e) => {
+          if (e.key === 'ArrowDown') { e.preventDefault(); setActive(Math.min(list.length - 1, active + 1)); }
+          else if (e.key === 'ArrowUp') { e.preventDefault(); setActive(Math.max(0, active - 1)); }
+          else if (e.key === 'Enter') { e.preventDefault(); if (list[active]) { show(list[active].code); close(); btn.focus(); } }
+          else if (e.key === 'Escape') { e.preventDefault(); close(); btn.focus(); }
+          else if (e.key === 'Tab') close();
+        });
+        window.addEventListener('resize', place);
+        window.addEventListener('scroll', place, true);
+        document.addEventListener('mousedown', outside, true);
+        requestAnimationFrame(() => input.focus());
+      };
+      btn.addEventListener('click', () => (panel ? close() : open()));
     }
 
     showReceived(ref, email) {

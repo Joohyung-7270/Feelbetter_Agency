@@ -583,6 +583,8 @@
       "email_placeholder": "you@example.com",
       "ship_to_label": "배송 국가",
       "ship_to_other": "기타 국가 (요청에 적어 주세요)",
+      "ship_to_search": "국가 검색",
+      "ship_to_none": "찾는 국가가 없어요 — 기타 국가를 고르세요",
       "submit": "구매 링크 받기",
       "submitting": "보내는 중…",
       "fine_print": "회원가입 없음. 스팸 없음. {{ minutes }}분 안에 당신을 위해 찾은 링크 하나가 담긴 메일 한 통.",

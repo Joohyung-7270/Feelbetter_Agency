@@ -595,6 +595,8 @@
       "email_placeholder": "vous@exemple.fr",
       "ship_to_label": "Pays de livraison",
       "ship_to_other": "Autre pays (précisez-le ci-dessus)",
+      "ship_to_search": "Rechercher un pays",
+      "ship_to_none": "Aucun pays trouvé — choisissez « Autre pays »",
       "submit": "Trouvez-le pour moi",
       "submitting": "Envoi…",
       "fine_print": "Sans inscription. Sans spam. Un e-mail, un lien, trouvé pour vous en moins de {{ minutes }} minutes.",
