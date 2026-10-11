@@ -42,3 +42,8 @@ For the bulk import the uploader fills `specs` (from `en.specs` with translated 
 answers) and `options` (dictionary) by itself. Writers only need, per locale: `title`, `meta_title`, `meta_description`, `headline`,
 `intro` (2 sentences), `highlights` (4–5), `sections` (1–2 × 2–3 sentences), `cautions` (0–2). Add `specs`/`faq`/`options` only when
 the product needs something specific (sizing table, battery note, licensed-character spelling). Same FACTS and voice as above.
+
+## Hiding a product
+
+Add `"hidden": true` (and a short `"hidden_reason"`) to a catalog file to keep that product as a draft on Shopify. The importer
+never re-activates it; remove the flag and re-run `scripts/shopify-catalog.mjs --only <id>` to show it again.

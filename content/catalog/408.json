@@ -337,5 +337,7 @@
         "L'annonce précise qu'une coque peut gêner la charge et en réduire la vitesse ; elle n'est en outre pas résistante à l'eau."
       ]
     }
-  }
+  },
+  "hidden": true,
+  "hidden_reason": "best image 573px (2026-10-11) — show again when larger photos are added"
 }
