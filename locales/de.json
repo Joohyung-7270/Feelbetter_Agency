@@ -891,6 +891,15 @@
       "ask_link": "Frag den Concierge",
       "suggestions_heading": "Beliebte Suchen",
       "suggestions": "Otamatone|Carhartt Jacke|Squishmallows|Chiikawa|KI-Plüschtier|Kirby|Sanrio|Pusheen"
+    },
+    "customs": {
+      "label": "Koreanische Zollnummer (개인통관고유부호)",
+      "required_note": "Pflicht bei Lieferung nach Korea",
+      "hint": "Für die Verzollung von Auslandskäufen nötig. Sie beginnt mit P, gefolgt von 12 Ziffern.",
+      "link": "Bei UNI-PASS beantragen oder prüfen",
+      "abroad": "Ich liefere außerhalb Koreas",
+      "error_format": "Geben Sie P und 12 Ziffern ein (z. B. P123456789012).",
+      "error_required": "Geben Sie zum Bezahlen Ihre koreanische Zollnummer ein oder wählen Sie „Ich liefere außerhalb Koreas“."
     }
   }
 }

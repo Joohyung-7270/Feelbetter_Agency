@@ -1,0 +1,42 @@
+{%- comment -%}
+  개인통관고유부호 (Korean personal customs clearance code) — saved on the order as the cart attribute `customs_code`.
+  Required to check out unless the buyer ticks "shipping outside Korea". assets/feelbetter-customs.js validates it,
+  saves it to the cart as the buyer types, and blocks checkout until it is valid.
+  Params: form_id (the cart form the inputs belong to), id_prefix.
+{%- endcomment -%}
+{%- if cart.item_count > 0 -%}
+  {%- assign fb_abroad = cart.attributes.ship_outside_korea -%}
+  <div class="fb-customs" data-fb-customs data-error-format="{{ 'feelbetter.customs.error_format' | t | escape }}" data-error-required="{{ 'feelbetter.customs.error_required' | t | escape }}">
+    <label class="fb-customs__label" for="{{ id_prefix }}-customs">
+      {{ 'feelbetter.customs.label' | t }}
+      <span class="fb-customs__req">{{ 'feelbetter.customs.required_note' | t }}</span>
+    </label>
+    <div class="fb-customs__body"{% if fb_abroad == 'yes' %} hidden{% endif %} data-fb-customs-body>
+      <input
+        class="field__input fb-customs__input"
+        type="text"
+        id="{{ id_prefix }}-customs"
+        name="attributes[customs_code]"
+        form="{{ form_id }}"
+        value="{{ cart.attributes.customs_code | escape }}"
+        placeholder="P123456789012"
+        maxlength="13"
+        autocomplete="off"
+        autocapitalize="characters"
+        spellcheck="false"
+        aria-describedby="{{ id_prefix }}-customs-hint"
+        data-fb-customs-input
+      >
+      <p class="fb-customs__hint" id="{{ id_prefix }}-customs-hint">
+        {{ 'feelbetter.customs.hint' | t }}
+        <a href="https://unipass.customs.go.kr/csp/persIndex.do" target="_blank" rel="noopener">{{ 'feelbetter.customs.link' | t }}</a>
+      </p>
+    </div>
+    <input type="hidden" name="attributes[ship_outside_korea]" value="" form="{{ form_id }}">
+    <label class="fb-customs__abroad">
+      <input type="checkbox" name="attributes[ship_outside_korea]" value="yes" form="{{ form_id }}"{% if fb_abroad == 'yes' %} checked{% endif %} data-fb-customs-abroad>
+      <span>{{ 'feelbetter.customs.abroad' | t }}</span>
+    </label>
+    <p class="fb-customs__error" role="alert" hidden data-fb-customs-error></p>
+  </div>
+{%- endif -%}

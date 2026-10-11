@@ -274,7 +274,6 @@
       "announcement": "Announcement",
       "announcement_bar": "Announcement bar"
     },
-
     "header": {
       "announcement": "Announcement",
       "menu": "Menu",
@@ -892,6 +891,15 @@
       "ask_link": "Ask the concierge",
       "suggestions_heading": "Popular searches",
       "suggestions": "Otamatone|Carhartt jacket|Squishmallows|Chiikawa|AI plush|Kirby|Sanrio|Pusheen"
+    },
+    "customs": {
+      "label": "Korean customs ID (개인통관고유부호)",
+      "required_note": "Required for delivery to Korea",
+      "hint": "Needed to clear customs for overseas purchases. It starts with P followed by 12 digits.",
+      "link": "Get or check it on UNI-PASS",
+      "abroad": "I'm shipping outside Korea",
+      "error_format": "Enter P followed by 12 digits (e.g. P123456789012).",
+      "error_required": "Enter your Korean customs ID to check out, or tick “I'm shipping outside Korea”."
     }
   }
 }

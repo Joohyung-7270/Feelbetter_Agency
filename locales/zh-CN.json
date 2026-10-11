@@ -891,6 +891,15 @@
       "ask_link": "问问管家",
       "suggestions_heading": "热门搜索",
       "suggestions": "Otamatone 电音蝌蚪|Carhartt 夹克|Squishmallows|吉伊卡哇|AI 毛绒玩偶|星之卡比|三丽鸥|Pusheen"
+    },
+    "customs": {
+      "label": "韩国个人通关号码（개인통관고유부호）",
+      "required_note": "寄往韩国时必填",
+      "hint": "海外代购商品清关需要。以 P 开头，共 13 位。",
+      "link": "在 UNI-PASS 申请或查询",
+      "abroad": "我寄往韩国以外的地区",
+      "error_format": "请输入 P 加 12 位数字（例如 P123456789012）。",
+      "error_required": "请输入个人通关号码后再结账，或勾选“我寄往韩国以外的地区”。"
     }
   }
 }

@@ -903,6 +903,15 @@
       "ask_link": "Demandez au concierge",
       "suggestions_heading": "Recherches populaires",
       "suggestions": "Otamatone|Veste Carhartt|Squishmallows|Chiikawa|Peluche IA|Kirby|Sanrio|Pusheen"
+    },
+    "customs": {
+      "label": "Numéro douanier coréen (개인통관고유부호)",
+      "required_note": "Obligatoire pour une livraison en Corée",
+      "hint": "Nécessaire au dédouanement des achats à l’étranger. Il commence par P suivi de 12 chiffres.",
+      "link": "L’obtenir ou le vérifier sur UNI-PASS",
+      "abroad": "Je fais livrer hors de Corée",
+      "error_format": "Saisissez P suivi de 12 chiffres (ex. P123456789012).",
+      "error_required": "Saisissez votre numéro douanier coréen pour payer, ou cochez « Je fais livrer hors de Corée »."
     }
   }
 }

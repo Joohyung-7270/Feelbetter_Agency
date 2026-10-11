@@ -488,6 +488,7 @@
         </form>
       </cart-drawer-items>
       <div class="drawer__footer">
+        {% render 'feelbetter-customs-field', form_id: 'CartDrawer-Form', id_prefix: 'CartDrawer' %}
         {%- if settings.show_cart_note -%}
           <details id="Details-CartDrawer">
             <summary>

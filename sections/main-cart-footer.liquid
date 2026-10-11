@@ -24,6 +24,7 @@
 >
   <div class="page-width">
     <div class="cart__footer isolate section-{{ section.id }}-padding">
+      {% render 'feelbetter-customs-field', form_id: 'cart', id_prefix: 'Cart' %}
       {%- if settings.show_cart_note -%}
         <cart-note class="cart__note field">
           <label for="Cart-note">{{ 'sections.cart.note' | t }}</label>

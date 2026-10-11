@@ -903,6 +903,15 @@
       "ask_link": "Pregunta al concierge",
       "suggestions_heading": "Búsquedas populares",
       "suggestions": "Otamatone|Chaqueta Carhartt|Squishmallows|Chiikawa|Peluche con IA|Kirby|Sanrio|Pusheen"
+    },
+    "customs": {
+      "label": "Código aduanero coreano (개인통관고유부호)",
+      "required_note": "Obligatorio para envíos a Corea",
+      "hint": "Necesario para el despacho aduanero de compras en el extranjero. Empieza por P y tiene 12 dígitos más.",
+      "link": "Obténgalo o consúltelo en UNI-PASS",
+      "abroad": "Envío fuera de Corea",
+      "error_format": "Introduzca P seguida de 12 dígitos (p. ej. P123456789012).",
+      "error_required": "Introduzca su código aduanero coreano para pagar, o marque «Envío fuera de Corea»."
     }
   }
 }

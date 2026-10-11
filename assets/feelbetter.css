@@ -4186,3 +4186,16 @@ predictive-search[loading] .fb-search-suggest--header {
 .fb-ship__opt[aria-selected='true'] .fb-ship__code { color: #1f7a4d; font-size: 13px; }
 .fb-ship__empty { padding: 12px 14px; font-size: 13px; color: rgba(11, 31, 58, 0.6); }
 @media (prefers-reduced-motion: reduce) { .fb-ship__btn, .fb-ship__btn .fb-ship__chev { transition: none; } }
+
+/* Cart: Korean customs ID (개인통관고유부호) */
+.fb-customs { display: grid; gap: 0.8rem; margin: 0 0 1.6rem; padding: 1.4rem 1.6rem; border: 0.1rem solid rgba(var(--color-foreground), 0.15); border-radius: 1.2rem; text-align: left; }
+.fb-customs__label { font-size: 1.4rem; font-weight: 600; display: flex; flex-wrap: wrap; gap: 0.4rem 0.8rem; align-items: baseline; }
+.fb-customs__req { font-size: 1.2rem; font-weight: 400; color: rgba(var(--color-foreground), 0.65); }
+.fb-customs__body { display: grid; gap: 0.6rem; }
+.fb-customs__body[hidden] { display: none; }
+.fb-customs__input { width: 100%; padding: 1rem 1.2rem; border: 0.1rem solid rgba(var(--color-foreground), 0.3); border-radius: 0.8rem; font-size: 1.5rem; letter-spacing: 0.08em; font-family: ui-monospace, Menlo, monospace; background: rgb(var(--color-background)); color: rgb(var(--color-foreground)); }
+.fb-customs.is-invalid .fb-customs__input { border-color: #c0392b; }
+.fb-customs__hint { margin: 0; font-size: 1.2rem; line-height: 1.5; color: rgba(var(--color-foreground), 0.7); }
+.fb-customs__hint a { color: inherit; }
+.fb-customs__abroad { display: inline-flex; align-items: center; gap: 0.6rem; font-size: 1.3rem; cursor: pointer; }
+.fb-customs__error { margin: 0; font-size: 1.3rem; color: #c0392b; }
