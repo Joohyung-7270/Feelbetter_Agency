@@ -47,3 +47,14 @@ the product needs something specific (sizing table, battery note, licensed-chara
 
 Add `"hidden": true` (and a short `"hidden_reason"`) to a catalog file to keep that product as a draft on Shopify. The importer
 never re-activates it; remove the flag and re-run `scripts/shopify-catalog.mjs --only <id>` to show it again.
+
+## Product type
+
+A product's Shopify product type (shown in search filters) comes from its group in `_groups.json`. Add
+`"type": {"en": …, "ko": …, "ja": …, "zh-CN": …, "es": …, "de": …, "fr": …}` to a catalog file to override it — used for the
+catch-all `finds` group (#406 Bluetooth speaker, #407–#409 phone cases).
+
+## Images
+
+`images` is the list the importer attaches with `--media`. The Opanchu Usagi items' source shop only has 600 px photos, so
+#501–#518 now use the maker's larger photos from their Amazon Japan listings (matched by JAN code, other designs left out).

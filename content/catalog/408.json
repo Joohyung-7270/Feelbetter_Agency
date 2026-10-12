@@ -339,5 +339,14 @@
     }
   },
   "hidden": true,
-  "hidden_reason": "best image 573px (2026-10-11) — show again when larger photos are added"
+  "hidden_reason": "best image 573px (2026-10-11) — show again when larger photos are added",
+  "type": {
+    "en": "Phone case",
+    "ko": "휴대폰 케이스",
+    "ja": "スマホケース",
+    "zh-CN": "手机壳",
+    "es": "Funda para móvil",
+    "de": "Handyhülle",
+    "fr": "Coque de téléphone"
+  }
 }

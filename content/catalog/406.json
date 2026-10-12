@@ -354,5 +354,14 @@
         "Il s'agit d'un modèle pour le marché américain (GA01420-US-LED) : vérifiez que la prise et la tension conviennent ; le service après-vente officiel peut ne pas être disponible en Corée."
       ]
     }
+  },
+  "type": {
+    "en": "Bluetooth speaker",
+    "ko": "블루투스 스피커",
+    "ja": "Bluetoothスピーカー",
+    "zh-CN": "蓝牙音箱",
+    "es": "Altavoz Bluetooth",
+    "de": "Bluetooth-Lautsprecher",
+    "fr": "Enceinte Bluetooth"
   }
 }

@@ -345,5 +345,14 @@
         "La coque n'est pas résistante à l'eau."
       ]
     }
+  },
+  "type": {
+    "en": "Phone case",
+    "ko": "휴대폰 케이스",
+    "ja": "スマホケース",
+    "zh-CN": "手机壳",
+    "es": "Funda para móvil",
+    "de": "Handyhülle",
+    "fr": "Coque de téléphone"
   }
 }
