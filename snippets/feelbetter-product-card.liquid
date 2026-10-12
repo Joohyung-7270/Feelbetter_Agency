@@ -45,7 +45,7 @@
 -%}
 {%- if product and product != empty -%}
   <product-component view-event-payload="{{ product | standard_event_data: 'view', context: view_context | escape }}">
-    <article class="fb-pcard fb-card{% unless product.available %} fb-pcard--sold-out{% endunless %}{% if secondary != blank %} fb-pcard--swap{% endif %}">
+    <article class="fb-pcard fb-card{% unless product.available %} fb-pcard--sold-out{% endunless %}">
       <div class="fb-pcard__media{% unless media %} fb-pcard__media--empty{% endunless %}"{% unless media %} aria-hidden="true"{% endunless %}>
         {%- if media -%}
           {{
@@ -58,15 +58,19 @@
               class: 'fb-pcard__img fb-pcard__img--primary'
           }}
           {%- if secondary != blank -%}
-            {{
-              secondary.preview_image
-              | image_url: width: 1200
-              | image_tag:
-                loading: 'lazy',
-                sizes: sizes,
-                widths: '300, 400, 600, 800, 1000, 1200',
-                class: 'fb-pcard__img fb-pcard__img--secondary'
-            }}
+            {%- comment -%} Hover image: kept in a <template> so phones (no hover) never download it;
+            assets/feelbetter-cards.js inserts it on hover-capable devices after load and adds fb-pcard--swap. {%- endcomment -%}
+            <template class="fb-pcard__swap">
+              {{-
+                secondary.preview_image
+                | image_url: width: 1200
+                | image_tag:
+                  loading: 'lazy',
+                  sizes: sizes,
+                  widths: '300, 400, 600, 800, 1000, 1200',
+                  class: 'fb-pcard__img fb-pcard__img--secondary'
+              -}}
+            </template>
           {%- endif -%}
         {%- else -%}
           <span class="fb-pcard__mark">f</span>
