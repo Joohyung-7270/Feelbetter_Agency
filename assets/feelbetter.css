@@ -206,7 +206,7 @@
   align-items: center;
   gap: 0.6rem;
   margin: 0 0 1.2rem;
-  color: rgba(var(--color-foreground), 0.6);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-card__label .fb-dot {
@@ -228,7 +228,7 @@
 }
 
 .fb-rows__row dt {
-  color: rgba(var(--color-foreground), 0.55);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-rows__row dd {
@@ -537,7 +537,7 @@
 }
 
 .fb-inbox__time {
-  color: rgba(var(--color-foreground), 0.55);
+  color: rgba(var(--color-foreground), 0.72);
   white-space: nowrap;
 }
 
@@ -607,7 +607,7 @@
 .fb-inbox__seller {
   margin: 0;
   font-size: 1.2rem;
-  color: rgba(var(--color-foreground), 0.65);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-inbox__badges {
@@ -646,7 +646,7 @@
   margin: 1.8rem 0 0;
   font-size: 1.1rem;
   letter-spacing: 0.04em;
-  color: rgba(var(--color-foreground), 0.6);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 /* ------------------------------------------------------------------ */
@@ -682,7 +682,7 @@ feelbetter-request {
 .fb-form__optional {
   text-transform: none;
   letter-spacing: 0;
-  color: rgba(var(--color-foreground), 0.55);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-form__input,
@@ -714,7 +714,7 @@ feelbetter-request {
 
 .fb-form__input::placeholder,
 .fb-form__textarea::placeholder {
-  color: rgba(var(--color-foreground), 0.45);
+  color: rgba(var(--color-foreground), 0.72);
   opacity: 1;
 }
 
@@ -823,7 +823,7 @@ feelbetter-request {
   margin: 0;
   font-size: 1.2rem;
   line-height: 1.5;
-  color: rgba(var(--color-foreground), 0.6);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-form__coupon {
@@ -835,7 +835,7 @@ feelbetter-request {
 .fb-form__powered {
   margin: 0;
   font-size: 1rem;
-  color: rgba(var(--color-foreground), 0.5);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-form__powered a {
@@ -895,7 +895,7 @@ feelbetter-request {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-variant-numeric: tabular-nums;
-  color: rgba(var(--color-foreground), 0.6);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-countdown {
@@ -1225,7 +1225,7 @@ feelbetter-request {
   list-style: none;
   font-size: 1.2rem;
   letter-spacing: 0.04em;
-  color: rgba(var(--color-foreground), 0.65);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-match__meta li {
@@ -1262,7 +1262,7 @@ feelbetter-request {
 .fb-match__note {
   margin: 0.4rem 0 0;
   font-size: 1.2rem;
-  color: rgba(var(--color-foreground), 0.6);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 @media screen and (min-width: 750px) {
@@ -1364,7 +1364,7 @@ feelbetter-request {
 }
 
 .fb-process__index {
-  color: rgba(var(--color-foreground), 0.5);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-process__title {
@@ -1745,7 +1745,7 @@ feelbetter-request {
 .fb-about__label {
   display: block;
   margin: 0 0 1rem;
-  color: rgba(var(--color-foreground), 0.55);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-about__mission {
@@ -1832,7 +1832,7 @@ feelbetter-request {
 .fb-brief__arrow {
   display: flex;
   justify-content: center;
-  color: rgba(var(--color-foreground), 0.5);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-brief__arrow svg {
@@ -2016,7 +2016,7 @@ feelbetter-request {
 .fb-footer__coupon {
   margin: 1.2rem 0 0;
   font-size: 1.2rem;
-  color: rgba(var(--color-foreground), 0.65);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-footer__links {
@@ -2028,7 +2028,7 @@ feelbetter-request {
 
 .fb-footer__col-heading {
   margin: 0 0 1.4rem;
-  color: rgba(var(--color-foreground), 0.55);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-footer__list {
@@ -2071,7 +2071,7 @@ feelbetter-request {
 }
 
 .fb-footer__biz-row dt {
-  color: rgba(var(--color-foreground), 0.55);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-footer__biz-row dd {
@@ -2084,7 +2084,7 @@ feelbetter-request {
   margin: 1.6rem 0 0;
   font-size: 1.2rem;
   line-height: 1.55;
-  color: rgba(var(--color-foreground), 0.6);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-footer__bottom {
@@ -2139,7 +2139,7 @@ feelbetter-request {
 
 .fb-footer__powered {
   font-size: 1.1rem;
-  color: rgba(var(--color-foreground), 0.45);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-footer__powered a {
@@ -2379,7 +2379,7 @@ feelbetter-request {
   margin: 0;
   font-size: 1.05rem;
   letter-spacing: 0.1em;
-  color: rgba(var(--color-foreground), 0.6);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-jcard__chip {
@@ -2521,7 +2521,7 @@ feelbetter-request {
   justify-content: center;
   gap: 0.6rem 1rem;
   margin: 0;
-  color: rgba(var(--color-foreground), 0.6);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-article__lead {
@@ -2558,7 +2558,7 @@ feelbetter-request {
   letter-spacing: 0.08em;
   text-align: center;
   text-transform: none;
-  color: rgba(var(--color-foreground), 0.55);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-article__body {
@@ -2746,7 +2746,7 @@ feelbetter-request {
   font-family: ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
   font-size: 1.1rem;
   letter-spacing: 0.1em;
-  color: rgba(var(--color-foreground), 0.6);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-prose li > ul,
@@ -2781,7 +2781,7 @@ feelbetter-request {
   font-size: 1.2rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(var(--color-foreground), 0.6);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-prose hr {
@@ -2814,7 +2814,7 @@ feelbetter-request {
   font-family: ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
   font-size: 1.05rem;
   letter-spacing: 0.08em;
-  color: rgba(var(--color-foreground), 0.55);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-prose code {
@@ -2880,7 +2880,7 @@ feelbetter-request {
   font-weight: normal;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: rgba(var(--color-foreground), 0.65);
+  color: rgba(var(--color-foreground), 0.72);
   background: rgba(var(--color-foreground), 0.05);
 }
 
@@ -2963,7 +2963,7 @@ feelbetter-request {
 }
 
 .fb-faq__index {
-  color: rgba(var(--color-foreground), 0.5);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-faq__icon {
@@ -3047,7 +3047,7 @@ feelbetter-request {
 
 .fb-llms__canonical {
   margin: 1.6rem 0 0;
-  color: rgba(var(--color-foreground), 0.55);
+  color: rgba(var(--color-foreground), 0.72);
   overflow-wrap: anywhere;
 }
 
@@ -3101,7 +3101,7 @@ feelbetter-request {
 }
 
 .fb-llms__section li::marker {
-  color: rgba(var(--color-foreground), 0.5);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-llms__facts,
@@ -3316,7 +3316,7 @@ feelbetter-request {
 .fb-pcard__vendor {
   margin: 0;
   font-size: 1.05rem;
-  color: rgba(var(--color-foreground), 0.6);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-pcard__title {
@@ -3368,7 +3368,7 @@ feelbetter-request {
 }
 
 .fb-pcard__price .price--on-sale .price-item--regular {
-  color: rgba(var(--color-foreground), 0.55);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-pcard__tags {
@@ -3439,7 +3439,7 @@ feelbetter-request {
 }
 
 .fb-plp-head__meta .fb-mono {
-  color: rgba(var(--color-foreground), 0.6);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-plp-head__sep {
@@ -3556,7 +3556,7 @@ feelbetter-request {
   gap: 0.6rem;
   margin: 0;
   font-size: 1.05rem;
-  color: rgba(var(--color-foreground), 0.6);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-ccard__count .fb-dot {
@@ -3679,7 +3679,7 @@ feelbetter-request {
   font-size: 1.1rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(var(--color-foreground), 0.65);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 .fb-pdp .product__title h1 {
@@ -3750,7 +3750,7 @@ feelbetter-request {
 .fb-pdp-trust__tags-label {
   margin: 0;
   font-size: 1.05rem;
-  color: rgba(var(--color-foreground), 0.6);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 @media screen and (min-width: 750px) {
@@ -3845,7 +3845,7 @@ feelbetter-request {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   white-space: nowrap;
-  color: rgba(var(--color-foreground), 0.65);
+  color: rgba(var(--color-foreground), 0.72);
   background: none;
 }
 
@@ -3958,7 +3958,7 @@ feelbetter-request {
   border-left: 2px solid rgba(var(--color-foreground), 0.18);
   font-size: 1.35rem;
   line-height: 1.6;
-  color: rgba(var(--color-foreground), 0.62);
+  color: rgba(var(--color-foreground), 0.72);
 }
 
 @media screen and (min-width: 750px) {
