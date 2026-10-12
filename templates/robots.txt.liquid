@@ -5,33 +5,21 @@
      crawler is, with the same default disallow list as the "*" group.
   3. Sitemap + pointers for agents.
 {%- endcomment -%}
+{%- assign base = 'https://shop.feelbetter.agency' -%}
+{%- comment -%} shop.url renders empty in robots.txt (crawlers reject a relative Sitemap: line); lines are written out (directive: value, no whitespace control) so every rule gets exactly one line {%- endcomment -%}
 {%- assign ai_agents = 'GPTBot,OAI-SearchBot,ChatGPT-User,ClaudeBot,Claude-SearchBot,Claude-User,PerplexityBot,Perplexity-User,Google-Extended,Applebot-Extended,Amazonbot,Bingbot,cohere-ai,meta-externalagent' | split: ',' -%}
 # FeelBetter · personal shopping concierge · Seoul
-# AI assistants and agents: start at {{ shop.url }}/pages/for-ai-assistants
-# UCP discovery:  {{ shop.url }}/.well-known/ucp
-# UCP MCP server: {{ shop.url }}/api/ucp/mcp
-# Agent guide:    {{ shop.url }}/agents.md
+# AI assistants and agents: start at {{ base }}/pages/for-ai-assistants
+# UCP discovery:  {{ base }}/.well-known/ucp
+# UCP MCP server: {{ base }}/api/ucp/mcp
+# Agent guide:    {{ base }}/agents.md
 
-{% for group in robots.default_groups -%}
-{{- group.user_agent }}
-{%- for rule in group.rules %}
-{{ rule }}
-{%- endfor %}
-
-{% endfor -%}
-
-# --- AI crawlers and assistants: same rules as everyone else ---
-{% for agent in ai_agents -%}
-User-agent: {{ agent }}
+{% for group in robots.default_groups %}User-agent: {{ group.user_agent.value }}
+{% for rule in group.rules %}{{ rule.directive }}: {{ rule.value }}
+{% endfor %}
+{% endfor %}# --- AI crawlers and assistants: same rules as everyone else ---
+{% for agent in ai_agents %}User-agent: {{ agent }}
 Allow: /
-{%- for group in robots.default_groups -%}
-{%- if group.user_agent.value == '*' -%}
-{%- for rule in group.rules %}
-{{ rule }}
-{%- endfor -%}
-{%- endif -%}
-{%- endfor %}
-
-{% endfor -%}
-
-Sitemap: {{ shop.url }}/sitemap.xml
+{% for group in robots.default_groups %}{% if group.user_agent.value == '*' %}{% for rule in group.rules %}{{ rule.directive }}: {{ rule.value }}
+{% endfor %}{% endif %}{% endfor %}
+{% endfor %}Sitemap: {{ base }}/sitemap.xml
