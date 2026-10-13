@@ -68,6 +68,19 @@
           "availableLanguage": ["en", "ko", "ja", "zh-CN", "es", "de", "fr"]
         }
       ],
+      {%- comment -%} Store-wide return policy (Google reads it at Organization level for every product); mirrors /policies/refund-policy {%- endcomment -%}
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "KR",
+        "returnPolicyCountry": "KR",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 7,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility",
+        "itemDefectReturnFees": "https://schema.org/FreeReturn",
+        "refundType": "https://schema.org/FullRefund",
+        "merchantReturnLink": {{ origin | append: '/policies/refund-policy' | json }}
+      },
       "sameAs": [
         "https://feelbetter.agency"
         {%- for social in social_list -%}

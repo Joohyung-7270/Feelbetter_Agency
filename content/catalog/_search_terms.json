@@ -1,0 +1,223 @@
+{
+  "_comment": "Extra storefront search words, added to each product as hidden tags '_kw …' (tags are searchable in every language; the tag chips hide tags starting with '_'). Sources, merged: the group's terms, every rule whose `match` (case-insensitive regex) hits brand + English title, the product's Radar keyword, and an optional `search_terms` string in the catalog file. Mostly Korean shopper words, plus Japanese names of Japanese brands. Words in `exclude` are never added (e.g. an off-topic word in a Radar keyword).",
+  "exclude": [
+    "음식점"
+  ],
+  "groups": {
+    "halloween": "할로윈 핼러윈 할로윈소품 할로윈장식 할로윈파티",
+    "hazbin-hotel": "해즈빈호텔 해즈빈 헤즈빈 헤즈빈호텔 하즈빈호텔 해즈빈굿즈 애니굿즈",
+    "plush": "인형 봉제인형 애착인형 굿즈",
+    "opanchu-usagi": "오판츄우사기 오판츄 우사기 오팡츄 오판추우사기 おぱんちゅうさぎ 일본굿즈 캐릭터굿즈",
+    "pingu": "핑구 핑가 ピングー 핑구굿즈",
+    "jiu-jitsu": "주짓수 브라질리언주짓수 BJJ 주짓수용품",
+    "tech": "전자기기 IT",
+    "pmp-books": "책 도서 원서 영어원서 PMP책 PMP교재 PMP시험 PMP자격증 자격증 수험서",
+    "otamatone": "오타마톤 オタマトーン 전자악기 장난감악기 메이와덴키 명화전기",
+    "music-boxes": "오르골 뮤직박스 음악상자 선물",
+    "christmas": "크리스마스 크리스마스선물 성탄절 연말선물 선물",
+    "chiikawa": "치이카와 ちいかわ 하치와레 모후샌드",
+    "carhartt": "칼하트 칼하트WIP 워크자켓 작업복"
+  },
+  "rules": [
+    {
+      "match": "bottle|tumbler",
+      "terms": "텀블러 물병 보틀 보온병"
+    },
+    {
+      "match": "slide|sandal",
+      "terms": "슬리퍼 슬라이드 샌들"
+    },
+    {
+      "match": "\\bmug\\b",
+      "terms": "머그컵 머그 컵"
+    },
+    {
+      "match": "key ?chain|key ?ring|key ?holder|charm",
+      "terms": "키링 키홀더 열쇠고리"
+    },
+    {
+      "match": "plush|stuffed",
+      "terms": "인형 봉제인형"
+    },
+    {
+      "match": "\\btee\\b|t-shirt",
+      "terms": "티셔츠 반팔티"
+    },
+    {
+      "match": "sweater|cardigan|knit",
+      "terms": "니트 스웨터 가디건"
+    },
+    {
+      "match": "tote",
+      "terms": "토트백 에코백 가방"
+    },
+    {
+      "match": "\\bbag\\b|pouch",
+      "terms": "가방 파우치"
+    },
+    {
+      "match": "lunch ?box|bento",
+      "terms": "도시락통 도시락"
+    },
+    {
+      "match": "lunch (bag|tote)|insulated",
+      "terms": "도시락가방 런치백 보냉백"
+    },
+    {
+      "match": "chopstick",
+      "terms": "젓가락 수저"
+    },
+    {
+      "match": "plate|\\bdish",
+      "terms": "접시 그릇 식기"
+    },
+    {
+      "match": "\\bpins?\\b|enamel",
+      "terms": "핀 뱃지 배지"
+    },
+    {
+      "match": "sticker",
+      "terms": "스티커"
+    },
+    {
+      "match": "trading card|\\bcards?\\b",
+      "terms": "카드 트레이딩카드"
+    },
+    {
+      "match": "cushion|pillow",
+      "terms": "쿠션 베개"
+    },
+    {
+      "match": "costume|cosplay|hooded|robe|dress",
+      "terms": "코스튬 의상 코스프레"
+    },
+    {
+      "match": "decor|stake|skeleton|\\bprop\\b|inflatable|animatronic",
+      "terms": "장식 소품 인테리어"
+    },
+    {
+      "match": "speaker",
+      "terms": "스피커 블루투스스피커"
+    },
+    {
+      "match": "phone case|\\bcase\\b.*pixel|pixel.*\\bcase\\b",
+      "terms": "폰케이스 휴대폰케이스 핸드폰케이스"
+    },
+    {
+      "match": "\\bmouse\\b|mx master",
+      "terms": "마우스 무선마우스"
+    },
+    {
+      "match": "micro ?sd|sd card",
+      "terms": "SD카드 메모리카드 마이크로SD"
+    },
+    {
+      "match": "nintendo|switch",
+      "terms": "닌텐도 스위치"
+    },
+    {
+      "match": "arduino|\\biot\\b|esp32|stem|m5stack",
+      "terms": "아두이노 코딩 코딩키트 교구 IoT"
+    },
+    {
+      "match": "music box",
+      "terms": "오르골"
+    },
+    {
+      "match": "\\bmemo\\b|memo pad|notepad",
+      "terms": "메모지 메모장 문구"
+    },
+    {
+      "match": "slipmat|turntable|vinyl|\\blp\\b",
+      "terms": "슬립매트 턴테이블 LP"
+    },
+    {
+      "match": "\\bgi\\b|kimono",
+      "terms": "도복 주짓수도복 기모노"
+    },
+    {
+      "match": "rash ?guard",
+      "terms": "래쉬가드"
+    },
+    {
+      "match": "\\bbelt\\b",
+      "terms": "벨트 띠"
+    },
+    {
+      "match": "shorts",
+      "terms": "반바지"
+    },
+    {
+      "match": "blind box|mystery",
+      "terms": "랜덤박스 블라인드박스"
+    },
+    {
+      "match": "figure|vinyl figure",
+      "terms": "피규어"
+    },
+    {
+      "match": "jacket|parka",
+      "terms": "자켓 재킷"
+    },
+    {
+      "match": "phone ring|ring with stand|grip",
+      "terms": "스마트폰링 그립톡 폰링"
+    },
+    {
+      "match": "nike",
+      "terms": "나이키"
+    },
+    {
+      "match": "logitech|mx master",
+      "terms": "로지텍"
+    },
+    {
+      "match": "google|pixel",
+      "terms": "구글 픽셀"
+    },
+    {
+      "match": "sandisk",
+      "terms": "샌디스크"
+    },
+    {
+      "match": "squishmallow",
+      "terms": "스퀴시멜로 스퀴시멜로우 스쿼시멜로우 스퀴시말로우"
+    },
+    {
+      "match": "micromallow",
+      "terms": "마이크로멜로우"
+    },
+    {
+      "match": "funko",
+      "terms": "펀코"
+    },
+    {
+      "match": "pok[eé]mon|gengar",
+      "terms": "포켓몬 팬텀"
+    },
+    {
+      "match": "mario|yoshi",
+      "terms": "마리오 요시"
+    },
+    {
+      "match": "animal crossing",
+      "terms": "동물의숲 모동숲"
+    },
+    {
+      "match": "five nights|fnaf|freddy",
+      "terms": "프레디의피자가게 FNAF"
+    },
+    {
+      "match": "christmas|santa|xmas",
+      "terms": "크리스마스 산타"
+    },
+    {
+      "match": "chiikawa|hachiware",
+      "terms": "치이카와 하치와레"
+    },
+    {
+      "match": "mofusand",
+      "terms": "모후샌드"
+    }
+  ]
+}
